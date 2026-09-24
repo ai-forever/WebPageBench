@@ -1,0 +1,11 @@
+{
+  "profile_id": "shop_search_underlined",
+  "description": "Маркет: underlined строка поиска в хедере",
+  "domain_configs": {
+    "shop": {
+      "ui_variants": {
+        "text_search": "underlined"
+      }
+    }
+  }
+}

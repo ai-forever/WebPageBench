@@ -1,0 +1,216 @@
+{
+  "model": "evocua-32b-s1",
+  "harness": "evocua",
+  "provider": "vllm",
+  "mock": "bench",
+  "finished": true,
+  "source_path": null,
+  "submitted_at": "2026-09-06T01:10:54.285407+00:00",
+  "metrics": {
+    "success_rate": 0.09210526315789473,
+    "passed_tasks": 14,
+    "failed_tasks": 138,
+    "total_tasks": 152,
+    "avg_duration_seconds": 258.8039961055138,
+    "total_duration_seconds": 39338.2074080381,
+    "total_agent_steps": 3565,
+    "avg_agent_steps": 23.45394736842105,
+    "avg_tokens_per_task": 180174.25657894736,
+    "total_tokens": 27386487,
+    "total_cost_usd": null,
+    "avg_cost_per_task_usd": null,
+    "token_usage_by_model": {
+      "EvoCUA": {
+        "prompt_tokens": 26736306,
+        "completion_tokens": 650181,
+        "total_tokens": 27386487,
+        "llm_calls": 5382
+      }
+    },
+    "ouroboros_model_slots": {},
+    "pass_at_k": null,
+    "agent_completion_rate": 0.1118421052631579,
+    "agent_dab_agreement_rate": 0.9539473684210527,
+    "section_avg_rate": 0.14814814814814814
+  },
+  "sections": {
+    "shop": {
+      "label": "Маркет",
+      "success_rate": 0.2777777777777778,
+      "passed": 5,
+      "total": 18,
+      "tasks": {
+        "ecommerce_basket_and_favorites": false,
+        "ecommerce_basket_and_favorites_02": false,
+        "ecommerce_basket_any_product": true,
+        "ecommerce_basket_multiple": false,
+        "ecommerce_basket_multiple_02": true,
+        "ecommerce_basket_named_product_02": false,
+        "ecommerce_basket_named_product_03": true,
+        "ecommerce_basket_named_smartphone": false,
+        "ecommerce_basket_price_1k": false,
+        "ecommerce_basket_price_35k": false,
+        "ecommerce_basket_price_constraint": false,
+        "ecommerce_basket_three_products": false,
+        "ecommerce_basket_two_products": false,
+        "ecommerce_basket_typo": false,
+        "ecommerce_basket_typo_02": false,
+        "ecommerce_favorites": false,
+        "ecommerce_favorites_05": true,
+        "ecommerce_favorites_any_product": true
+      }
+    },
+    "books": {
+      "label": "Книги",
+      "success_rate": 0.0,
+      "passed": 0,
+      "total": 11,
+      "tasks": {
+        "digital_books_audio_basket": false,
+        "digital_books_audio_basket_02": false,
+        "digital_books_audio_favorites": false,
+        "digital_books_author_cheapest_basket": false,
+        "digital_books_author_expensive_basket": false,
+        "digital_books_author_expensive_favorites": false,
+        "digital_books_named_product_basket": false,
+        "digital_books_named_product_basket_02": false,
+        "digital_books_named_product_favorites": false,
+        "digital_books_named_product_favorites_02": false,
+        "digital_books_named_product_favorites_03": false
+      }
+    },
+    "grocery": {
+      "label": "Продукты",
+      "success_rate": 0.5,
+      "passed": 4,
+      "total": 8,
+      "tasks": {
+        "bench_grocery_navigation": true,
+        "grocery_basket_any_product": true,
+        "grocery_basket_category_named_product": false,
+        "grocery_basket_category_named_product_02": true,
+        "grocery_basket_multiple": false,
+        "grocery_basket_named_product": true,
+        "grocery_basket_named_product_02": false,
+        "grocery_basket_price_expensive": false
+      }
+    },
+    "rail": {
+      "label": "Поезда",
+      "success_rate": 0.1111111111111111,
+      "passed": 1,
+      "total": 9,
+      "tasks": {
+        "rail_atomic_select_city_from": true,
+        "rail_atomic_select_date": false,
+        "rail_book_and_pay": false,
+        "rail_book_and_pay_2_passengers": false,
+        "rail_book_and_pay_business": false,
+        "rail_book_to_cart": false,
+        "rail_book_to_cart_2_passengers": false,
+        "rail_book_to_cart_business": false,
+        "rail_book_to_cart_platskart": false
+      }
+    },
+    "hotels": {
+      "label": "Отели",
+      "success_rate": 0.0,
+      "passed": 0,
+      "total": 8,
+      "tasks": {
+        "hotel_atomic_select_city": false,
+        "hotel_atomic_select_start_date": false,
+        "hotel_search_scenario": false,
+        "hotel_search_scenario_dubai": false,
+        "hotel_search_scenario_family": false,
+        "hotel_search_scenario_seoul": false,
+        "hotel_search_scenario_two_rooms": false,
+        "hotel_search_scenario_typo": false
+      }
+    },
+    "files": {
+      "label": "Файлы",
+      "success_rate": 0.0,
+      "passed": 0,
+      "total": 11,
+      "tasks": {
+        "files_archive_csv": false,
+        "files_archive_date": false,
+        "files_archive_month_csv": false,
+        "files_archive_month_pdf": false,
+        "files_archive_pdf": false,
+        "files_archive_quarter": false,
+        "files_download_csv": false,
+        "files_download_pdf": false,
+        "files_select_collection": false,
+        "files_select_year": false,
+        "files_select_year_archive": false
+      }
+    }
+  },
+  "ui_badges": [
+    "SELECT_LIST",
+    "BASKET",
+    "FAV",
+    "SELECT_AC"
+  ],
+  "ui_classes": {
+    "BASKET": {
+      "success_rate": 0.16666666666666666,
+      "passed": 11,
+      "total": 66,
+      "failed": 55
+    },
+    "FAV": {
+      "success_rate": 0.14285714285714285,
+      "passed": 2,
+      "total": 14,
+      "failed": 12
+    },
+    "FILES": {
+      "success_rate": 0.0,
+      "passed": 0,
+      "total": 18,
+      "failed": 18
+    },
+    "SELECT_AC": {
+      "success_rate": 0.0,
+      "passed": 0,
+      "total": 2,
+      "failed": 2
+    },
+    "DATE": {
+      "success_rate": 0.0,
+      "passed": 0,
+      "total": 4,
+      "failed": 4
+    },
+    "COUNTER": {
+      "success_rate": 0.0,
+      "passed": 0,
+      "total": 33,
+      "failed": 33
+    },
+    "CARD": {
+      "success_rate": 0.0,
+      "passed": 0,
+      "total": 9,
+      "failed": 9
+    },
+    "SELECT_LIST": {
+      "success_rate": 0.5,
+      "passed": 1,
+      "total": 2,
+      "failed": 1
+    },
+    "PAY": {
+      "success_rate": 0.0,
+      "passed": 0,
+      "total": 4,
+      "failed": 4
+    }
+  },
+  "section_avg_rate": 0.14814814814814814,
+  "raw_results_path": "results/raw/evocua-32b-s1__evocua/results.json",
+  "entry_id": "evocua-32b-s1__evocua"
+}

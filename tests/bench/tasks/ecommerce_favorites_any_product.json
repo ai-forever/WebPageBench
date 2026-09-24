@@ -1,0 +1,28 @@
+{
+  "test_data": {
+    "login_data": {
+      "login": "bench@example.com",
+      "password": "bench123",
+      "phone": "9150000000",
+      "email": "bench@example.com"
+    },
+    "bench_first_domain": "shop",
+    "bench_first_state": "state_shop_main",
+    "task": "На %HOST% в «Маркете» добавь в избранное любой товар с главной страницы.",
+    "conditions": [
+      {
+        "event_name": "add_favorites",
+        "parameters": {}
+      }
+    ],
+    "ui_taxonomy": {
+      "primary": "FAV",
+      "classes": [
+        "FAV"
+      ],
+      "subtypes": [
+        "nav_product_card"
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+# GUI-модели по скриншотам (bench_eval/agents): qwen3_vl, uitars, jedi, opencua, evocua.
+#
+# Клиентская часть — то, что нужно на машине с бенчем:
+#   pip install -r requirements-gui-agents.txt
+#   playwright install chromium
+#
+# Серверная часть (GPU-хост с весами) ставится отдельно, обычно в другом окружении:
+#   pip install vllm
+#   python -m bench_eval.agents.cli.serve qwen3-vl-8b
+
+httpx>=0.27
+pillow>=10.0
+playwright>=1.44

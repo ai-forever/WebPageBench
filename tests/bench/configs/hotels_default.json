@@ -1,0 +1,13 @@
+{
+  "profile_id": "hotels_default",
+  "description": "Отели: стандартный popup-календарь, autocomplete города, popup гостей",
+  "domain_configs": {
+    "hotels": {
+      "ui_variants": {
+        "date": "split_popup",
+        "select_city": "autocomplete",
+        "counter_guests": "rooms_popup"
+      }
+    }
+  }
+}

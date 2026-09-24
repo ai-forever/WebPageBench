@@ -1,0 +1,51 @@
+{
+  "test_data": {
+    "login_data": {
+      "login": "bench@example.com",
+      "password": "bench123",
+      "phone": "9150000000",
+      "email": "bench@example.com"
+    },
+    "bench_first_domain": "books",
+    "bench_first_state": "state_books_main",
+    "task": "На %HOST% в «Книги» найди «Тихий янтарь в последнем вагоне» Веры Рудневой (текст) и добавь в корзину.",
+    "conditions": [
+      {
+        "event_name": "state_changed",
+        "parameters": {
+          "new_state": "bench_books_item",
+          "state_id": "item_72271483"
+        }
+      },
+      {
+        "event_name": "basket_add",
+        "parameters": {
+          "item_id": "item_72271483"
+        }
+      }
+    ],
+    "ui_taxonomy": {
+      "primary": "BASKET",
+      "classes": [
+        "CARD",
+        "NAV",
+        "BASKET"
+      ],
+      "subtypes": [
+        "nav_product_card",
+        "search_books"
+      ]
+    },
+    "ui_variants": {
+      "text_search": "outlined"
+    },
+    "ui_variant_profile": "books_search_outlined"
+  },
+  "domain_configs": {
+    "books": {
+      "ui_variants": {
+        "text_search": "outlined"
+      }
+    }
+  }
+}

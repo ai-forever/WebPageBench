@@ -1,0 +1,47 @@
+{
+  "test_data": {
+    "login_data": {
+      "login": "bench@example.com",
+      "password": "bench123",
+      "phone": "9150000000",
+      "email": "bench@example.com"
+    },
+    "bench_first_domain": "files",
+    "bench_first_state": "state_files_main",
+    "task": "На %HOST% в разделе «Файлы» открой «Архив проектов», выбери 2023 год и скачай файл за июнь project-archive-2023-06.pdf.",
+    "conditions": [
+      {
+        "event_name": "bench_files_select_collection",
+        "parameters": {
+          "collection": "project_archive"
+        }
+      },
+      {
+        "event_name": "bench_files_select_year",
+        "parameters": {
+          "year": "2023"
+        }
+      },
+      {
+        "event_name": "bench_files_download",
+        "parameters": {
+          "collection": "project_archive",
+          "year": "2023",
+          "format": "pdf",
+          "file": "project-archive-2023-06.pdf"
+        }
+      }
+    ],
+    "ui_taxonomy": {
+      "primary": "FILES",
+      "classes": [
+        "CARD",
+        "FILES",
+        "SELECT_LIST"
+      ],
+      "subtypes": [
+        "files_cabinet"
+      ]
+    }
+  }
+}

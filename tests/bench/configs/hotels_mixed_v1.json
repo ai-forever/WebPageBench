@@ -1,0 +1,13 @@
+{
+  "profile_id": "hotels_mixed_v1",
+  "description": "Отели: текстовые даты + native select + inline stepper",
+  "domain_configs": {
+    "hotels": {
+      "ui_variants": {
+        "date": "text_input",
+        "select_city": "native_select",
+        "counter_guests": "inline_stepper"
+      }
+    }
+  }
+}

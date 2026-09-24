@@ -1,0 +1,7 @@
+{
+  "profile_id": "theme_dark",
+  "description": "Глобальная тёмная тема (инверсия токенов bench.css)",
+  "ui_variants": {
+    "theme": "dark"
+  }
+}

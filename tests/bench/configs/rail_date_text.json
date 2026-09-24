@@ -1,0 +1,12 @@
+{
+  "profile_id": "rail_date_text",
+  "description": "ЖД: текстовый ввод дат ДД.ММ.ГГГГ",
+  "domain_configs": {
+    "rail": {
+      "ui_variants": {
+        "date": "text_input",
+        "select_station": "typeahead"
+      }
+    }
+  }
+}

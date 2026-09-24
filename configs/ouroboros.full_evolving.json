@@ -1,0 +1,26 @@
+{
+  "_comment": "Ouroboros full_evolving mode: identity enabled, shared drive across tasks, post-task evolution enabled (run eval with workers=1).",
+  "harness": "ouroboros-full-evolving",
+  "mode": "full_evolving",
+  "drive": {
+    "memory_mode": "shared",
+    "include_identity": true,
+    "evolution_enabled": true,
+    "shared_drive": true,
+    "per_task_drive": false,
+    "require_workers_one": true
+  },
+  "execution": {
+    "backend": "ouroboros-cli"
+  },
+  "api": {
+    "bin": "ouroboros",
+    "url": "http://127.0.0.1:9123",
+    "repo_dir": null,
+    "timeout_seconds": 1200
+  },
+  "prompt": {
+    "prefix": "You are Ouroboros executing a browser automation task on a mock e-commerce site.",
+    "suffix": "Reuse prior task experience when helpful, then complete the task in the browser."
+  }
+}

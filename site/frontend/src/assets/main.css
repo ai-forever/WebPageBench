@@ -1,0 +1,53 @@
+@import "./base.css";
+
+p {
+  padding-bottom: 10px;
+  text-indent: 20px;
+}
+
+.table-label {
+  font-size:large;
+  color: #888;
+  /* font-weight: 500; */
+}
+
+.left-title {
+  width: 30px;
+  writing-mode: vertical-lr;
+  transform:scale(-1);
+}
+
+.pre-wrap {
+  white-space: pre-wrap;
+}
+
+.btn-main {
+  width: 160px;
+}
+
+.font-title {
+  font-family: 'Roboto', cursive;
+  font-size: 24px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* .main-toolbar {
+  background-color: black !important;
+}  */
+
+.source-title {
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 10px;
+  color: #555;
+}
+
+.default-card {
+  min-width: 400px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}

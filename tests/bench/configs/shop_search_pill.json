@@ -1,0 +1,11 @@
+{
+  "profile_id": "shop_search_pill",
+  "description": "Маркет: pill-стиль строки поиска",
+  "domain_configs": {
+    "shop": {
+      "ui_variants": {
+        "text_search": "pill"
+      }
+    }
+  }
+}

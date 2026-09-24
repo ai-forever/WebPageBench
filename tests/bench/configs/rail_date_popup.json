@@ -1,0 +1,12 @@
+{
+  "profile_id": "rail_date_popup",
+  "description": "ЖД: popup-календарь (стандарт) + typeahead станций",
+  "domain_configs": {
+    "rail": {
+      "ui_variants": {
+        "date": "popup_grid",
+        "select_station": "typeahead"
+      }
+    }
+  }
+}

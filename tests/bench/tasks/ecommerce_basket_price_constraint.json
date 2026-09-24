@@ -1,0 +1,31 @@
+{
+  "test_data": {
+    "login_data": {
+      "login": "bench@example.com",
+      "password": "bench123",
+      "phone": "9150000000",
+      "email": "bench@example.com"
+    },
+    "bench_first_domain": "shop",
+    "bench_first_state": "state_shop_main",
+    "task": "На %HOST% в «Маркете» найди Bombbar Изотоник без сахара Оригинальный, 500 мл x 6 шт, и добавь в корзину (около 1100 ₽).",
+    "conditions": [
+      {
+        "event_name": "basket_add",
+        "parameters": {
+          "item_id": "item_1646171704",
+          "amount": 1
+        }
+      }
+    ],
+    "ui_taxonomy": {
+      "primary": "BASKET",
+      "classes": [
+        "BASKET"
+      ],
+      "subtypes": [
+        "nav_product_card"
+      ]
+    }
+  }
+}

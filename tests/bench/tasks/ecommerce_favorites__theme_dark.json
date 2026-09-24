@@ -1,0 +1,38 @@
+{
+  "test_data": {
+    "login_data": {
+      "login": "bench@example.com",
+      "password": "bench123",
+      "phone": "9150000000",
+      "email": "bench@example.com"
+    },
+    "bench_first_domain": "shop",
+    "bench_first_state": "state_shop_main",
+    "task": "На %HOST% в «Маркете» найди изотоник Batterade Arctic Storm и добавь в избранное.",
+    "conditions": [
+      {
+        "event_name": "add_favorites",
+        "parameters": {
+          "item_id": "item_1441302164"
+        }
+      }
+    ],
+    "target_events": [
+      "add_favorites",
+      "state_changed"
+    ],
+    "ui_taxonomy": {
+      "primary": "FAV",
+      "classes": [
+        "FAV"
+      ],
+      "subtypes": [
+        "nav_product_card"
+      ]
+    },
+    "ui_variants": {
+      "theme": "dark"
+    },
+    "ui_variant_profile": "theme_dark"
+  }
+}

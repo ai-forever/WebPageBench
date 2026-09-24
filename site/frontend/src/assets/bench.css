@@ -1,0 +1,2107 @@
+/* Unified bench theme — one palette, no brand logos */
+
+.bench-anonymized {
+  --bench-primary: #4a6fa5;
+  --bench-primary-hover: #3d5a80;
+  --bench-primary-light: #e4ebf4;
+  --bench-primary-muted: #6b8cae;
+  --bench-accent: #5c8a9e;
+  --bench-header-bg: #3d5a80;
+  --bench-surface: #f0f3f7;
+  --bench-surface-elevated: #ffffff;
+  --bench-border: #c5d0de;
+  --bench-text: #2c3e50;
+  --bench-text-muted: #6b7c93;
+  --bench-success: #4a8f6a;
+  --bench-danger: #b85c5c;
+
+  /* Remap mock CSS variables */
+  --rail-red: var(--bench-primary);
+  --grocery-primary: var(--bench-primary);
+  --v-theme-primary: 74, 111, 165;
+  --grocery-action-bg: var(--bench-primary-light);
+  --grocery-action-active: var(--bench-primary);
+  --grocery-action-hover: var(--bench-primary-hover);
+  --grocery-accent: var(--bench-primary);
+  --grocery-bg: #f2f2f2;
+  --grocery-text: #333;
+}
+
+html[data-bench-theme="dark"] .bench-anonymized,
+.bench-anonymized[data-bench-theme="dark"] {
+  --bench-primary: #7b9bc4;
+  --bench-primary-hover: #93b0d4;
+  --bench-primary-light: #243044;
+  --bench-primary-muted: #8aa4c4;
+  --bench-accent: #7aa0b4;
+  --bench-header-bg: #152033;
+  --bench-surface: #1a1f2e;
+  --bench-surface-elevated: #232a3b;
+  --bench-border: #3d4a5c;
+  --bench-text: #e8eef5;
+  --bench-text-muted: #9aabc0;
+  --bench-success: #6fb089;
+  --bench-danger: #d07a7a;
+  --rail-red: var(--bench-primary);
+  --grocery-primary: var(--bench-primary);
+  --v-theme-primary: 123, 155, 196;
+  --v-theme-background: 26, 31, 46;
+  --v-theme-surface: 35, 42, 59;
+  --grocery-action-bg: var(--bench-primary-light);
+  --grocery-action-active: var(--bench-primary);
+  --grocery-action-hover: var(--bench-primary-hover);
+  --grocery-accent: var(--bench-primary);
+  --grocery-bg: var(--bench-surface-elevated);
+  --grocery-text: var(--bench-text);
+  color-scheme: dark;
+}
+
+html.bench-anonymized[data-bench-theme="dark"],
+html.bench-anonymized[data-bench-theme="dark"] body,
+html[data-bench-theme="dark"] .v-application,
+html[data-bench-theme="dark"] .v-main {
+  background-color: var(--bench-surface) !important;
+  color: var(--bench-text);
+}
+
+/* Dark theme: domain chrome that still uses hardcoded light colors */
+html[data-bench-theme="dark"] .bench-anonymized .blockTitle,
+html[data-bench-theme="dark"] .blockTitle {
+  color: #e8eef5 !important;
+}
+
+html[data-bench-theme="dark"] .bench-anonymized .tripType .text {
+  color: #e8eef5 !important;
+}
+
+html[data-bench-theme="dark"] .bench-anonymized .searchButton,
+html[data-bench-theme="dark"] .bench-anonymized .searchButtonText,
+html[data-bench-theme="dark"] .searchButton,
+html[data-bench-theme="dark"] .searchButtonText {
+  background-color: #7b9bc4 !important;
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+html[data-bench-theme="dark"] .bench-books .product-card,
+html[data-bench-theme="dark"] .bench-books .v-card {
+  background: var(--bench-surface-elevated) !important;
+  color: var(--bench-text) !important;
+}
+
+html[data-bench-theme="dark"] .bench-books .name,
+html[data-bench-theme="dark"] .bench-books .author,
+html[data-bench-theme="dark"] .bench-books .rating,
+html[data-bench-theme="dark"] .bench-books .formats,
+html[data-bench-theme="dark"] .bench-books .section-title,
+html[data-bench-theme="dark"] .bench-books .v-card-title,
+html[data-bench-theme="dark"] .bench-books .v-card-subtitle {
+  color: var(--bench-text) !important;
+}
+
+html[data-bench-theme="dark"] .bench-grocery .section-title {
+  color: var(--bench-text) !important;
+}
+
+html[data-bench-theme="dark"] .bench-grocery .searchbar .actions,
+html[data-bench-theme="dark"] .bench-grocery .searchbar .actions .v-btn,
+html[data-bench-theme="dark"] .bench-grocery .searchbar .actions .v-icon,
+html[data-bench-theme="dark"] .bench-grocery .searchbar .actions span,
+html[data-bench-theme="dark"] .bench-market .searchbar .actions,
+html[data-bench-theme="dark"] .bench-market .searchbar .actions .v-btn,
+html[data-bench-theme="dark"] .bench-market .searchbar .actions .v-icon,
+html[data-bench-theme="dark"] .bench-market .searchbar .actions span,
+html[data-bench-theme="dark"] .bench-books .searchbar .actions,
+html[data-bench-theme="dark"] .bench-books .searchbar .actions .v-btn,
+html[data-bench-theme="dark"] .bench-books .searchbar .actions .v-icon,
+html[data-bench-theme="dark"] .bench-books .searchbar .actions span {
+  color: var(--bench-text) !important;
+}
+
+html[data-bench-theme="dark"] .bench-books .searchbar .menu-btn.highlight .btn,
+html[data-bench-theme="dark"] .bench-grocery .searchbar .menu-btn.highlight .btn,
+html[data-bench-theme="dark"] .bench-market .searchbar .menu-btn.highlight .btn {
+  background: var(--bench-primary-light) !important;
+  color: var(--bench-text) !important;
+}
+
+html[data-bench-theme="dark"] .bench-books .searchbar .menu-btn.highlight .btn .v-icon,
+html[data-bench-theme="dark"] .bench-grocery .searchbar .menu-btn.highlight .btn .v-icon,
+html[data-bench-theme="dark"] .bench-market .searchbar .menu-btn.highlight .btn .v-icon {
+  color: #a78bfa !important;
+}
+
+html[data-bench-theme="dark"] .bench-grocery .product-card,
+html[data-bench-theme="dark"] .bench-grocery .grocery-card,
+html[data-bench-theme="dark"] .bench-grocery .v-card {
+  background: var(--bench-surface-elevated) !important;
+  color: var(--bench-text) !important;
+}
+
+/* Dark theme: catalog titles on the dark canvas (not white cards) */
+html[data-bench-theme="dark"] .bench-market .grid.catalog-placeholder {
+  background: transparent !important;
+}
+
+html[data-bench-theme="dark"] .bench-books .catalog-placeholder .title,
+html[data-bench-theme="dark"] .bench-books .catalog-placeholder .subtitle,
+html[data-bench-theme="dark"] .bench-market .catalog-placeholder .grid-title,
+html[data-bench-theme="dark"] .bench-market .catalog-title,
+html[data-bench-theme="dark"] .bench-grocery .catalog-page .section-title,
+html[data-bench-theme="dark"] .bench-grocery .catalog-subtitle,
+html[data-bench-theme="dark"] .bench-grocery .group-title {
+  color: var(--bench-text) !important;
+}
+
+/* Dark search/date chrome uses elevated surfaces, not leftover white fields */
+html[data-bench-theme="dark"] .searchbar .search-combo,
+html[data-bench-theme="dark"] .searchbar .search-input .v-field,
+html[data-bench-theme="dark"] .bench-market-header .search,
+html[data-bench-theme="dark"] .bench-market-header .search-input .v-field,
+html[data-bench-theme="dark"] .hotels-main .field,
+html[data-bench-theme="dark"] .form-field,
+html[data-bench-theme="dark"] .rail-search-widget,
+html[data-bench-theme="dark"] .date-text-input,
+html[data-bench-theme="dark"] .native-date-input {
+  color-scheme: dark;
+  background: var(--bench-surface-elevated) !important;
+  color: var(--bench-text) !important;
+  border-color: var(--bench-border) !important;
+}
+
+html[data-bench-theme="dark"] .searchbar .search-input input,
+html[data-bench-theme="dark"] .searchbar .search-input .v-field__input,
+html[data-bench-theme="dark"] .searchbar .search-input .v-field__input input,
+html[data-bench-theme="dark"] .bench-market-header .search-input input,
+html[data-bench-theme="dark"] .bench-market-header .search-input .v-field__input {
+  color: var(--bench-text) !important;
+  -webkit-text-fill-color: var(--bench-text);
+}
+
+html[data-bench-theme="dark"] .searchbar .search-input input::placeholder,
+html[data-bench-theme="dark"] .searchbar .search-input .v-field__input::placeholder,
+html[data-bench-theme="dark"] .bench-market-header .search-input input::placeholder {
+  color: var(--bench-text-muted) !important;
+  -webkit-text-fill-color: var(--bench-text-muted);
+  opacity: 1;
+}
+
+html[data-bench-theme="dark"] .bench-search--filled .search-input input,
+html[data-bench-theme="dark"] .bench-search--filled .search-input .v-field__input,
+html[data-bench-theme="dark"] .bench-search--filled input {
+  color: var(--bench-text) !important;
+  -webkit-text-fill-color: var(--bench-text);
+}
+
+html[data-bench-theme="dark"] .date-text-input,
+html[data-bench-theme="dark"] .native-date-input,
+html[data-bench-theme="dark"] .form-field input,
+html[data-bench-theme="dark"] .field-inner input,
+html[data-bench-theme="dark"] .hotels-main .field .value {
+  color: var(--bench-text) !important;
+  -webkit-text-fill-color: var(--bench-text);
+}
+
+html[data-bench-theme="dark"] .date-text-input::placeholder,
+html[data-bench-theme="dark"] .form-field input::placeholder,
+html[data-bench-theme="dark"] .field-inner input::placeholder {
+  color: var(--bench-text-muted) !important;
+  -webkit-text-fill-color: var(--bench-text-muted);
+  opacity: 1;
+}
+
+/* ─── Hide logos & brand marks ─── */
+.bench-anonymized .logo,
+.bench-anonymized .logo img,
+.bench-anonymized .logo-link,
+.bench-anonymized .logo-img,
+.bench-anonymized .header-logo,
+.bench-anonymized .header-logo img,
+.bench-anonymized .v-img.logo,
+.bench-anonymized .bench-market .logo,
+.bench-anonymized .bench-market .logo,
+.bench-anonymized .bench-market .logo,
+.bench-anonymized .bench-market-header .logo,
+.bench-anonymized .bench-market-header .logo,
+.bench-anonymized .bench-grocery .logo,
+.bench-anonymized .bench-grocery .logo,
+.bench-anonymized .bench-grocery-header .logo,
+.bench-anonymized .bench-grocery-header .logo img,
+.bench-anonymized .bench-rail .logo,
+.bench-anonymized .bench-rail .logo,
+.bench-anonymized .bench-rail-logo,
+.bench-anonymized .vtb-logo,
+.bench-anonymized .sapsan-logo,
+.bench-anonymized .sber-logo,
+.bench-anonymized .sber-logo img,
+.bench-anonymized .sberid-logo,
+.bench-anonymized .sberid-logo img,
+.bench-anonymized .shop-id-logo, .bench-anonymized .bench-market-id-logo,
+.bench-anonymized .bank-logo,
+.bench-anonymized .pg-footer-logos,
+.bench-anonymized .pg-footer-logos img,
+.bench-anonymized .btn-switch__logo,
+.bench-anonymized .bench-books .searchbar .logo, .bench-anonymized .bench-books .searchbar .logo,
+.bench-anonymized .logo-container,
+.bench-anonymized .bench-hotels .logo, .bench-anonymized .bench-hotels .logo,
+.bench-anonymized .bench-hotels .logo, .bench-anonymized .bench-hotels .logo-img,
+.bench-anonymized .bench-hotels .logo, .bench-anonymized .bench-hotels .logo-wrapper,
+.bench-anonymized .bench-hotels .logo, .bench-anonymized .bench-hotels .logo-wrapper img,
+.bench-anonymized .CardLogo,
+.bench-anonymized .TaLogo,
+.bench-anonymized .TaLogoSmall {
+  display: none !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  height: 0 !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* ─── Shared surfaces ─── */
+.bench-anonymized .bench-market,
+.bench-anonymized .bench-books,
+.bench-anonymized .bench-grocery,
+.bench-anonymized .bench-rail,
+.bench-anonymized .bench-rail-layout,
+.bench-anonymized .bench-files,
+.bench-anonymized .bench-hotels, .bench-anonymized .bench-hotels {
+  background-color: var(--bench-surface) !important;
+  color: var(--bench-text);
+}
+
+.bench-anonymized .hotels-main {
+  background-color: var(--bench-surface) !important;
+}
+
+.bench-anonymized .bench-grocery {
+  height: auto !important;
+  min-height: 100%;
+  overflow: visible !important;
+  display: block !important;
+  background: var(--bench-surface) !important;
+  color: var(--bench-text);
+  --grocery-action-bg: var(--bench-primary-light);
+  --grocery-action-active: var(--bench-primary);
+  --grocery-action-hover: var(--bench-primary-hover);
+  --grocery-accent: var(--bench-primary);
+  --grocery-bg: var(--bench-surface);
+  --grocery-text: var(--bench-text);
+}
+
+/* Grocery: searchbar + menu like Книги / Маркет */
+.bench-anonymized .bench-grocery .searchbar {
+  background: var(--bench-surface-elevated) !important;
+  border-bottom: 1px solid var(--bench-border);
+  color: var(--bench-text) !important;
+}
+
+.bench-anonymized .bench-grocery .searchbar .search-combo {
+  border-color: var(--bench-primary) !important;
+}
+
+.bench-anonymized .bench-market .searchbar .search-combo {
+  border-color: var(--bench-primary) !important;
+}
+
+.bench-anonymized .bench-grocery .searchbar .actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.bench-anonymized .bench-grocery .menu-bar {
+  background: var(--bench-surface-elevated) !important;
+  border-bottom: 1px solid var(--bench-border);
+  color: var(--bench-text) !important;
+}
+
+.bench-anonymized .bench-grocery .menu-bar .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 8px;
+}
+
+.bench-anonymized .bench-grocery .menu-bar .menu-item,
+.bench-anonymized .bench-grocery .menu-bar .menu-item.orange {
+  color: var(--bench-text) !important;
+}
+
+.bench-anonymized .bench-grocery .menu-bar .menu-item.orange {
+  color: var(--bench-primary) !important;
+  font-weight: 800;
+}
+
+.bench-anonymized .bench-grocery .profile-section {
+  background: var(--bench-surface);
+}
+
+.bench-anonymized .bench-grocery .profile-card {
+  border-color: var(--bench-border);
+}
+
+.bench-anonymized .bench-grocery.category-view {
+  height: 100vh !important;
+  overflow: hidden !important;
+  display: flex !important;
+  flex-direction: column !important;
+  --grocery-action-bg: var(--bench-primary-light);
+  --grocery-action-active: var(--bench-primary);
+  --grocery-action-hover: var(--bench-primary-hover);
+  --grocery-accent: var(--bench-primary);
+  --grocery-bg: var(--bench-surface);
+  --grocery-text: var(--bench-text);
+}
+
+.bench-anonymized .bench-grocery.category-view.unified-bench {
+  height: auto !important;
+  min-height: 100%;
+  overflow: visible !important;
+  display: block !important;
+}
+
+/* Grocery category header: align with books searchbar (white elevated bar) */
+.bench-anonymized .bench-grocery .grocery-header {
+  background: var(--bench-surface) !important;
+  color: var(--bench-text) !important;
+}
+
+.bench-anonymized .bench-grocery .grocery-header .header-content {
+  background: var(--bench-surface-elevated) !important;
+  border-bottom: 1px solid var(--bench-border);
+  border-radius: 0;
+  color: var(--bench-text) !important;
+}
+
+.bench-anonymized .bench-grocery .grocery-header .search-box input {
+  background: var(--bench-surface) !important;
+  border: 1px solid var(--bench-border);
+}
+
+.bench-anonymized .bench-grocery .grocery-header .search-box input:focus {
+  border-color: var(--bench-primary) !important;
+  box-shadow: 0 0 0 2px rgba(74, 111, 165, 0.25) !important;
+}
+
+.bench-anonymized .bench-grocery .left-sidebar .category-item.active {
+  color: var(--bench-primary) !important;
+}
+
+/* Grocery product cards: basket controls use bench primary (not Доставка pink) */
+.bench-anonymized .bench-grocery .product-actions,
+.bench-anonymized .bench-grocery .grocery-card .product-actions {
+  background: var(--bench-primary-light) !important;
+}
+
+.bench-anonymized .bench-grocery .product-actions:hover,
+.bench-anonymized .bench-grocery .grocery-card .product-actions:hover {
+  background: var(--bench-primary-muted) !important;
+  color: #fff !important;
+}
+
+.bench-anonymized .bench-grocery .product-actions.in-basket,
+.bench-anonymized .bench-grocery .grocery-card .product-actions.in-basket,
+.bench-anonymized .bench-grocery .add-item-actions.in-basket {
+  background: var(--bench-primary) !important;
+}
+
+.bench-anonymized .bench-grocery .product-actions.in-basket:hover,
+.bench-anonymized .bench-grocery .grocery-card .product-actions.in-basket:hover,
+.bench-anonymized .bench-grocery .add-item-actions.in-basket:hover {
+  background: var(--bench-primary-hover) !important;
+}
+
+.bench-anonymized .bench-grocery .add-button,
+.bench-anonymized .bench-grocery .add-button svg,
+.bench-anonymized .bench-grocery .grocery-card .add-button,
+.bench-anonymized .bench-grocery .grocery-card .add-button .v-icon {
+  color: var(--bench-primary) !important;
+}
+
+.bench-anonymized .bench-grocery .product-actions.in-basket .current-price,
+.bench-anonymized .bench-grocery .product-actions.in-basket .action-button,
+.bench-anonymized .bench-grocery .product-actions.in-basket .action-button svg,
+.bench-anonymized .bench-grocery .grocery-card .product-actions.in-basket .current-price,
+.bench-anonymized .bench-grocery .grocery-card .product-actions.in-basket .action-button,
+.bench-anonymized .bench-grocery .add-item-actions.in-basket .add-current-price,
+.bench-anonymized .bench-grocery .add-item-actions.in-basket .add-action-btn svg {
+  color: #fff !important;
+}
+
+/* ─── Headers ─── */
+.bench-anonymized .bench-market-header .panel,
+.bench-anonymized .bench-market-header .panel,
+.bench-anonymized .bench-market-header {
+  background: var(--bench-surface-elevated) !important;
+  border-color: var(--bench-border) !important;
+}
+
+.bench-anonymized .bench-grocery-header {
+  background: var(--bench-header-bg) !important;
+  color: #fff !important;
+}
+
+/* Rail headers: white bar like Маркет / Книги searchbar (not dark strip) */
+.bench-anonymized .bench-rail .rail-header,
+.bench-anonymized .bench-rail .rail-search-header,
+.bench-anonymized .bench-rail .header,
+.bench-anonymized .bench-rail-search-header {
+  background: var(--bench-surface-elevated) !important;
+  color: var(--bench-text) !important;
+  border-bottom: 1px solid var(--bench-border) !important;
+}
+
+/* ─── Primary buttons & CTAs (all mocks) ─── */
+.bench-anonymized .bench-market-header .catalog,
+.bench-anonymized .bench-market-header .search-btn,
+.bench-anonymized .bench-market-header .scope.selected,
+.bench-anonymized .bench-market-header .catalog,
+.bench-anonymized .bench-market-header .search-btn,
+.bench-anonymized .bench-market-header .scope.selected,
+.bench-anonymized .bench-market .buy,
+.bench-anonymized .bench-market .buy-btn,
+.bench-anonymized .bench-market .in-basket-btn,
+.bench-anonymized .bench-market .btn-add,
+.bench-anonymized .bench-market-header .login-hint .primary,
+.bench-anonymized .bench-market .buy-btn,
+.bench-anonymized .bench-books .searchbar .search-btn,
+.bench-anonymized .bench-grocery .searchbar .search-btn,
+.bench-anonymized .bench-market .searchbar .search-btn,
+.bench-anonymized .bench-books .searchbar .catalog-btn,
+.bench-anonymized .bench-grocery .searchbar .catalog-btn,
+.bench-anonymized .bench-market .searchbar .catalog-btn,
+.bench-anonymized .bench-books .hero .cta,
+.bench-anonymized .bench-books .hero .cta,
+.bench-anonymized .bench-grocery .add-btn,
+.bench-anonymized .bench-grocery .add-btn,
+.bench-anonymized .bench-grocery .mini-btn--active,
+.bench-anonymized .bench-grocery .mini-btn--active,
+.bench-anonymized .bench-rail .btn-red,
+.bench-anonymized .bench-rail .btn-red,
+.bench-anonymized .bench-rail .search-submit,
+.bench-anonymized .bench-rail .search-submit,
+.bench-anonymized .bench-rail .tarif-btn--primary,
+.bench-anonymized .bench-rail .tarif-btn--primary,
+.bench-anonymized .bench-rail .search-btn,
+.bench-anonymized .bench-rail .search-btn,
+.bench-anonymized .bench-rail .buy-btn,
+.bench-anonymized .bench-rail .buy-btn,
+.bench-anonymized .bench-rail .continue-btn,
+.bench-anonymized .bench-rail .continue-btn,
+.bench-anonymized .bench-rail .submit-order-btn,
+.bench-anonymized .bench-rail .submit-order-btn,
+.bench-anonymized .bench-rail .save-route-btn,
+.bench-anonymized .bench-rail .save-route-btn,
+.bench-anonymized .bench-rail .rail-search-widget .search-btn,
+.bench-anonymized .bench-rail .tab-btn.active,
+.bench-anonymized .bench-hotels .Button_view_primary,
+.bench-anonymized .bench-hotels .Button_view_primary,
+.bench-anonymized .v-btn.bg-primary,
+.bench-anonymized .v-btn.text-primary.v-btn--variant-flat {
+  background-color: var(--bench-primary) !important;
+  background: var(--bench-primary) !important;
+  color: #fff !important;
+  border-color: var(--bench-primary) !important;
+}
+
+.bench-anonymized .bench-market-header .login-hint .secondary,
+.bench-anonymized .v-btn.text-primary.v-btn--variant-tonal {
+  background-color: var(--bench-primary-light) !important;
+  color: var(--bench-primary) !important;
+}
+
+/* ─── Borders & search fields ─── */
+.bench-anonymized .bench-market-header .search,
+.bench-anonymized .bench-market-header .search {
+  border-color: var(--bench-primary) !important;
+}
+
+/* Header without logo: catalog | wide search | controls */
+.bench-anonymized .bench-market-header .container {
+  grid-template-columns: 140px minmax(0, 1fr) max-content !important;
+  gap: 12px !important;
+}
+.bench-anonymized .bench-books .searchbar .container.no-logo,
+.bench-anonymized .bench-books .searchbar .container.no-logo,
+.bench-anonymized .bench-grocery .searchbar .container.no-logo,
+.bench-anonymized .bench-grocery .searchbar .container.no-logo {
+  grid-template-columns: minmax(0, 1fr) max-content !important;
+  gap: 12px !important;
+}
+.bench-anonymized .bench-market-header .catalog {
+  min-width: 140px;
+  justify-self: stretch;
+}
+.bench-anonymized .bench-market-header .search-container {
+  width: 100%;
+  min-width: 0;
+}
+.bench-anonymized .bench-market-header .search {
+  width: 100%;
+  min-width: 0;
+}
+.bench-anonymized .bench-market-header .controls {
+  position: relative;
+  z-index: 1001;
+}
+
+.bench-anonymized .bench-grocery .search-input:focus-within {
+  border-color: var(--bench-primary) !important;
+  box-shadow: 0 0 0 2px rgba(74, 111, 165, 0.25) !important;
+}
+
+/* ─── Menu bars ─── */
+.bench-anonymized .bench-market .menu,
+.bench-anonymized .bench-market .menu-wrap,
+.bench-anonymized .bench-market .menu-background,
+.bench-anonymized .bench-books .menu-bar,
+.bench-anonymized .bench-books .menu-bar,
+.bench-anonymized .bench-grocery .menu-bar,
+.bench-anonymized .bench-grocery .menu-bar {
+  background: var(--bench-header-bg) !important;
+  color: #fff !important;
+}
+
+.bench-anonymized .bench-books .menu-bar .menu-item,
+.bench-anonymized .bench-books .menu-bar .menu-item,
+.bench-anonymized .bench-grocery .menu-bar .menu-item,
+.bench-anonymized .bench-grocery .menu-bar .menu-item,
+.bench-anonymized .bench-market .menu-bar .menu-item,
+.bench-anonymized .bench-market .menu-bar .menu-item .label,
+.bench-anonymized .bench-market .menu-bar .menu-item .v-btn__content,
+.bench-anonymized .bench-market .menu-bar .menu-item svg,
+.bench-anonymized .bench-market .menu a,
+.bench-anonymized .bench-market .menu a {
+  color: #e8eef5 !important;
+}
+
+.bench-anonymized .bench-market .menu-bar .addrbar .addr-type .type,
+.bench-anonymized .bench-market .menu-bar .addrbar .addr-type .type {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.bench-anonymized .bench-market .menu-bar .addrbar .addr-value .value,
+.bench-anonymized .bench-market .menu-bar .addrbar .addr-value .value {
+  color: #fff !important;
+}
+
+.bench-anonymized .bench-books .menu-bar .menu-item.orange,
+.bench-anonymized .bench-books .menu-bar .menu-item.orange,
+.bench-anonymized .bench-grocery .menu-bar .menu-item.orange,
+.bench-anonymized .bench-grocery .menu-bar .menu-item.orange {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.bench-anonymized .bench-books .menu-bar .menu-item.active,
+.bench-anonymized .bench-books .menu-bar .menu-item.active,
+.bench-anonymized .bench-grocery .menu-bar .menu-item.active,
+.bench-anonymized .bench-grocery .menu-bar .menu-item.active,
+.bench-anonymized .bench-market .menu-bar .menu-item.active {
+  background: rgba(255, 255, 255, 0.14) !important;
+  color: #fff !important;
+}
+
+/* ─── Доставка brand gradient / pink ─── */
+.bench-anonymized .bench-grocery .grocery-header .delivery-banner,
+.bench-anonymized .bench-grocery .gradient-bar {
+  background: var(--bench-primary) !important;
+  background-image: none !important;
+}
+
+.bench-anonymized .bench-grocery .product-card .price,
+.bench-anonymized .bench-grocery .add-control .plus {
+  color: var(--bench-primary) !important;
+}
+
+/* ─── RAIL red accents ─── */
+.bench-anonymized .bench-rail .price-highlight,
+.bench-anonymized .bench-rail .seat--selected,
+.bench-anonymized .bench-rail .route-date--active {
+  color: var(--bench-primary) !important;
+  border-color: var(--bench-primary) !important;
+  background-color: var(--bench-primary-light) !important;
+}
+
+.bench-anonymized .bench-rail .btn-red:hover,
+.bench-anonymized .bench-rail .search-submit:hover {
+  background-color: var(--bench-primary-hover) !important;
+}
+
+/* ─── Hotels (Отели) — align palette with Market / Books ─── */
+.bench-anonymized .bench-hotels,
+.bench-anonymized .bench-hotels {
+  --palette-main: var(--bench-primary);
+  --selected-bg: var(--bench-primary-light);
+  --color-text: var(--bench-text);
+  --color-heading: var(--bench-text);
+}
+
+.bench-anonymized .bench-hotels .promo.isRebranding,
+.bench-anonymized .bench-hotels .promo.isRebranding {
+  background: linear-gradient(
+    160deg,
+    var(--bench-primary-light) 0%,
+    var(--bench-surface) 72%
+  ) !important;
+}
+
+.bench-anonymized .bench-hotels .blockTitle,
+.bench-anonymized .bench-hotels .blockTitle {
+  color: var(--bench-header-bg) !important;
+}
+
+.bench-anonymized .bench-hotels > header > header,
+.bench-anonymized .bench-hotels > header > header {
+  background: var(--bench-surface-elevated) !important;
+  border-bottom: 1px solid var(--bench-border);
+  min-height: 48px;
+}
+
+.bench-anonymized .bench-hotels .widgets,
+.bench-anonymized .bench-hotels .widgets {
+  flex-shrink: 0;
+}
+
+.bench-anonymized .bench-hotels .widgets .icon-box,
+.bench-anonymized .bench-hotels .control-text,
+.bench-anonymized .bench-hotels .menu,
+.bench-anonymized .bench-hotels .widgets .icon-box,
+.bench-anonymized .bench-hotels .control-text,
+.bench-anonymized .bench-hotels .menu {
+  color: var(--bench-primary) !important;
+}
+
+.bench-anonymized .bench-hotels .Button_view_primary,
+.bench-anonymized .bench-hotels .Button_view_primary,
+.bench-anonymized .bench-hotels .searchButton,
+.bench-anonymized .bench-hotels .searchButton,
+.bench-anonymized .bench-hotels .btn,
+.bench-anonymized .bench-hotels .bookBtn,
+.bench-anonymized .bench-hotels .doneBtn,
+.bench-anonymized .bench-hotels .btn,
+.bench-anonymized .bench-hotels .bookBtn,
+.bench-anonymized .bench-hotels .doneBtn,
+.bench-anonymized .bench-hotels [class*="Button"][class*="primary"],
+.bench-anonymized .bench-hotels [class*="Button"][class*="primary"] {
+  background: var(--bench-primary) !important;
+  background-color: var(--bench-primary) !important;
+  color: #fff !important;
+  border-color: var(--bench-primary) !important;
+}
+
+.bench-anonymized .bench-hotels .btn:hover,
+.bench-anonymized .bench-hotels .bookBtn:hover,
+.bench-anonymized .bench-hotels .doneBtn:hover,
+.bench-anonymized .bench-hotels .btn:hover,
+.bench-anonymized .bench-hotels .bookBtn:hover,
+.bench-anonymized .bench-hotels .doneBtn:hover {
+  background: var(--bench-primary-hover) !important;
+  background-color: var(--bench-primary-hover) !important;
+}
+
+.bench-anonymized .bench-hotels .dayBtn.selected,
+.bench-anonymized .bench-hotels .dayBtn.hoverStart,
+.bench-anonymized .bench-hotels .dayBtn.hoverEnd,
+.bench-anonymized .bench-hotels .dayBtn.selected,
+.bench-anonymized .bench-hotels .dayBtn.hoverStart,
+.bench-anonymized .bench-hotels .dayBtn.hoverEnd,
+.bench-anonymized .DateRangeCalendar .day-selected {
+  background: var(--bench-primary) !important;
+  color: #fff !important;
+}
+
+.bench-anonymized .bench-hotels .Day--selected,
+.bench-anonymized .bench-hotels .Day--selected,
+.bench-anonymized .bench-hotels .Day--range,
+.bench-anonymized .bench-hotels .Day--range {
+  background: var(--bench-primary) !important;
+  color: #fff !important;
+}
+
+.bench-anonymized .bench-hotels .ZenCheckbox--checked,
+.bench-anonymized .bench-hotels .ZenCheckbox--checked,
+.bench-anonymized .bench-hotels .chk:checked,
+.bench-anonymized .bench-hotels .chk:checked {
+  background-color: var(--bench-primary) !important;
+  border-color: var(--bench-primary) !important;
+}
+
+.bench-anonymized .bench-hotels .switch input:checked + .slider,
+.bench-anonymized .bench-hotels .switch input:checked + .slider,
+.bench-anonymized .bench-hotels .singleRange,
+.bench-anonymized .bench-hotels .singleRange {
+  background: var(--bench-primary) !important;
+}
+
+.bench-anonymized .bench-hotels .singleRange::-webkit-slider-thumb,
+.bench-anonymized .bench-hotels .singleRange::-webkit-slider-thumb,
+.bench-anonymized .bench-hotels .singleRange::-moz-range-thumb,
+.bench-anonymized .bench-hotels .singleRange::-moz-range-thumb {
+  border-color: var(--bench-primary) !important;
+}
+
+.bench-anonymized .bench-hotels .tab-btn-active,
+.bench-anonymized .bench-hotels .tab-btn-active {
+  background-color: var(--bench-primary-light) !important;
+}
+
+.bench-anonymized .bench-hotels .tab-btn-active::before,
+.bench-anonymized .bench-hotels .tab-btn-active::before {
+  border-color: var(--bench-primary) !important;
+}
+
+.bench-anonymized .bench-hotels .field:hover,
+.bench-anonymized .bench-hotels .field.clickable:focus-visible,
+.bench-anonymized .bench-hotels .field:hover,
+.bench-anonymized .bench-hotels .field.clickable:focus-visible {
+  border-color: var(--bench-primary) !important;
+  box-shadow: inset 0 0 0 3px rgba(74, 111, 165, 0.15) !important;
+}
+
+.bench-anonymized .bench-hotels .CorpLink,
+.bench-anonymized .bench-hotels a[href^="mailto:"],
+.bench-anonymized .bench-hotels .CorpLink,
+.bench-anonymized .bench-hotels a[href^="mailto:"] {
+  color: var(--bench-primary) !important;
+}
+
+.bench-anonymized .bench-hotels .CorpBtn,
+.bench-anonymized .bench-hotels .CorpBtn {
+  background: var(--bench-primary-light) !important;
+  color: var(--bench-primary) !important;
+}
+
+.bench-anonymized .bench-hotels .badge,
+.bench-anonymized .bench-hotels .badge {
+  background: var(--bench-primary) !important;
+}
+
+.bench-anonymized .bench-hotels .hTitle,
+.bench-anonymized .bench-hotels .title,
+.bench-anonymized .bench-hotels .available-amount-text,
+.bench-anonymized .bench-hotels .tab-btn,
+.bench-anonymized .bench-hotels .hotel-card-headline,
+.bench-anonymized .bench-hotels .roomName,
+.bench-anonymized .bench-hotels .textInput,
+.bench-anonymized .bench-hotels .tab,
+.bench-anonymized .bench-hotels .hTitle,
+.bench-anonymized .bench-hotels .title,
+.bench-anonymized .bench-hotels .available-amount-text,
+.bench-anonymized .bench-hotels .tab-btn,
+.bench-anonymized .bench-hotels .hotel-card-headline,
+.bench-anonymized .bench-hotels .roomName,
+.bench-anonymized .bench-hotels .textInput,
+.bench-anonymized .bench-hotels .tab {
+  color: var(--bench-text) !important;
+}
+
+.bench-anonymized .bench-hotels .shell,
+.bench-anonymized .bench-hotels .list-categories,
+.bench-anonymized .bench-hotels article.card,
+.bench-anonymized .bench-hotels .searchFormWrapper .tabsContent,
+.bench-anonymized .bench-hotels .shell,
+.bench-anonymized .bench-hotels .list-categories,
+.bench-anonymized .bench-hotels article.card,
+.bench-anonymized .bench-hotels .searchFormWrapper .tabsContent {
+  background: var(--bench-surface-elevated) !important;
+  border-radius: 16px;
+}
+
+.bench-anonymized .bench-hotels .moreLink,
+.bench-anonymized .bench-hotels .filterLink,
+.bench-anonymized .bench-hotels .moreLink,
+.bench-anonymized .bench-hotels .filterLink,
+.bench-anonymized .bench-hotels a:not(.bookBtn):not(.btn):not(.CorpBtn):not(.searchButton):not(.doneBtn) {
+  color: var(--bench-primary) !important;
+}
+
+.bench-anonymized .bench-hotels .rate-price,
+.bench-anonymized .bench-hotels .price,
+.bench-anonymized .bench-hotels .rate-price,
+.bench-anonymized .bench-hotels .price {
+  color: var(--bench-primary) !important;
+}
+
+/* ─── Книги orange accents ─── */
+.bench-anonymized .bench-books .price,
+.bench-anonymized .bench-books .discount,
+.bench-anonymized .bench-books a.action {
+  color: var(--bench-primary) !important;
+}
+
+/* ─── Product cards & grids ─── */
+.bench-anonymized .bench-market .grid,
+.bench-anonymized .bench-market .grid,
+.bench-anonymized .bench-books .section,
+.bench-anonymized .bench-grocery .grid {
+  background: var(--bench-surface-elevated) !important;
+  border-radius: 16px;
+}
+
+/* ─── Top nav (bench chrome) ─── */
+.bench-top-nav {
+  position: sticky;
+  top: 0;
+  z-index: 2000;
+  background: var(--bench-header-bg, #3d5a80);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(45, 62, 80, 0.2);
+}
+
+.bench-top-nav__inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  flex-wrap: wrap;
+}
+
+.bench-top-nav__brand {
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 0.04em;
+  margin-right: 16px;
+  color: #e8eef5;
+}
+
+.bench-top-nav__link {
+  color: #c5d5e8;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+.bench-top-nav__link:hover,
+.bench-top-nav__link--active {
+  background: rgba(255, 255, 255, 0.14);
+  color: #fff;
+}
+
+/* ─── Hub ─── */
+.bench-hub {
+  min-height: 60vh;
+  background: linear-gradient(160deg, var(--bench-surface) 0%, var(--bench-border) 100%);
+  padding: 48px 24px;
+}
+
+.bench-hub__title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--bench-header-bg);
+  margin-bottom: 40px;
+}
+
+.bench-hub__subtitle {
+  text-align: center;
+  color: var(--bench-text-muted);
+  margin-bottom: 40px;
+}
+
+.bench-hub__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.bench-hub__card {
+  background: var(--bench-surface-elevated);
+  border-radius: 12px;
+  padding: 24px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid var(--bench-border);
+  scroll-margin-top: 80px;
+  transition: box-shadow 0.2s, transform 0.15s, border-color 0.2s;
+}
+
+.bench-hub__card:hover {
+  box-shadow: 0 8px 24px rgba(61, 90, 128, 0.18);
+  transform: translateY(-2px);
+  border-color: var(--bench-primary-muted);
+}
+
+.bench-hub__card-icon {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}
+
+.bench-hub__card-title {
+  font-weight: 600;
+  color: var(--bench-text);
+}
+
+.bench-hub__card-desc {
+  font-size: 0.85rem;
+  color: var(--bench-text-muted);
+  margin-top: 8px;
+}
+
+/* ─── Vuetify inline brand colors ─── */
+.bench-anonymized .v-btn[color="#0b63ff"],
+.bench-anonymized .v-btn[color="#005bff"],
+.bench-anonymized .v-btn[color="#a73afd"],
+.bench-anonymized .v-btn[color="#1565c0"],
+.bench-anonymized .v-btn[color="#ff1f7d"],
+.bench-anonymized .v-btn[color="#ff335f"],
+.bench-anonymized .v-btn[color="#f3345c"],
+.bench-anonymized .v-btn[color="#6D4AFF"],
+.bench-anonymized .v-btn[color="#ef4444"],
+.bench-anonymized .v-btn[color="primary"] {
+  --v-btn-color: var(--bench-primary) !important;
+  background-color: var(--bench-primary) !important;
+  color: #fff !important;
+}
+
+.bench-anonymized .v-icon[color="#0b63ff"],
+.bench-anonymized .v-icon[color="#005bff"],
+.bench-anonymized .v-icon[color="#a73afd"],
+.bench-anonymized .v-icon[color="#1565c0"] {
+  color: var(--bench-primary) !important;
+}
+
+.bench-anonymized .v-progress-circular[color="#1565c0"] {
+  color: var(--bench-primary) !important;
+}
+
+.bench-anonymized .v-chip[color="#ff1f7d"],
+.bench-anonymized .v-chip[color="#6D4AFF"] {
+  background-color: var(--bench-primary-muted) !important;
+  color: #fff !important;
+}
+
+.bench-anonymized .bench-rail .logo-link,
+.bench-anonymized .bench-rail .logo-link {
+  display: none !important;
+}
+
+/* Brand decorative banners & logo asset paths */
+.bench-anonymized .menu-bg-panel,
+.bench-anonymized .menu-bg-panel-wrapper,
+.bench-anonymized .bench-market-header img.logo,
+.bench-anonymized .bench-market-header img.logo,
+.bench-anonymized .grocery-header img.logo,
+.bench-anonymized img[src*="rail_pay_logo"],
+.bench-anonymized img[src*="logo_sber"],
+.bench-anonymized img[src*="logo_ru"],
+.bench-anonymized img[src*="search_bar_under"] {
+  display: none !important;
+}
+
+/* Bench vertical roots (no legacy mock class names in DOM) */
+.bench-anonymized .bench-market { color: var(--bench-text); }
+.bench-anonymized .bench-market { color: var(--bench-text); }
+
+/* Favorites: category filter sidebar — full-opacity labels */
+.bench-anonymized .fav-section .filters-panel,
+.bench-anonymized .fav-section .filters-title,
+.bench-anonymized .fav-section .search-label,
+.bench-anonymized .fav-section .no-results {
+  color: var(--bench-text) !important;
+  opacity: 1 !important;
+}
+.bench-anonymized .fav-section .filters-panel .v-label {
+  color: var(--bench-text) !important;
+  opacity: 1 !important;
+}
+
+/* Basket: titles, section labels, checkboxes — full-opacity text */
+.bench-anonymized .basket-section,
+.bench-anonymized .basket-section .basket-title,
+.bench-anonymized .basket-section .section-title,
+.bench-anonymized .basket-section .basket-empty .title,
+.bench-anonymized .basket-section .basket-empty .subtitle,
+.bench-anonymized .basket-section .summary-title,
+.bench-anonymized .basket-section .summary-label,
+.bench-anonymized .basket-section .item-name,
+.bench-anonymized .basket-section .promo-title,
+.bench-anonymized .basket-section .delivery-choice-title,
+.bench-anonymized .basket-section .delivery-choice-address,
+.bench-anonymized .basket-section .delivery-choice-method {
+  color: var(--bench-text) !important;
+  opacity: 1 !important;
+}
+.bench-anonymized .basket-section .v-label {
+  color: var(--bench-text) !important;
+  opacity: 1 !important;
+}
+.bench-anonymized .bench-books { color: var(--bench-text); }
+.bench-anonymized .bench-grocery { color: var(--bench-text); }
+.bench-anonymized .bench-rail { color: var(--bench-text); }
+.bench-anonymized .bench-files { color: var(--bench-text); }
+.bench-anonymized .bench-hotels { color: var(--bench-text); }
+
+/* ─── Поезда (bench_rail): align with Маркет / Книги palette ─── */
+.bench-anonymized .bench-rail,
+.bench-anonymized .bench-rail.rail-search-page,
+.bench-anonymized .bench-rail.rail-booking-page,
+.bench-anonymized .bench-rail.rail-seat-page,
+.bench-anonymized .bench-rail.rail-checkout-page,
+.bench-anonymized .bench-rail.rail-profile-page,
+.bench-anonymized .bench-rail.rail-gray-bg {
+  background: var(--bench-surface) !important;
+  color: var(--bench-text) !important;
+}
+
+.bench-anonymized .bench-rail .rail-header .main-nav a,
+.bench-anonymized .bench-rail .rail-header .header-right a,
+.bench-anonymized .bench-rail .rail-search-header .header-link,
+.bench-anonymized .bench-rail .rail-search-header .header-icon-link,
+.bench-anonymized .bench-rail .rail-search-header .menu-btn {
+  color: var(--bench-text) !important;
+  border-color: var(--bench-border) !important;
+}
+
+.bench-anonymized .bench-rail .rail-header .main-nav a:hover,
+.bench-anonymized .bench-rail .rail-header .main-nav a.active,
+.bench-anonymized .bench-rail .rail-header .header-right a:hover,
+.bench-anonymized .bench-rail .rail-search-header .header-link:hover,
+.bench-anonymized .bench-rail .rail-search-header .header-icon-link:hover,
+.bench-anonymized .bench-rail .rail-search-header .menu-btn:hover {
+  color: var(--bench-primary) !important;
+}
+
+.bench-anonymized .bench-rail .hero-title .red,
+.bench-anonymized .bench-rail .hero-title .icon {
+  background-color: var(--bench-primary) !important;
+  color: #fff !important;
+}
+
+.bench-anonymized .bench-rail .rail-search-widget .tab-btn.active,
+.bench-anonymized .bench-rail .widget-tabs button.active {
+  background: var(--bench-primary) !important;
+  color: #fff !important;
+}
+
+.bench-anonymized .bench-rail .search-bar-section,
+.bench-anonymized .bench-rail .train-card,
+.bench-anonymized .bench-rail .info-card,
+.bench-anonymized .bench-rail .favorites-card,
+.bench-anonymized .bench-rail .filters-section,
+.bench-anonymized .bench-rail .top-card,
+.bench-anonymized .bench-rail .carriage-card,
+.bench-anonymized .bench-rail .service-class-card,
+.bench-anonymized .bench-rail .checkout-container .top-card,
+.bench-anonymized .bench-rail .route-card,
+.bench-anonymized .bench-rail .passenger-block {
+  background: var(--bench-surface-elevated) !important;
+  border-color: var(--bench-border) !important;
+}
+
+.bench-anonymized .bench-rail .train-card,
+.bench-anonymized .bench-rail .info-card,
+.bench-anonymized .bench-rail .service-class-card.selected {
+  border-radius: 12px;
+}
+
+.bench-anonymized .bench-rail .service-class-card.selected {
+  border-color: var(--bench-primary) !important;
+  box-shadow: 0 0 0 1px var(--bench-primary);
+}
+
+.bench-anonymized .bench-rail .ticket-price,
+.bench-anonymized .bench-rail .price-highlight,
+.bench-anonymized .bench-rail .passenger-price,
+.bench-anonymized .bench-rail .summary-text-accent,
+.bench-anonymized .bench-rail .seat-continue-accent,
+.bench-anonymized .bench-rail .checkout-title,
+.bench-anonymized .bench-rail .tariff-name,
+.bench-anonymized .bench-rail .params-link,
+.bench-anonymized .bench-rail a.action {
+  color: var(--bench-primary) !important;
+}
+
+.bench-anonymized .bench-rail .step.completed,
+.bench-anonymized .bench-rail .step.active {
+  background: var(--bench-primary) !important;
+  border-color: var(--bench-primary) !important;
+  color: #fff !important;
+}
+
+.bench-anonymized .bench-rail .seats-group .seat-wrapper.selected .seat-path {
+  fill: var(--bench-primary) !important;
+}
+
+.bench-anonymized .bench-rail .legend-color.selected {
+  background: var(--bench-primary) !important;
+}
+
+.bench-anonymized .bench-rail .v-progress-circular[color="#e21a1a"],
+.bench-anonymized .bench-rail .v-progress-circular[color="#e21a1a"] {
+  color: var(--bench-primary) !important;
+}
+
+.bench-anonymized .bench-rail .v-icon[color="#e21a1a"],
+.bench-anonymized .bench-rail .v-icon[color="#e21a1a"] {
+  color: var(--bench-primary) !important;
+}
+
+.bench-anonymized .bench-rail .v-slider-thumb__surface,
+.bench-anonymized .bench-rail .v-slider-track__fill {
+  background-color: var(--bench-primary) !important;
+}
+
+.bench-anonymized .bench-rail .profile-sidebar li.active,
+.bench-anonymized .bench-rail .profile-sidebar li.active button {
+  border-left-color: var(--bench-primary) !important;
+  color: var(--bench-primary) !important;
+}
+
+.bench-anonymized .bench-rail .save-btn,
+.bench-anonymized .bench-rail .profile-form-section .v-btn--variant-flat {
+  background: var(--bench-primary) !important;
+  color: #fff !important;
+}
+
+.bench-anonymized .bench-rail .terms-checkbox input[type="checkbox"]:checked + .checkbox-box,
+.bench-anonymized .bench-rail .pay-btn,
+.bench-anonymized .bench-rail .checkout-pay-btn {
+  background: var(--bench-primary) !important;
+  border-color: var(--bench-primary) !important;
+  color: #fff !important;
+}
+
+.bench-anonymized .bench-rail .buy-btn {
+  background: var(--bench-primary) !important;
+  color: #fff !important;
+  border-color: var(--bench-primary) !important;
+}
+
+.bench-anonymized .bench-rail .login-btn,
+.bench-anonymized .bench-rail .additional-trips-btn,
+.bench-anonymized .bench-rail .return-trip-btn {
+  color: var(--bench-primary) !important;
+  border-color: var(--bench-primary) !important;
+}
+
+.bench-anonymized .bench-rail .login-btn:hover,
+.bench-anonymized .bench-rail .additional-trips-btn:hover,
+.bench-anonymized .bench-rail .return-trip-btn:hover {
+  background: var(--bench-primary-light) !important;
+}
+
+.bench-anonymized .bench-rail .form-field.has-error {
+  border-color: var(--bench-danger) !important;
+}
+
+.bench-anonymized .bench-rail .rail-search-widget .form-field.has-error {
+  border-color: var(--bench-danger) !important;
+}
+
+.bench-anonymized .bench-rail .rail-datepicker .day.selected,
+.bench-anonymized .bench-rail .rail-datepicker .day.in-range {
+  background: var(--bench-primary) !important;
+  color: #fff !important;
+}
+
+.bench-anonymized .bench-rail .rail-datepicker .day:hover:not(.disabled) {
+  color: var(--bench-primary) !important;
+}
+
+.bench-anonymized .bench-rail .rail-passengers-dropdown .confirm-btn {
+  background: var(--bench-primary) !important;
+  color: #fff !important;
+}
+
+.bench-anonymized .payment-gateway .pg-btn-primary,
+.bench-anonymized .payment-gateway .pay-button {
+  background: var(--bench-primary) !important;
+  border-color: var(--bench-primary) !important;
+  color: #fff !important;
+}
+
+.bench-anonymized .payment-gateway .progress-bar {
+  stroke: var(--bench-primary) !important;
+}
+
+/* UI taxonomy text_search — class is on .search (shop) or .search-combo (books) */
+.bench-market-header .search.bench-search--outlined,
+.search-combo.bench-search--outlined {
+  border: 2px solid var(--bench-primary) !important;
+  border-radius: 8px !important;
+  background: transparent !important;
+}
+
+.bench-market-header .search.bench-search--filled,
+.search-combo.bench-search--filled {
+  border: none !important;
+  border-radius: 8px !important;
+  background: var(--bench-primary-light) !important;
+}
+
+.bench-market-header .search.bench-search--underlined,
+.search-combo.bench-search--underlined {
+  border: none !important;
+  border-bottom: 3px solid var(--bench-primary) !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.bench-market-header .search.bench-search--pill,
+.search-combo.bench-search--pill {
+  border-radius: 999px !important;
+  overflow: hidden;
+}
+
+.bench-market-header .search.bench-search--large,
+.search-combo.bench-search--large {
+  min-height: 56px;
+}
+
+.bench-search--large .search-input input,
+.bench-search--large input {
+  font-size: 20px !important;
+  min-height: 52px;
+}
+
+/* ─── Files cabinet ─── */
+.bench-files {
+  min-height: 60vh;
+  background: var(--bench-surface);
+  color: var(--bench-text);
+  padding: 32px 24px 48px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.bench-files__eyebrow {
+  color: var(--bench-primary);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin: 0 0 8px;
+}
+
+.bench-files__title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--bench-text);
+  margin: 0 0 28px;
+}
+
+.bench-files__layout {
+  display: grid;
+  gap: 16px;
+}
+
+.bench-files__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.bench-files__nav-btn {
+  min-height: 48px;
+  padding: 12px 16px;
+  border: 1px solid var(--bench-border);
+  border-radius: 12px;
+  background: var(--bench-surface-elevated);
+  color: var(--bench-text);
+  text-align: left;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 600;
+}
+
+.bench-files__nav-btn:hover,
+.bench-files__nav-btn--active {
+  border-color: var(--bench-primary-muted);
+  color: var(--bench-primary);
+  background: var(--bench-primary-light);
+}
+
+.bench-files__nav-btn:focus-visible {
+  outline: 2px solid var(--bench-primary);
+  outline-offset: 2px;
+}
+
+.bench-files__layout--cards .bench-files__nav {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.bench-files__layout--cards .bench-files__nav-btn {
+  min-height: 90px;
+}
+
+.bench-files__layout--list .bench-files__nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.bench-files__layout--tree .bench-files__nav {
+  border-left: 2px solid var(--bench-border);
+  padding-left: 12px;
+}
+
+.bench-files__layout--compact .bench-files__nav-btn {
+  min-height: 36px;
+  padding: 6px 10px;
+  font-size: 13px;
+}
+
+.bench-files__field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: var(--bench-text-muted);
+  font-size: 13px;
+  font-weight: 700;
+  max-width: 280px;
+  margin-bottom: 24px;
+}
+
+.bench-files__field select {
+  min-height: 46px;
+  padding: 10px 12px;
+  border: 1px solid var(--bench-border);
+  border-radius: 10px;
+  background: var(--bench-surface-elevated);
+  color: var(--bench-text);
+  font: inherit;
+}
+
+.bench-files__years {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 24px;
+  padding: 0;
+  border: 0;
+}
+
+.bench-files__years legend {
+  font-weight: 700;
+  color: var(--bench-text-muted);
+  margin-bottom: 8px;
+}
+
+.bench-files__year {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 12px;
+  border: 1px solid var(--bench-border);
+  border-radius: 99px;
+  background: var(--bench-surface-elevated);
+  cursor: pointer;
+}
+
+.bench-files__empty {
+  color: var(--bench-text-muted);
+  margin: 8px 0 24px;
+}
+
+.bench-files__card {
+  padding: 18px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 16px;
+  background: var(--bench-surface-elevated);
+  border: 1px solid var(--bench-border);
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.bench-files__card p {
+  margin: 5px 0 0;
+  color: var(--bench-text-muted);
+}
+
+.bench-files__symbol {
+  width: 52px;
+  height: 60px;
+  display: grid;
+  place-items: center;
+  color: var(--bench-danger);
+  background: var(--bench-primary-light);
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.bench-files__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 10px 17px;
+  border-radius: 10px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.bench-files__btn--solid {
+  color: #fff;
+  background: var(--bench-primary);
+}
+
+.bench-files__btn--outline {
+  color: var(--bench-primary);
+  background: transparent;
+  border: 1px solid var(--bench-primary);
+}
+
+.bench-files__btn--icon {
+  width: 42px;
+  height: 42px;
+  min-height: 42px;
+  padding: 0;
+  border-radius: 50%;
+  background: var(--bench-primary-light);
+  color: var(--bench-primary);
+}
+
+@media (max-width: 620px) {
+  .bench-files__card {
+    grid-template-columns: auto 1fr;
+  }
+  .bench-files__card .bench-files__btn {
+    grid-column: 2;
+  }
+}
+
+/* ─── Dark theme: remaining white surfaces + dark-on-dark text ─── */
+html[data-bench-theme="dark"] .bench-hotels,
+html[data-bench-theme="dark"] .hotels-main,
+html[data-bench-theme="dark"] .bench-market,
+html[data-bench-theme="dark"] .bench-books,
+html[data-bench-theme="dark"] .bench-grocery,
+html[data-bench-theme="dark"] .bench-rail,
+html[data-bench-theme="dark"] .bench-files {
+  background-color: var(--bench-surface) !important;
+  color: var(--bench-text) !important;
+}
+
+html[data-bench-theme="dark"] .bench-hotels header,
+html[data-bench-theme="dark"] .bench-hotels header > header,
+html[data-bench-theme="dark"] .bench-hotels footer,
+html[data-bench-theme="dark"] .bench-hotels .card,
+html[data-bench-theme="dark"] .bench-hotels article.card,
+html[data-bench-theme="dark"] .bench-hotels .shell,
+html[data-bench-theme="dark"] .bench-hotels .tabsContent,
+html[data-bench-theme="dark"] .bench-hotels .field,
+html[data-bench-theme="dark"] .bench-hotels .popup,
+html[data-bench-theme="dark"] .bench-hotels .dropdown,
+html[data-bench-theme="dark"] .bench-hotels .FiltersSidebar,
+html[data-bench-theme="dark"] .bench-hotels .filters-sidebar,
+html[data-bench-theme="dark"] .bench-hotels .filter-card,
+html[data-bench-theme="dark"] .bench-hotels .filterCard,
+html[data-bench-theme="dark"] .bench-hotels [class*="Filter"],
+html[data-bench-theme="dark"] .bench-hotels .calendar,
+html[data-bench-theme="dark"] .bench-hotels .calendarWrap,
+html[data-bench-theme="dark"] .bench-hotels .guestPicker,
+html[data-bench-theme="dark"] .bench-hotels .GuestPicker,
+html[data-bench-theme="dark"] .bench-hotels .row,
+html[data-bench-theme="dark"] .bench-hotels .block,
+html[data-bench-theme="dark"] .bench-hotels .panel,
+html[data-bench-theme="dark"] .bench-hotels .offer,
+html[data-bench-theme="dark"] .bench-hotels .review,
+html[data-bench-theme="dark"] .bench-hotels .reviews,
+html[data-bench-theme="dark"] .bench-hotels .map,
+html[data-bench-theme="dark"] .bench-hotels .about,
+html[data-bench-theme="dark"] .bench-hotels .amenities,
+html[data-bench-theme="dark"] .bench-hotels .perks,
+html[data-bench-theme="dark"] .bench-hotels .payment,
+html[data-bench-theme="dark"] .bench-hotels .rules,
+html[data-bench-theme="dark"] .bench-hotels .gallery,
+html[data-bench-theme="dark"] .bench-hotels .searchFormWrapper,
+html[data-bench-theme="dark"] .bench-hotels .list-categories,
+html[data-bench-theme="dark"] .bench-hotels .EmailCollector,
+html[data-bench-theme="dark"] .bench-hotels .zen-form,
+html[data-bench-theme="dark"] .bench-hotels input,
+html[data-bench-theme="dark"] .bench-hotels select,
+html[data-bench-theme="dark"] .bench-hotels textarea,
+html[data-bench-theme="dark"] .bench-hotels .v-field,
+html[data-bench-theme="dark"] .bench-hotels .v-sheet,
+html[data-bench-theme="dark"] .bench-hotels .v-card {
+  background-color: var(--bench-surface-elevated) !important;
+  color: var(--bench-text) !important;
+  border-color: var(--bench-border) !important;
+}
+
+html[data-bench-theme="dark"] .bench-hotels p,
+html[data-bench-theme="dark"] .bench-hotels span,
+html[data-bench-theme="dark"] .bench-hotels li,
+html[data-bench-theme="dark"] .bench-hotels label,
+html[data-bench-theme="dark"] .bench-hotels h1,
+html[data-bench-theme="dark"] .bench-hotels h2,
+html[data-bench-theme="dark"] .bench-hotels h3,
+html[data-bench-theme="dark"] .bench-hotels h4,
+html[data-bench-theme="dark"] .bench-hotels h5,
+html[data-bench-theme="dark"] .bench-hotels h6,
+html[data-bench-theme="dark"] .bench-hotels .title,
+html[data-bench-theme="dark"] .bench-hotels .hTitle,
+html[data-bench-theme="dark"] .bench-hotels .hotel-card-headline,
+html[data-bench-theme="dark"] .bench-hotels .hotel-card-address,
+html[data-bench-theme="dark"] .bench-hotels .hotel-card-center,
+html[data-bench-theme="dark"] .bench-hotels .hotel-card-distances,
+html[data-bench-theme="dark"] .bench-hotels .roomName,
+html[data-bench-theme="dark"] .bench-hotels .room-title,
+html[data-bench-theme="dark"] .bench-hotels .room-beds,
+html[data-bench-theme="dark"] .bench-hotels .room-value-text,
+html[data-bench-theme="dark"] .bench-hotels .rate-destination,
+html[data-bench-theme="dark"] .bench-hotels .available-amount-text,
+html[data-bench-theme="dark"] .bench-hotels .tab-btn,
+html[data-bench-theme="dark"] .bench-hotels .tab,
+html[data-bench-theme="dark"] .bench-hotels .textInput,
+html[data-bench-theme="dark"] .bench-hotels .control-text,
+html[data-bench-theme="dark"] .bench-hotels .menu,
+html[data-bench-theme="dark"] .bench-hotels .blockTitle,
+html[data-bench-theme="dark"] .bench-hotels .value,
+html[data-bench-theme="dark"] .bench-hotels .label,
+html[data-bench-theme="dark"] .bench-hotels .text {
+  color: var(--bench-text) !important;
+}
+
+html[data-bench-theme="dark"] .bench-hotels .rate-price,
+html[data-bench-theme="dark"] .bench-hotels .price,
+html[data-bench-theme="dark"] .bench-hotels .CorpLink,
+html[data-bench-theme="dark"] .bench-hotels a:not(.bookBtn):not(.btn):not(.CorpBtn):not(.searchButton):not(.doneBtn) {
+  color: var(--bench-primary) !important;
+}
+
+html[data-bench-theme="dark"] .bench-hotels .btn,
+html[data-bench-theme="dark"] .bench-hotels .bookBtn,
+html[data-bench-theme="dark"] .bench-hotels .doneBtn,
+html[data-bench-theme="dark"] .bench-hotels .searchButton,
+html[data-bench-theme="dark"] .bench-hotels .searchButtonText {
+  background-color: var(--bench-primary) !important;
+  color: #fff !important;
+}
+
+html[data-bench-theme="dark"] .bench-rail .announcements,
+html[data-bench-theme="dark"] .bench-rail .announcement,
+html[data-bench-theme="dark"] .bench-rail .info-card,
+html[data-bench-theme="dark"] .bench-rail .info-block,
+html[data-bench-theme="dark"] .bench-rail .info-section,
+html[data-bench-theme="dark"] .bench-rail .rail-header,
+html[data-bench-theme="dark"] .bench-rail .rail-search-header,
+html[data-bench-theme="dark"] .bench-rail .rail-search-widget,
+html[data-bench-theme="dark"] .bench-rail .search-bar-section,
+html[data-bench-theme="dark"] .bench-rail .search-bar-inner,
+html[data-bench-theme="dark"] .bench-rail .search-bar-form,
+html[data-bench-theme="dark"] .bench-rail .search-field,
+html[data-bench-theme="dark"] .bench-rail .station-dropdown,
+html[data-bench-theme="dark"] .bench-rail .swap-btn,
+html[data-bench-theme="dark"] .bench-rail .filters-section,
+html[data-bench-theme="dark"] .bench-rail .favorites-card,
+html[data-bench-theme="dark"] .bench-rail .bonus-card,
+html[data-bench-theme="dark"] .bench-rail .train-card,
+html[data-bench-theme="dark"] .bench-rail .top-card,
+html[data-bench-theme="dark"] .bench-rail .carriage-card,
+html[data-bench-theme="dark"] .bench-rail .service-class-card,
+html[data-bench-theme="dark"] .bench-rail .passenger-block,
+html[data-bench-theme="dark"] .bench-rail .passenger-card,
+html[data-bench-theme="dark"] .bench-rail .passenger-cards-block,
+html[data-bench-theme="dark"] .bench-rail .route-card,
+html[data-bench-theme="dark"] .bench-rail .ticket-card,
+html[data-bench-theme="dark"] .bench-rail .checkout-main-block,
+html[data-bench-theme="dark"] .bench-rail .booking-container,
+html[data-bench-theme="dark"] .bench-rail .payment-gateway,
+html[data-bench-theme="dark"] .bench-rail .profile-content-inner,
+html[data-bench-theme="dark"] .bench-rail .rail-login-drawer,
+html[data-bench-theme="dark"] .bench-rail .login-drawer,
+html[data-bench-theme="dark"] .bench-rail .drawer,
+html[data-bench-theme="dark"] .bench-rail .dropdown,
+html[data-bench-theme="dark"] .bench-rail .popup,
+html[data-bench-theme="dark"] .bench-rail .rail-datepicker,
+html[data-bench-theme="dark"] .bench-rail .rail-passengers-dropdown,
+html[data-bench-theme="dark"] .bench-rail input,
+html[data-bench-theme="dark"] .bench-rail select,
+html[data-bench-theme="dark"] .bench-rail textarea,
+html[data-bench-theme="dark"] .bench-rail .v-field,
+html[data-bench-theme="dark"] .bench-rail .v-sheet,
+html[data-bench-theme="dark"] .bench-rail .v-card,
+html[data-bench-theme="dark"] .bench-rail .v-overlay__content {
+  background-color: var(--bench-surface-elevated) !important;
+  color: var(--bench-text) !important;
+  border-color: var(--bench-border) !important;
+}
+
+html[data-bench-theme="dark"] .bench-rail,
+html[data-bench-theme="dark"] .bench-rail p,
+html[data-bench-theme="dark"] .bench-rail span,
+html[data-bench-theme="dark"] .bench-rail li,
+html[data-bench-theme="dark"] .bench-rail label,
+html[data-bench-theme="dark"] .bench-rail h1,
+html[data-bench-theme="dark"] .bench-rail h2,
+html[data-bench-theme="dark"] .bench-rail h3,
+html[data-bench-theme="dark"] .bench-rail h4,
+html[data-bench-theme="dark"] .bench-rail strong,
+html[data-bench-theme="dark"] .bench-rail .date-value,
+html[data-bench-theme="dark"] .bench-rail .passengers-text,
+html[data-bench-theme="dark"] .bench-rail .train-number,
+html[data-bench-theme="dark"] .bench-rail .sort-btn {
+  color: var(--bench-text) !important;
+}
+
+html[data-bench-theme="dark"] .bench-rail .ticket-price,
+html[data-bench-theme="dark"] .bench-rail .price-highlight,
+html[data-bench-theme="dark"] .bench-rail .passenger-price,
+html[data-bench-theme="dark"] .bench-rail a.action,
+html[data-bench-theme="dark"] .bench-rail .params-link {
+  color: var(--bench-primary) !important;
+}
+
+html[data-bench-theme="dark"] .bench-rail .buy-btn,
+html[data-bench-theme="dark"] .bench-rail .pay-btn,
+html[data-bench-theme="dark"] .bench-rail .search-btn,
+html[data-bench-theme="dark"] .bench-rail .save-btn,
+html[data-bench-theme="dark"] .bench-rail .hero-title .red {
+  background-color: var(--bench-primary) !important;
+  color: #fff !important;
+}
+
+html[data-bench-theme="dark"] .bench-market .grid,
+html[data-bench-theme="dark"] .bench-market .card,
+html[data-bench-theme="dark"] .bench-market .panel,
+html[data-bench-theme="dark"] .bench-market .filters-panel,
+html[data-bench-theme="dark"] .bench-market .category-panel,
+html[data-bench-theme="dark"] .bench-market .v-card,
+html[data-bench-theme="dark"] .bench-market .v-sheet,
+html[data-bench-theme="dark"] .bench-books .grid,
+html[data-bench-theme="dark"] .bench-books .section,
+html[data-bench-theme="dark"] .bench-books .book-card,
+html[data-bench-theme="dark"] .bench-books .product-card,
+html[data-bench-theme="dark"] .bench-books .filters-panel,
+html[data-bench-theme="dark"] .bench-books .v-card,
+html[data-bench-theme="dark"] .bench-books .v-sheet,
+html[data-bench-theme="dark"] .bench-grocery .grid,
+html[data-bench-theme="dark"] .bench-grocery .product-card,
+html[data-bench-theme="dark"] .bench-grocery .grocery-card,
+html[data-bench-theme="dark"] .bench-grocery .v-card,
+html[data-bench-theme="dark"] .bench-grocery .v-sheet,
+html[data-bench-theme="dark"] .bench-grocery .drawer,
+html[data-bench-theme="dark"] .bench-grocery .sidebar,
+html[data-bench-theme="dark"] .bench-files__card,
+html[data-bench-theme="dark"] .bench-files__nav-btn,
+html[data-bench-theme="dark"] .bench-files__year,
+html[data-bench-theme="dark"] .bench-files__field select {
+  background-color: var(--bench-surface-elevated) !important;
+  color: var(--bench-text) !important;
+  border-color: var(--bench-border) !important;
+}
+
+html[data-bench-theme="dark"] .bench-market .card:hover,
+html[data-bench-theme="dark"] .bench-books .book-card:hover,
+html[data-bench-theme="dark"] .bench-grocery .product-card:hover {
+  background-color: var(--bench-primary-light) !important;
+}
+
+html[data-bench-theme="dark"] .v-overlay__content,
+html[data-bench-theme="dark"] .v-dialog,
+html[data-bench-theme="dark"] .v-navigation-drawer {
+  background-color: var(--bench-surface-elevated) !important;
+  color: var(--bench-text) !important;
+}
+
+html[data-bench-theme="dark"] .bench-market .searchbar,
+html[data-bench-theme="dark"] .bench-books .searchbar,
+html[data-bench-theme="dark"] .bench-grocery .searchbar,
+html[data-bench-theme="dark"] .bench-market .menu-bar,
+html[data-bench-theme="dark"] .bench-grocery .menu-bar,
+html[data-bench-theme="dark"] .bench-books .menu-bar,
+html[data-bench-theme="dark"] .bench-market .menu-wrap,
+html[data-bench-theme="dark"] .bench-grocery .grocery-header,
+html[data-bench-theme="dark"] .bench-grocery .search-box input {
+  background: var(--bench-surface-elevated) !important;
+  background-color: var(--bench-surface-elevated) !important;
+  color: var(--bench-text) !important;
+  border-color: var(--bench-border) !important;
+}
+
+html[data-bench-theme="dark"] .bench-grocery .bonus-badge {
+  background: var(--bench-primary-light) !important;
+  color: var(--bench-text) !important;
+}
+
+html[data-bench-theme="dark"] .bench-grocery .login-drawer,
+html[data-bench-theme="dark"] .bench-grocery .login-drawer .drawer-content,
+html[data-bench-theme="dark"] .bench-grocery .sber-card {
+  background: var(--bench-surface-elevated) !important;
+  color: var(--bench-text) !important;
+  box-shadow: none;
+}
+
+html[data-bench-theme="dark"] .bench-grocery .sber-title,
+html[data-bench-theme="dark"] .bench-grocery .sber-desc,
+html[data-bench-theme="dark"] .bench-grocery .consents,
+html[data-bench-theme="dark"] .bench-grocery .agreement {
+  color: var(--bench-text-muted) !important;
+}
+
+html[data-bench-theme="dark"] .bench-grocery .phone-btn {
+  background: var(--bench-primary-light) !important;
+  color: var(--bench-text) !important;
+}
+
+html[data-bench-theme="dark"] .bench-grocery .contact-btn,
+html[data-bench-theme="dark"] .bench-grocery .logout-btn {
+  background: var(--bench-primary-light) !important;
+  color: var(--bench-text) !important;
+}
+
+html[data-bench-theme="dark"] .bench-grocery .login-icon,
+html[data-bench-theme="dark"] .bench-grocery .chat-icon {
+  color: var(--bench-text) !important;
+}
+
+html[data-bench-theme="dark"] .bench-hotels .opt,
+html[data-bench-theme="dark"] .bench-hotels .optTitle,
+html[data-bench-theme="dark"] .bench-hotels .optSub,
+html[data-bench-theme="dark"] .bench-hotels .hint,
+html[data-bench-theme="dark"] .bench-hotels .textInput {
+  color: var(--bench-text) !important;
+}
+
+html[data-bench-theme="dark"] .bench-hotels .tabsControls,
+html[data-bench-theme="dark"] .bench-hotels .tab,
+html[data-bench-theme="dark"] .bench-hotels .tabActive {
+  background: var(--bench-surface-elevated) !important;
+  background-color: var(--bench-surface-elevated) !important;
+  color: var(--bench-text) !important;
+}
+
+html[data-bench-theme="dark"] .bench-hotels .opt:hover,
+html[data-bench-theme="dark"] .bench-hotels .opt.active {
+  background: var(--bench-primary-light) !important;
+}
+
+html[data-bench-theme="dark"] .bench-hotels .header,
+html[data-bench-theme="dark"] .bench-hotels .head,
+html[data-bench-theme="dark"] .bench-hotels .title-wrapper,
+html[data-bench-theme="dark"] .bench-hotels .sectionTitle,
+html[data-bench-theme="dark"] .bench-rail .info-banner-inner,
+html[data-bench-theme="dark"] .bench-rail .info-alert-badge,
+html[data-bench-theme="dark"] .bench-rail .wait-list,
+html[data-bench-theme="dark"] .bench-rail .carriage-tab:not(.active) {
+  background: var(--bench-surface-elevated) !important;
+  background-color: var(--bench-surface-elevated) !important;
+  color: var(--bench-text) !important;
+}
+
+html[data-bench-theme="dark"] .fav-btn,
+html[data-bench-theme="dark"] .fav-btn-static,
+html[data-bench-theme="dark"] .favorite {
+  background: var(--bench-surface-elevated) !important;
+  color: var(--bench-text) !important;
+}
+
+html[data-bench-theme="dark"] .bench-market :is(p, span, div, li, label, h1, h2, h3, h4, h5, h6, a, td, th, small, strong, b, button, i),
+html[data-bench-theme="dark"] .bench-books :is(p, span, div, li, label, h1, h2, h3, h4, h5, h6, a, td, th, small, strong, b, button, i),
+html[data-bench-theme="dark"] .bench-grocery :is(p, span, div, li, label, h1, h2, h3, h4, h5, h6, a, td, th, small, strong, b, button, i),
+html[data-bench-theme="dark"] .bench-rail :is(p, span, div, li, label, h1, h2, h3, h4, h5, h6, a, td, th, small, strong, b, button, i),
+html[data-bench-theme="dark"] .bench-hotels :is(p, span, div, li, label, h1, h2, h3, h4, h5, h6, a, td, th, small, strong, b, button, i),
+html[data-bench-theme="dark"] .bench-files :is(p, span, div, li, label, h1, h2, h3, h4, h5, h6, a, td, th, small, strong, b, button, i) {
+  color: var(--bench-text) !important;
+}
+
+html[data-bench-theme="dark"] .bench-market :is(.price, .price-large, .price-row .price),
+html[data-bench-theme="dark"] .bench-books :is(.price),
+html[data-bench-theme="dark"] .bench-grocery :is(.price, .current-price, .add-current-price),
+html[data-bench-theme="dark"] .bench-hotels :is(.price, .rate-price, .priceTag),
+html[data-bench-theme="dark"] .bench-rail .ticket-price {
+  color: var(--bench-success) !important;
+}
+
+html[data-bench-theme="dark"] .bench-hotels :is(a, .dest-link, .mapLink, .CorpLink, .searchDestination, .crumbLink),
+html[data-bench-theme="dark"] .bench-books :is(.link, .reply, .all-reviews, a),
+html[data-bench-theme="dark"] .bench-market :is(.article-link, a) {
+  color: var(--bench-primary) !important;
+}
+
+html[data-bench-theme="dark"] .bench-market :is(.buy, .one-click-btn, .search-btn, .primary, .catalog-btn, .btn-pay),
+html[data-bench-theme="dark"] .bench-books :is(.primary, .pay-btn, .login, .search-btn, .catalog-btn, .purchase-btn),
+html[data-bench-theme="dark"] .bench-grocery :is(.search-btn, .catalog-btn, .add-btn, .purchase-btn),
+html[data-bench-theme="dark"] .bench-hotels :is(.bookBtn, .searchButton, .searchButtonText, .doneBtn, .btn, .checkPricesBtn, .checkPricesBtnText),
+html[data-bench-theme="dark"] .bench-rail :is(.buy-btn:hover, .carriage-tab.active, .search-btn, .search-submit) {
+  background: var(--bench-primary) !important;
+  background-color: var(--bench-primary) !important;
+  color: #fff !important;
+}
+
+html[data-bench-theme="dark"] .bench-market :is(.sale-badge, .disc),
+html[data-bench-theme="dark"] .bench-books :is(.hit-badge, .discount-badge, .disc),
+html[data-bench-theme="dark"] .bench-rail .carriage-tab.active,
+html[data-bench-theme="dark"] .bench-rail .carriage-tab.active .tab-seats,
+html[data-bench-theme="dark"] .bench-rail .carriage-tab.active .tab-label {
+  color: #fff !important;
+}
+
+html[data-bench-theme="dark"] .fav-btn.active,
+html[data-bench-theme="dark"] .fav-btn-static.active,
+html[data-bench-theme="dark"] .favorite.active {
+  color: #ff1f7d !important;
+}
+
+html[data-bench-theme="dark"] .bench-hub {
+  background: var(--bench-surface);
+}
+
+html[data-bench-theme="dark"] .bench-hub__title {
+  color: var(--bench-text);
+}
+
+html[data-bench-theme="dark"] .bench-profile-info-card {
+  background: var(--bench-surface-elevated) !important;
+  border-color: var(--bench-border) !important;
+  color: var(--bench-text) !important;
+}
+
+html[data-bench-theme="dark"] .bench-profile-info-card__name,
+html[data-bench-theme="dark"] .bench-profile-info-card--books .bench-profile-info-card__name {
+  color: var(--bench-text) !important;
+}
+
+html[data-bench-theme="dark"] .bench-profile-info-card__hello,
+html[data-bench-theme="dark"] .bench-profile-info-card__detail {
+  color: var(--bench-text-muted) !important;
+}
+
+html[data-bench-theme="dark"] .bench-market .item-page .info .name-more {
+  background: linear-gradient(90deg, rgba(35, 42, 59, 0) 0%, var(--bench-surface-elevated) 40%) !important;
+  color: var(--bench-primary) !important;
+}
+
+html[data-bench-theme="dark"] .bench-grocery .sber-green-btn,
+html[data-bench-theme="dark"] .bench-grocery .sber-green-btn span,
+html[data-bench-theme="dark"] .bench-grocery .sber-green-btn i {
+  color: #fff !important;
+}
+
+html[data-bench-theme="dark"] .bench-grocery .profile-menu,
+html[data-bench-theme="dark"] .bench-grocery .profile-menu-item {
+  border-color: var(--bench-border) !important;
+}
+
+html[data-bench-theme="dark"] .bench-grocery svg [fill="#404040"],
+html[data-bench-theme="dark"] .bench-market svg [fill="#404040"],
+html[data-bench-theme="dark"] .bench-books svg [fill="#404040"],
+html[data-bench-theme="dark"] .bench-rail svg [fill="#404040"],
+html[data-bench-theme="dark"] .bench-hotels svg [fill="#404040"] {
+  fill: var(--bench-text) !important;
+}
+
+html[data-bench-theme="dark"] .bench-grocery svg [stroke="#404040"],
+html[data-bench-theme="dark"] .bench-market svg [stroke="#404040"],
+html[data-bench-theme="dark"] .bench-books svg [stroke="#404040"],
+html[data-bench-theme="dark"] .bench-rail svg [stroke="#404040"],
+html[data-bench-theme="dark"] .bench-hotels svg [stroke="#404040"] {
+  stroke: var(--bench-text) !important;
+}
+
+html[data-bench-theme="dark"] .bench-hotels {
+  --header-bg: var(--bench-surface-elevated);
+  --color-background: var(--bench-surface);
+  --color-text: var(--bench-text);
+  --color-heading: var(--bench-text);
+}
+
+html[data-bench-theme="dark"] .bench-market :is(
+  .basket-list, .order-panel, .promo-banner, .basket-row, .sidebar-buy-panel,
+  .pack, .guest-cta-secondary, .user-info-card, .panel, .suggestion-tag, .section-title,
+  .book-type-chip, .about-key, .about-value, .qty-controls, .qty-btn, .qty-value, .heart-btn,
+  .card-panel, .delivery-panel, .credit-card-tile, .bonus-section, .pay-option, .pay-icon,
+  .pay-after-delivery, .point-option, .points-options, .date-chip, .tip-option, .delivery-tab,
+  .cover-toggle, .simple-header, .delivery-badge
+),
+html[data-bench-theme="dark"] .bench-market .item-page .chips .v-chip,
+html[data-bench-theme="dark"] .bench-books :is(
+  .profile-card, .format-btn, .method, .summary, .purchase-main,
+  .chip, .listen-btn, .subscribe-btn, .secondary, .panel, .pay-option, .pay-icon,
+  .footer, .gift-card, .bonus-card, .qty-controls, .badge
+),
+html[data-bench-theme="dark"] .bench-grocery :is(
+  .panel, .pay-option, .pay-icon, .catalog-link, .summary,
+  .checkout-basket-section, .checkout-basket-item, .add-to-order-section,
+  .checkout-right, .benefits-section, .benefit-item, .checkout-drawer, .details-list,
+  .qty-controls, .qty-input
+) {
+  background: var(--bench-surface-elevated) !important;
+  background-color: var(--bench-surface-elevated) !important;
+  color: var(--bench-text) !important;
+  border-color: var(--bench-border) !important;
+}
+
+html[data-bench-theme="dark"] .bench-market .purchase-page,
+html[data-bench-theme="dark"] .bench-market .simple-header {
+  background: var(--bench-surface) !important;
+  background-color: var(--bench-surface) !important;
+}
+
+html[data-bench-theme="dark"] .bench-grocery .tag-chip,
+html[data-bench-theme="dark"] .bench-market .delivery-badge,
+html[data-bench-theme="dark"] .bench-books .item-view .bonus-card .badge {
+  background: var(--bench-primary-light) !important;
+  background-color: var(--bench-primary-light) !important;
+  color: var(--bench-text) !important;
+}
+
+html[data-bench-theme="dark"] .bench-grocery .tag-chip.active {
+  background: var(--bench-primary) !important;
+  background-color: var(--bench-primary) !important;
+  color: #fff !important;
+}
+
+html[data-bench-theme="dark"] .bench-grocery .catalog-link:hover,
+html[data-bench-theme="dark"] .bench-grocery .pay-option:hover,
+html[data-bench-theme="dark"] .bench-grocery .pay-option.selected,
+html[data-bench-theme="dark"] .bench-books .pay-option:hover,
+html[data-bench-theme="dark"] .bench-books .pay-option.selected,
+html[data-bench-theme="dark"] .bench-books .format-btn:hover,
+html[data-bench-theme="dark"] .bench-books .format-btn.active,
+html[data-bench-theme="dark"] .bench-books .method:hover,
+html[data-bench-theme="dark"] .bench-books .method.selected,
+html[data-bench-theme="dark"] .bench-books .chip:hover,
+html[data-bench-theme="dark"] .bench-books .listen-btn:hover,
+html[data-bench-theme="dark"] .bench-books .subscribe-btn:hover,
+html[data-bench-theme="dark"] .bench-market .pay-option:hover,
+html[data-bench-theme="dark"] .bench-market .pay-option.selected,
+html[data-bench-theme="dark"] .bench-market .point-option:hover,
+html[data-bench-theme="dark"] .bench-market .point-option.selected,
+html[data-bench-theme="dark"] .bench-market .date-chip:hover,
+html[data-bench-theme="dark"] .bench-market .date-chip.selected,
+html[data-bench-theme="dark"] .bench-market .tip-option:hover,
+html[data-bench-theme="dark"] .bench-market .tip-option.selected,
+html[data-bench-theme="dark"] .bench-market .book-type-chip:hover,
+html[data-bench-theme="dark"] .bench-market .qty-btn:hover,
+html[data-bench-theme="dark"] .bench-market .heart-btn:hover,
+html[data-bench-theme="dark"] .bench-market .pack:hover,
+html[data-bench-theme="dark"] .bench-market .credit-card-tile:hover {
+  background: var(--bench-primary-light) !important;
+  color: var(--bench-text) !important;
+}
+
+html[data-bench-theme="dark"] .bench-market .delivery-tab.active {
+  background: var(--bench-primary) !important;
+  color: #fff !important;
+}
+
+html[data-bench-theme="dark"] .bench-grocery .drawer-close,
+html[data-bench-theme="dark"] .bench-grocery .drawer-back {
+  background: var(--bench-primary-light) !important;
+  color: var(--bench-text) !important;
+}
+
+html[data-bench-theme="dark"] .bench-files__card,
+html[data-bench-theme="dark"] .bench-files__nav-btn {
+  background: var(--bench-surface-elevated);
+  color: var(--bench-text);
+  border-color: var(--bench-border);
+}
+
+html[data-bench-theme="dark"] .bench-books .item-view .bonus-card .badge {
+  background: var(--bench-primary-light) !important;
+  color: var(--bench-text) !important;
+}
+
+html[data-bench-theme="dark"] .bench-market .controls .ctrl-icon,
+html[data-bench-theme="dark"] .bench-market .controls .ctrl-label,
+html[data-bench-theme="dark"] .bench-market .controls .ctrl:first-child .ctrl-label {
+  color: var(--bench-text) !important;
+}
+
+/* Dark theme: remaining light chips / hover surfaces that keep hardcoded whites */
+html[data-bench-theme="dark"] .bench-rail :is(
+  .dropdown-item, .action-btn, .back-btn, .edit-passenger-btn, .payment-cards,
+  .receipt-section, .cancel-btn, .additional-trips-btn, .more-photos-btn,
+  .passengers-toggle-icon, .v-expansion-panel-title,
+  .v-expansion-panel-text__wrapper, .payment-section, .terms-section,
+  .animal-transport-section, .animal-transport-btn, .insurance-section,
+  .insurance-select-btn, .mobility-section, .route-link, .duration,
+  .passenger-cards-block, .passenger-card
+) {
+  background: var(--bench-surface-elevated) !important;
+  background-color: var(--bench-surface-elevated) !important;
+  color: var(--bench-text) !important;
+  border-color: var(--bench-border) !important;
+}
+
+html[data-bench-theme="dark"] .bench-rail .dropdown-item:hover,
+html[data-bench-theme="dark"] .bench-rail .dropdown-item:hover span,
+html[data-bench-theme="dark"] .bench-rail .dropdown-item:hover i,
+html[data-bench-theme="dark"] .bench-rail .action-btn:hover,
+html[data-bench-theme="dark"] .bench-rail .back-btn:hover,
+html[data-bench-theme="dark"] .bench-rail .edit-passenger-btn:hover,
+html[data-bench-theme="dark"] .bench-rail .cancel-btn:hover,
+html[data-bench-theme="dark"] .bench-rail .additional-trips-btn:hover,
+html[data-bench-theme="dark"] .bench-rail .carriage-tab:not(.active):hover {
+  background: var(--bench-primary-light) !important;
+  color: var(--bench-text) !important;
+}
+
+html[data-bench-theme="dark"] .bench-rail .continue-btn,
+html[data-bench-theme="dark"] .bench-rail .seat-continue-bar .continue-btn,
+html[data-bench-theme="dark"] .bench-rail .submit-order-btn,
+html[data-bench-theme="dark"] .bench-rail .return-trip-btn {
+  background: var(--bench-primary) !important;
+  color: #fff !important;
+}
+
+html[data-bench-theme="dark"] .bench-rail .continue-btn:hover:not(:disabled),
+html[data-bench-theme="dark"] .bench-rail .seat-continue-bar .continue-btn:hover:not(:disabled),
+html[data-bench-theme="dark"] .bench-rail .submit-order-btn:hover:not(:disabled),
+html[data-bench-theme="dark"] .bench-rail .return-trip-btn:hover:not(:disabled) {
+  background: var(--bench-primary-hover) !important;
+  color: #fff !important;
+}
+
+html[data-bench-theme="dark"] .bench-rail :is(
+  .login-btn, .save-route-btn, .sort-btn.active, .ticket-summary, .info-banner,
+  .search-bar-form, .swap-btn, .station-dropdown, .buy-btn
+) {
+  background: var(--bench-surface-elevated) !important;
+  background-color: var(--bench-surface-elevated) !important;
+  color: var(--bench-text) !important;
+  border-color: var(--bench-border) !important;
+}
+
+html[data-bench-theme="dark"] .bench-rail .save-route-btn,
+html[data-bench-theme="dark"] .bench-rail .save-route-btn:hover {
+  background: var(--bench-primary-light) !important;
+  color: var(--bench-primary) !important;
+}
+
+html[data-bench-theme="dark"] .bench-hotels :is(
+  .wideBtn, .PoisDistance, .amenityChip, .roomAmenities, .iconBtn,
+  .ratesContainer, .ReviewHeader, .kidChip, .tab-btn-active, .root,
+  .Button, .Button_view_light, .CorpBtn, .btnLight, .roomAlert,
+  .Group--popular, .policy--bg, .segmented, .kidChipUnit
+) {
+  background: var(--bench-primary-light) !important;
+  background-color: var(--bench-primary-light) !important;
+  color: var(--bench-text) !important;
+  border-color: var(--bench-border) !important;
+}
+
+html[data-bench-theme="dark"] .bench-hotels .page {
+  background: var(--bench-surface) !important;
+  background-color: var(--bench-surface) !important;
+}
+
+html[data-bench-theme="dark"] .bench-hotels .wideBtn:hover,
+html[data-bench-theme="dark"] .bench-hotels .iconBtn:hover,
+html[data-bench-theme="dark"] .bench-hotels .amenityChip:hover {
+  background: var(--bench-primary-light) !important;
+  color: var(--bench-text) !important;
+}

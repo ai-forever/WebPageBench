@@ -1,0 +1,4227 @@
+{
+  "id": "fr",
+  "label": "Франция",
+  "cities": [
+    {
+      "id": "fr-paris",
+      "name": "Париж",
+      "countryCode": "FR",
+      "countryName": "Франция"
+    },
+    {
+      "id": "fr-nice",
+      "name": "Ницца",
+      "countryCode": "FR",
+      "countryName": "Франция"
+    },
+    {
+      "id": "fr-lyon",
+      "name": "Лион",
+      "countryCode": "FR",
+      "countryName": "Франция"
+    }
+  ],
+  "hotels": [
+    {
+      "id": "h-fr-paris-2",
+      "cityId": "fr-paris",
+      "name": "Left Bank Signature Hotel",
+      "address": "Saint-Germain, Paris",
+      "distanceFromCenter": "0.9 км от центра Париж",
+      "stars": 5,
+      "rating": 9.3,
+      "reviews": 2250,
+      "priceTotalRub": 265000,
+      "nights": 4,
+      "distanceKm": 3,
+      "type": "hotel",
+      "amenities": [
+        "wifi",
+        "breakfast",
+        "accessible"
+      ],
+      "imageUrl": "/hotels/cdn/photos/picsum_h-fr-paris-2_main_1200_800.jpg",
+      "images": [
+        "/hotels/cdn/photos/picsum_h-fr-paris-2_1_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-fr-paris-2_2_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-fr-paris-2_3_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-fr-paris-2_4_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-fr-paris-2_6_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-fr-paris-2_7_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-fr-paris-2_8_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-fr-paris-2_10_1200_800.jpg"
+      ],
+      "offer": {
+        "roomTitle": "Семейный номер",
+        "beds": "2 односпальные кровати",
+        "mealPlan": "breakfast",
+        "cancellation": "no_free",
+        "payment": "at_hotel"
+      },
+      "geoBlock": {
+        "title": "Расположение",
+        "address": "Saint-Germain, Paris",
+        "map": {
+          "lat": 48.840594418740885,
+          "lng": 2.3490383602770724,
+          "zoom": 14,
+          "query": "Saint-Germain, Paris",
+          "tileUrlTemplate": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          "tileAttribution": "© Участники OpenStreetMap"
+        },
+        "poiGroups": [
+          {
+            "id": "nearby",
+            "title": "Что вокруг",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Эйфелева башня",
+                "distance": "350 м"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Лувр",
+                "distance": "620 м"
+              },
+              {
+                "type": "PARK",
+                "name": "Нотр-Дам",
+                "distance": "890 м"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Елисейские поля",
+                "distance": "1,2 км"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Монмартр",
+                "distance": "1,6 км"
+              }
+            ]
+          },
+          {
+            "id": "top",
+            "title": "Достопримечательности",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Эйфелева башня",
+                "distance": "1,1 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Лувр",
+                "distance": "1,8 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Нотр-Дам",
+                "distance": "2,2 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Елисейские поля",
+                "distance": "2,9 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Монмартр",
+                "distance": "3,3 км"
+              }
+            ]
+          },
+          {
+            "id": "airports",
+            "title": "Аэропорты",
+            "items": [
+              {
+                "type": "AIRPORT",
+                "name": "Париж (CDG)",
+                "distance": "18,4 км"
+              }
+            ]
+          },
+          {
+            "id": "railways",
+            "title": "Вокзалы",
+            "items": [
+              {
+                "type": "RAILWAY_STATION",
+                "name": "Gare du Nord",
+                "distance": "1,4 км"
+              }
+            ]
+          }
+        ]
+      },
+      "roomOptions": {
+        "galleryCtaText": "фото",
+        "availabilityTitle": "Доступные варианты",
+        "groups": [
+          {
+            "id": "rg-h-fr-paris-2-std",
+            "name": "Двухместный номер Standard",
+            "nameAdditional": "1 большая двуспальная кровать",
+            "alert": "Осталось 2 номера по этой цене",
+            "imageUrl": "/hotels/cdn/photos/picsum_h-fr-paris-2_room_1_640_420.jpg",
+            "imageCount": 8,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "18 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Телевизор"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-fr-paris-2-std-r1",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Питание не включено",
+                  "isFeature": false
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена",
+                "priceRub": 98403,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-paris-2-std-h-fr-paris-2-std-r1"
+              },
+              {
+                "id": "h-fr-paris-2-std-r2",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена с питанием",
+                "priceRub": 104178,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-paris-2-std-h-fr-paris-2-std-r2"
+              },
+              {
+                "id": "h-fr-paris-2-std-r3",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "priceRub": 97377,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-paris-2-std-h-fr-paris-2-std-r3"
+              }
+            ]
+          },
+          {
+            "id": "rg-h-fr-paris-2-dlx",
+            "name": "Номер Deluxe",
+            "nameAdditional": "1 кровать king-size",
+            "alert": "Высокий спрос на даты",
+            "imageUrl": "/hotels/cdn/photos/picsum_h-fr-paris-2_room_2_640_420.jpg",
+            "imageCount": 12,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "24 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-fr-paris-2-dlx-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 5 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Карта для гарантии"
+                },
+                "deal": "Популярный вариант",
+                "priceRub": 148063,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 30 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-paris-2-dlx-h-fr-paris-2-dlx-r1"
+              },
+              {
+                "id": "h-fr-paris-2-dlx-r2",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Полупансион",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Списание сразу после брони"
+                },
+                "deal": "Лучшая цена с ужином",
+                "priceRub": 157501,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 30 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-paris-2-dlx-h-fr-paris-2-dlx-r2"
+              }
+            ]
+          }
+        ]
+      },
+      "aboutBlock": {
+        "title": "Об отеле",
+        "expandText": "Показать полностью",
+        "collapseText": "Свернуть",
+        "sections": [
+          {
+            "title": "Кратко",
+            "paragraphs": [
+              "Left Bank Signature Hotel расположен в одном из самых удобных районов города Париж и подойдёт как для туристических поездок, так и для деловых визитов.",
+              "Это 5-звёздочный объект размещения с современными номерами, стабильным Wi‑Fi и удобным доступом к транспорту и главным достопримечательностям Франция."
+            ]
+          },
+          {
+            "title": "Почему стоит выбрать",
+            "paragraphs": [
+              "Гости чаще всего выбирают этот вариант за удачное расположение, комфортные номера и понятные условия бронирования.",
+              "В отеле предусмотрены разные тарифы: с завтраком и без, с оплатой на месте и онлайн, с бесплатной отменой и невозвратные."
+            ]
+          }
+        ],
+        "facts": [
+          {
+            "label": "Тип размещения",
+            "value": "Отель"
+          },
+          {
+            "label": "Заезд",
+            "value": "с 15:00"
+          },
+          {
+            "label": "Выезд",
+            "value": "до 12:00"
+          },
+          {
+            "label": "Подходит для",
+            "value": "деловых поездок, отдыха вдвоём, семейного отдыха"
+          }
+        ]
+      },
+      "additionalInfoBlock": {
+        "title": "Важно знать",
+        "paragraphs": [
+          "При заселении может потребоваться банковская карта для гарантии дополнительных расходов.",
+          "Туристический налог и местные сборы, если применимо, оплачиваются отдельно по правилам города Париж.",
+          "Конкретные условия отмены и оплаты зависят от выбранного тарифа и будут показаны перед подтверждением бронирования."
+        ]
+      },
+      "accommodationBlock": {
+        "title": "Условия размещения",
+        "checkInOut": {
+          "checkIn": "15:00",
+          "checkOut": "12:00",
+          "lateCheckOut": "Поздний выезд по запросу"
+        },
+        "blocks": [
+          {
+            "id": "deposit",
+            "title": "Депозит",
+            "items": [
+              "При заселении может взиматься депозит в размере 100 EUR за номер.",
+              "Сумма депозита зависит от категории номера и тарифа."
+            ]
+          },
+          {
+            "id": "children",
+            "title": "Дети и дополнительные кровати",
+            "items": [
+              "Дети до 6 лет могут проживать бесплатно при размещении на имеющихся кроватях.",
+              "Дополнительная кровать предоставляется по запросу и оплачивается отдельно."
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Домашние животные",
+            "items": [
+              "Размещение с питомцами возможно не для всех тарифов. Уточняйте правила перед бронированием."
+            ]
+          }
+        ]
+      },
+      "currencyCode": "EUR",
+      "paymentSection": {
+        "payment": {
+          "title": "Оплата",
+          "inHotelTitle": "В отеле",
+          "onSiteTitle": "На сайте",
+          "inHotelItems": [
+            {
+              "type": "text",
+              "text": "Наличными в валюте отеля — EUR"
+            },
+            {
+              "type": "cards",
+              "label": "Картой:",
+              "codes": [
+                "visa",
+                "mastercard",
+                "american-express",
+                "dinersclub"
+              ]
+            }
+          ],
+          "onSiteText": "Для некоторых тарифов доступна оплата банковской картой при бронировании на сайте. Можно частично или полностью оплатить бронирование баллами. Можно оплатить бронирование с помощью промокода, если он у вас есть."
+        }
+      },
+      "amenitiesBlock": {
+        "title": "Удобства и услуги",
+        "groups": [
+          {
+            "id": "highlights",
+            "title": "Главное",
+            "icon": "star",
+            "items": [
+              "Бесплатный Wi‑Fi",
+              "Завтрак",
+              "Удобства для гостей с ограниченными физическими возможностями"
+            ]
+          },
+          {
+            "id": "popular",
+            "title": "Популярные",
+            "icon": "popular",
+            "variant": "popular",
+            "items": [
+              "Бесплатный интернет",
+              "Трансфер",
+              "Бар или ресторан",
+              "Для гостей с ограниченными возможностями",
+              "Разрешено с домашними животными"
+            ]
+          },
+          {
+            "id": "common",
+            "title": "Общее",
+            "icon": "common_info",
+            "items": [
+              "Круглосуточная стойка регистрации",
+              "Лифт",
+              "Обмен валюты",
+              "Отель для некурящих",
+              "Отопление",
+              "Продажа билетов",
+              "Ускоренная регистрация заезда и выезда",
+              "Терраса",
+              "Курение запрещено на всей территории"
+            ]
+          },
+          {
+            "id": "rooms",
+            "title": "В номерах",
+            "icon": "extra_service",
+            "items": [
+              "Номера для некурящих",
+              "Кабельное телевидение",
+              "Телевизор",
+              "Фен",
+              "Душ/Ванна",
+              "Душ",
+              "Шкаф/гардероб",
+              "Постельное белье",
+              "Туалетные принадлежности"
+            ]
+          },
+          {
+            "id": "accessibility",
+            "title": "Доступность",
+            "icon": "disabled_support",
+            "items": [
+              "Удобства для гостей с ограниченными физическими возможностями"
+            ]
+          },
+          {
+            "id": "services",
+            "title": "Услуги и удобства",
+            "icon": "extra_services",
+            "items": [
+              "Услуги консьержа",
+              "Хранение багажа",
+              "Услуга «звонок - будильник»",
+              "Телефон"
+            ]
+          },
+          {
+            "id": "meal",
+            "title": "Питание",
+            "icon": "meal",
+            "items": [
+              "Бар",
+              "Бесплатный чай/кофе",
+              "Завтрак",
+              "Ресторан",
+              "Торговый автомат с закусками/напитками",
+              "Кухня",
+              "Чайник"
+            ]
+          },
+          {
+            "id": "internet",
+            "title": "Интернет",
+            "icon": "internet",
+            "items": [
+              "Бесплатный Wi-Fi",
+              "Доступ в интернет"
+            ]
+          },
+          {
+            "id": "shuttle",
+            "title": "Трансфер",
+            "icon": "shuttle",
+            "items": [
+              {
+                "text": "Трансфер от/до аэропорта",
+                "note": "оплачивается отдельно"
+              },
+              "Заказ такси"
+            ]
+          },
+          {
+            "id": "languages",
+            "title": "Персонал говорит",
+            "icon": "languages",
+            "items": [
+              "на испанском",
+              "на немецком",
+              "на английском",
+              "на итальянском",
+              "на французском",
+              "Мультиязычный персонал",
+              "на португальском",
+              "на арабском"
+            ]
+          },
+          {
+            "id": "tours",
+            "title": "Туризм",
+            "icon": "tours",
+            "items": [
+              "Экскурсионное бюро"
+            ]
+          },
+          {
+            "id": "pool",
+            "title": "Бассейн и пляж",
+            "icon": "pool",
+            "items": [
+              "Полотенца для пляжа/бассейна"
+            ]
+          },
+          {
+            "id": "health",
+            "title": "Красота и здоровье",
+            "icon": "barber_shop",
+            "items": [
+              "Врач",
+              "Аптечка первой помощи"
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Животные",
+            "icon": "pets",
+            "items": [
+              "Размещение с домашними животными"
+            ]
+          },
+          {
+            "id": "anticovid",
+            "title": "Санитарные меры",
+            "icon": "anticovid",
+            "items": [
+              "Температурный контроль для персонала",
+              "Усиленные меры дезинфекции",
+              "Температурный контроль для гостей",
+              "Индивидуальные средства защиты для гостей",
+              "Дополнительные меры против COVID-19"
+            ]
+          }
+        ]
+      },
+      "reviewsBlock": {
+        "title": "Отзывы",
+        "ratingSummary": {
+          "value": 9.3,
+          "totalReviews": 2250,
+          "localLanguageReviews": 56,
+          "basedOnText": "Основано на {TOTAL} отзывах гостей из разных стран.",
+          "localLanguageText": "На вашем языке доступно {LOCAL} отзывов"
+        },
+        "detailedScores": [
+          {
+            "label": "Чистота",
+            "value": 9.1
+          },
+          {
+            "label": "Средства гигиены"
+          },
+          {
+            "label": "Расположение",
+            "value": 8.6
+          },
+          {
+            "label": "Питание"
+          },
+          {
+            "label": "Цена/Качество",
+            "value": 8.6
+          },
+          {
+            "label": "Номер",
+            "value": 9
+          },
+          {
+            "label": "Обслуживание",
+            "value": 9.1
+          },
+          {
+            "label": "Качество Wi‑Fi"
+          }
+        ],
+        "tripadvisor": {
+          "label": "TripAdvisor",
+          "reviews": 2247,
+          "href": "https://www.tripadvisor.com"
+        },
+        "reviews": [
+          {
+            "id": "rv-1",
+            "source": "tripadvisor",
+            "author": "AlexTraveler",
+            "countryCode": "RU",
+            "tripType": "пара",
+            "date": "май 2025 г.",
+            "rating": 5,
+            "title": "Отличное расположение",
+            "text": "Left Bank Signature Hotel приятно удивил: удобный район, хорошие завтраки и быстрый заезд. До основных точек в Париж легко добраться пешком или на метро."
+          },
+          {
+            "id": "rv-2",
+            "source": "tripadvisor",
+            "author": "BusinessGuest",
+            "countryCode": "KZ",
+            "tripType": "деловая поездка",
+            "date": "февраль 2025 г.",
+            "rating": 4,
+            "title": "Подходит для командировок",
+            "text": "Стабильный интернет, удобное рабочее место в номере и вежливый персонал. Для короткой деловой поездки вариант очень удачный."
+          },
+          {
+            "id": "rv-3",
+            "source": "tripadvisor",
+            "author": "FamilyTrip",
+            "countryCode": "BY",
+            "tripType": "семья",
+            "date": "январь 2025 г.",
+            "rating": 5,
+            "title": "Комфортно с детьми",
+            "text": "Чистый номер, хорошие кровати, понятные правила заселения. Особенно понравилось, что рядом есть кафе, магазины и транспорт."
+          }
+        ],
+        "moreLink": {
+          "href": "https://www.tripadvisor.com",
+          "remaining": 2247,
+          "text": "Посмотреть ещё {N} отзывов на TripAdvisor"
+        }
+      },
+      "filters": {
+        "amenitiesHotel": [
+          "conf",
+          "internet"
+        ],
+        "amenitiesRoom": [],
+        "placement": [
+          "accessible",
+          "kids"
+        ],
+        "meals": [
+          "breakfastIncluded"
+        ],
+        "paymentAndBooking": [
+          "freeCancellation",
+          "payOnsite"
+        ],
+        "rooms": 1,
+        "bedTypes": [
+          "doubleBed"
+        ]
+      }
+    },
+    {
+      "id": "h-fr-paris-3",
+      "cityId": "fr-paris",
+      "name": "Montmartre Artist Loft",
+      "address": "Montmartre, Paris",
+      "distanceFromCenter": "2.3 км от центра Париж",
+      "stars": 4,
+      "rating": 8.7,
+      "reviews": 348,
+      "priceTotalRub": 140000,
+      "nights": 4,
+      "distanceKm": 2.1,
+      "type": "apartment",
+      "amenities": [
+        "wifi",
+        "pets",
+        "airConditioning"
+      ],
+      "imageUrl": "/hotels/cdn/photos/picsum_h-fr-paris-3_main_1200_800.jpg",
+      "images": [
+        "/hotels/cdn/photos/picsum_h-fr-paris-3_1_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-fr-paris-3_2_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-fr-paris-3_3_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-fr-paris-3_4_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-fr-paris-3_7_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-fr-paris-3_10_1200_800.jpg"
+      ],
+      "offer": {
+        "roomTitle": "Номер Deluxe",
+        "beds": "2 односпальные кровати",
+        "mealPlan": "none",
+        "cancellation": "no_free",
+        "payment": "online"
+      },
+      "geoBlock": {
+        "title": "Расположение",
+        "address": "Montmartre, Paris",
+        "map": {
+          "lat": 48.8368824888152,
+          "lng": 2.356782718298376,
+          "zoom": 14,
+          "query": "Montmartre, Paris",
+          "tileUrlTemplate": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          "tileAttribution": "© Участники OpenStreetMap"
+        },
+        "poiGroups": [
+          {
+            "id": "nearby",
+            "title": "Что вокруг",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Эйфелева башня",
+                "distance": "350 м"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Лувр",
+                "distance": "620 м"
+              },
+              {
+                "type": "PARK",
+                "name": "Нотр-Дам",
+                "distance": "890 м"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Елисейские поля",
+                "distance": "1,2 км"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Монмартр",
+                "distance": "1,6 км"
+              }
+            ]
+          },
+          {
+            "id": "top",
+            "title": "Достопримечательности",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Эйфелева башня",
+                "distance": "1,1 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Лувр",
+                "distance": "1,8 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Нотр-Дам",
+                "distance": "2,2 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Елисейские поля",
+                "distance": "2,9 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Монмартр",
+                "distance": "3,3 км"
+              }
+            ]
+          },
+          {
+            "id": "airports",
+            "title": "Аэропорты",
+            "items": [
+              {
+                "type": "AIRPORT",
+                "name": "Париж (CDG)",
+                "distance": "18,4 км"
+              }
+            ]
+          },
+          {
+            "id": "railways",
+            "title": "Вокзалы",
+            "items": [
+              {
+                "type": "RAILWAY_STATION",
+                "name": "Gare du Nord",
+                "distance": "1,4 км"
+              }
+            ]
+          }
+        ]
+      },
+      "roomOptions": {
+        "galleryCtaText": "фото",
+        "availabilityTitle": "Доступные варианты",
+        "groups": [
+          {
+            "id": "rg-h-fr-paris-3-std",
+            "name": "Двухместный номер Standard",
+            "nameAdditional": "1 большая двуспальная кровать",
+            "alert": "Осталось 2 номера по этой цене",
+            "imageUrl": "/hotels/cdn/photos/picsum_h-fr-paris-3_room_1_640_420.jpg",
+            "imageCount": 8,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "18 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Телевизор"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-fr-paris-3-std-r1",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Питание не включено",
+                  "isFeature": false
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена",
+                "priceRub": 84114,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-paris-3-std-h-fr-paris-3-std-r1"
+              },
+              {
+                "id": "h-fr-paris-3-std-r2",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена с питанием",
+                "priceRub": 97024,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-paris-3-std-h-fr-paris-3-std-r2"
+              },
+              {
+                "id": "h-fr-paris-3-std-r3",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "priceRub": 99095,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-paris-3-std-h-fr-paris-3-std-r3"
+              }
+            ]
+          },
+          {
+            "id": "rg-h-fr-paris-3-dlx",
+            "name": "Номер Deluxe",
+            "nameAdditional": "1 кровать king-size",
+            "alert": "Высокий спрос на даты",
+            "imageUrl": "/hotels/cdn/photos/picsum_h-fr-paris-3_room_2_640_420.jpg",
+            "imageCount": 12,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "24 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-fr-paris-3-dlx-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 5 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Карта для гарантии"
+                },
+                "deal": "Популярный вариант",
+                "priceRub": 144592,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 30 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-paris-3-dlx-h-fr-paris-3-dlx-r1"
+              },
+              {
+                "id": "h-fr-paris-3-dlx-r2",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Полупансион",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Списание сразу после брони"
+                },
+                "deal": "Лучшая цена с ужином",
+                "priceRub": 140548,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 30 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-paris-3-dlx-h-fr-paris-3-dlx-r2"
+              }
+            ]
+          }
+        ]
+      },
+      "aboutBlock": {
+        "title": "Об отеле",
+        "expandText": "Показать полностью",
+        "collapseText": "Свернуть",
+        "sections": [
+          {
+            "title": "Кратко",
+            "paragraphs": [
+              "Montmartre Artist Loft расположен в одном из самых удобных районов города Париж и подойдёт как для туристических поездок, так и для деловых визитов.",
+              "Это 4-звёздочный объект размещения с современными номерами, стабильным Wi‑Fi и удобным доступом к транспорту и главным достопримечательностям Франция."
+            ]
+          },
+          {
+            "title": "Почему стоит выбрать",
+            "paragraphs": [
+              "Гости чаще всего выбирают этот вариант за удачное расположение, комфортные номера и понятные условия бронирования.",
+              "В отеле предусмотрены разные тарифы: с завтраком и без, с оплатой на месте и онлайн, с бесплатной отменой и невозвратные."
+            ]
+          }
+        ],
+        "facts": [
+          {
+            "label": "Тип размещения",
+            "value": "Отель"
+          },
+          {
+            "label": "Заезд",
+            "value": "с 15:00"
+          },
+          {
+            "label": "Выезд",
+            "value": "до 12:00"
+          },
+          {
+            "label": "Подходит для",
+            "value": "деловых поездок, отдыха вдвоём, семейного отдыха"
+          }
+        ]
+      },
+      "additionalInfoBlock": {
+        "title": "Важно знать",
+        "paragraphs": [
+          "При заселении может потребоваться банковская карта для гарантии дополнительных расходов.",
+          "Туристический налог и местные сборы, если применимо, оплачиваются отдельно по правилам города Париж.",
+          "Конкретные условия отмены и оплаты зависят от выбранного тарифа и будут показаны перед подтверждением бронирования."
+        ]
+      },
+      "accommodationBlock": {
+        "title": "Условия размещения",
+        "checkInOut": {
+          "checkIn": "15:00",
+          "checkOut": "12:00",
+          "lateCheckOut": "Поздний выезд по запросу"
+        },
+        "blocks": [
+          {
+            "id": "deposit",
+            "title": "Депозит",
+            "items": [
+              "При заселении может взиматься депозит в размере 100 EUR за номер.",
+              "Сумма депозита зависит от категории номера и тарифа."
+            ]
+          },
+          {
+            "id": "children",
+            "title": "Дети и дополнительные кровати",
+            "items": [
+              "Дети до 6 лет могут проживать бесплатно при размещении на имеющихся кроватях.",
+              "Дополнительная кровать предоставляется по запросу и оплачивается отдельно."
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Домашние животные",
+            "items": [
+              "Размещение с питомцами возможно не для всех тарифов. Уточняйте правила перед бронированием."
+            ]
+          }
+        ]
+      },
+      "currencyCode": "EUR",
+      "paymentSection": {
+        "payment": {
+          "title": "Оплата",
+          "inHotelTitle": "В отеле",
+          "onSiteTitle": "На сайте",
+          "inHotelItems": [
+            {
+              "type": "text",
+              "text": "Наличными в валюте отеля — EUR"
+            },
+            {
+              "type": "cards",
+              "label": "Картой:",
+              "codes": [
+                "visa",
+                "mastercard",
+                "american-express",
+                "dinersclub"
+              ]
+            }
+          ],
+          "onSiteText": "Для некоторых тарифов доступна оплата банковской картой при бронировании на сайте. Можно частично или полностью оплатить бронирование баллами. Можно оплатить бронирование с помощью промокода, если он у вас есть."
+        }
+      },
+      "amenitiesBlock": {
+        "title": "Удобства и услуги",
+        "groups": [
+          {
+            "id": "highlights",
+            "title": "Главное",
+            "icon": "star",
+            "items": [
+              "Бесплатный Wi‑Fi",
+              "Размещение с домашними животными",
+              "Кондиционер"
+            ]
+          },
+          {
+            "id": "popular",
+            "title": "Популярные",
+            "icon": "popular",
+            "variant": "popular",
+            "items": [
+              "Бесплатный интернет",
+              "Трансфер",
+              "Бар или ресторан",
+              "Для гостей с ограниченными возможностями",
+              "Разрешено с домашними животными"
+            ]
+          },
+          {
+            "id": "common",
+            "title": "Общее",
+            "icon": "common_info",
+            "items": [
+              "Круглосуточная стойка регистрации",
+              "Лифт",
+              "Обмен валюты",
+              "Отель для некурящих",
+              "Отопление",
+              "Продажа билетов",
+              "Ускоренная регистрация заезда и выезда",
+              "Терраса",
+              "Курение запрещено на всей территории"
+            ]
+          },
+          {
+            "id": "rooms",
+            "title": "В номерах",
+            "icon": "extra_service",
+            "items": [
+              "Номера для некурящих",
+              "Кабельное телевидение",
+              "Телевизор",
+              "Фен",
+              "Душ/Ванна",
+              "Душ",
+              "Шкаф/гардероб",
+              "Постельное белье",
+              "Туалетные принадлежности"
+            ]
+          },
+          {
+            "id": "accessibility",
+            "title": "Доступность",
+            "icon": "disabled_support",
+            "items": [
+              "Удобства для гостей с ограниченными физическими возможностями"
+            ]
+          },
+          {
+            "id": "services",
+            "title": "Услуги и удобства",
+            "icon": "extra_services",
+            "items": [
+              "Услуги консьержа",
+              "Хранение багажа",
+              "Услуга «звонок - будильник»",
+              "Телефон"
+            ]
+          },
+          {
+            "id": "meal",
+            "title": "Питание",
+            "icon": "meal",
+            "items": [
+              "Бар",
+              "Бесплатный чай/кофе",
+              "Завтрак",
+              "Ресторан",
+              "Торговый автомат с закусками/напитками",
+              "Кухня",
+              "Чайник"
+            ]
+          },
+          {
+            "id": "internet",
+            "title": "Интернет",
+            "icon": "internet",
+            "items": [
+              "Бесплатный Wi-Fi",
+              "Доступ в интернет"
+            ]
+          },
+          {
+            "id": "shuttle",
+            "title": "Трансфер",
+            "icon": "shuttle",
+            "items": [
+              {
+                "text": "Трансфер от/до аэропорта",
+                "note": "оплачивается отдельно"
+              },
+              "Заказ такси"
+            ]
+          },
+          {
+            "id": "languages",
+            "title": "Персонал говорит",
+            "icon": "languages",
+            "items": [
+              "на испанском",
+              "на немецком",
+              "на английском",
+              "на итальянском",
+              "на французском",
+              "Мультиязычный персонал",
+              "на португальском",
+              "на арабском"
+            ]
+          },
+          {
+            "id": "tours",
+            "title": "Туризм",
+            "icon": "tours",
+            "items": [
+              "Экскурсионное бюро"
+            ]
+          },
+          {
+            "id": "pool",
+            "title": "Бассейн и пляж",
+            "icon": "pool",
+            "items": [
+              "Полотенца для пляжа/бассейна"
+            ]
+          },
+          {
+            "id": "health",
+            "title": "Красота и здоровье",
+            "icon": "barber_shop",
+            "items": [
+              "Врач",
+              "Аптечка первой помощи"
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Животные",
+            "icon": "pets",
+            "items": [
+              "Размещение с домашними животными"
+            ]
+          },
+          {
+            "id": "anticovid",
+            "title": "Санитарные меры",
+            "icon": "anticovid",
+            "items": [
+              "Температурный контроль для персонала",
+              "Усиленные меры дезинфекции",
+              "Температурный контроль для гостей",
+              "Индивидуальные средства защиты для гостей",
+              "Дополнительные меры против COVID-19"
+            ]
+          }
+        ]
+      },
+      "reviewsBlock": {
+        "title": "Отзывы",
+        "ratingSummary": {
+          "value": 8.7,
+          "totalReviews": 348,
+          "localLanguageReviews": 8,
+          "basedOnText": "Основано на {TOTAL} отзывах гостей из разных стран.",
+          "localLanguageText": "На вашем языке доступно {LOCAL} отзывов"
+        },
+        "detailedScores": [
+          {
+            "label": "Чистота",
+            "value": 8.2
+          },
+          {
+            "label": "Средства гигиены"
+          },
+          {
+            "label": "Расположение",
+            "value": 8.3
+          },
+          {
+            "label": "Питание"
+          },
+          {
+            "label": "Цена/Качество",
+            "value": 8
+          },
+          {
+            "label": "Номер",
+            "value": 9
+          },
+          {
+            "label": "Обслуживание",
+            "value": 8.6
+          },
+          {
+            "label": "Качество Wi‑Fi"
+          }
+        ],
+        "tripadvisor": {
+          "label": "TripAdvisor",
+          "reviews": 345,
+          "href": "https://www.tripadvisor.com"
+        },
+        "reviews": [
+          {
+            "id": "rv-1",
+            "source": "tripadvisor",
+            "author": "AlexTraveler",
+            "countryCode": "RU",
+            "tripType": "пара",
+            "date": "май 2025 г.",
+            "rating": 5,
+            "title": "Отличное расположение",
+            "text": "Montmartre Artist Loft приятно удивил: удобный район, хорошие завтраки и быстрый заезд. До основных точек в Париж легко добраться пешком или на метро."
+          },
+          {
+            "id": "rv-2",
+            "source": "tripadvisor",
+            "author": "BusinessGuest",
+            "countryCode": "KZ",
+            "tripType": "деловая поездка",
+            "date": "февраль 2025 г.",
+            "rating": 4,
+            "title": "Подходит для командировок",
+            "text": "Стабильный интернет, удобное рабочее место в номере и вежливый персонал. Для короткой деловой поездки вариант очень удачный."
+          },
+          {
+            "id": "rv-3",
+            "source": "tripadvisor",
+            "author": "FamilyTrip",
+            "countryCode": "BY",
+            "tripType": "семья",
+            "date": "январь 2025 г.",
+            "rating": 5,
+            "title": "Комфортно с детьми",
+            "text": "Чистый номер, хорошие кровати, понятные правила заселения. Особенно понравилось, что рядом есть кафе, магазины и транспорт."
+          }
+        ],
+        "moreLink": {
+          "href": "https://www.tripadvisor.com",
+          "remaining": 345,
+          "text": "Посмотреть ещё {N} отзывов на TripAdvisor"
+        }
+      },
+      "filters": {
+        "amenitiesHotel": [
+          "conf",
+          "internet"
+        ],
+        "amenitiesRoom": [],
+        "placement": [
+          "kids",
+          "pets"
+        ],
+        "meals": [],
+        "paymentAndBooking": [
+          "freeCancellation",
+          "payOnsite"
+        ],
+        "rooms": 1,
+        "bedTypes": [
+          "doubleBed"
+        ]
+      }
+    },
+    {
+      "id": "h-fr-nice-2",
+      "cityId": "fr-nice",
+      "name": "Azure Promenade Resort",
+      "address": "Promenade des Anglais, Nice",
+      "distanceFromCenter": "0.9 км от центра Ницца",
+      "stars": 5,
+      "rating": 9.1,
+      "reviews": 312,
+      "priceTotalRub": 279000,
+      "nights": 4,
+      "distanceKm": 3.2,
+      "type": "hotel",
+      "amenities": [
+        "wifi",
+        "breakfast",
+        "parking"
+      ],
+      "imageUrl": "/hotels/cdn/photos/picsum_h-fr-nice-2_main_1200_800.jpg",
+      "images": [
+        "/hotels/cdn/photos/picsum_h-fr-nice-2_1_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-fr-nice-2_2_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-fr-nice-2_3_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-fr-nice-2_6_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-fr-nice-2_7_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-fr-nice-2_9_1200_800.jpg"
+      ],
+      "offer": {
+        "roomTitle": "Представительский номер",
+        "beds": "кровать king-size",
+        "mealPlan": "breakfast",
+        "cancellation": "free",
+        "payment": "online"
+      },
+      "geoBlock": {
+        "title": "Расположение",
+        "address": "Promenade des Anglais, Nice",
+        "map": {
+          "lat": 43.72577466429157,
+          "lng": 7.262874978358256,
+          "zoom": 14,
+          "query": "Promenade des Anglais, Nice",
+          "tileUrlTemplate": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          "tileAttribution": "© Участники OpenStreetMap"
+        },
+        "poiGroups": [
+          {
+            "id": "nearby",
+            "title": "Что вокруг",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Promenade des Anglais",
+                "distance": "350 м"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Castle Hill",
+                "distance": "620 м"
+              },
+              {
+                "type": "PARK",
+                "name": "Старый город",
+                "distance": "890 м"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Place Masséna",
+                "distance": "1,2 км"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Порт Ниццы",
+                "distance": "1,6 км"
+              }
+            ]
+          },
+          {
+            "id": "top",
+            "title": "Достопримечательности",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Promenade des Anglais",
+                "distance": "1,1 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Castle Hill",
+                "distance": "1,8 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Старый город",
+                "distance": "2,2 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Place Masséna",
+                "distance": "2,9 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Порт Ниццы",
+                "distance": "3,3 км"
+              }
+            ]
+          },
+          {
+            "id": "airports",
+            "title": "Аэропорты",
+            "items": [
+              {
+                "type": "AIRPORT",
+                "name": "Ницца (NCE)",
+                "distance": "18,4 км"
+              }
+            ]
+          },
+          {
+            "id": "railways",
+            "title": "Вокзалы",
+            "items": [
+              {
+                "type": "RAILWAY_STATION",
+                "name": "Nice-Ville",
+                "distance": "1,4 км"
+              }
+            ]
+          }
+        ]
+      },
+      "roomOptions": {
+        "galleryCtaText": "фото",
+        "availabilityTitle": "Доступные варианты",
+        "groups": [
+          {
+            "id": "rg-h-fr-nice-2-std",
+            "name": "Двухместный номер Standard",
+            "nameAdditional": "1 большая двуспальная кровать",
+            "alert": "Осталось 2 номера по этой цене",
+            "imageUrl": "/hotels/cdn/photos/picsum_h-fr-nice-2_room_1_640_420.jpg",
+            "imageCount": 8,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "18 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Телевизор"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-fr-nice-2-std-r1",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Питание не включено",
+                  "isFeature": false
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена",
+                "priceRub": 94049,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-nice-2-std-h-fr-nice-2-std-r1"
+              },
+              {
+                "id": "h-fr-nice-2-std-r2",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена с питанием",
+                "priceRub": 97359,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-nice-2-std-h-fr-nice-2-std-r2"
+              },
+              {
+                "id": "h-fr-nice-2-std-r3",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "priceRub": 100082,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-nice-2-std-h-fr-nice-2-std-r3"
+              }
+            ]
+          },
+          {
+            "id": "rg-h-fr-nice-2-dlx",
+            "name": "Номер Deluxe",
+            "nameAdditional": "1 кровать king-size",
+            "alert": "Высокий спрос на даты",
+            "imageUrl": "/hotels/cdn/photos/picsum_h-fr-nice-2_room_2_640_420.jpg",
+            "imageCount": 12,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "24 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-fr-nice-2-dlx-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 5 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Карта для гарантии"
+                },
+                "deal": "Популярный вариант",
+                "priceRub": 144111,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 30 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-nice-2-dlx-h-fr-nice-2-dlx-r1"
+              },
+              {
+                "id": "h-fr-nice-2-dlx-r2",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Полупансион",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Списание сразу после брони"
+                },
+                "deal": "Лучшая цена с ужином",
+                "priceRub": 169556,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 30 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-nice-2-dlx-h-fr-nice-2-dlx-r2"
+              }
+            ]
+          }
+        ]
+      },
+      "aboutBlock": {
+        "title": "Об отеле",
+        "expandText": "Показать полностью",
+        "collapseText": "Свернуть",
+        "sections": [
+          {
+            "title": "Кратко",
+            "paragraphs": [
+              "Azure Promenade Resort расположен в одном из самых удобных районов города Ницца и подойдёт как для туристических поездок, так и для деловых визитов.",
+              "Это 5-звёздочный объект размещения с современными номерами, стабильным Wi‑Fi и удобным доступом к транспорту и главным достопримечательностям Франция."
+            ]
+          },
+          {
+            "title": "Почему стоит выбрать",
+            "paragraphs": [
+              "Гости чаще всего выбирают этот вариант за удачное расположение, комфортные номера и понятные условия бронирования.",
+              "В отеле предусмотрены разные тарифы: с завтраком и без, с оплатой на месте и онлайн, с бесплатной отменой и невозвратные."
+            ]
+          }
+        ],
+        "facts": [
+          {
+            "label": "Тип размещения",
+            "value": "Отель"
+          },
+          {
+            "label": "Заезд",
+            "value": "с 15:00"
+          },
+          {
+            "label": "Выезд",
+            "value": "до 12:00"
+          },
+          {
+            "label": "Подходит для",
+            "value": "деловых поездок, отдыха вдвоём, семейного отдыха"
+          }
+        ]
+      },
+      "additionalInfoBlock": {
+        "title": "Важно знать",
+        "paragraphs": [
+          "При заселении может потребоваться банковская карта для гарантии дополнительных расходов.",
+          "Туристический налог и местные сборы, если применимо, оплачиваются отдельно по правилам города Ницца.",
+          "Конкретные условия отмены и оплаты зависят от выбранного тарифа и будут показаны перед подтверждением бронирования."
+        ]
+      },
+      "accommodationBlock": {
+        "title": "Условия размещения",
+        "checkInOut": {
+          "checkIn": "15:00",
+          "checkOut": "12:00",
+          "lateCheckOut": "Поздний выезд по запросу"
+        },
+        "blocks": [
+          {
+            "id": "deposit",
+            "title": "Депозит",
+            "items": [
+              "При заселении может взиматься депозит в размере 100 EUR за номер.",
+              "Сумма депозита зависит от категории номера и тарифа."
+            ]
+          },
+          {
+            "id": "children",
+            "title": "Дети и дополнительные кровати",
+            "items": [
+              "Дети до 6 лет могут проживать бесплатно при размещении на имеющихся кроватях.",
+              "Дополнительная кровать предоставляется по запросу и оплачивается отдельно."
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Домашние животные",
+            "items": [
+              "Размещение с питомцами возможно не для всех тарифов. Уточняйте правила перед бронированием."
+            ]
+          }
+        ]
+      },
+      "currencyCode": "EUR",
+      "paymentSection": {
+        "payment": {
+          "title": "Оплата",
+          "inHotelTitle": "В отеле",
+          "onSiteTitle": "На сайте",
+          "inHotelItems": [
+            {
+              "type": "text",
+              "text": "Наличными в валюте отеля — EUR"
+            },
+            {
+              "type": "cards",
+              "label": "Картой:",
+              "codes": [
+                "visa",
+                "mastercard",
+                "american-express",
+                "dinersclub"
+              ]
+            }
+          ],
+          "onSiteText": "Для некоторых тарифов доступна оплата банковской картой при бронировании на сайте. Можно частично или полностью оплатить бронирование баллами. Можно оплатить бронирование с помощью промокода, если он у вас есть."
+        }
+      },
+      "amenitiesBlock": {
+        "title": "Удобства и услуги",
+        "groups": [
+          {
+            "id": "highlights",
+            "title": "Главное",
+            "icon": "star",
+            "items": [
+              "Бесплатный Wi‑Fi",
+              "Завтрак",
+              "Парковка"
+            ]
+          },
+          {
+            "id": "popular",
+            "title": "Популярные",
+            "icon": "popular",
+            "variant": "popular",
+            "items": [
+              "Бесплатный интернет",
+              "Трансфер",
+              "Бар или ресторан",
+              "Для гостей с ограниченными возможностями",
+              "Разрешено с домашними животными"
+            ]
+          },
+          {
+            "id": "common",
+            "title": "Общее",
+            "icon": "common_info",
+            "items": [
+              "Круглосуточная стойка регистрации",
+              "Лифт",
+              "Обмен валюты",
+              "Отель для некурящих",
+              "Отопление",
+              "Продажа билетов",
+              "Ускоренная регистрация заезда и выезда",
+              "Терраса",
+              "Курение запрещено на всей территории"
+            ]
+          },
+          {
+            "id": "rooms",
+            "title": "В номерах",
+            "icon": "extra_service",
+            "items": [
+              "Номера для некурящих",
+              "Кабельное телевидение",
+              "Телевизор",
+              "Фен",
+              "Душ/Ванна",
+              "Душ",
+              "Шкаф/гардероб",
+              "Постельное белье",
+              "Туалетные принадлежности"
+            ]
+          },
+          {
+            "id": "accessibility",
+            "title": "Доступность",
+            "icon": "disabled_support",
+            "items": [
+              "Удобства для гостей с ограниченными физическими возможностями"
+            ]
+          },
+          {
+            "id": "services",
+            "title": "Услуги и удобства",
+            "icon": "extra_services",
+            "items": [
+              "Услуги консьержа",
+              "Хранение багажа",
+              "Услуга «звонок - будильник»",
+              "Телефон"
+            ]
+          },
+          {
+            "id": "meal",
+            "title": "Питание",
+            "icon": "meal",
+            "items": [
+              "Бар",
+              "Бесплатный чай/кофе",
+              "Завтрак",
+              "Ресторан",
+              "Торговый автомат с закусками/напитками",
+              "Кухня",
+              "Чайник"
+            ]
+          },
+          {
+            "id": "internet",
+            "title": "Интернет",
+            "icon": "internet",
+            "items": [
+              "Бесплатный Wi-Fi",
+              "Доступ в интернет"
+            ]
+          },
+          {
+            "id": "shuttle",
+            "title": "Трансфер",
+            "icon": "shuttle",
+            "items": [
+              {
+                "text": "Трансфер от/до аэропорта",
+                "note": "оплачивается отдельно"
+              },
+              "Заказ такси"
+            ]
+          },
+          {
+            "id": "languages",
+            "title": "Персонал говорит",
+            "icon": "languages",
+            "items": [
+              "на испанском",
+              "на немецком",
+              "на английском",
+              "на итальянском",
+              "на французском",
+              "Мультиязычный персонал",
+              "на португальском",
+              "на арабском"
+            ]
+          },
+          {
+            "id": "tours",
+            "title": "Туризм",
+            "icon": "tours",
+            "items": [
+              "Экскурсионное бюро"
+            ]
+          },
+          {
+            "id": "pool",
+            "title": "Бассейн и пляж",
+            "icon": "pool",
+            "items": [
+              "Полотенца для пляжа/бассейна"
+            ]
+          },
+          {
+            "id": "health",
+            "title": "Красота и здоровье",
+            "icon": "barber_shop",
+            "items": [
+              "Врач",
+              "Аптечка первой помощи"
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Животные",
+            "icon": "pets",
+            "items": [
+              "Размещение с домашними животными"
+            ]
+          },
+          {
+            "id": "anticovid",
+            "title": "Санитарные меры",
+            "icon": "anticovid",
+            "items": [
+              "Температурный контроль для персонала",
+              "Усиленные меры дезинфекции",
+              "Температурный контроль для гостей",
+              "Индивидуальные средства защиты для гостей",
+              "Дополнительные меры против COVID-19"
+            ]
+          }
+        ]
+      },
+      "reviewsBlock": {
+        "title": "Отзывы",
+        "ratingSummary": {
+          "value": 9.1,
+          "totalReviews": 312,
+          "localLanguageReviews": 7,
+          "basedOnText": "Основано на {TOTAL} отзывах гостей из разных стран.",
+          "localLanguageText": "На вашем языке доступно {LOCAL} отзывов"
+        },
+        "detailedScores": [
+          {
+            "label": "Чистота",
+            "value": 9.4
+          },
+          {
+            "label": "Средства гигиены"
+          },
+          {
+            "label": "Расположение",
+            "value": 8.7
+          },
+          {
+            "label": "Питание"
+          },
+          {
+            "label": "Цена/Качество",
+            "value": 9.1
+          },
+          {
+            "label": "Номер",
+            "value": 8.5
+          },
+          {
+            "label": "Обслуживание",
+            "value": 9
+          },
+          {
+            "label": "Качество Wi‑Fi"
+          }
+        ],
+        "tripadvisor": {
+          "label": "TripAdvisor",
+          "reviews": 309,
+          "href": "https://www.tripadvisor.com"
+        },
+        "reviews": [
+          {
+            "id": "rv-1",
+            "source": "tripadvisor",
+            "author": "AlexTraveler",
+            "countryCode": "RU",
+            "tripType": "пара",
+            "date": "май 2025 г.",
+            "rating": 5,
+            "title": "Отличное расположение",
+            "text": "Azure Promenade Resort приятно удивил: удобный район, хорошие завтраки и быстрый заезд. До основных точек в Ницца легко добраться пешком или на метро."
+          },
+          {
+            "id": "rv-2",
+            "source": "tripadvisor",
+            "author": "BusinessGuest",
+            "countryCode": "KZ",
+            "tripType": "деловая поездка",
+            "date": "февраль 2025 г.",
+            "rating": 4,
+            "title": "Подходит для командировок",
+            "text": "Стабильный интернет, удобное рабочее место в номере и вежливый персонал. Для короткой деловой поездки вариант очень удачный."
+          },
+          {
+            "id": "rv-3",
+            "source": "tripadvisor",
+            "author": "FamilyTrip",
+            "countryCode": "BY",
+            "tripType": "семья",
+            "date": "январь 2025 г.",
+            "rating": 5,
+            "title": "Комфортно с детьми",
+            "text": "Чистый номер, хорошие кровати, понятные правила заселения. Особенно понравилось, что рядом есть кафе, магазины и транспорт."
+          }
+        ],
+        "moreLink": {
+          "href": "https://www.tripadvisor.com",
+          "remaining": 309,
+          "text": "Посмотреть ещё {N} отзывов на TripAdvisor"
+        }
+      },
+      "filters": {
+        "amenitiesHotel": [
+          "conf",
+          "internet",
+          "parking"
+        ],
+        "amenitiesRoom": [],
+        "placement": [
+          "kids"
+        ],
+        "meals": [
+          "breakfastIncluded"
+        ],
+        "paymentAndBooking": [
+          "freeCancellation",
+          "payOnsite"
+        ],
+        "rooms": 1,
+        "bedTypes": [
+          "doubleBed"
+        ]
+      }
+    },
+    {
+      "id": "h-fr-nice-3",
+      "cityId": "fr-nice",
+      "name": "Old Town Boutique Inn",
+      "address": "Vieux Nice, Nice",
+      "distanceFromCenter": "2.8 км от центра Ницца",
+      "stars": 4,
+      "rating": 8.8,
+      "reviews": 2403,
+      "priceTotalRub": 285000,
+      "nights": 4,
+      "distanceKm": 3.2,
+      "type": "guest_house",
+      "amenities": [
+        "wifi",
+        "airConditioning"
+      ],
+      "imageUrl": "/hotels/cdn/photos/picsum_h-fr-nice-3_main_1200_800.jpg",
+      "images": [
+        "/hotels/cdn/photos/picsum_h-fr-nice-3_1_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-fr-nice-3_2_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-fr-nice-3_6_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-fr-nice-3_7_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-fr-nice-3_8_1200_800.jpg"
+      ],
+      "offer": {
+        "roomTitle": "Номер Superior",
+        "beds": "2 односпальные кровати",
+        "mealPlan": "none",
+        "cancellation": "free",
+        "payment": "online"
+      },
+      "geoBlock": {
+        "title": "Расположение",
+        "address": "Vieux Nice, Nice",
+        "map": {
+          "lat": 43.72355450590786,
+          "lng": 7.2501123930792835,
+          "zoom": 14,
+          "query": "Vieux Nice, Nice",
+          "tileUrlTemplate": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          "tileAttribution": "© Участники OpenStreetMap"
+        },
+        "poiGroups": [
+          {
+            "id": "nearby",
+            "title": "Что вокруг",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Promenade des Anglais",
+                "distance": "350 м"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Castle Hill",
+                "distance": "620 м"
+              },
+              {
+                "type": "PARK",
+                "name": "Старый город",
+                "distance": "890 м"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Place Masséna",
+                "distance": "1,2 км"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Порт Ниццы",
+                "distance": "1,6 км"
+              }
+            ]
+          },
+          {
+            "id": "top",
+            "title": "Достопримечательности",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Promenade des Anglais",
+                "distance": "1,1 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Castle Hill",
+                "distance": "1,8 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Старый город",
+                "distance": "2,2 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Place Masséna",
+                "distance": "2,9 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Порт Ниццы",
+                "distance": "3,3 км"
+              }
+            ]
+          },
+          {
+            "id": "airports",
+            "title": "Аэропорты",
+            "items": [
+              {
+                "type": "AIRPORT",
+                "name": "Ницца (NCE)",
+                "distance": "18,4 км"
+              }
+            ]
+          },
+          {
+            "id": "railways",
+            "title": "Вокзалы",
+            "items": [
+              {
+                "type": "RAILWAY_STATION",
+                "name": "Nice-Ville",
+                "distance": "1,4 км"
+              }
+            ]
+          }
+        ]
+      },
+      "roomOptions": {
+        "galleryCtaText": "фото",
+        "availabilityTitle": "Доступные варианты",
+        "groups": [
+          {
+            "id": "rg-h-fr-nice-3-std",
+            "name": "Двухместный номер Standard",
+            "nameAdditional": "1 большая двуспальная кровать",
+            "alert": "Осталось 2 номера по этой цене",
+            "imageUrl": "/hotels/cdn/photos/picsum_h-fr-nice-3_room_1_640_420.jpg",
+            "imageCount": 8,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "18 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Телевизор"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-fr-nice-3-std-r1",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Питание не включено",
+                  "isFeature": false
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена",
+                "priceRub": 96188,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-nice-3-std-h-fr-nice-3-std-r1"
+              },
+              {
+                "id": "h-fr-nice-3-std-r2",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена с питанием",
+                "priceRub": 97132,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-nice-3-std-h-fr-nice-3-std-r2"
+              },
+              {
+                "id": "h-fr-nice-3-std-r3",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "priceRub": 98513,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-nice-3-std-h-fr-nice-3-std-r3"
+              }
+            ]
+          },
+          {
+            "id": "rg-h-fr-nice-3-dlx",
+            "name": "Номер Deluxe",
+            "nameAdditional": "1 кровать king-size",
+            "alert": "Высокий спрос на даты",
+            "imageUrl": "/hotels/cdn/photos/picsum_h-fr-nice-3_room_2_640_420.jpg",
+            "imageCount": 12,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "24 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-fr-nice-3-dlx-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 5 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Карта для гарантии"
+                },
+                "deal": "Популярный вариант",
+                "priceRub": 140137,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 30 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-nice-3-dlx-h-fr-nice-3-dlx-r1"
+              },
+              {
+                "id": "h-fr-nice-3-dlx-r2",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Полупансион",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Списание сразу после брони"
+                },
+                "deal": "Лучшая цена с ужином",
+                "priceRub": 169679,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 30 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-nice-3-dlx-h-fr-nice-3-dlx-r2"
+              }
+            ]
+          }
+        ]
+      },
+      "aboutBlock": {
+        "title": "Об отеле",
+        "expandText": "Показать полностью",
+        "collapseText": "Свернуть",
+        "sections": [
+          {
+            "title": "Кратко",
+            "paragraphs": [
+              "Old Town Boutique Inn расположен в одном из самых удобных районов города Ницца и подойдёт как для туристических поездок, так и для деловых визитов.",
+              "Это 4-звёздочный объект размещения с современными номерами, стабильным Wi‑Fi и удобным доступом к транспорту и главным достопримечательностям Франция."
+            ]
+          },
+          {
+            "title": "Почему стоит выбрать",
+            "paragraphs": [
+              "Гости чаще всего выбирают этот вариант за удачное расположение, комфортные номера и понятные условия бронирования.",
+              "В отеле предусмотрены разные тарифы: с завтраком и без, с оплатой на месте и онлайн, с бесплатной отменой и невозвратные."
+            ]
+          }
+        ],
+        "facts": [
+          {
+            "label": "Тип размещения",
+            "value": "Отель"
+          },
+          {
+            "label": "Заезд",
+            "value": "с 15:00"
+          },
+          {
+            "label": "Выезд",
+            "value": "до 12:00"
+          },
+          {
+            "label": "Подходит для",
+            "value": "деловых поездок, отдыха вдвоём, семейного отдыха"
+          }
+        ]
+      },
+      "additionalInfoBlock": {
+        "title": "Важно знать",
+        "paragraphs": [
+          "При заселении может потребоваться банковская карта для гарантии дополнительных расходов.",
+          "Туристический налог и местные сборы, если применимо, оплачиваются отдельно по правилам города Ницца.",
+          "Конкретные условия отмены и оплаты зависят от выбранного тарифа и будут показаны перед подтверждением бронирования."
+        ]
+      },
+      "accommodationBlock": {
+        "title": "Условия размещения",
+        "checkInOut": {
+          "checkIn": "15:00",
+          "checkOut": "12:00",
+          "lateCheckOut": "Поздний выезд по запросу"
+        },
+        "blocks": [
+          {
+            "id": "deposit",
+            "title": "Депозит",
+            "items": [
+              "При заселении может взиматься депозит в размере 100 EUR за номер.",
+              "Сумма депозита зависит от категории номера и тарифа."
+            ]
+          },
+          {
+            "id": "children",
+            "title": "Дети и дополнительные кровати",
+            "items": [
+              "Дети до 6 лет могут проживать бесплатно при размещении на имеющихся кроватях.",
+              "Дополнительная кровать предоставляется по запросу и оплачивается отдельно."
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Домашние животные",
+            "items": [
+              "Размещение с питомцами возможно не для всех тарифов. Уточняйте правила перед бронированием."
+            ]
+          }
+        ]
+      },
+      "currencyCode": "EUR",
+      "paymentSection": {
+        "payment": {
+          "title": "Оплата",
+          "inHotelTitle": "В отеле",
+          "onSiteTitle": "На сайте",
+          "inHotelItems": [
+            {
+              "type": "text",
+              "text": "Наличными в валюте отеля — EUR"
+            },
+            {
+              "type": "cards",
+              "label": "Картой:",
+              "codes": [
+                "visa",
+                "mastercard",
+                "american-express",
+                "dinersclub"
+              ]
+            }
+          ],
+          "onSiteText": "Для некоторых тарифов доступна оплата банковской картой при бронировании на сайте. Можно частично или полностью оплатить бронирование баллами. Можно оплатить бронирование с помощью промокода, если он у вас есть."
+        }
+      },
+      "amenitiesBlock": {
+        "title": "Удобства и услуги",
+        "groups": [
+          {
+            "id": "highlights",
+            "title": "Главное",
+            "icon": "star",
+            "items": [
+              "Бесплатный Wi‑Fi",
+              "Кондиционер"
+            ]
+          },
+          {
+            "id": "popular",
+            "title": "Популярные",
+            "icon": "popular",
+            "variant": "popular",
+            "items": [
+              "Бесплатный интернет",
+              "Трансфер",
+              "Бар или ресторан",
+              "Для гостей с ограниченными возможностями",
+              "Разрешено с домашними животными"
+            ]
+          },
+          {
+            "id": "common",
+            "title": "Общее",
+            "icon": "common_info",
+            "items": [
+              "Круглосуточная стойка регистрации",
+              "Лифт",
+              "Обмен валюты",
+              "Отель для некурящих",
+              "Отопление",
+              "Продажа билетов",
+              "Ускоренная регистрация заезда и выезда",
+              "Терраса",
+              "Курение запрещено на всей территории"
+            ]
+          },
+          {
+            "id": "rooms",
+            "title": "В номерах",
+            "icon": "extra_service",
+            "items": [
+              "Номера для некурящих",
+              "Кабельное телевидение",
+              "Телевизор",
+              "Фен",
+              "Душ/Ванна",
+              "Душ",
+              "Шкаф/гардероб",
+              "Постельное белье",
+              "Туалетные принадлежности"
+            ]
+          },
+          {
+            "id": "accessibility",
+            "title": "Доступность",
+            "icon": "disabled_support",
+            "items": [
+              "Удобства для гостей с ограниченными физическими возможностями"
+            ]
+          },
+          {
+            "id": "services",
+            "title": "Услуги и удобства",
+            "icon": "extra_services",
+            "items": [
+              "Услуги консьержа",
+              "Хранение багажа",
+              "Услуга «звонок - будильник»",
+              "Телефон"
+            ]
+          },
+          {
+            "id": "meal",
+            "title": "Питание",
+            "icon": "meal",
+            "items": [
+              "Бар",
+              "Бесплатный чай/кофе",
+              "Завтрак",
+              "Ресторан",
+              "Торговый автомат с закусками/напитками",
+              "Кухня",
+              "Чайник"
+            ]
+          },
+          {
+            "id": "internet",
+            "title": "Интернет",
+            "icon": "internet",
+            "items": [
+              "Бесплатный Wi-Fi",
+              "Доступ в интернет"
+            ]
+          },
+          {
+            "id": "shuttle",
+            "title": "Трансфер",
+            "icon": "shuttle",
+            "items": [
+              {
+                "text": "Трансфер от/до аэропорта",
+                "note": "оплачивается отдельно"
+              },
+              "Заказ такси"
+            ]
+          },
+          {
+            "id": "languages",
+            "title": "Персонал говорит",
+            "icon": "languages",
+            "items": [
+              "на испанском",
+              "на немецком",
+              "на английском",
+              "на итальянском",
+              "на французском",
+              "Мультиязычный персонал",
+              "на португальском",
+              "на арабском"
+            ]
+          },
+          {
+            "id": "tours",
+            "title": "Туризм",
+            "icon": "tours",
+            "items": [
+              "Экскурсионное бюро"
+            ]
+          },
+          {
+            "id": "pool",
+            "title": "Бассейн и пляж",
+            "icon": "pool",
+            "items": [
+              "Полотенца для пляжа/бассейна"
+            ]
+          },
+          {
+            "id": "health",
+            "title": "Красота и здоровье",
+            "icon": "barber_shop",
+            "items": [
+              "Врач",
+              "Аптечка первой помощи"
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Животные",
+            "icon": "pets",
+            "items": [
+              "Размещение с домашними животными"
+            ]
+          },
+          {
+            "id": "anticovid",
+            "title": "Санитарные меры",
+            "icon": "anticovid",
+            "items": [
+              "Температурный контроль для персонала",
+              "Усиленные меры дезинфекции",
+              "Температурный контроль для гостей",
+              "Индивидуальные средства защиты для гостей",
+              "Дополнительные меры против COVID-19"
+            ]
+          }
+        ]
+      },
+      "reviewsBlock": {
+        "title": "Отзывы",
+        "ratingSummary": {
+          "value": 8.8,
+          "totalReviews": 2403,
+          "localLanguageReviews": 60,
+          "basedOnText": "Основано на {TOTAL} отзывах гостей из разных стран.",
+          "localLanguageText": "На вашем языке доступно {LOCAL} отзывов"
+        },
+        "detailedScores": [
+          {
+            "label": "Чистота",
+            "value": 8.4
+          },
+          {
+            "label": "Средства гигиены"
+          },
+          {
+            "label": "Расположение",
+            "value": 9
+          },
+          {
+            "label": "Питание"
+          },
+          {
+            "label": "Цена/Качество",
+            "value": 8.6
+          },
+          {
+            "label": "Номер",
+            "value": 8.5
+          },
+          {
+            "label": "Обслуживание",
+            "value": 8.8
+          },
+          {
+            "label": "Качество Wi‑Fi"
+          }
+        ],
+        "tripadvisor": {
+          "label": "TripAdvisor",
+          "reviews": 2400,
+          "href": "https://www.tripadvisor.com"
+        },
+        "reviews": [
+          {
+            "id": "rv-1",
+            "source": "tripadvisor",
+            "author": "AlexTraveler",
+            "countryCode": "RU",
+            "tripType": "пара",
+            "date": "май 2025 г.",
+            "rating": 5,
+            "title": "Отличное расположение",
+            "text": "Old Town Boutique Inn приятно удивил: удобный район, хорошие завтраки и быстрый заезд. До основных точек в Ницца легко добраться пешком или на метро."
+          },
+          {
+            "id": "rv-2",
+            "source": "tripadvisor",
+            "author": "BusinessGuest",
+            "countryCode": "KZ",
+            "tripType": "деловая поездка",
+            "date": "февраль 2025 г.",
+            "rating": 4,
+            "title": "Подходит для командировок",
+            "text": "Стабильный интернет, удобное рабочее место в номере и вежливый персонал. Для короткой деловой поездки вариант очень удачный."
+          },
+          {
+            "id": "rv-3",
+            "source": "tripadvisor",
+            "author": "FamilyTrip",
+            "countryCode": "BY",
+            "tripType": "семья",
+            "date": "январь 2025 г.",
+            "rating": 5,
+            "title": "Комфортно с детьми",
+            "text": "Чистый номер, хорошие кровати, понятные правила заселения. Особенно понравилось, что рядом есть кафе, магазины и транспорт."
+          }
+        ],
+        "moreLink": {
+          "href": "https://www.tripadvisor.com",
+          "remaining": 2400,
+          "text": "Посмотреть ещё {N} отзывов на TripAdvisor"
+        }
+      },
+      "filters": {
+        "amenitiesHotel": [
+          "conf",
+          "internet"
+        ],
+        "amenitiesRoom": [],
+        "placement": [
+          "kids"
+        ],
+        "meals": [],
+        "paymentAndBooking": [
+          "freeCancellation",
+          "payOnsite"
+        ],
+        "rooms": 1,
+        "bedTypes": [
+          "doubleBed"
+        ]
+      }
+    },
+    {
+      "id": "h-fr-lyon-2",
+      "cityId": "fr-lyon",
+      "name": "Bellecour Riverside Hotel",
+      "address": "Presqu’île, Lyon",
+      "distanceFromCenter": "2.2 км от центра Лион",
+      "stars": 4,
+      "rating": 8.9,
+      "reviews": 2398,
+      "priceTotalRub": 79000,
+      "nights": 4,
+      "distanceKm": 2.5,
+      "type": "hotel",
+      "amenities": [
+        "wifi",
+        "breakfast",
+        "parking"
+      ],
+      "imageUrl": "/hotels/cdn/photos/picsum_h-fr-lyon-2_main_1200_800.jpg",
+      "images": [
+        "/hotels/cdn/photos/picsum_h-fr-lyon-2_3_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-fr-lyon-2_4_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-fr-lyon-2_7_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-fr-lyon-2_10_1200_800.jpg"
+      ],
+      "offer": {
+        "roomTitle": "Номер Superior",
+        "beds": "кровать king-size",
+        "mealPlan": "breakfast",
+        "cancellation": "free",
+        "payment": "at_hotel"
+      },
+      "geoBlock": {
+        "title": "Расположение",
+        "address": "Presqu’île, Lyon",
+        "map": {
+          "lat": 45.75999234459901,
+          "lng": 4.8232156073297405,
+          "zoom": 14,
+          "query": "Presqu’île, Lyon",
+          "tileUrlTemplate": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          "tileAttribution": "© Участники OpenStreetMap"
+        },
+        "poiGroups": [
+          {
+            "id": "nearby",
+            "title": "Что вокруг",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Basilique Notre-Dame de Fourvière",
+                "distance": "350 м"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Vieux Lyon",
+                "distance": "620 м"
+              },
+              {
+                "type": "PARK",
+                "name": "Place Bellecour",
+                "distance": "890 м"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Parc de la Tête d’Or",
+                "distance": "1,2 км"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Les Halles de Lyon",
+                "distance": "1,6 км"
+              }
+            ]
+          },
+          {
+            "id": "top",
+            "title": "Достопримечательности",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Basilique Notre-Dame de Fourvière",
+                "distance": "1,1 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Vieux Lyon",
+                "distance": "1,8 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Place Bellecour",
+                "distance": "2,2 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Parc de la Tête d’Or",
+                "distance": "2,9 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Les Halles de Lyon",
+                "distance": "3,3 км"
+              }
+            ]
+          },
+          {
+            "id": "airports",
+            "title": "Аэропорты",
+            "items": [
+              {
+                "type": "AIRPORT",
+                "name": "Лион (LYS)",
+                "distance": "18,4 км"
+              }
+            ]
+          },
+          {
+            "id": "railways",
+            "title": "Вокзалы",
+            "items": [
+              {
+                "type": "RAILWAY_STATION",
+                "name": "Lyon Part-Dieu",
+                "distance": "1,4 км"
+              }
+            ]
+          }
+        ]
+      },
+      "roomOptions": {
+        "galleryCtaText": "фото",
+        "availabilityTitle": "Доступные варианты",
+        "groups": [
+          {
+            "id": "rg-h-fr-lyon-2-std",
+            "name": "Двухместный номер Standard",
+            "nameAdditional": "1 большая двуспальная кровать",
+            "alert": "Осталось 2 номера по этой цене",
+            "imageUrl": "/hotels/cdn/photos/picsum_h-fr-lyon-2_room_1_640_420.jpg",
+            "imageCount": 8,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "18 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Телевизор"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-fr-lyon-2-std-r1",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Питание не включено",
+                  "isFeature": false
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена",
+                "priceRub": 97244,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-lyon-2-std-h-fr-lyon-2-std-r1"
+              },
+              {
+                "id": "h-fr-lyon-2-std-r2",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена с питанием",
+                "priceRub": 92422,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-lyon-2-std-h-fr-lyon-2-std-r2"
+              },
+              {
+                "id": "h-fr-lyon-2-std-r3",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "priceRub": 113380,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-lyon-2-std-h-fr-lyon-2-std-r3"
+              }
+            ]
+          },
+          {
+            "id": "rg-h-fr-lyon-2-dlx",
+            "name": "Номер Deluxe",
+            "nameAdditional": "1 кровать king-size",
+            "alert": "Высокий спрос на даты",
+            "imageUrl": "/hotels/cdn/photos/picsum_h-fr-lyon-2_room_2_640_420.jpg",
+            "imageCount": 12,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "24 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-fr-lyon-2-dlx-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 5 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Карта для гарантии"
+                },
+                "deal": "Популярный вариант",
+                "priceRub": 147317,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 30 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-lyon-2-dlx-h-fr-lyon-2-dlx-r1"
+              },
+              {
+                "id": "h-fr-lyon-2-dlx-r2",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Полупансион",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Списание сразу после брони"
+                },
+                "deal": "Лучшая цена с ужином",
+                "priceRub": 171415,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 30 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-lyon-2-dlx-h-fr-lyon-2-dlx-r2"
+              }
+            ]
+          }
+        ]
+      },
+      "aboutBlock": {
+        "title": "Об отеле",
+        "expandText": "Показать полностью",
+        "collapseText": "Свернуть",
+        "sections": [
+          {
+            "title": "Кратко",
+            "paragraphs": [
+              "Bellecour Riverside Hotel расположен в одном из самых удобных районов города Лион и подойдёт как для туристических поездок, так и для деловых визитов.",
+              "Это 4-звёздочный объект размещения с современными номерами, стабильным Wi‑Fi и удобным доступом к транспорту и главным достопримечательностям Франция."
+            ]
+          },
+          {
+            "title": "Почему стоит выбрать",
+            "paragraphs": [
+              "Гости чаще всего выбирают этот вариант за удачное расположение, комфортные номера и понятные условия бронирования.",
+              "В отеле предусмотрены разные тарифы: с завтраком и без, с оплатой на месте и онлайн, с бесплатной отменой и невозвратные."
+            ]
+          }
+        ],
+        "facts": [
+          {
+            "label": "Тип размещения",
+            "value": "Отель"
+          },
+          {
+            "label": "Заезд",
+            "value": "с 15:00"
+          },
+          {
+            "label": "Выезд",
+            "value": "до 12:00"
+          },
+          {
+            "label": "Подходит для",
+            "value": "деловых поездок, отдыха вдвоём, семейного отдыха"
+          }
+        ]
+      },
+      "additionalInfoBlock": {
+        "title": "Важно знать",
+        "paragraphs": [
+          "При заселении может потребоваться банковская карта для гарантии дополнительных расходов.",
+          "Туристический налог и местные сборы, если применимо, оплачиваются отдельно по правилам города Лион.",
+          "Конкретные условия отмены и оплаты зависят от выбранного тарифа и будут показаны перед подтверждением бронирования."
+        ]
+      },
+      "accommodationBlock": {
+        "title": "Условия размещения",
+        "checkInOut": {
+          "checkIn": "15:00",
+          "checkOut": "12:00",
+          "lateCheckOut": "Поздний выезд по запросу"
+        },
+        "blocks": [
+          {
+            "id": "deposit",
+            "title": "Депозит",
+            "items": [
+              "При заселении может взиматься депозит в размере 100 EUR за номер.",
+              "Сумма депозита зависит от категории номера и тарифа."
+            ]
+          },
+          {
+            "id": "children",
+            "title": "Дети и дополнительные кровати",
+            "items": [
+              "Дети до 6 лет могут проживать бесплатно при размещении на имеющихся кроватях.",
+              "Дополнительная кровать предоставляется по запросу и оплачивается отдельно."
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Домашние животные",
+            "items": [
+              "Размещение с питомцами возможно не для всех тарифов. Уточняйте правила перед бронированием."
+            ]
+          }
+        ]
+      },
+      "currencyCode": "EUR",
+      "paymentSection": {
+        "payment": {
+          "title": "Оплата",
+          "inHotelTitle": "В отеле",
+          "onSiteTitle": "На сайте",
+          "inHotelItems": [
+            {
+              "type": "text",
+              "text": "Наличными в валюте отеля — EUR"
+            },
+            {
+              "type": "cards",
+              "label": "Картой:",
+              "codes": [
+                "visa",
+                "mastercard",
+                "american-express",
+                "dinersclub"
+              ]
+            }
+          ],
+          "onSiteText": "Для некоторых тарифов доступна оплата банковской картой при бронировании на сайте. Можно частично или полностью оплатить бронирование баллами. Можно оплатить бронирование с помощью промокода, если он у вас есть."
+        }
+      },
+      "amenitiesBlock": {
+        "title": "Удобства и услуги",
+        "groups": [
+          {
+            "id": "highlights",
+            "title": "Главное",
+            "icon": "star",
+            "items": [
+              "Бесплатный Wi‑Fi",
+              "Завтрак",
+              "Парковка"
+            ]
+          },
+          {
+            "id": "popular",
+            "title": "Популярные",
+            "icon": "popular",
+            "variant": "popular",
+            "items": [
+              "Бесплатный интернет",
+              "Трансфер",
+              "Бар или ресторан",
+              "Для гостей с ограниченными возможностями",
+              "Разрешено с домашними животными"
+            ]
+          },
+          {
+            "id": "common",
+            "title": "Общее",
+            "icon": "common_info",
+            "items": [
+              "Круглосуточная стойка регистрации",
+              "Лифт",
+              "Обмен валюты",
+              "Отель для некурящих",
+              "Отопление",
+              "Продажа билетов",
+              "Ускоренная регистрация заезда и выезда",
+              "Терраса",
+              "Курение запрещено на всей территории"
+            ]
+          },
+          {
+            "id": "rooms",
+            "title": "В номерах",
+            "icon": "extra_service",
+            "items": [
+              "Номера для некурящих",
+              "Кабельное телевидение",
+              "Телевизор",
+              "Фен",
+              "Душ/Ванна",
+              "Душ",
+              "Шкаф/гардероб",
+              "Постельное белье",
+              "Туалетные принадлежности"
+            ]
+          },
+          {
+            "id": "accessibility",
+            "title": "Доступность",
+            "icon": "disabled_support",
+            "items": [
+              "Удобства для гостей с ограниченными физическими возможностями"
+            ]
+          },
+          {
+            "id": "services",
+            "title": "Услуги и удобства",
+            "icon": "extra_services",
+            "items": [
+              "Услуги консьержа",
+              "Хранение багажа",
+              "Услуга «звонок - будильник»",
+              "Телефон"
+            ]
+          },
+          {
+            "id": "meal",
+            "title": "Питание",
+            "icon": "meal",
+            "items": [
+              "Бар",
+              "Бесплатный чай/кофе",
+              "Завтрак",
+              "Ресторан",
+              "Торговый автомат с закусками/напитками",
+              "Кухня",
+              "Чайник"
+            ]
+          },
+          {
+            "id": "internet",
+            "title": "Интернет",
+            "icon": "internet",
+            "items": [
+              "Бесплатный Wi-Fi",
+              "Доступ в интернет"
+            ]
+          },
+          {
+            "id": "shuttle",
+            "title": "Трансфер",
+            "icon": "shuttle",
+            "items": [
+              {
+                "text": "Трансфер от/до аэропорта",
+                "note": "оплачивается отдельно"
+              },
+              "Заказ такси"
+            ]
+          },
+          {
+            "id": "languages",
+            "title": "Персонал говорит",
+            "icon": "languages",
+            "items": [
+              "на испанском",
+              "на немецком",
+              "на английском",
+              "на итальянском",
+              "на французском",
+              "Мультиязычный персонал",
+              "на португальском",
+              "на арабском"
+            ]
+          },
+          {
+            "id": "tours",
+            "title": "Туризм",
+            "icon": "tours",
+            "items": [
+              "Экскурсионное бюро"
+            ]
+          },
+          {
+            "id": "pool",
+            "title": "Бассейн и пляж",
+            "icon": "pool",
+            "items": [
+              "Полотенца для пляжа/бассейна"
+            ]
+          },
+          {
+            "id": "health",
+            "title": "Красота и здоровье",
+            "icon": "barber_shop",
+            "items": [
+              "Врач",
+              "Аптечка первой помощи"
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Животные",
+            "icon": "pets",
+            "items": [
+              "Размещение с домашними животными"
+            ]
+          },
+          {
+            "id": "anticovid",
+            "title": "Санитарные меры",
+            "icon": "anticovid",
+            "items": [
+              "Температурный контроль для персонала",
+              "Усиленные меры дезинфекции",
+              "Температурный контроль для гостей",
+              "Индивидуальные средства защиты для гостей",
+              "Дополнительные меры против COVID-19"
+            ]
+          }
+        ]
+      },
+      "reviewsBlock": {
+        "title": "Отзывы",
+        "ratingSummary": {
+          "value": 8.9,
+          "totalReviews": 2398,
+          "localLanguageReviews": 59,
+          "basedOnText": "Основано на {TOTAL} отзывах гостей из разных стран.",
+          "localLanguageText": "На вашем языке доступно {LOCAL} отзывов"
+        },
+        "detailedScores": [
+          {
+            "label": "Чистота",
+            "value": 8.6
+          },
+          {
+            "label": "Средства гигиены"
+          },
+          {
+            "label": "Расположение",
+            "value": 8.3
+          },
+          {
+            "label": "Питание"
+          },
+          {
+            "label": "Цена/Качество",
+            "value": 8.4
+          },
+          {
+            "label": "Номер",
+            "value": 9.1
+          },
+          {
+            "label": "Обслуживание",
+            "value": 9
+          },
+          {
+            "label": "Качество Wi‑Fi"
+          }
+        ],
+        "tripadvisor": {
+          "label": "TripAdvisor",
+          "reviews": 2395,
+          "href": "https://www.tripadvisor.com"
+        },
+        "reviews": [
+          {
+            "id": "rv-1",
+            "source": "tripadvisor",
+            "author": "AlexTraveler",
+            "countryCode": "RU",
+            "tripType": "пара",
+            "date": "май 2025 г.",
+            "rating": 5,
+            "title": "Отличное расположение",
+            "text": "Bellecour Riverside Hotel приятно удивил: удобный район, хорошие завтраки и быстрый заезд. До основных точек в Лион легко добраться пешком или на метро."
+          },
+          {
+            "id": "rv-2",
+            "source": "tripadvisor",
+            "author": "BusinessGuest",
+            "countryCode": "KZ",
+            "tripType": "деловая поездка",
+            "date": "февраль 2025 г.",
+            "rating": 4,
+            "title": "Подходит для командировок",
+            "text": "Стабильный интернет, удобное рабочее место в номере и вежливый персонал. Для короткой деловой поездки вариант очень удачный."
+          },
+          {
+            "id": "rv-3",
+            "source": "tripadvisor",
+            "author": "FamilyTrip",
+            "countryCode": "BY",
+            "tripType": "семья",
+            "date": "январь 2025 г.",
+            "rating": 5,
+            "title": "Комфортно с детьми",
+            "text": "Чистый номер, хорошие кровати, понятные правила заселения. Особенно понравилось, что рядом есть кафе, магазины и транспорт."
+          }
+        ],
+        "moreLink": {
+          "href": "https://www.tripadvisor.com",
+          "remaining": 2395,
+          "text": "Посмотреть ещё {N} отзывов на TripAdvisor"
+        }
+      },
+      "filters": {
+        "amenitiesHotel": [
+          "conf",
+          "internet",
+          "parking"
+        ],
+        "amenitiesRoom": [],
+        "placement": [
+          "kids"
+        ],
+        "meals": [
+          "breakfastIncluded"
+        ],
+        "paymentAndBooking": [
+          "freeCancellation",
+          "payOnsite"
+        ],
+        "rooms": 1,
+        "bedTypes": [
+          "doubleBed"
+        ]
+      }
+    },
+    {
+      "id": "h-fr-lyon-3",
+      "cityId": "fr-lyon",
+      "name": "Part-Dieu Urban Suites",
+      "address": "Part-Dieu, Lyon",
+      "distanceFromCenter": "2.0 км от центра Лион",
+      "stars": 4,
+      "rating": 8.5,
+      "reviews": 1365,
+      "priceTotalRub": 224000,
+      "nights": 4,
+      "distanceKm": 1.2,
+      "type": "aparthotel",
+      "amenities": [
+        "wifi",
+        "accessible",
+        "airConditioning"
+      ],
+      "imageUrl": "/hotels/cdn/photos/picsum_h-fr-lyon-3_main_1200_800.jpg",
+      "images": [
+        "/hotels/cdn/photos/picsum_h-fr-lyon-3_3_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-fr-lyon-3_4_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-fr-lyon-3_7_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-fr-lyon-3_10_1200_800.jpg"
+      ],
+      "offer": {
+        "roomTitle": "Семейный номер",
+        "beds": "2 односпальные кровати",
+        "mealPlan": "none",
+        "cancellation": "free",
+        "payment": "online"
+      },
+      "geoBlock": {
+        "title": "Расположение",
+        "address": "Part-Dieu, Lyon",
+        "map": {
+          "lat": 45.74539979083759,
+          "lng": 4.852261558425351,
+          "zoom": 14,
+          "query": "Part-Dieu, Lyon",
+          "tileUrlTemplate": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          "tileAttribution": "© Участники OpenStreetMap"
+        },
+        "poiGroups": [
+          {
+            "id": "nearby",
+            "title": "Что вокруг",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Basilique Notre-Dame de Fourvière",
+                "distance": "350 м"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Vieux Lyon",
+                "distance": "620 м"
+              },
+              {
+                "type": "PARK",
+                "name": "Place Bellecour",
+                "distance": "890 м"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Parc de la Tête d’Or",
+                "distance": "1,2 км"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Les Halles de Lyon",
+                "distance": "1,6 км"
+              }
+            ]
+          },
+          {
+            "id": "top",
+            "title": "Достопримечательности",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Basilique Notre-Dame de Fourvière",
+                "distance": "1,1 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Vieux Lyon",
+                "distance": "1,8 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Place Bellecour",
+                "distance": "2,2 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Parc de la Tête d’Or",
+                "distance": "2,9 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Les Halles de Lyon",
+                "distance": "3,3 км"
+              }
+            ]
+          },
+          {
+            "id": "airports",
+            "title": "Аэропорты",
+            "items": [
+              {
+                "type": "AIRPORT",
+                "name": "Лион (LYS)",
+                "distance": "18,4 км"
+              }
+            ]
+          },
+          {
+            "id": "railways",
+            "title": "Вокзалы",
+            "items": [
+              {
+                "type": "RAILWAY_STATION",
+                "name": "Lyon Part-Dieu",
+                "distance": "1,4 км"
+              }
+            ]
+          }
+        ]
+      },
+      "roomOptions": {
+        "galleryCtaText": "фото",
+        "availabilityTitle": "Доступные варианты",
+        "groups": [
+          {
+            "id": "rg-h-fr-lyon-3-std",
+            "name": "Двухместный номер Standard",
+            "nameAdditional": "1 большая двуспальная кровать",
+            "alert": "Осталось 2 номера по этой цене",
+            "imageUrl": "/hotels/cdn/photos/picsum_h-fr-lyon-3_room_1_640_420.jpg",
+            "imageCount": 8,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "18 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Телевизор"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-fr-lyon-3-std-r1",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Питание не включено",
+                  "isFeature": false
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена",
+                "priceRub": 80501,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-lyon-3-std-h-fr-lyon-3-std-r1"
+              },
+              {
+                "id": "h-fr-lyon-3-std-r2",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена с питанием",
+                "priceRub": 102061,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-lyon-3-std-h-fr-lyon-3-std-r2"
+              },
+              {
+                "id": "h-fr-lyon-3-std-r3",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "priceRub": 101512,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-lyon-3-std-h-fr-lyon-3-std-r3"
+              }
+            ]
+          },
+          {
+            "id": "rg-h-fr-lyon-3-dlx",
+            "name": "Номер Deluxe",
+            "nameAdditional": "1 кровать king-size",
+            "alert": "Высокий спрос на даты",
+            "imageUrl": "/hotels/cdn/photos/picsum_h-fr-lyon-3_room_2_640_420.jpg",
+            "imageCount": 12,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "24 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-fr-lyon-3-dlx-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 5 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Карта для гарантии"
+                },
+                "deal": "Популярный вариант",
+                "priceRub": 125742,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 30 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-lyon-3-dlx-h-fr-lyon-3-dlx-r1"
+              },
+              {
+                "id": "h-fr-lyon-3-dlx-r2",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Полупансион",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Списание сразу после брони"
+                },
+                "deal": "Лучшая цена с ужином",
+                "priceRub": 166460,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 30 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-fr-lyon-3-dlx-h-fr-lyon-3-dlx-r2"
+              }
+            ]
+          }
+        ]
+      },
+      "aboutBlock": {
+        "title": "Об отеле",
+        "expandText": "Показать полностью",
+        "collapseText": "Свернуть",
+        "sections": [
+          {
+            "title": "Кратко",
+            "paragraphs": [
+              "Part-Dieu Urban Suites расположен в одном из самых удобных районов города Лион и подойдёт как для туристических поездок, так и для деловых визитов.",
+              "Это 4-звёздочный объект размещения с современными номерами, стабильным Wi‑Fi и удобным доступом к транспорту и главным достопримечательностям Франция."
+            ]
+          },
+          {
+            "title": "Почему стоит выбрать",
+            "paragraphs": [
+              "Гости чаще всего выбирают этот вариант за удачное расположение, комфортные номера и понятные условия бронирования.",
+              "В отеле предусмотрены разные тарифы: с завтраком и без, с оплатой на месте и онлайн, с бесплатной отменой и невозвратные."
+            ]
+          }
+        ],
+        "facts": [
+          {
+            "label": "Тип размещения",
+            "value": "Отель"
+          },
+          {
+            "label": "Заезд",
+            "value": "с 15:00"
+          },
+          {
+            "label": "Выезд",
+            "value": "до 12:00"
+          },
+          {
+            "label": "Подходит для",
+            "value": "деловых поездок, отдыха вдвоём, семейного отдыха"
+          }
+        ]
+      },
+      "additionalInfoBlock": {
+        "title": "Важно знать",
+        "paragraphs": [
+          "При заселении может потребоваться банковская карта для гарантии дополнительных расходов.",
+          "Туристический налог и местные сборы, если применимо, оплачиваются отдельно по правилам города Лион.",
+          "Конкретные условия отмены и оплаты зависят от выбранного тарифа и будут показаны перед подтверждением бронирования."
+        ]
+      },
+      "accommodationBlock": {
+        "title": "Условия размещения",
+        "checkInOut": {
+          "checkIn": "15:00",
+          "checkOut": "12:00",
+          "lateCheckOut": "Поздний выезд по запросу"
+        },
+        "blocks": [
+          {
+            "id": "deposit",
+            "title": "Депозит",
+            "items": [
+              "При заселении может взиматься депозит в размере 100 EUR за номер.",
+              "Сумма депозита зависит от категории номера и тарифа."
+            ]
+          },
+          {
+            "id": "children",
+            "title": "Дети и дополнительные кровати",
+            "items": [
+              "Дети до 6 лет могут проживать бесплатно при размещении на имеющихся кроватях.",
+              "Дополнительная кровать предоставляется по запросу и оплачивается отдельно."
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Домашние животные",
+            "items": [
+              "Размещение с питомцами возможно не для всех тарифов. Уточняйте правила перед бронированием."
+            ]
+          }
+        ]
+      },
+      "currencyCode": "EUR",
+      "paymentSection": {
+        "payment": {
+          "title": "Оплата",
+          "inHotelTitle": "В отеле",
+          "onSiteTitle": "На сайте",
+          "inHotelItems": [
+            {
+              "type": "text",
+              "text": "Наличными в валюте отеля — EUR"
+            },
+            {
+              "type": "cards",
+              "label": "Картой:",
+              "codes": [
+                "visa",
+                "mastercard",
+                "american-express",
+                "dinersclub"
+              ]
+            }
+          ],
+          "onSiteText": "Для некоторых тарифов доступна оплата банковской картой при бронировании на сайте. Можно частично или полностью оплатить бронирование баллами. Можно оплатить бронирование с помощью промокода, если он у вас есть."
+        }
+      },
+      "amenitiesBlock": {
+        "title": "Удобства и услуги",
+        "groups": [
+          {
+            "id": "highlights",
+            "title": "Главное",
+            "icon": "star",
+            "items": [
+              "Бесплатный Wi‑Fi",
+              "Удобства для гостей с ограниченными физическими возможностями",
+              "Кондиционер"
+            ]
+          },
+          {
+            "id": "popular",
+            "title": "Популярные",
+            "icon": "popular",
+            "variant": "popular",
+            "items": [
+              "Бесплатный интернет",
+              "Трансфер",
+              "Бар или ресторан",
+              "Для гостей с ограниченными возможностями",
+              "Разрешено с домашними животными"
+            ]
+          },
+          {
+            "id": "common",
+            "title": "Общее",
+            "icon": "common_info",
+            "items": [
+              "Круглосуточная стойка регистрации",
+              "Лифт",
+              "Обмен валюты",
+              "Отель для некурящих",
+              "Отопление",
+              "Продажа билетов",
+              "Ускоренная регистрация заезда и выезда",
+              "Терраса",
+              "Курение запрещено на всей территории"
+            ]
+          },
+          {
+            "id": "rooms",
+            "title": "В номерах",
+            "icon": "extra_service",
+            "items": [
+              "Номера для некурящих",
+              "Кабельное телевидение",
+              "Телевизор",
+              "Фен",
+              "Душ/Ванна",
+              "Душ",
+              "Шкаф/гардероб",
+              "Постельное белье",
+              "Туалетные принадлежности"
+            ]
+          },
+          {
+            "id": "accessibility",
+            "title": "Доступность",
+            "icon": "disabled_support",
+            "items": [
+              "Удобства для гостей с ограниченными физическими возможностями"
+            ]
+          },
+          {
+            "id": "services",
+            "title": "Услуги и удобства",
+            "icon": "extra_services",
+            "items": [
+              "Услуги консьержа",
+              "Хранение багажа",
+              "Услуга «звонок - будильник»",
+              "Телефон"
+            ]
+          },
+          {
+            "id": "meal",
+            "title": "Питание",
+            "icon": "meal",
+            "items": [
+              "Бар",
+              "Бесплатный чай/кофе",
+              "Завтрак",
+              "Ресторан",
+              "Торговый автомат с закусками/напитками",
+              "Кухня",
+              "Чайник"
+            ]
+          },
+          {
+            "id": "internet",
+            "title": "Интернет",
+            "icon": "internet",
+            "items": [
+              "Бесплатный Wi-Fi",
+              "Доступ в интернет"
+            ]
+          },
+          {
+            "id": "shuttle",
+            "title": "Трансфер",
+            "icon": "shuttle",
+            "items": [
+              {
+                "text": "Трансфер от/до аэропорта",
+                "note": "оплачивается отдельно"
+              },
+              "Заказ такси"
+            ]
+          },
+          {
+            "id": "languages",
+            "title": "Персонал говорит",
+            "icon": "languages",
+            "items": [
+              "на испанском",
+              "на немецком",
+              "на английском",
+              "на итальянском",
+              "на французском",
+              "Мультиязычный персонал",
+              "на португальском",
+              "на арабском"
+            ]
+          },
+          {
+            "id": "tours",
+            "title": "Туризм",
+            "icon": "tours",
+            "items": [
+              "Экскурсионное бюро"
+            ]
+          },
+          {
+            "id": "pool",
+            "title": "Бассейн и пляж",
+            "icon": "pool",
+            "items": [
+              "Полотенца для пляжа/бассейна"
+            ]
+          },
+          {
+            "id": "health",
+            "title": "Красота и здоровье",
+            "icon": "barber_shop",
+            "items": [
+              "Врач",
+              "Аптечка первой помощи"
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Животные",
+            "icon": "pets",
+            "items": [
+              "Размещение с домашними животными"
+            ]
+          },
+          {
+            "id": "anticovid",
+            "title": "Санитарные меры",
+            "icon": "anticovid",
+            "items": [
+              "Температурный контроль для персонала",
+              "Усиленные меры дезинфекции",
+              "Температурный контроль для гостей",
+              "Индивидуальные средства защиты для гостей",
+              "Дополнительные меры против COVID-19"
+            ]
+          }
+        ]
+      },
+      "reviewsBlock": {
+        "title": "Отзывы",
+        "ratingSummary": {
+          "value": 8.5,
+          "totalReviews": 1365,
+          "localLanguageReviews": 34,
+          "basedOnText": "Основано на {TOTAL} отзывах гостей из разных стран.",
+          "localLanguageText": "На вашем языке доступно {LOCAL} отзывов"
+        },
+        "detailedScores": [
+          {
+            "label": "Чистота",
+            "value": 8.2
+          },
+          {
+            "label": "Средства гигиены"
+          },
+          {
+            "label": "Расположение",
+            "value": 8.4
+          },
+          {
+            "label": "Питание"
+          },
+          {
+            "label": "Цена/Качество",
+            "value": 8.8
+          },
+          {
+            "label": "Номер",
+            "value": 8.4
+          },
+          {
+            "label": "Обслуживание",
+            "value": 8.2
+          },
+          {
+            "label": "Качество Wi‑Fi"
+          }
+        ],
+        "tripadvisor": {
+          "label": "TripAdvisor",
+          "reviews": 1362,
+          "href": "https://www.tripadvisor.com"
+        },
+        "reviews": [
+          {
+            "id": "rv-1",
+            "source": "tripadvisor",
+            "author": "AlexTraveler",
+            "countryCode": "RU",
+            "tripType": "пара",
+            "date": "май 2025 г.",
+            "rating": 5,
+            "title": "Отличное расположение",
+            "text": "Part-Dieu Urban Suites приятно удивил: удобный район, хорошие завтраки и быстрый заезд. До основных точек в Лион легко добраться пешком или на метро."
+          },
+          {
+            "id": "rv-2",
+            "source": "tripadvisor",
+            "author": "BusinessGuest",
+            "countryCode": "KZ",
+            "tripType": "деловая поездка",
+            "date": "февраль 2025 г.",
+            "rating": 4,
+            "title": "Подходит для командировок",
+            "text": "Стабильный интернет, удобное рабочее место в номере и вежливый персонал. Для короткой деловой поездки вариант очень удачный."
+          },
+          {
+            "id": "rv-3",
+            "source": "tripadvisor",
+            "author": "FamilyTrip",
+            "countryCode": "BY",
+            "tripType": "семья",
+            "date": "январь 2025 г.",
+            "rating": 5,
+            "title": "Комфортно с детьми",
+            "text": "Чистый номер, хорошие кровати, понятные правила заселения. Особенно понравилось, что рядом есть кафе, магазины и транспорт."
+          }
+        ],
+        "moreLink": {
+          "href": "https://www.tripadvisor.com",
+          "remaining": 1362,
+          "text": "Посмотреть ещё {N} отзывов на TripAdvisor"
+        }
+      },
+      "filters": {
+        "amenitiesHotel": [
+          "conf",
+          "internet"
+        ],
+        "amenitiesRoom": [],
+        "placement": [
+          "accessible",
+          "kids"
+        ],
+        "meals": [],
+        "paymentAndBooking": [
+          "freeCancellation",
+          "payOnsite"
+        ],
+        "rooms": 1,
+        "bedTypes": [
+          "doubleBed"
+        ]
+      }
+    }
+  ],
+  "version": 2
+}

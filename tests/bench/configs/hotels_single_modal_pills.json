@@ -1,0 +1,13 @@
+{
+  "profile_id": "hotels_single_modal_pills",
+  "description": "Отели: одно поле дат + autocomplete города + pill-кнопки гостей",
+  "domain_configs": {
+    "hotels": {
+      "ui_variants": {
+        "date": "single_popup",
+        "select_city": "autocomplete",
+        "counter_guests": "pill_buttons"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "profile_id": "files_layout_cards",
+  "description": "Файлы: сетка карточек коллекций (по умолчанию)",
+  "domain_configs": {
+    "files": {
+      "ui_variants": {
+        "collections": "cards",
+        "years": "select",
+        "buttons": "outline"
+      }
+    }
+  }
+}

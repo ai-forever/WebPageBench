@@ -1,0 +1,45 @@
+{
+  "test_data": {
+    "login_data": {
+      "login": "bench@example.com",
+      "password": "bench123",
+      "phone": "9150000000",
+      "email": "bench@example.com"
+    },
+    "bench_first_domain": "shop",
+    "bench_first_state": "state_shop_main",
+    "task": "На %HOST% в «Маркете» добавь в корзину 3 упаковки влажного корма Felix «Аппетитные кусочки» с ягнёнком в желе, 1 упаковку туалетной бумаги Zewa Just 1 на 12 рулонов (4 слоя) и 2 упаковки изотоника Snace со вкусом земляники.",
+    "conditions": [
+      {
+        "event_name": "basket_add",
+        "parameters": {
+          "item_id": "item_714958775",
+          "amount": 3
+        }
+      },
+      {
+        "event_name": "basket_add",
+        "parameters": {
+          "item_id": "item_1417585321",
+          "amount": 1
+        }
+      },
+      {
+        "event_name": "basket_add",
+        "parameters": {
+          "item_id": "item_1717020676",
+          "amount": 2
+        }
+      }
+    ],
+    "ui_taxonomy": {
+      "primary": "BASKET",
+      "classes": [
+        "BASKET"
+      ],
+      "subtypes": [
+        "nav_product_card"
+      ]
+    }
+  }
+}

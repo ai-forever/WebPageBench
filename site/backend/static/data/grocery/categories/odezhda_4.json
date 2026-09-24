@@ -1,0 +1,25 @@
+{
+  "title": "Одежда",
+  "tags": [
+    "Женщинам",
+    "Мужчинам",
+    "Детям"
+  ],
+  "sections": [
+    {
+      "caption": "Женщинам",
+      "items": [
+        "item_6c30ed70",
+        "item_f3d9569d"
+      ]
+    },
+    {
+      "caption": "Детям",
+      "items": [
+        "item_0dfd8cf3",
+        "item_ee3125a0",
+        "item_5d245771"
+      ]
+    }
+  ]
+}

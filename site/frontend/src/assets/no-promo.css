@@ -1,0 +1,11 @@
+/* Hide promotional banners and sale promo inserts across mocks */
+.banner-line,
+.menu-bg-panel,
+.header-promo,
+.top-banner-section,
+.campaigns-section,
+.promo-banner,
+.promo-section,
+.big-banner-carousel {
+  display: none !important;
+}

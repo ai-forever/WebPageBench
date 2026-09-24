@@ -1,0 +1,26 @@
+{
+  "_comment": "Ouroboros full_isolated mode: identity enabled, fresh forked drive per task, evolution disabled.",
+  "harness": "ouroboros-full-isolated",
+  "mode": "full_isolated",
+  "drive": {
+    "memory_mode": "forked",
+    "include_identity": true,
+    "evolution_enabled": false,
+    "shared_drive": false,
+    "per_task_drive": true,
+    "require_workers_one": false
+  },
+  "execution": {
+    "backend": "ouroboros-cli"
+  },
+  "api": {
+    "bin": "ouroboros",
+    "url": "http://127.0.0.1:9123",
+    "repo_dir": null,
+    "timeout_seconds": 1200
+  },
+  "prompt": {
+    "prefix": "You are Ouroboros executing a browser automation task on a mock e-commerce site.",
+    "suffix": "Use your identity and planning loop, then complete the task in the browser."
+  }
+}

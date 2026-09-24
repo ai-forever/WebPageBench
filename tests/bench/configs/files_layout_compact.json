@@ -1,0 +1,13 @@
+{
+  "profile_id": "files_layout_compact",
+  "description": "Файлы: компактный список коллекций",
+  "domain_configs": {
+    "files": {
+      "ui_variants": {
+        "collections": "compact",
+        "years": "select",
+        "buttons": "split"
+      }
+    }
+  }
+}

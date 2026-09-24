@@ -1,0 +1,209 @@
+{
+  "model": "openai/gpt-5.6-luna",
+  "harness": "openmanus",
+  "provider": "openrouter",
+  "mock": "bench",
+  "finished": true,
+  "source_path": null,
+  "submitted_at": "2026-09-18T06:20:23.327759+00:00",
+  "metrics": {
+    "success_rate": 0.5921052631578947,
+    "passed_tasks": 90,
+    "failed_tasks": 62,
+    "total_tasks": 152,
+    "avg_duration_seconds": 296.1247319589418,
+    "total_duration_seconds": 45010.959257759154,
+    "total_agent_steps": 1639,
+    "avg_agent_steps": 10.782894736842104,
+    "avg_tokens_per_task": 87948.68421052632,
+    "total_tokens": 13368200,
+    "total_cost_usd": 3.038113,
+    "avg_cost_per_task_usd": 0.019987585526315788,
+    "token_usage_by_model": {},
+    "ouroboros_model_slots": {},
+    "pass_at_k": null,
+    "agent_completion_rate": 1.0,
+    "agent_dab_agreement_rate": 0.5921052631578947,
+    "section_avg_rate": 0.6872895622895623
+  },
+  "sections": {
+    "shop": {
+      "label": "Маркет",
+      "success_rate": 0.8333333333333334,
+      "passed": 15,
+      "total": 18,
+      "tasks": {
+        "ecommerce_basket_and_favorites": true,
+        "ecommerce_basket_and_favorites_02": false,
+        "ecommerce_basket_any_product": true,
+        "ecommerce_basket_multiple": true,
+        "ecommerce_basket_multiple_02": true,
+        "ecommerce_basket_named_product_02": true,
+        "ecommerce_basket_named_product_03": true,
+        "ecommerce_basket_named_smartphone": false,
+        "ecommerce_basket_price_1k": true,
+        "ecommerce_basket_price_35k": true,
+        "ecommerce_basket_price_constraint": true,
+        "ecommerce_basket_three_products": false,
+        "ecommerce_basket_two_products": true,
+        "ecommerce_basket_typo": true,
+        "ecommerce_basket_typo_02": true,
+        "ecommerce_favorites": true,
+        "ecommerce_favorites_05": true,
+        "ecommerce_favorites_any_product": true
+      }
+    },
+    "books": {
+      "label": "Книги",
+      "success_rate": 0.9090909090909091,
+      "passed": 10,
+      "total": 11,
+      "tasks": {
+        "digital_books_audio_basket": true,
+        "digital_books_audio_basket_02": true,
+        "digital_books_audio_favorites": true,
+        "digital_books_author_cheapest_basket": true,
+        "digital_books_author_expensive_basket": true,
+        "digital_books_author_expensive_favorites": false,
+        "digital_books_named_product_basket": true,
+        "digital_books_named_product_basket_02": true,
+        "digital_books_named_product_favorites": true,
+        "digital_books_named_product_favorites_02": true,
+        "digital_books_named_product_favorites_03": true
+      }
+    },
+    "grocery": {
+      "label": "Продукты",
+      "success_rate": 1.0,
+      "passed": 8,
+      "total": 8,
+      "tasks": {
+        "bench_grocery_navigation": true,
+        "grocery_basket_any_product": true,
+        "grocery_basket_category_named_product": true,
+        "grocery_basket_category_named_product_02": true,
+        "grocery_basket_multiple": true,
+        "grocery_basket_named_product": true,
+        "grocery_basket_named_product_02": true,
+        "grocery_basket_price_expensive": true
+      }
+    },
+    "rail": {
+      "label": "Поезда",
+      "success_rate": 0.2222222222222222,
+      "passed": 2,
+      "total": 9,
+      "tasks": {
+        "rail_atomic_select_city_from": true,
+        "rail_atomic_select_date": true,
+        "rail_book_and_pay": false,
+        "rail_book_and_pay_2_passengers": false,
+        "rail_book_and_pay_business": false,
+        "rail_book_to_cart": false,
+        "rail_book_to_cart_2_passengers": false,
+        "rail_book_to_cart_business": false,
+        "rail_book_to_cart_platskart": false
+      }
+    },
+    "hotels": {
+      "label": "Отели",
+      "success_rate": 0.25,
+      "passed": 2,
+      "total": 8,
+      "tasks": {
+        "hotel_atomic_select_city": true,
+        "hotel_atomic_select_start_date": false,
+        "hotel_search_scenario": false,
+        "hotel_search_scenario_dubai": false,
+        "hotel_search_scenario_family": false,
+        "hotel_search_scenario_seoul": true,
+        "hotel_search_scenario_two_rooms": false,
+        "hotel_search_scenario_typo": false
+      }
+    },
+    "files": {
+      "label": "Файлы",
+      "success_rate": 0.9090909090909091,
+      "passed": 10,
+      "total": 11,
+      "tasks": {
+        "files_archive_csv": true,
+        "files_archive_date": true,
+        "files_archive_month_csv": true,
+        "files_archive_month_pdf": true,
+        "files_archive_pdf": true,
+        "files_archive_quarter": false,
+        "files_download_csv": true,
+        "files_download_pdf": true,
+        "files_select_collection": true,
+        "files_select_year": true,
+        "files_select_year_archive": true
+      }
+    }
+  },
+  "ui_badges": [
+    "SELECT_LIST",
+    "FAV",
+    "CARD",
+    "FILES"
+  ],
+  "ui_classes": {
+    "BASKET": {
+      "success_rate": 0.6515151515151515,
+      "passed": 43,
+      "total": 66,
+      "failed": 23
+    },
+    "FAV": {
+      "success_rate": 0.9285714285714286,
+      "passed": 13,
+      "total": 14,
+      "failed": 1
+    },
+    "FILES": {
+      "success_rate": 0.8333333333333334,
+      "passed": 15,
+      "total": 18,
+      "failed": 3
+    },
+    "SELECT_AC": {
+      "success_rate": 0.5,
+      "passed": 1,
+      "total": 2,
+      "failed": 1
+    },
+    "DATE": {
+      "success_rate": 0.75,
+      "passed": 3,
+      "total": 4,
+      "failed": 1
+    },
+    "COUNTER": {
+      "success_rate": 0.15151515151515152,
+      "passed": 5,
+      "total": 33,
+      "failed": 28
+    },
+    "CARD": {
+      "success_rate": 0.8888888888888888,
+      "passed": 8,
+      "total": 9,
+      "failed": 1
+    },
+    "SELECT_LIST": {
+      "success_rate": 1.0,
+      "passed": 2,
+      "total": 2,
+      "failed": 0
+    },
+    "PAY": {
+      "success_rate": 0.0,
+      "passed": 0,
+      "total": 4,
+      "failed": 4
+    }
+  },
+  "section_avg_rate": 0.6872895622895623,
+  "raw_results_path": "results/raw/openai_gpt-5.6-luna__openmanus/results.json",
+  "entry_id": "openai_gpt-5.6-luna__openmanus"
+}

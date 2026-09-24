@@ -1,0 +1,1743 @@
+{
+  "id": "kr",
+  "label": "Южная Корея",
+  "cities": [
+    {
+      "id": "kr-sel",
+      "name": "Сеул",
+      "countryCode": "KR",
+      "countryName": "Южная Корея"
+    },
+    {
+      "id": "kr-pus",
+      "name": "Пусан",
+      "countryCode": "KR",
+      "countryName": "Южная Корея"
+    },
+    {
+      "id": "kr-cju",
+      "name": "Чеджу",
+      "countryCode": "KR",
+      "countryName": "Южная Корея"
+    }
+  ],
+  "hotels": [
+    {
+      "id": "h-kr-sel-center",
+      "cityId": "kr-sel",
+      "name": "Seoul Center Hotel",
+      "address": "Jung-gu, Seoul",
+      "distanceFromCenter": "0.8 км от центра Сеул",
+      "stars": 5,
+      "rating": 9.3,
+      "reviews": 1410,
+      "priceTotalRub": 208000,
+      "nights": 4,
+      "distanceKm": 0.8,
+      "type": "hotel",
+      "amenities": [
+        "wifi",
+        "breakfast",
+        "parking",
+        "airConditioning"
+      ],
+      "imageUrl": "/hotels/cdn/photos/picsum_kr_sel_center_main_900_600.jpg",
+      "images": [
+        "/hotels/cdn/photos/picsum_kr_sel_center_1_900_600.jpg",
+        "/hotels/cdn/photos/picsum_kr_sel_center_2_900_600.jpg",
+        "/hotels/cdn/photos/picsum_kr_sel_center_3_900_600.jpg",
+        "/hotels/cdn/photos/picsum_kr_sel_center_4_900_600.jpg",
+        "/hotels/cdn/photos/picsum_kr_sel_center_7_900_600.jpg",
+        "/hotels/cdn/photos/picsum_kr_sel_center_8_900_600.jpg",
+        "/hotels/cdn/photos/picsum_kr_sel_center_9_900_600.jpg",
+        "/hotels/cdn/photos/picsum_kr_sel_center_10_900_600.jpg"
+      ],
+      "offer": {
+        "roomTitle": "Номер Superior",
+        "beds": "двуспальная кровать",
+        "mealPlan": "breakfast",
+        "cancellation": "free",
+        "payment": "at_hotel"
+      },
+      "geoBlock": {
+        "title": "Расположение",
+        "address": "Jung-gu, Seoul",
+        "map": {
+          "lat": 35.195439914079,
+          "lng": 139.87638983323768,
+          "zoom": 14,
+          "query": "Jung-gu, Seoul, Сеул",
+          "tileUrlTemplate": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          "tileAttribution": "© Участники OpenStreetMap"
+        },
+        "poiGroups": [
+          {
+            "id": "nearby",
+            "title": "Что вокруг",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Старая площадь Сеул",
+                "distance": "280 м"
+              },
+              {
+                "type": "CHURCH",
+                "name": "Собор Сеул",
+                "distance": "430 м"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Городской музей Сеул",
+                "distance": "620 м"
+              },
+              {
+                "type": "PARK",
+                "name": "Парк Сеул",
+                "distance": "910 м"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Набережная Сеул",
+                "distance": "1,1 км"
+              }
+            ]
+          },
+          {
+            "id": "top",
+            "title": "Достопримечательности",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Главная достопримечательность Сеул",
+                "distance": "1,4 км"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Национальный музей Сеул",
+                "distance": "1,8 км"
+              },
+              {
+                "type": "PARK",
+                "name": "Центральный парк Сеул",
+                "distance": "2,1 км"
+              },
+              {
+                "type": "AIRPORT",
+                "name": "Аэропорт Сеул",
+                "distance": "18 км"
+              }
+            ]
+          },
+          {
+            "id": "airports",
+            "title": "Аэропорты",
+            "items": [
+              {
+                "type": "AIRPORT",
+                "name": "Аэропорт Сеул",
+                "distance": "18 км"
+              }
+            ]
+          },
+          {
+            "id": "railways",
+            "title": "Вокзалы",
+            "items": [
+              {
+                "type": "RAILWAY_STATION",
+                "name": "Центральный вокзал Сеул",
+                "distance": "1,2 км"
+              }
+            ]
+          }
+        ]
+      },
+      "roomOptions": {
+        "galleryCtaText": "фото",
+        "availabilityTitle": "Доступные варианты",
+        "groups": [
+          {
+            "id": "h-kr-sel-center-std",
+            "name": "Двухместный номер Standard",
+            "nameAdditional": "1 двуспальная кровать",
+            "alert": "На нашем сайте осталось 3 номера",
+            "imageUrl": "/hotels/cdn/photos/picsum_kr_sel_center_room_std_640_420.jpg",
+            "imageCount": 8,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "22 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-kr-sel-center-std-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Питание не включено",
+                  "isFeature": false
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена",
+                "priceRub": 162240,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 35 KRW налоги и сборы",
+                "bookUrl": "/orders/reserve/h-kr-sel-center-std-r1"
+              },
+              {
+                "id": "h-kr-sel-center-std-r2",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена с питанием",
+                "priceRub": 178880,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 35 KRW налоги и сборы",
+                "bookUrl": "/orders/reserve/h-kr-sel-center-std-r2"
+              }
+            ]
+          },
+          {
+            "id": "h-kr-sel-center-sup",
+            "name": "Номер Superior",
+            "nameAdditional": "1 двуспальная кровать • вид на город",
+            "alert": "Осталось 2 номера по этой цене",
+            "imageUrl": "/hotels/cdn/photos/picsum_kr_sel_center_room_sup_640_420.jpg",
+            "imageCount": 12,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "28 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-kr-sel-center-sup-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 5 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Карта для гарантии"
+                },
+                "deal": "Популярный вариант",
+                "priceRub": 208000,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 45 KRW налоги и сборы",
+                "bookUrl": "/orders/reserve/h-kr-sel-center-sup-r1"
+              }
+            ]
+          }
+        ]
+      },
+      "aboutBlock": {
+        "title": "Описание отеля",
+        "expandText": "Развернуть описание",
+        "collapseText": "Свернуть описание",
+        "sections": [
+          {
+            "id": "location",
+            "title": "Расположение",
+            "paragraphs": [
+              "Отель «Seoul Center Hotel» находится в пешей доступности от центра Сеул. Рядом — исторический центр, музеи, рестораны и транспортные узлы."
+            ]
+          },
+          {
+            "id": "hotel",
+            "title": "В отеле",
+            "paragraphs": [
+              "Для гостей работает ресторан и лобби-бар. На всей территории доступен бесплатный Wi‑Fi.",
+              "Гостям доступны услуги консьержа, хранение багажа и трансфер по запросу. В отеле есть лифт и круглосуточная стойка регистрации."
+            ],
+            "spoiler": true
+          },
+          {
+            "id": "room",
+            "title": "В номере",
+            "paragraphs": [
+              "В номере есть душ, телевизор, рабочая зона и набор для приготовления чая/кофе. Оснащение зависит от категории номера."
+            ],
+            "spoiler": true
+          }
+        ],
+        "facts": {
+          "title": "Факты об отеле",
+          "items": [
+            {
+              "key": "renovation",
+              "label": "Год реновации",
+              "value": "2019 год"
+            },
+            {
+              "key": "socket",
+              "label": "Тип розетки",
+              "value": [
+                "Южная Корея",
+                "220 В / 50–60 Гц"
+              ]
+            },
+            {
+              "key": "rooms_floors",
+              "label": "Количество номеров и этажей",
+              "value": "96 номеров, 12 этажей"
+            }
+          ]
+        }
+      },
+      "additionalInfoBlock": {
+        "title": "Дополнительная информация",
+        "paragraphs": [
+          "При заезде может взиматься городской налог. Его размер зависит от правил города и категории размещения.",
+          "Если планируется поздний заезд, рекомендуется предупредить отель заранее.",
+          "Некоторые услуги могут предоставляться за дополнительную плату."
+        ]
+      },
+      "accommodationBlock": {
+        "title": "Условия размещения",
+        "checkInOut": {
+          "title": "Заселение и выезд",
+          "checkIn": {
+            "label": "Заселение",
+            "value": "После 15:00"
+          },
+          "checkOut": {
+            "label": "Выезд",
+            "value": "До 11:00"
+          }
+        },
+        "blocks": [
+          {
+            "id": "deposit",
+            "title": "Депозит",
+            "icon": "deposit",
+            "items": [
+              {
+                "label": "Гарантия картой",
+                "value": "Требуется при заезде"
+              }
+            ]
+          },
+          {
+            "id": "extraBed",
+            "title": "Дополнительная кровать",
+            "icon": "extraBed",
+            "items": [
+              {
+                "label": "По запросу",
+                "value": "45 у.е. за ночь"
+              }
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Животные",
+            "icon": "pets",
+            "items": [
+              {
+                "label": "Размещение с животными",
+                "value": "Нужно уточнять заранее"
+              }
+            ]
+          }
+        ]
+      },
+      "currencyCode": "KRW",
+      "paymentSection": {
+        "payment": {
+          "title": "Оплата",
+          "inHotelTitle": "В отеле",
+          "onSiteTitle": "На сайте",
+          "inHotelItems": [
+            {
+              "type": "text",
+              "text": "Наличными в валюте отеля — KRW"
+            },
+            {
+              "type": "cards",
+              "label": "Картой:",
+              "codes": [
+                "visa",
+                "mastercard",
+                "american-express"
+              ]
+            }
+          ],
+          "onSiteText": "Для некоторых тарифов доступна онлайн-оплата банковской картой при бронировании."
+        }
+      },
+      "amenitiesBlock": {
+        "title": "Услуги и удобства",
+        "groups": [
+          {
+            "id": "popular",
+            "title": "Популярные",
+            "icon": "popular",
+            "variant": "popular",
+            "items": [
+              {
+                "text": "Бесплатный интернет",
+                "icon": "internet"
+              },
+              {
+                "text": "Завтрак",
+                "icon": "meal"
+              },
+              {
+                "text": "Парковка",
+                "icon": "parking"
+              },
+              {
+                "text": "Кондиционер",
+                "icon": "air_conditioning"
+              },
+              {
+                "text": "Можно с питомцами",
+                "icon": "pets"
+              }
+            ]
+          },
+          {
+            "id": "common",
+            "title": "Общее",
+            "icon": "common_info",
+            "items": [
+              "Круглосуточная стойка регистрации",
+              "Лифт",
+              "Отель для некурящих",
+              "Отопление",
+              "Терраса"
+            ]
+          },
+          {
+            "id": "rooms",
+            "title": "В номерах",
+            "icon": "extra_service",
+            "items": [
+              "Номера для некурящих",
+              "Телевизор",
+              "Фен",
+              "Душ",
+              "Туалетные принадлежности"
+            ]
+          },
+          {
+            "id": "meal",
+            "title": "Питание",
+            "icon": "meal",
+            "items": [
+              "Бар",
+              "Завтрак",
+              "Ресторан",
+              "Чайник"
+            ]
+          },
+          {
+            "id": "internet",
+            "title": "Интернет",
+            "icon": "internet",
+            "items": [
+              "Бесплатный Wi‑Fi",
+              "Доступ в интернет"
+            ]
+          }
+        ]
+      },
+      "reviewsBlock": {
+        "title": "Отзывы",
+        "ratingSummary": {
+          "value": 8.5,
+          "totalReviews": 1410,
+          "localLanguageReviews": 12,
+          "basedOnText": "Основано на {TOTAL} отзывах гостей из разных стран.",
+          "localLanguageText": "На вашем языке доступно {LOCAL} отзывов"
+        },
+        "detailedScores": [
+          {
+            "label": "Чистота",
+            "value": 9
+          },
+          {
+            "label": "Расположение",
+            "value": 9.2
+          },
+          {
+            "label": "Цена/Качество",
+            "value": 8.7
+          },
+          {
+            "label": "Номер",
+            "value": 8.9
+          },
+          {
+            "label": "Обслуживание",
+            "value": 9.1
+          },
+          {
+            "label": "Качество Wi‑Fi",
+            "value": 8.8
+          }
+        ],
+        "tripadvisor": {
+          "label": "TripAdvisor",
+          "reviews": 1405,
+          "href": "https://www.tripadvisor.com"
+        },
+        "featuredReviews": [
+          {
+            "author": "сеул_traveler",
+            "countryCode": "KR",
+            "text": "Отличное расположение в Сеул, чистые номера, дружелюбный персонал и хороший завтрак."
+          }
+        ],
+        "reviews": [
+          {
+            "id": "h-kr-sel-center-r1",
+            "source": "tripadvisor",
+            "author": "travel_guest_1",
+            "countryCode": "RU",
+            "tripType": "пара",
+            "date": "май 2024 г.",
+            "rating": 5,
+            "title": "Очень понравилось",
+            "text": "Останавливались в Seoul Center Hotel на несколько ночей. Отличный сервис, хорошее расположение и комфортные номера."
+          },
+          {
+            "id": "h-kr-sel-center-r2",
+            "source": "tripadvisor",
+            "author": "travel_guest_2",
+            "countryCode": "DE",
+            "tripType": "семья",
+            "date": "февраль 2024 г.",
+            "rating": 4,
+            "title": "Хороший вариант",
+            "text": "Удобный отель для поездки в город. Понравились завтраки и удобство расположения рядом с транспортом."
+          }
+        ],
+        "moreLink": {
+          "href": "https://www.tripadvisor.com",
+          "remaining": 1408,
+          "text": "Посмотреть ещё {N} отзывов на TripAdvisor"
+        }
+      },
+      "filters": {
+        "amenitiesHotel": [
+          "internet",
+          "parking",
+          "fitness"
+        ],
+        "amenitiesRoom": [],
+        "placement": [
+          "accessible",
+          "pets"
+        ],
+        "meals": [
+          "breakfastIncluded"
+        ],
+        "paymentAndBooking": [
+          "freeCancellation",
+          "payOnsite"
+        ],
+        "rooms": 1,
+        "bedTypes": [
+          "doubleBed"
+        ]
+      }
+    },
+    {
+      "id": "h-kr-pus-marina",
+      "cityId": "kr-pus",
+      "name": "Busan Marina Stay",
+      "address": "Haeundae, Busan",
+      "distanceFromCenter": "1.7 км от центра Пусан",
+      "stars": 4,
+      "rating": 8.8,
+      "reviews": 620,
+      "priceTotalRub": 174000,
+      "nights": 4,
+      "distanceKm": 1.7,
+      "type": "hotel",
+      "amenities": [
+        "wifi",
+        "breakfast",
+        "airConditioning"
+      ],
+      "imageUrl": "/hotels/cdn/photos/picsum_kr_pus_marina_main_900_600.jpg",
+      "images": [
+        "/hotels/cdn/photos/picsum_kr_pus_marina_1_900_600.jpg",
+        "/hotels/cdn/photos/picsum_kr_pus_marina_2_900_600.jpg",
+        "/hotels/cdn/photos/picsum_kr_pus_marina_3_900_600.jpg",
+        "/hotels/cdn/photos/picsum_kr_pus_marina_4_900_600.jpg",
+        "/hotels/cdn/photos/picsum_kr_pus_marina_6_900_600.jpg",
+        "/hotels/cdn/photos/picsum_kr_pus_marina_7_900_600.jpg",
+        "/hotels/cdn/photos/picsum_kr_pus_marina_8_900_600.jpg",
+        "/hotels/cdn/photos/picsum_kr_pus_marina_9_900_600.jpg"
+      ],
+      "offer": {
+        "roomTitle": "Номер Superior",
+        "beds": "двуспальная кровать",
+        "mealPlan": "breakfast",
+        "cancellation": "free",
+        "payment": "at_hotel"
+      },
+      "geoBlock": {
+        "title": "Расположение",
+        "address": "Haeundae, Busan",
+        "map": {
+          "lat": 35.43494460700996,
+          "lng": 139.14592623049103,
+          "zoom": 14,
+          "query": "Haeundae, Busan, Пусан",
+          "tileUrlTemplate": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          "tileAttribution": "© Участники OpenStreetMap"
+        },
+        "poiGroups": [
+          {
+            "id": "nearby",
+            "title": "Что вокруг",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Старая площадь Пусан",
+                "distance": "280 м"
+              },
+              {
+                "type": "CHURCH",
+                "name": "Собор Пусан",
+                "distance": "430 м"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Городской музей Пусан",
+                "distance": "620 м"
+              },
+              {
+                "type": "PARK",
+                "name": "Парк Пусан",
+                "distance": "910 м"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Набережная Пусан",
+                "distance": "1,1 км"
+              }
+            ]
+          },
+          {
+            "id": "top",
+            "title": "Достопримечательности",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Главная достопримечательность Пусан",
+                "distance": "1,4 км"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Национальный музей Пусан",
+                "distance": "1,8 км"
+              },
+              {
+                "type": "PARK",
+                "name": "Центральный парк Пусан",
+                "distance": "2,1 км"
+              },
+              {
+                "type": "AIRPORT",
+                "name": "Аэропорт Пусан",
+                "distance": "18 км"
+              }
+            ]
+          },
+          {
+            "id": "airports",
+            "title": "Аэропорты",
+            "items": [
+              {
+                "type": "AIRPORT",
+                "name": "Аэропорт Пусан",
+                "distance": "18 км"
+              }
+            ]
+          },
+          {
+            "id": "railways",
+            "title": "Вокзалы",
+            "items": [
+              {
+                "type": "RAILWAY_STATION",
+                "name": "Центральный вокзал Пусан",
+                "distance": "1,2 км"
+              }
+            ]
+          }
+        ]
+      },
+      "roomOptions": {
+        "galleryCtaText": "фото",
+        "availabilityTitle": "Доступные варианты",
+        "groups": [
+          {
+            "id": "h-kr-pus-marina-std",
+            "name": "Двухместный номер Standard",
+            "nameAdditional": "1 двуспальная кровать",
+            "alert": "На нашем сайте осталось 3 номера",
+            "imageUrl": "/hotels/cdn/photos/picsum_kr_pus_marina_room_std_640_420.jpg",
+            "imageCount": 8,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "22 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-kr-pus-marina-std-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Питание не включено",
+                  "isFeature": false
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена",
+                "priceRub": 135720,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 35 KRW налоги и сборы",
+                "bookUrl": "/orders/reserve/h-kr-pus-marina-std-r1"
+              },
+              {
+                "id": "h-kr-pus-marina-std-r2",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена с питанием",
+                "priceRub": 149640,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 35 KRW налоги и сборы",
+                "bookUrl": "/orders/reserve/h-kr-pus-marina-std-r2"
+              }
+            ]
+          },
+          {
+            "id": "h-kr-pus-marina-sup",
+            "name": "Номер Superior",
+            "nameAdditional": "1 двуспальная кровать • вид на город",
+            "alert": "Осталось 2 номера по этой цене",
+            "imageUrl": "/hotels/cdn/photos/picsum_kr_pus_marina_room_sup_640_420.jpg",
+            "imageCount": 12,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "28 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-kr-pus-marina-sup-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 5 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Карта для гарантии"
+                },
+                "deal": "Популярный вариант",
+                "priceRub": 174000,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 45 KRW налоги и сборы",
+                "bookUrl": "/orders/reserve/h-kr-pus-marina-sup-r1"
+              }
+            ]
+          }
+        ]
+      },
+      "aboutBlock": {
+        "title": "Описание отеля",
+        "expandText": "Развернуть описание",
+        "collapseText": "Свернуть описание",
+        "sections": [
+          {
+            "id": "location",
+            "title": "Расположение",
+            "paragraphs": [
+              "Отель «Busan Marina Stay» находится в пешей доступности от центра Пусан. Рядом — исторический центр, музеи, рестораны и транспортные узлы."
+            ]
+          },
+          {
+            "id": "hotel",
+            "title": "В отеле",
+            "paragraphs": [
+              "Для гостей работает ресторан и лобби-бар. На всей территории доступен бесплатный Wi‑Fi.",
+              "Гостям доступны услуги консьержа, хранение багажа и трансфер по запросу. В отеле есть лифт и круглосуточная стойка регистрации."
+            ],
+            "spoiler": true
+          },
+          {
+            "id": "room",
+            "title": "В номере",
+            "paragraphs": [
+              "В номере есть душ, телевизор, рабочая зона и набор для приготовления чая/кофе. Оснащение зависит от категории номера."
+            ],
+            "spoiler": true
+          }
+        ],
+        "facts": {
+          "title": "Факты об отеле",
+          "items": [
+            {
+              "key": "renovation",
+              "label": "Год реновации",
+              "value": "2019 год"
+            },
+            {
+              "key": "socket",
+              "label": "Тип розетки",
+              "value": [
+                "Южная Корея",
+                "220 В / 50–60 Гц"
+              ]
+            },
+            {
+              "key": "rooms_floors",
+              "label": "Количество номеров и этажей",
+              "value": "96 номеров, 12 этажей"
+            }
+          ]
+        }
+      },
+      "additionalInfoBlock": {
+        "title": "Дополнительная информация",
+        "paragraphs": [
+          "При заезде может взиматься городской налог. Его размер зависит от правил города и категории размещения.",
+          "Если планируется поздний заезд, рекомендуется предупредить отель заранее.",
+          "Некоторые услуги могут предоставляться за дополнительную плату."
+        ]
+      },
+      "accommodationBlock": {
+        "title": "Условия размещения",
+        "checkInOut": {
+          "title": "Заселение и выезд",
+          "checkIn": {
+            "label": "Заселение",
+            "value": "После 15:00"
+          },
+          "checkOut": {
+            "label": "Выезд",
+            "value": "До 11:00"
+          }
+        },
+        "blocks": [
+          {
+            "id": "deposit",
+            "title": "Депозит",
+            "icon": "deposit",
+            "items": [
+              {
+                "label": "Гарантия картой",
+                "value": "Требуется при заезде"
+              }
+            ]
+          },
+          {
+            "id": "extraBed",
+            "title": "Дополнительная кровать",
+            "icon": "extraBed",
+            "items": [
+              {
+                "label": "По запросу",
+                "value": "45 у.е. за ночь"
+              }
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Животные",
+            "icon": "pets",
+            "items": [
+              {
+                "label": "Размещение с животными",
+                "value": "Нужно уточнять заранее"
+              }
+            ]
+          }
+        ]
+      },
+      "currencyCode": "KRW",
+      "paymentSection": {
+        "payment": {
+          "title": "Оплата",
+          "inHotelTitle": "В отеле",
+          "onSiteTitle": "На сайте",
+          "inHotelItems": [
+            {
+              "type": "text",
+              "text": "Наличными в валюте отеля — KRW"
+            },
+            {
+              "type": "cards",
+              "label": "Картой:",
+              "codes": [
+                "visa",
+                "mastercard",
+                "american-express"
+              ]
+            }
+          ],
+          "onSiteText": "Для некоторых тарифов доступна онлайн-оплата банковской картой при бронировании."
+        }
+      },
+      "amenitiesBlock": {
+        "title": "Услуги и удобства",
+        "groups": [
+          {
+            "id": "popular",
+            "title": "Популярные",
+            "icon": "popular",
+            "variant": "popular",
+            "items": [
+              "Бесплатный интернет",
+              "Завтрак",
+              "Кондиционер"
+            ]
+          },
+          {
+            "id": "common",
+            "title": "Общее",
+            "icon": "common_info",
+            "items": [
+              "Круглосуточная стойка регистрации",
+              "Лифт",
+              "Отель для некурящих",
+              "Отопление",
+              "Терраса"
+            ]
+          },
+          {
+            "id": "rooms",
+            "title": "В номерах",
+            "icon": "extra_service",
+            "items": [
+              "Номера для некурящих",
+              "Телевизор",
+              "Фен",
+              "Душ",
+              "Туалетные принадлежности"
+            ]
+          },
+          {
+            "id": "meal",
+            "title": "Питание",
+            "icon": "meal",
+            "items": [
+              "Бар",
+              "Завтрак",
+              "Ресторан",
+              "Чайник"
+            ]
+          },
+          {
+            "id": "internet",
+            "title": "Интернет",
+            "icon": "internet",
+            "items": [
+              "Бесплатный Wi‑Fi",
+              "Доступ в интернет"
+            ]
+          }
+        ]
+      },
+      "reviewsBlock": {
+        "title": "Отзывы",
+        "ratingSummary": {
+          "value": 8,
+          "totalReviews": 620,
+          "localLanguageReviews": 12,
+          "basedOnText": "Основано на {TOTAL} отзывах гостей из разных стран.",
+          "localLanguageText": "На вашем языке доступно {LOCAL} отзывов"
+        },
+        "detailedScores": [
+          {
+            "label": "Чистота",
+            "value": 8.5
+          },
+          {
+            "label": "Расположение",
+            "value": 8.7
+          },
+          {
+            "label": "Цена/Качество",
+            "value": 8.2
+          },
+          {
+            "label": "Номер",
+            "value": 8.4
+          },
+          {
+            "label": "Обслуживание",
+            "value": 8.6
+          },
+          {
+            "label": "Качество Wi‑Fi",
+            "value": 8.3
+          }
+        ],
+        "tripadvisor": {
+          "label": "TripAdvisor",
+          "reviews": 615,
+          "href": "https://www.tripadvisor.com"
+        },
+        "featuredReviews": [
+          {
+            "author": "пусан_traveler",
+            "countryCode": "KR",
+            "text": "Отличное расположение в Пусан, чистые номера, дружелюбный персонал и хороший завтрак."
+          }
+        ],
+        "reviews": [
+          {
+            "id": "h-kr-pus-marina-r1",
+            "source": "tripadvisor",
+            "author": "travel_guest_1",
+            "countryCode": "RU",
+            "tripType": "пара",
+            "date": "май 2024 г.",
+            "rating": 5,
+            "title": "Очень понравилось",
+            "text": "Останавливались в Busan Marina Stay на несколько ночей. Отличный сервис, хорошее расположение и комфортные номера."
+          },
+          {
+            "id": "h-kr-pus-marina-r2",
+            "source": "tripadvisor",
+            "author": "travel_guest_2",
+            "countryCode": "DE",
+            "tripType": "семья",
+            "date": "февраль 2024 г.",
+            "rating": 4,
+            "title": "Хороший вариант",
+            "text": "Удобный отель для поездки в город. Понравились завтраки и удобство расположения рядом с транспортом."
+          }
+        ],
+        "moreLink": {
+          "href": "https://www.tripadvisor.com",
+          "remaining": 618,
+          "text": "Посмотреть ещё {N} отзывов на TripAdvisor"
+        }
+      },
+      "filters": {
+        "amenitiesHotel": [
+          "internet",
+          "parking",
+          "fitness"
+        ],
+        "amenitiesRoom": [],
+        "placement": [
+          "accessible",
+          "pets"
+        ],
+        "meals": [
+          "breakfastIncluded"
+        ],
+        "paymentAndBooking": [
+          "freeCancellation",
+          "payOnsite"
+        ],
+        "rooms": 1,
+        "bedTypes": [
+          "doubleBed"
+        ]
+      }
+    },
+    {
+      "id": "h-kr-cju-ocean",
+      "cityId": "kr-cju",
+      "name": "Jeju Ocean Resort",
+      "address": "Seogwipo, Jeju",
+      "distanceFromCenter": "2.1 км от центра Чеджу",
+      "stars": 5,
+      "rating": 9.1,
+      "reviews": 530,
+      "priceTotalRub": 221000,
+      "nights": 4,
+      "distanceKm": 2.1,
+      "type": "hotel",
+      "amenities": [
+        "wifi",
+        "breakfast",
+        "parking",
+        "pets"
+      ],
+      "imageUrl": "/hotels/cdn/photos/picsum_kr_cju_ocean_main_900_600.jpg",
+      "images": [
+        "/hotels/cdn/photos/picsum_kr_cju_ocean_1_900_600.jpg",
+        "/hotels/cdn/photos/picsum_kr_cju_ocean_2_900_600.jpg",
+        "/hotels/cdn/photos/picsum_kr_cju_ocean_3_900_600.jpg",
+        "/hotels/cdn/photos/picsum_kr_cju_ocean_4_900_600.jpg",
+        "/hotels/cdn/photos/picsum_kr_cju_ocean_6_900_600.jpg",
+        "/hotels/cdn/photos/picsum_kr_cju_ocean_7_900_600.jpg",
+        "/hotels/cdn/photos/picsum_kr_cju_ocean_10_900_600.jpg"
+      ],
+      "offer": {
+        "roomTitle": "Номер Superior",
+        "beds": "двуспальная кровать",
+        "mealPlan": "breakfast",
+        "cancellation": "free",
+        "payment": "at_hotel"
+      },
+      "geoBlock": {
+        "title": "Расположение",
+        "address": "Seogwipo, Jeju",
+        "map": {
+          "lat": 35.535624014947274,
+          "lng": 139.1182026647239,
+          "zoom": 14,
+          "query": "Seogwipo, Jeju, Чеджу",
+          "tileUrlTemplate": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          "tileAttribution": "© Участники OpenStreetMap"
+        },
+        "poiGroups": [
+          {
+            "id": "nearby",
+            "title": "Что вокруг",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Старая площадь Чеджу",
+                "distance": "280 м"
+              },
+              {
+                "type": "CHURCH",
+                "name": "Собор Чеджу",
+                "distance": "430 м"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Городской музей Чеджу",
+                "distance": "620 м"
+              },
+              {
+                "type": "PARK",
+                "name": "Парк Чеджу",
+                "distance": "910 м"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Набережная Чеджу",
+                "distance": "1,1 км"
+              }
+            ]
+          },
+          {
+            "id": "top",
+            "title": "Достопримечательности",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Главная достопримечательность Чеджу",
+                "distance": "1,4 км"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Национальный музей Чеджу",
+                "distance": "1,8 км"
+              },
+              {
+                "type": "PARK",
+                "name": "Центральный парк Чеджу",
+                "distance": "2,1 км"
+              },
+              {
+                "type": "AIRPORT",
+                "name": "Аэропорт Чеджу",
+                "distance": "18 км"
+              }
+            ]
+          },
+          {
+            "id": "airports",
+            "title": "Аэропорты",
+            "items": [
+              {
+                "type": "AIRPORT",
+                "name": "Аэропорт Чеджу",
+                "distance": "18 км"
+              }
+            ]
+          },
+          {
+            "id": "railways",
+            "title": "Вокзалы",
+            "items": [
+              {
+                "type": "RAILWAY_STATION",
+                "name": "Центральный вокзал Чеджу",
+                "distance": "1,2 км"
+              }
+            ]
+          }
+        ]
+      },
+      "roomOptions": {
+        "galleryCtaText": "фото",
+        "availabilityTitle": "Доступные варианты",
+        "groups": [
+          {
+            "id": "h-kr-cju-ocean-std",
+            "name": "Двухместный номер Standard",
+            "nameAdditional": "1 двуспальная кровать",
+            "alert": "На нашем сайте осталось 3 номера",
+            "imageUrl": "/hotels/cdn/photos/picsum_kr_cju_ocean_room_std_640_420.jpg",
+            "imageCount": 8,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "22 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-kr-cju-ocean-std-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Питание не включено",
+                  "isFeature": false
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена",
+                "priceRub": 172380,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 35 KRW налоги и сборы",
+                "bookUrl": "/orders/reserve/h-kr-cju-ocean-std-r1"
+              },
+              {
+                "id": "h-kr-cju-ocean-std-r2",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена с питанием",
+                "priceRub": 190060,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 35 KRW налоги и сборы",
+                "bookUrl": "/orders/reserve/h-kr-cju-ocean-std-r2"
+              }
+            ]
+          },
+          {
+            "id": "h-kr-cju-ocean-sup",
+            "name": "Номер Superior",
+            "nameAdditional": "1 двуспальная кровать • вид на город",
+            "alert": "Осталось 2 номера по этой цене",
+            "imageUrl": "/hotels/cdn/photos/picsum_kr_cju_ocean_room_sup_640_420.jpg",
+            "imageCount": 12,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "28 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-kr-cju-ocean-sup-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 5 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Карта для гарантии"
+                },
+                "deal": "Популярный вариант",
+                "priceRub": 221000,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 45 KRW налоги и сборы",
+                "bookUrl": "/orders/reserve/h-kr-cju-ocean-sup-r1"
+              }
+            ]
+          }
+        ]
+      },
+      "aboutBlock": {
+        "title": "Описание отеля",
+        "expandText": "Развернуть описание",
+        "collapseText": "Свернуть описание",
+        "sections": [
+          {
+            "id": "location",
+            "title": "Расположение",
+            "paragraphs": [
+              "Отель «Jeju Ocean Resort» находится в пешей доступности от центра Чеджу. Рядом — исторический центр, музеи, рестораны и транспортные узлы."
+            ]
+          },
+          {
+            "id": "hotel",
+            "title": "В отеле",
+            "paragraphs": [
+              "Для гостей работает ресторан и лобби-бар. На всей территории доступен бесплатный Wi‑Fi.",
+              "Гостям доступны услуги консьержа, хранение багажа и трансфер по запросу. В отеле есть лифт и круглосуточная стойка регистрации."
+            ],
+            "spoiler": true
+          },
+          {
+            "id": "room",
+            "title": "В номере",
+            "paragraphs": [
+              "В номере есть душ, телевизор, рабочая зона и набор для приготовления чая/кофе. Оснащение зависит от категории номера."
+            ],
+            "spoiler": true
+          }
+        ],
+        "facts": {
+          "title": "Факты об отеле",
+          "items": [
+            {
+              "key": "renovation",
+              "label": "Год реновации",
+              "value": "2019 год"
+            },
+            {
+              "key": "socket",
+              "label": "Тип розетки",
+              "value": [
+                "Южная Корея",
+                "220 В / 50–60 Гц"
+              ]
+            },
+            {
+              "key": "rooms_floors",
+              "label": "Количество номеров и этажей",
+              "value": "96 номеров, 12 этажей"
+            }
+          ]
+        }
+      },
+      "additionalInfoBlock": {
+        "title": "Дополнительная информация",
+        "paragraphs": [
+          "При заезде может взиматься городской налог. Его размер зависит от правил города и категории размещения.",
+          "Если планируется поздний заезд, рекомендуется предупредить отель заранее.",
+          "Некоторые услуги могут предоставляться за дополнительную плату."
+        ]
+      },
+      "accommodationBlock": {
+        "title": "Условия размещения",
+        "checkInOut": {
+          "title": "Заселение и выезд",
+          "checkIn": {
+            "label": "Заселение",
+            "value": "После 15:00"
+          },
+          "checkOut": {
+            "label": "Выезд",
+            "value": "До 11:00"
+          }
+        },
+        "blocks": [
+          {
+            "id": "deposit",
+            "title": "Депозит",
+            "icon": "deposit",
+            "items": [
+              {
+                "label": "Гарантия картой",
+                "value": "Требуется при заезде"
+              }
+            ]
+          },
+          {
+            "id": "extraBed",
+            "title": "Дополнительная кровать",
+            "icon": "extraBed",
+            "items": [
+              {
+                "label": "По запросу",
+                "value": "45 у.е. за ночь"
+              }
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Животные",
+            "icon": "pets",
+            "items": [
+              {
+                "label": "Размещение с животными",
+                "value": "Нужно уточнять заранее"
+              }
+            ]
+          }
+        ]
+      },
+      "currencyCode": "KRW",
+      "paymentSection": {
+        "payment": {
+          "title": "Оплата",
+          "inHotelTitle": "В отеле",
+          "onSiteTitle": "На сайте",
+          "inHotelItems": [
+            {
+              "type": "text",
+              "text": "Наличными в валюте отеля — KRW"
+            },
+            {
+              "type": "cards",
+              "label": "Картой:",
+              "codes": [
+                "visa",
+                "mastercard",
+                "american-express"
+              ]
+            }
+          ],
+          "onSiteText": "Для некоторых тарифов доступна онлайн-оплата банковской картой при бронировании."
+        }
+      },
+      "amenitiesBlock": {
+        "title": "Услуги и удобства",
+        "groups": [
+          {
+            "id": "popular",
+            "title": "Популярные",
+            "icon": "popular",
+            "variant": "popular",
+            "items": [
+              "Бесплатный интернет",
+              "Завтрак",
+              "Парковка",
+              "Разрешено с домашними животными"
+            ]
+          },
+          {
+            "id": "common",
+            "title": "Общее",
+            "icon": "common_info",
+            "items": [
+              "Круглосуточная стойка регистрации",
+              "Лифт",
+              "Отель для некурящих",
+              "Отопление",
+              "Терраса"
+            ]
+          },
+          {
+            "id": "rooms",
+            "title": "В номерах",
+            "icon": "extra_service",
+            "items": [
+              "Номера для некурящих",
+              "Телевизор",
+              "Фен",
+              "Душ",
+              "Туалетные принадлежности"
+            ]
+          },
+          {
+            "id": "meal",
+            "title": "Питание",
+            "icon": "meal",
+            "items": [
+              "Бар",
+              "Завтрак",
+              "Ресторан",
+              "Чайник"
+            ]
+          },
+          {
+            "id": "internet",
+            "title": "Интернет",
+            "icon": "internet",
+            "items": [
+              "Бесплатный Wi‑Fi",
+              "Доступ в интернет"
+            ]
+          }
+        ]
+      },
+      "reviewsBlock": {
+        "title": "Отзывы",
+        "ratingSummary": {
+          "value": 8.3,
+          "totalReviews": 530,
+          "localLanguageReviews": 12,
+          "basedOnText": "Основано на {TOTAL} отзывах гостей из разных стран.",
+          "localLanguageText": "На вашем языке доступно {LOCAL} отзывов"
+        },
+        "detailedScores": [
+          {
+            "label": "Чистота",
+            "value": 8.8
+          },
+          {
+            "label": "Расположение",
+            "value": 9
+          },
+          {
+            "label": "Цена/Качество",
+            "value": 8.5
+          },
+          {
+            "label": "Номер",
+            "value": 8.7
+          },
+          {
+            "label": "Обслуживание",
+            "value": 8.9
+          },
+          {
+            "label": "Качество Wi‑Fi",
+            "value": 8.6
+          }
+        ],
+        "tripadvisor": {
+          "label": "TripAdvisor",
+          "reviews": 525,
+          "href": "https://www.tripadvisor.com"
+        },
+        "featuredReviews": [
+          {
+            "author": "чеджу_traveler",
+            "countryCode": "KR",
+            "text": "Отличное расположение в Чеджу, чистые номера, дружелюбный персонал и хороший завтрак."
+          }
+        ],
+        "reviews": [
+          {
+            "id": "h-kr-cju-ocean-r1",
+            "source": "tripadvisor",
+            "author": "travel_guest_1",
+            "countryCode": "RU",
+            "tripType": "пара",
+            "date": "май 2024 г.",
+            "rating": 5,
+            "title": "Очень понравилось",
+            "text": "Останавливались в Jeju Ocean Resort на несколько ночей. Отличный сервис, хорошее расположение и комфортные номера."
+          },
+          {
+            "id": "h-kr-cju-ocean-r2",
+            "source": "tripadvisor",
+            "author": "travel_guest_2",
+            "countryCode": "DE",
+            "tripType": "семья",
+            "date": "февраль 2024 г.",
+            "rating": 4,
+            "title": "Хороший вариант",
+            "text": "Удобный отель для поездки в город. Понравились завтраки и удобство расположения рядом с транспортом."
+          }
+        ],
+        "moreLink": {
+          "href": "https://www.tripadvisor.com",
+          "remaining": 528,
+          "text": "Посмотреть ещё {N} отзывов на TripAdvisor"
+        }
+      },
+      "filters": {
+        "amenitiesHotel": [
+          "internet",
+          "parking",
+          "fitness"
+        ],
+        "amenitiesRoom": [],
+        "placement": [
+          "accessible",
+          "pets"
+        ],
+        "meals": [
+          "breakfastIncluded"
+        ],
+        "paymentAndBooking": [
+          "freeCancellation",
+          "payOnsite"
+        ],
+        "rooms": 1,
+        "bedTypes": [
+          "doubleBed"
+        ]
+      }
+    }
+  ]
+}

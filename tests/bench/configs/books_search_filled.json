@@ -1,0 +1,11 @@
+{
+  "profile_id": "books_search_filled",
+  "description": "Книги: filled SearchBar",
+  "domain_configs": {
+    "books": {
+      "ui_variants": {
+        "text_search": "filled"
+      }
+    }
+  }
+}

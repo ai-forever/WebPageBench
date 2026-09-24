@@ -1,0 +1,95 @@
+{
+  "test_data": {
+    "login_data": {
+      "login": "bench@example.com",
+      "password": "bench123",
+      "phone": "9150000000",
+      "email": "bench@example.com"
+    },
+    "bench_first_domain": "rail",
+    "bench_first_state": "state_rail_main",
+    "task": "На %HOST% в «Поездах» найди билеты Москва — Санкт-Петербург на 04.09.2026, 2 пассажира, добавь в корзину.",
+    "conditions": [
+      {
+        "event_name": "select_city",
+        "parameters": {
+          "field": "from",
+          "name": "Москва"
+        }
+      },
+      {
+        "event_name": "select_city",
+        "parameters": {
+          "field": "to",
+          "name": "Санкт-Петербург"
+        }
+      },
+      {
+        "event_name": "select_date",
+        "parameters": {
+          "date": "2026-09-04"
+        }
+      },
+      {
+        "event_name": "submit_search",
+        "parameters": {}
+      },
+      {
+        "event_name": "select_train",
+        "parameters": {}
+      },
+      {
+        "event_name": "select_tariff",
+        "parameters": {}
+      },
+      {
+        "event_name": "select_seat",
+        "parameters": {
+          "seats_amount": 2
+        }
+      },
+      {
+        "event_name": "select_passenger",
+        "parameters": {
+          "passenger_index": 1
+        }
+      },
+      {
+        "event_name": "select_passenger",
+        "parameters": {
+          "passenger_index": 2
+        }
+      },
+      {
+        "event_name": "basket_add",
+        "parameters": {}
+      }
+    ],
+    "ui_taxonomy": {
+      "primary": "BASKET",
+      "classes": [
+        "SELECT_LIST",
+        "DATE",
+        "SEARCH",
+        "CARD",
+        "RADIO",
+        "SEAT",
+        "BASKET"
+      ],
+      "subtypes": [
+        "search_trains"
+      ]
+    },
+    "ui_variants": {
+      "select_station": "native_select"
+    },
+    "ui_variant_profile": "rail_station_native"
+  },
+  "domain_configs": {
+    "rail": {
+      "ui_variants": {
+        "select_station": "native_select"
+      }
+    }
+  }
+}

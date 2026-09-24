@@ -1,0 +1,12 @@
+{
+  "profile_id": "rail_date_native_buttons",
+  "description": "ЖД: native date input + native select станций",
+  "domain_configs": {
+    "rail": {
+      "ui_variants": {
+        "date": "native_input",
+        "select_station": "native_select"
+      }
+    }
+  }
+}

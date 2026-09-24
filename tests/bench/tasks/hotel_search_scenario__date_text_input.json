@@ -1,0 +1,85 @@
+{
+  "test_data": {
+    "login_data": {
+      "login": "bench@example.com",
+      "password": "bench123",
+      "phone": "9150000000",
+      "email": "bench@example.com"
+    },
+    "bench_first_domain": "hotels",
+    "bench_first_state": "state_hotels_main",
+    "task": "На %HOST% в «Отели» покажи варианты: Цюрих, Швейцария, заезд 15.09.2026, выезд 20.09.2026, 2 гостя.",
+    "conditions": [
+      {
+        "event_name": "bench_hotel_select_city",
+        "parameters": {
+          "cityId": "ch-zrh",
+          "label": "Цюрих, Швейцария",
+          "cityName": "Цюрих",
+          "countryName": "Швейцария"
+        }
+      },
+      {
+        "event_name": "bench_hotel_select_start_date",
+        "parameters": {
+          "date": "2026-09-15"
+        }
+      },
+      {
+        "event_name": "bench_hotel_select_end_date",
+        "parameters": {
+          "date": "2026-09-20"
+        }
+      },
+      {
+        "event_name": "bench_hotel_select_guests",
+        "parameters": {
+          "rooms": [
+            {
+              "adults": 2,
+              "kids": []
+            }
+          ],
+          "roomsCount": 1,
+          "guestsCount": 2
+        }
+      },
+      {
+        "event_name": "state_changed",
+        "parameters": {
+          "new_state": "bench_hotel_search"
+        }
+      }
+    ],
+    "target_events": [
+      "bench_hotel_select_city",
+      "bench_hotel_select_start_date",
+      "bench_hotel_select_end_date",
+      "bench_hotel_select_guests",
+      "state_changed"
+    ],
+    "ui_taxonomy": {
+      "primary": "COUNTER",
+      "classes": [
+        "SELECT_AC",
+        "DATE",
+        "COUNTER",
+        "NAV"
+      ],
+      "subtypes": [
+        "search_hotels"
+      ]
+    },
+    "ui_variants": {
+      "date": "text_input"
+    },
+    "ui_variant_profile": "hotels_date_text"
+  },
+  "domain_configs": {
+    "hotels": {
+      "ui_variants": {
+        "date": "text_input"
+      }
+    }
+  }
+}

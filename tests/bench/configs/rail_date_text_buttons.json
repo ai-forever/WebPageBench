@@ -1,0 +1,12 @@
+{
+  "profile_id": "rail_date_text_buttons",
+  "description": "ЖД: ввод дат строкой + typeahead станций",
+  "domain_configs": {
+    "rail": {
+      "ui_variants": {
+        "date": "text_input",
+        "select_station": "typeahead"
+      }
+    }
+  }
+}

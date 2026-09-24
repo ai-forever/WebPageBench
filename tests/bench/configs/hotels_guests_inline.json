@@ -1,0 +1,13 @@
+{
+  "profile_id": "hotels_guests_inline",
+  "description": "Отели: inline stepper для гостей",
+  "domain_configs": {
+    "hotels": {
+      "ui_variants": {
+        "date": "split_popup",
+        "select_city": "autocomplete",
+        "counter_guests": "inline_stepper"
+      }
+    }
+  }
+}

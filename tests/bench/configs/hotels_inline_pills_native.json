@@ -1,0 +1,13 @@
+{
+  "profile_id": "hotels_inline_pills_native",
+  "description": "Отели: inline-календарь + native select + pill гости",
+  "domain_configs": {
+    "hotels": {
+      "ui_variants": {
+        "date": "inline_calendar",
+        "select_city": "native_select",
+        "counter_guests": "pill_buttons"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+# OpenHands runtime deps for the shared eval venv.
+# Install AFTER `pip install -e ./openhands/openhands-sdk --no-deps`.
+# fastmcp==3.2.0 is the OpenHands 1.17.0 lock; newer 3.3+ splits mcp_config into
+# fastmcp-slim. Install it with --no-deps so mcp stays 1.26.0.
+
+agent-client-protocol>=0.8.1
+deprecation>=2.1.0
+fakeredis[lua]>=2.32.1
+filelock>=3.20.1
+python-frontmatter>=1.1.0
+python-json-logger>=3.3.0
+tenacity>=9.1.2
+websockets>=12
+lmnr>=0.7.24
+bashlex>=0.18
+binaryornot>=0.4.4
+cachetools
+libtmux>=0.53.0
+func-timeout>=4.3.5
+tom-swe>=1.0.3
+tree-sitter
+tree-sitter-bash

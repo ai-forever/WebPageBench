@@ -1,0 +1,6 @@
+# DeepAgents runtime deps (install AFTER browser-use pin sync in install_harnesses.sh).
+# Installed with --no-deps so anthropic/openai stay on browser-use pins (0.76 / 2.16).
+# deepagents graph imports langchain_anthropic at load time; bench eval passes ChatOpenAI.
+
+langchain-anthropic>=1.4.6,<2.0.0
+langchain-google-genai>=4.2.5,<5.0.0

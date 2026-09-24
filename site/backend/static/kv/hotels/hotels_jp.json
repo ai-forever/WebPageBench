@@ -1,0 +1,1732 @@
+{
+  "id": "jp",
+  "label": "Япония",
+  "cities": [
+    {
+      "id": "jp-tyo",
+      "name": "Токио",
+      "countryCode": "JP",
+      "countryName": "Япония"
+    },
+    {
+      "id": "jp-kyo",
+      "name": "Киото",
+      "countryCode": "JP",
+      "countryName": "Япония"
+    },
+    {
+      "id": "jp-osa",
+      "name": "Осака",
+      "countryCode": "JP",
+      "countryName": "Япония"
+    }
+  ],
+  "hotels": [
+    {
+      "id": "h-jp-tyo-ginza",
+      "cityId": "jp-tyo",
+      "name": "Ginza Central Hotel",
+      "address": "Chuo, Ginza 4-8-1, Tokyo",
+      "distanceFromCenter": "0.7 км от центра Токио",
+      "stars": 4,
+      "rating": 9.2,
+      "reviews": 1830,
+      "priceTotalRub": 214000,
+      "nights": 4,
+      "distanceKm": 0.7,
+      "type": "hotel",
+      "amenities": [
+        "wifi",
+        "breakfast",
+        "airConditioning",
+        "parking",
+        "accessible"
+      ],
+      "imageUrl": "/hotels/cdn/photos/picsum_jp_tyo_ginza_main_900_600.jpg",
+      "images": [
+        "/hotels/cdn/photos/picsum_jp_tyo_ginza_1_900_600.jpg",
+        "/hotels/cdn/photos/picsum_jp_tyo_ginza_2_900_600.jpg",
+        "/hotels/cdn/photos/picsum_jp_tyo_ginza_3_900_600.jpg",
+        "/hotels/cdn/photos/picsum_jp_tyo_ginza_4_900_600.jpg",
+        "/hotels/cdn/photos/picsum_jp_tyo_ginza_5_900_600.jpg",
+        "/hotels/cdn/photos/picsum_jp_tyo_ginza_6_900_600.jpg",
+        "/hotels/cdn/photos/picsum_jp_tyo_ginza_7_900_600.jpg",
+        "/hotels/cdn/photos/picsum_jp_tyo_ginza_8_900_600.jpg",
+        "/hotels/cdn/photos/picsum_jp_tyo_ginza_9_900_600.jpg",
+        "/hotels/cdn/photos/picsum_jp_tyo_ginza_10_900_600.jpg"
+      ],
+      "offer": {
+        "roomTitle": "Номер Superior",
+        "beds": "двуспальная кровать",
+        "mealPlan": "breakfast",
+        "cancellation": "free",
+        "payment": "at_hotel"
+      },
+      "geoBlock": {
+        "title": "Расположение",
+        "address": "Chuo, Ginza 4-8-1, Tokyo",
+        "map": {
+          "lat": 35.97775907306609,
+          "lng": 139.67426582333522,
+          "zoom": 14,
+          "query": "Chuo, Ginza 4-8-1, Tokyo, Токио",
+          "tileUrlTemplate": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          "tileAttribution": "© Участники OpenStreetMap"
+        },
+        "poiGroups": [
+          {
+            "id": "nearby",
+            "title": "Что вокруг",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Старая площадь Токио",
+                "distance": "280 м"
+              },
+              {
+                "type": "CHURCH",
+                "name": "Собор Токио",
+                "distance": "430 м"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Городской музей Токио",
+                "distance": "620 м"
+              },
+              {
+                "type": "PARK",
+                "name": "Парк Токио",
+                "distance": "910 м"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Набережная Токио",
+                "distance": "1,1 км"
+              }
+            ]
+          },
+          {
+            "id": "top",
+            "title": "Достопримечательности",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Главная достопримечательность Токио",
+                "distance": "1,4 км"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Национальный музей Токио",
+                "distance": "1,8 км"
+              },
+              {
+                "type": "PARK",
+                "name": "Центральный парк Токио",
+                "distance": "2,1 км"
+              },
+              {
+                "type": "AIRPORT",
+                "name": "Аэропорт Токио",
+                "distance": "18 км"
+              }
+            ]
+          },
+          {
+            "id": "airports",
+            "title": "Аэропорты",
+            "items": [
+              {
+                "type": "AIRPORT",
+                "name": "Аэропорт Токио",
+                "distance": "18 км"
+              }
+            ]
+          },
+          {
+            "id": "railways",
+            "title": "Вокзалы",
+            "items": [
+              {
+                "type": "RAILWAY_STATION",
+                "name": "Центральный вокзал Токио",
+                "distance": "1,2 км"
+              }
+            ]
+          }
+        ]
+      },
+      "roomOptions": {
+        "galleryCtaText": "фото",
+        "availabilityTitle": "Доступные варианты",
+        "groups": [
+          {
+            "id": "h-jp-tyo-ginza-std",
+            "name": "Двухместный номер Standard",
+            "nameAdditional": "1 двуспальная кровать",
+            "alert": "На нашем сайте осталось 3 номера",
+            "imageUrl": "/hotels/cdn/photos/picsum_jp_tyo_ginza_room_std_640_420.jpg",
+            "imageCount": 8,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "22 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-jp-tyo-ginza-std-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Питание не включено",
+                  "isFeature": false
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена",
+                "priceRub": 166920,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 35 JPY налоги и сборы",
+                "bookUrl": "/orders/reserve/h-jp-tyo-ginza-std-r1"
+              },
+              {
+                "id": "h-jp-tyo-ginza-std-r2",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена с питанием",
+                "priceRub": 184040,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 35 JPY налоги и сборы",
+                "bookUrl": "/orders/reserve/h-jp-tyo-ginza-std-r2"
+              }
+            ]
+          },
+          {
+            "id": "h-jp-tyo-ginza-sup",
+            "name": "Номер Superior",
+            "nameAdditional": "1 двуспальная кровать • вид на город",
+            "alert": "Осталось 2 номера по этой цене",
+            "imageUrl": "/hotels/cdn/photos/picsum_jp_tyo_ginza_room_sup_640_420.jpg",
+            "imageCount": 12,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "28 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-jp-tyo-ginza-sup-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 5 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Карта для гарантии"
+                },
+                "deal": "Популярный вариант",
+                "priceRub": 214000,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 45 JPY налоги и сборы",
+                "bookUrl": "/orders/reserve/h-jp-tyo-ginza-sup-r1"
+              }
+            ]
+          }
+        ]
+      },
+      "aboutBlock": {
+        "title": "Описание отеля",
+        "expandText": "Развернуть описание",
+        "collapseText": "Свернуть описание",
+        "sections": [
+          {
+            "id": "location",
+            "title": "Расположение",
+            "paragraphs": [
+              "Отель «Ginza Central Hotel» находится в пешей доступности от центра Токио. Рядом — исторический центр, музеи, рестораны и транспортные узлы."
+            ]
+          },
+          {
+            "id": "hotel",
+            "title": "В отеле",
+            "paragraphs": [
+              "Для гостей работает ресторан и лобби-бар. На всей территории доступен бесплатный Wi‑Fi.",
+              "Гостям доступны услуги консьержа, хранение багажа и трансфер по запросу. В отеле есть лифт и круглосуточная стойка регистрации."
+            ],
+            "spoiler": true
+          },
+          {
+            "id": "room",
+            "title": "В номере",
+            "paragraphs": [
+              "В номере есть душ, телевизор, рабочая зона и набор для приготовления чая/кофе. Оснащение зависит от категории номера."
+            ],
+            "spoiler": true
+          }
+        ],
+        "facts": {
+          "title": "Факты об отеле",
+          "items": [
+            {
+              "key": "renovation",
+              "label": "Год реновации",
+              "value": "2019 год"
+            },
+            {
+              "key": "socket",
+              "label": "Тип розетки",
+              "value": [
+                "Япония",
+                "220 В / 50–60 Гц"
+              ]
+            },
+            {
+              "key": "rooms_floors",
+              "label": "Количество номеров и этажей",
+              "value": "96 номеров, 12 этажей"
+            }
+          ]
+        }
+      },
+      "additionalInfoBlock": {
+        "title": "Дополнительная информация",
+        "paragraphs": [
+          "При заезде может взиматься городской налог. Его размер зависит от правил города и категории размещения.",
+          "Если планируется поздний заезд, рекомендуется предупредить отель заранее.",
+          "Некоторые услуги могут предоставляться за дополнительную плату."
+        ]
+      },
+      "accommodationBlock": {
+        "title": "Условия размещения",
+        "checkInOut": {
+          "title": "Заселение и выезд",
+          "checkIn": {
+            "label": "Заселение",
+            "value": "После 15:00"
+          },
+          "checkOut": {
+            "label": "Выезд",
+            "value": "До 11:00"
+          }
+        },
+        "blocks": [
+          {
+            "id": "deposit",
+            "title": "Депозит",
+            "icon": "deposit",
+            "items": [
+              {
+                "label": "Гарантия картой",
+                "value": "Требуется при заезде"
+              }
+            ]
+          },
+          {
+            "id": "extraBed",
+            "title": "Дополнительная кровать",
+            "icon": "extraBed",
+            "items": [
+              {
+                "label": "По запросу",
+                "value": "45 у.е. за ночь"
+              }
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Животные",
+            "icon": "pets",
+            "items": [
+              {
+                "label": "Размещение с животными",
+                "value": "Нужно уточнять заранее"
+              }
+            ]
+          }
+        ]
+      },
+      "currencyCode": "JPY",
+      "paymentSection": {
+        "payment": {
+          "title": "Оплата",
+          "inHotelTitle": "В отеле",
+          "onSiteTitle": "На сайте",
+          "inHotelItems": [
+            {
+              "type": "text",
+              "text": "Наличными в валюте отеля — JPY"
+            },
+            {
+              "type": "cards",
+              "label": "Картой:",
+              "codes": [
+                "visa",
+                "mastercard",
+                "american-express"
+              ]
+            }
+          ],
+          "onSiteText": "Для некоторых тарифов доступна онлайн-оплата банковской картой при бронировании."
+        }
+      },
+      "amenitiesBlock": {
+        "title": "Услуги и удобства",
+        "groups": [
+          {
+            "id": "popular",
+            "title": "Популярные",
+            "icon": "popular",
+            "variant": "popular",
+            "items": [
+              "Бесплатный интернет",
+              "Завтрак",
+              "Кондиционер",
+              "Парковка",
+              "Для гостей с ограниченными возможностями"
+            ]
+          },
+          {
+            "id": "common",
+            "title": "Общее",
+            "icon": "common_info",
+            "items": [
+              "Круглосуточная стойка регистрации",
+              "Лифт",
+              "Отель для некурящих",
+              "Отопление",
+              "Терраса"
+            ]
+          },
+          {
+            "id": "rooms",
+            "title": "В номерах",
+            "icon": "extra_service",
+            "items": [
+              "Номера для некурящих",
+              "Телевизор",
+              "Фен",
+              "Душ",
+              "Туалетные принадлежности"
+            ]
+          },
+          {
+            "id": "meal",
+            "title": "Питание",
+            "icon": "meal",
+            "items": [
+              "Бар",
+              "Завтрак",
+              "Ресторан",
+              "Чайник"
+            ]
+          },
+          {
+            "id": "internet",
+            "title": "Интернет",
+            "icon": "internet",
+            "items": [
+              "Бесплатный Wi‑Fi",
+              "Доступ в интернет"
+            ]
+          }
+        ]
+      },
+      "reviewsBlock": {
+        "title": "Отзывы",
+        "ratingSummary": {
+          "value": 8.4,
+          "totalReviews": 1830,
+          "localLanguageReviews": 12,
+          "basedOnText": "Основано на {TOTAL} отзывах гостей из разных стран.",
+          "localLanguageText": "На вашем языке доступно {LOCAL} отзывов"
+        },
+        "detailedScores": [
+          {
+            "label": "Чистота",
+            "value": 8.9
+          },
+          {
+            "label": "Расположение",
+            "value": 9.1
+          },
+          {
+            "label": "Цена/Качество",
+            "value": 8.6
+          },
+          {
+            "label": "Номер",
+            "value": 8.8
+          },
+          {
+            "label": "Обслуживание",
+            "value": 9
+          },
+          {
+            "label": "Качество Wi‑Fi",
+            "value": 8.7
+          }
+        ],
+        "tripadvisor": {
+          "label": "TripAdvisor",
+          "reviews": 1825,
+          "href": "https://www.tripadvisor.com"
+        },
+        "featuredReviews": [
+          {
+            "author": "токио_traveler",
+            "countryCode": "JP",
+            "text": "Отличное расположение в Токио, чистые номера, дружелюбный персонал и хороший завтрак."
+          }
+        ],
+        "reviews": [
+          {
+            "id": "h-jp-tyo-ginza-r1",
+            "source": "tripadvisor",
+            "author": "travel_guest_1",
+            "countryCode": "RU",
+            "tripType": "пара",
+            "date": "май 2024 г.",
+            "rating": 5,
+            "title": "Очень понравилось",
+            "text": "Останавливались в Ginza Central Hotel на несколько ночей. Отличный сервис, хорошее расположение и комфортные номера."
+          },
+          {
+            "id": "h-jp-tyo-ginza-r2",
+            "source": "tripadvisor",
+            "author": "travel_guest_2",
+            "countryCode": "DE",
+            "tripType": "семья",
+            "date": "февраль 2024 г.",
+            "rating": 4,
+            "title": "Хороший вариант",
+            "text": "Удобный отель для поездки в город. Понравились завтраки и удобство расположения рядом с транспортом."
+          }
+        ],
+        "moreLink": {
+          "href": "https://www.tripadvisor.com",
+          "remaining": 1828,
+          "text": "Посмотреть ещё {N} отзывов на TripAdvisor"
+        }
+      },
+      "filters": {
+        "amenitiesHotel": [
+          "internet",
+          "parking",
+          "fitness"
+        ],
+        "amenitiesRoom": [],
+        "placement": [
+          "accessible",
+          "pets"
+        ],
+        "meals": [
+          "breakfastIncluded"
+        ],
+        "paymentAndBooking": [
+          "freeCancellation",
+          "payOnsite"
+        ],
+        "rooms": 1,
+        "bedTypes": [
+          "doubleBed"
+        ]
+      }
+    },
+    {
+      "id": "h-jp-kyo-riverside",
+      "cityId": "jp-kyo",
+      "name": "Kyoto Riverside Stay",
+      "address": "Shimogyo-ku, Kyoto",
+      "distanceFromCenter": "1.1 км от центра Киото",
+      "stars": 5,
+      "rating": 9.4,
+      "reviews": 920,
+      "priceTotalRub": 246000,
+      "nights": 4,
+      "distanceKm": 1.1,
+      "type": "hotel",
+      "amenities": [
+        "wifi",
+        "breakfast",
+        "pets",
+        "airConditioning"
+      ],
+      "imageUrl": "/hotels/cdn/photos/picsum_jp_kyo_riverside_main_900_600.jpg",
+      "images": [
+        "/hotels/cdn/photos/picsum_jp_kyo_riverside_1_900_600.jpg",
+        "/hotels/cdn/photos/picsum_jp_kyo_riverside_2_900_600.jpg",
+        "/hotels/cdn/photos/picsum_jp_kyo_riverside_3_900_600.jpg",
+        "/hotels/cdn/photos/picsum_jp_kyo_riverside_4_900_600.jpg",
+        "/hotels/cdn/photos/picsum_jp_kyo_riverside_6_900_600.jpg",
+        "/hotels/cdn/photos/picsum_jp_kyo_riverside_7_900_600.jpg",
+        "/hotels/cdn/photos/picsum_jp_kyo_riverside_8_900_600.jpg",
+        "/hotels/cdn/photos/picsum_jp_kyo_riverside_9_900_600.jpg",
+        "/hotels/cdn/photos/picsum_jp_kyo_riverside_10_900_600.jpg"
+      ],
+      "offer": {
+        "roomTitle": "Номер Superior",
+        "beds": "двуспальная кровать",
+        "mealPlan": "breakfast",
+        "cancellation": "free",
+        "payment": "at_hotel"
+      },
+      "geoBlock": {
+        "title": "Расположение",
+        "address": "Shimogyo-ku, Kyoto",
+        "map": {
+          "lat": 35.10900998093023,
+          "lng": 139.06482529863501,
+          "zoom": 14,
+          "query": "Shimogyo-ku, Kyoto, Киото",
+          "tileUrlTemplate": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          "tileAttribution": "© Участники OpenStreetMap"
+        },
+        "poiGroups": [
+          {
+            "id": "nearby",
+            "title": "Что вокруг",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Старая площадь Киото",
+                "distance": "280 м"
+              },
+              {
+                "type": "CHURCH",
+                "name": "Собор Киото",
+                "distance": "430 м"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Городской музей Киото",
+                "distance": "620 м"
+              },
+              {
+                "type": "PARK",
+                "name": "Парк Киото",
+                "distance": "910 м"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Набережная Киото",
+                "distance": "1,1 км"
+              }
+            ]
+          },
+          {
+            "id": "top",
+            "title": "Достопримечательности",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Главная достопримечательность Киото",
+                "distance": "1,4 км"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Национальный музей Киото",
+                "distance": "1,8 км"
+              },
+              {
+                "type": "PARK",
+                "name": "Центральный парк Киото",
+                "distance": "2,1 км"
+              },
+              {
+                "type": "AIRPORT",
+                "name": "Аэропорт Киото",
+                "distance": "18 км"
+              }
+            ]
+          },
+          {
+            "id": "airports",
+            "title": "Аэропорты",
+            "items": [
+              {
+                "type": "AIRPORT",
+                "name": "Аэропорт Киото",
+                "distance": "18 км"
+              }
+            ]
+          },
+          {
+            "id": "railways",
+            "title": "Вокзалы",
+            "items": [
+              {
+                "type": "RAILWAY_STATION",
+                "name": "Центральный вокзал Киото",
+                "distance": "1,2 км"
+              }
+            ]
+          }
+        ]
+      },
+      "roomOptions": {
+        "galleryCtaText": "фото",
+        "availabilityTitle": "Доступные варианты",
+        "groups": [
+          {
+            "id": "h-jp-kyo-riverside-std",
+            "name": "Двухместный номер Standard",
+            "nameAdditional": "1 двуспальная кровать",
+            "alert": "На нашем сайте осталось 3 номера",
+            "imageUrl": "/hotels/cdn/photos/picsum_jp_kyo_riverside_room_std_640_420.jpg",
+            "imageCount": 8,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "22 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-jp-kyo-riverside-std-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Питание не включено",
+                  "isFeature": false
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена",
+                "priceRub": 191880,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 35 JPY налоги и сборы",
+                "bookUrl": "/orders/reserve/h-jp-kyo-riverside-std-r1"
+              },
+              {
+                "id": "h-jp-kyo-riverside-std-r2",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена с питанием",
+                "priceRub": 211560,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 35 JPY налоги и сборы",
+                "bookUrl": "/orders/reserve/h-jp-kyo-riverside-std-r2"
+              }
+            ]
+          },
+          {
+            "id": "h-jp-kyo-riverside-sup",
+            "name": "Номер Superior",
+            "nameAdditional": "1 двуспальная кровать • вид на город",
+            "alert": "Осталось 2 номера по этой цене",
+            "imageUrl": "/hotels/cdn/photos/picsum_jp_kyo_riverside_room_sup_640_420.jpg",
+            "imageCount": 12,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "28 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-jp-kyo-riverside-sup-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 5 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Карта для гарантии"
+                },
+                "deal": "Популярный вариант",
+                "priceRub": 246000,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 45 JPY налоги и сборы",
+                "bookUrl": "/orders/reserve/h-jp-kyo-riverside-sup-r1"
+              }
+            ]
+          }
+        ]
+      },
+      "aboutBlock": {
+        "title": "Описание отеля",
+        "expandText": "Развернуть описание",
+        "collapseText": "Свернуть описание",
+        "sections": [
+          {
+            "id": "location",
+            "title": "Расположение",
+            "paragraphs": [
+              "Отель «Kyoto Riverside Stay» находится в пешей доступности от центра Киото. Рядом — исторический центр, музеи, рестораны и транспортные узлы."
+            ]
+          },
+          {
+            "id": "hotel",
+            "title": "В отеле",
+            "paragraphs": [
+              "Для гостей работает ресторан и лобби-бар. На всей территории доступен бесплатный Wi‑Fi.",
+              "Гостям доступны услуги консьержа, хранение багажа и трансфер по запросу. В отеле есть лифт и круглосуточная стойка регистрации."
+            ],
+            "spoiler": true
+          },
+          {
+            "id": "room",
+            "title": "В номере",
+            "paragraphs": [
+              "В номере есть душ, телевизор, рабочая зона и набор для приготовления чая/кофе. Оснащение зависит от категории номера."
+            ],
+            "spoiler": true
+          }
+        ],
+        "facts": {
+          "title": "Факты об отеле",
+          "items": [
+            {
+              "key": "renovation",
+              "label": "Год реновации",
+              "value": "2019 год"
+            },
+            {
+              "key": "socket",
+              "label": "Тип розетки",
+              "value": [
+                "Япония",
+                "220 В / 50–60 Гц"
+              ]
+            },
+            {
+              "key": "rooms_floors",
+              "label": "Количество номеров и этажей",
+              "value": "96 номеров, 12 этажей"
+            }
+          ]
+        }
+      },
+      "additionalInfoBlock": {
+        "title": "Дополнительная информация",
+        "paragraphs": [
+          "При заезде может взиматься городской налог. Его размер зависит от правил города и категории размещения.",
+          "Если планируется поздний заезд, рекомендуется предупредить отель заранее.",
+          "Некоторые услуги могут предоставляться за дополнительную плату."
+        ]
+      },
+      "accommodationBlock": {
+        "title": "Условия размещения",
+        "checkInOut": {
+          "title": "Заселение и выезд",
+          "checkIn": {
+            "label": "Заселение",
+            "value": "После 15:00"
+          },
+          "checkOut": {
+            "label": "Выезд",
+            "value": "До 11:00"
+          }
+        },
+        "blocks": [
+          {
+            "id": "deposit",
+            "title": "Депозит",
+            "icon": "deposit",
+            "items": [
+              {
+                "label": "Гарантия картой",
+                "value": "Требуется при заезде"
+              }
+            ]
+          },
+          {
+            "id": "extraBed",
+            "title": "Дополнительная кровать",
+            "icon": "extraBed",
+            "items": [
+              {
+                "label": "По запросу",
+                "value": "45 у.е. за ночь"
+              }
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Животные",
+            "icon": "pets",
+            "items": [
+              {
+                "label": "Размещение с животными",
+                "value": "Нужно уточнять заранее"
+              }
+            ]
+          }
+        ]
+      },
+      "currencyCode": "JPY",
+      "paymentSection": {
+        "payment": {
+          "title": "Оплата",
+          "inHotelTitle": "В отеле",
+          "onSiteTitle": "На сайте",
+          "inHotelItems": [
+            {
+              "type": "text",
+              "text": "Наличными в валюте отеля — JPY"
+            },
+            {
+              "type": "cards",
+              "label": "Картой:",
+              "codes": [
+                "visa",
+                "mastercard",
+                "american-express"
+              ]
+            }
+          ],
+          "onSiteText": "Для некоторых тарифов доступна онлайн-оплата банковской картой при бронировании."
+        }
+      },
+      "amenitiesBlock": {
+        "title": "Услуги и удобства",
+        "groups": [
+          {
+            "id": "popular",
+            "title": "Популярные",
+            "icon": "popular",
+            "variant": "popular",
+            "items": [
+              "Бесплатный интернет",
+              "Завтрак",
+              "Разрешено с домашними животными",
+              "Кондиционер"
+            ]
+          },
+          {
+            "id": "common",
+            "title": "Общее",
+            "icon": "common_info",
+            "items": [
+              "Круглосуточная стойка регистрации",
+              "Лифт",
+              "Отель для некурящих",
+              "Отопление",
+              "Терраса"
+            ]
+          },
+          {
+            "id": "rooms",
+            "title": "В номерах",
+            "icon": "extra_service",
+            "items": [
+              "Номера для некурящих",
+              "Телевизор",
+              "Фен",
+              "Душ",
+              "Туалетные принадлежности"
+            ]
+          },
+          {
+            "id": "meal",
+            "title": "Питание",
+            "icon": "meal",
+            "items": [
+              "Бар",
+              "Завтрак",
+              "Ресторан",
+              "Чайник"
+            ]
+          },
+          {
+            "id": "internet",
+            "title": "Интернет",
+            "icon": "internet",
+            "items": [
+              "Бесплатный Wi‑Fi",
+              "Доступ в интернет"
+            ]
+          }
+        ]
+      },
+      "reviewsBlock": {
+        "title": "Отзывы",
+        "ratingSummary": {
+          "value": 8.6,
+          "totalReviews": 920,
+          "localLanguageReviews": 12,
+          "basedOnText": "Основано на {TOTAL} отзывах гостей из разных стран.",
+          "localLanguageText": "На вашем языке доступно {LOCAL} отзывов"
+        },
+        "detailedScores": [
+          {
+            "label": "Чистота",
+            "value": 9.1
+          },
+          {
+            "label": "Расположение",
+            "value": 9.3
+          },
+          {
+            "label": "Цена/Качество",
+            "value": 8.8
+          },
+          {
+            "label": "Номер",
+            "value": 9
+          },
+          {
+            "label": "Обслуживание",
+            "value": 9.2
+          },
+          {
+            "label": "Качество Wi‑Fi",
+            "value": 8.9
+          }
+        ],
+        "tripadvisor": {
+          "label": "TripAdvisor",
+          "reviews": 915,
+          "href": "https://www.tripadvisor.com"
+        },
+        "featuredReviews": [
+          {
+            "author": "киото_traveler",
+            "countryCode": "JP",
+            "text": "Отличное расположение в Киото, чистые номера, дружелюбный персонал и хороший завтрак."
+          }
+        ],
+        "reviews": [
+          {
+            "id": "h-jp-kyo-riverside-r1",
+            "source": "tripadvisor",
+            "author": "travel_guest_1",
+            "countryCode": "RU",
+            "tripType": "пара",
+            "date": "май 2024 г.",
+            "rating": 5,
+            "title": "Очень понравилось",
+            "text": "Останавливались в Kyoto Riverside Stay на несколько ночей. Отличный сервис, хорошее расположение и комфортные номера."
+          },
+          {
+            "id": "h-jp-kyo-riverside-r2",
+            "source": "tripadvisor",
+            "author": "travel_guest_2",
+            "countryCode": "DE",
+            "tripType": "семья",
+            "date": "февраль 2024 г.",
+            "rating": 4,
+            "title": "Хороший вариант",
+            "text": "Удобный отель для поездки в город. Понравились завтраки и удобство расположения рядом с транспортом."
+          }
+        ],
+        "moreLink": {
+          "href": "https://www.tripadvisor.com",
+          "remaining": 918,
+          "text": "Посмотреть ещё {N} отзывов на TripAdvisor"
+        }
+      },
+      "filters": {
+        "amenitiesHotel": [
+          "internet",
+          "parking",
+          "fitness"
+        ],
+        "amenitiesRoom": [],
+        "placement": [
+          "accessible",
+          "pets"
+        ],
+        "meals": [
+          "breakfastIncluded"
+        ],
+        "paymentAndBooking": [
+          "freeCancellation",
+          "payOnsite"
+        ],
+        "rooms": 1,
+        "bedTypes": [
+          "doubleBed"
+        ]
+      }
+    },
+    {
+      "id": "h-jp-osa-bay",
+      "cityId": "jp-osa",
+      "name": "Osaka Bay View Hotel",
+      "address": "Minato-ku, Osaka",
+      "distanceFromCenter": "2.4 км от центра Осака",
+      "stars": 4,
+      "rating": 8.8,
+      "reviews": 760,
+      "priceTotalRub": 178000,
+      "nights": 4,
+      "distanceKm": 2.4,
+      "type": "hotel",
+      "amenities": [
+        "wifi",
+        "parking",
+        "airConditioning"
+      ],
+      "imageUrl": "/hotels/cdn/photos/picsum_jp_osa_bay_main_900_600.jpg",
+      "images": [
+        "/hotels/cdn/photos/picsum_jp_osa_bay_1_900_600.jpg",
+        "/hotels/cdn/photos/picsum_jp_osa_bay_2_900_600.jpg",
+        "/hotels/cdn/photos/picsum_jp_osa_bay_3_900_600.jpg",
+        "/hotels/cdn/photos/picsum_jp_osa_bay_4_900_600.jpg",
+        "/hotels/cdn/photos/picsum_jp_osa_bay_6_900_600.jpg",
+        "/hotels/cdn/photos/picsum_jp_osa_bay_8_900_600.jpg",
+        "/hotels/cdn/photos/picsum_jp_osa_bay_10_900_600.jpg"
+      ],
+      "offer": {
+        "roomTitle": "Номер Superior",
+        "beds": "двуспальная кровать",
+        "mealPlan": "breakfast",
+        "cancellation": "free",
+        "payment": "at_hotel"
+      },
+      "geoBlock": {
+        "title": "Расположение",
+        "address": "Minato-ku, Osaka",
+        "map": {
+          "lat": 35.33539046771117,
+          "lng": 139.07094901169492,
+          "zoom": 14,
+          "query": "Minato-ku, Osaka, Осака",
+          "tileUrlTemplate": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          "tileAttribution": "© Участники OpenStreetMap"
+        },
+        "poiGroups": [
+          {
+            "id": "nearby",
+            "title": "Что вокруг",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Старая площадь Осака",
+                "distance": "280 м"
+              },
+              {
+                "type": "CHURCH",
+                "name": "Собор Осака",
+                "distance": "430 м"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Городской музей Осака",
+                "distance": "620 м"
+              },
+              {
+                "type": "PARK",
+                "name": "Парк Осака",
+                "distance": "910 м"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Набережная Осака",
+                "distance": "1,1 км"
+              }
+            ]
+          },
+          {
+            "id": "top",
+            "title": "Достопримечательности",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Главная достопримечательность Осака",
+                "distance": "1,4 км"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Национальный музей Осака",
+                "distance": "1,8 км"
+              },
+              {
+                "type": "PARK",
+                "name": "Центральный парк Осака",
+                "distance": "2,1 км"
+              },
+              {
+                "type": "AIRPORT",
+                "name": "Аэропорт Осака",
+                "distance": "18 км"
+              }
+            ]
+          },
+          {
+            "id": "airports",
+            "title": "Аэропорты",
+            "items": [
+              {
+                "type": "AIRPORT",
+                "name": "Аэропорт Осака",
+                "distance": "18 км"
+              }
+            ]
+          },
+          {
+            "id": "railways",
+            "title": "Вокзалы",
+            "items": [
+              {
+                "type": "RAILWAY_STATION",
+                "name": "Центральный вокзал Осака",
+                "distance": "1,2 км"
+              }
+            ]
+          }
+        ]
+      },
+      "roomOptions": {
+        "galleryCtaText": "фото",
+        "availabilityTitle": "Доступные варианты",
+        "groups": [
+          {
+            "id": "h-jp-osa-bay-std",
+            "name": "Двухместный номер Standard",
+            "nameAdditional": "1 двуспальная кровать",
+            "alert": "На нашем сайте осталось 3 номера",
+            "imageUrl": "/hotels/cdn/photos/picsum_jp_osa_bay_room_std_640_420.jpg",
+            "imageCount": 8,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "22 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-jp-osa-bay-std-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Питание не включено",
+                  "isFeature": false
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена",
+                "priceRub": 138840,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 35 JPY налоги и сборы",
+                "bookUrl": "/orders/reserve/h-jp-osa-bay-std-r1"
+              },
+              {
+                "id": "h-jp-osa-bay-std-r2",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена с питанием",
+                "priceRub": 153080,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 35 JPY налоги и сборы",
+                "bookUrl": "/orders/reserve/h-jp-osa-bay-std-r2"
+              }
+            ]
+          },
+          {
+            "id": "h-jp-osa-bay-sup",
+            "name": "Номер Superior",
+            "nameAdditional": "1 двуспальная кровать • вид на город",
+            "alert": "Осталось 2 номера по этой цене",
+            "imageUrl": "/hotels/cdn/photos/picsum_jp_osa_bay_room_sup_640_420.jpg",
+            "imageCount": 12,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "28 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-jp-osa-bay-sup-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 5 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Карта для гарантии"
+                },
+                "deal": "Популярный вариант",
+                "priceRub": 178000,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 45 JPY налоги и сборы",
+                "bookUrl": "/orders/reserve/h-jp-osa-bay-sup-r1"
+              }
+            ]
+          }
+        ]
+      },
+      "aboutBlock": {
+        "title": "Описание отеля",
+        "expandText": "Развернуть описание",
+        "collapseText": "Свернуть описание",
+        "sections": [
+          {
+            "id": "location",
+            "title": "Расположение",
+            "paragraphs": [
+              "Отель «Osaka Bay View Hotel» находится в пешей доступности от центра Осака. Рядом — исторический центр, музеи, рестораны и транспортные узлы."
+            ]
+          },
+          {
+            "id": "hotel",
+            "title": "В отеле",
+            "paragraphs": [
+              "Для гостей работает ресторан и лобби-бар. На всей территории доступен бесплатный Wi‑Fi.",
+              "Гостям доступны услуги консьержа, хранение багажа и трансфер по запросу. В отеле есть лифт и круглосуточная стойка регистрации."
+            ],
+            "spoiler": true
+          },
+          {
+            "id": "room",
+            "title": "В номере",
+            "paragraphs": [
+              "В номере есть душ, телевизор, рабочая зона и набор для приготовления чая/кофе. Оснащение зависит от категории номера."
+            ],
+            "spoiler": true
+          }
+        ],
+        "facts": {
+          "title": "Факты об отеле",
+          "items": [
+            {
+              "key": "renovation",
+              "label": "Год реновации",
+              "value": "2019 год"
+            },
+            {
+              "key": "socket",
+              "label": "Тип розетки",
+              "value": [
+                "Япония",
+                "220 В / 50–60 Гц"
+              ]
+            },
+            {
+              "key": "rooms_floors",
+              "label": "Количество номеров и этажей",
+              "value": "96 номеров, 12 этажей"
+            }
+          ]
+        }
+      },
+      "additionalInfoBlock": {
+        "title": "Дополнительная информация",
+        "paragraphs": [
+          "При заезде может взиматься городской налог. Его размер зависит от правил города и категории размещения.",
+          "Если планируется поздний заезд, рекомендуется предупредить отель заранее.",
+          "Некоторые услуги могут предоставляться за дополнительную плату."
+        ]
+      },
+      "accommodationBlock": {
+        "title": "Условия размещения",
+        "checkInOut": {
+          "title": "Заселение и выезд",
+          "checkIn": {
+            "label": "Заселение",
+            "value": "После 15:00"
+          },
+          "checkOut": {
+            "label": "Выезд",
+            "value": "До 11:00"
+          }
+        },
+        "blocks": [
+          {
+            "id": "deposit",
+            "title": "Депозит",
+            "icon": "deposit",
+            "items": [
+              {
+                "label": "Гарантия картой",
+                "value": "Требуется при заезде"
+              }
+            ]
+          },
+          {
+            "id": "extraBed",
+            "title": "Дополнительная кровать",
+            "icon": "extraBed",
+            "items": [
+              {
+                "label": "По запросу",
+                "value": "45 у.е. за ночь"
+              }
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Животные",
+            "icon": "pets",
+            "items": [
+              {
+                "label": "Размещение с животными",
+                "value": "Нужно уточнять заранее"
+              }
+            ]
+          }
+        ]
+      },
+      "currencyCode": "JPY",
+      "paymentSection": {
+        "payment": {
+          "title": "Оплата",
+          "inHotelTitle": "В отеле",
+          "onSiteTitle": "На сайте",
+          "inHotelItems": [
+            {
+              "type": "text",
+              "text": "Наличными в валюте отеля — JPY"
+            },
+            {
+              "type": "cards",
+              "label": "Картой:",
+              "codes": [
+                "visa",
+                "mastercard",
+                "american-express"
+              ]
+            }
+          ],
+          "onSiteText": "Для некоторых тарифов доступна онлайн-оплата банковской картой при бронировании."
+        }
+      },
+      "amenitiesBlock": {
+        "title": "Услуги и удобства",
+        "groups": [
+          {
+            "id": "popular",
+            "title": "Популярные",
+            "icon": "popular",
+            "variant": "popular",
+            "items": [
+              "Бесплатный интернет",
+              "Парковка",
+              "Кондиционер"
+            ]
+          },
+          {
+            "id": "common",
+            "title": "Общее",
+            "icon": "common_info",
+            "items": [
+              "Круглосуточная стойка регистрации",
+              "Лифт",
+              "Отель для некурящих",
+              "Отопление",
+              "Терраса"
+            ]
+          },
+          {
+            "id": "rooms",
+            "title": "В номерах",
+            "icon": "extra_service",
+            "items": [
+              "Номера для некурящих",
+              "Телевизор",
+              "Фен",
+              "Душ",
+              "Туалетные принадлежности"
+            ]
+          },
+          {
+            "id": "meal",
+            "title": "Питание",
+            "icon": "meal",
+            "items": [
+              "Бар",
+              "Завтрак",
+              "Ресторан",
+              "Чайник"
+            ]
+          },
+          {
+            "id": "internet",
+            "title": "Интернет",
+            "icon": "internet",
+            "items": [
+              "Бесплатный Wi‑Fi",
+              "Доступ в интернет"
+            ]
+          }
+        ]
+      },
+      "reviewsBlock": {
+        "title": "Отзывы",
+        "ratingSummary": {
+          "value": 8,
+          "totalReviews": 760,
+          "localLanguageReviews": 12,
+          "basedOnText": "Основано на {TOTAL} отзывах гостей из разных стран.",
+          "localLanguageText": "На вашем языке доступно {LOCAL} отзывов"
+        },
+        "detailedScores": [
+          {
+            "label": "Чистота",
+            "value": 8.5
+          },
+          {
+            "label": "Расположение",
+            "value": 8.7
+          },
+          {
+            "label": "Цена/Качество",
+            "value": 8.2
+          },
+          {
+            "label": "Номер",
+            "value": 8.4
+          },
+          {
+            "label": "Обслуживание",
+            "value": 8.6
+          },
+          {
+            "label": "Качество Wi‑Fi",
+            "value": 8.3
+          }
+        ],
+        "tripadvisor": {
+          "label": "TripAdvisor",
+          "reviews": 755,
+          "href": "https://www.tripadvisor.com"
+        },
+        "featuredReviews": [
+          {
+            "author": "осака_traveler",
+            "countryCode": "JP",
+            "text": "Отличное расположение в Осака, чистые номера, дружелюбный персонал и хороший завтрак."
+          }
+        ],
+        "reviews": [
+          {
+            "id": "h-jp-osa-bay-r1",
+            "source": "tripadvisor",
+            "author": "travel_guest_1",
+            "countryCode": "RU",
+            "tripType": "пара",
+            "date": "май 2024 г.",
+            "rating": 5,
+            "title": "Очень понравилось",
+            "text": "Останавливались в Osaka Bay View Hotel на несколько ночей. Отличный сервис, хорошее расположение и комфортные номера."
+          },
+          {
+            "id": "h-jp-osa-bay-r2",
+            "source": "tripadvisor",
+            "author": "travel_guest_2",
+            "countryCode": "DE",
+            "tripType": "семья",
+            "date": "февраль 2024 г.",
+            "rating": 4,
+            "title": "Хороший вариант",
+            "text": "Удобный отель для поездки в город. Понравились завтраки и удобство расположения рядом с транспортом."
+          }
+        ],
+        "moreLink": {
+          "href": "https://www.tripadvisor.com",
+          "remaining": 758,
+          "text": "Посмотреть ещё {N} отзывов на TripAdvisor"
+        }
+      },
+      "filters": {
+        "amenitiesHotel": [
+          "internet",
+          "parking",
+          "fitness"
+        ],
+        "amenitiesRoom": [],
+        "placement": [
+          "accessible",
+          "pets"
+        ],
+        "meals": [
+          "breakfastIncluded"
+        ],
+        "paymentAndBooking": [
+          "freeCancellation",
+          "payOnsite"
+        ],
+        "rooms": 1,
+        "bedTypes": [
+          "doubleBed"
+        ]
+      }
+    }
+  ]
+}

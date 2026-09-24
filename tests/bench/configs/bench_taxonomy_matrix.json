@@ -1,0 +1,26 @@
+{
+  "profile_id": "bench_taxonomy_matrix",
+  "description": "Матрица вариантов UI для отелей, ЖД и кабинета файлов в одном треке",
+  "domain_configs": {
+    "hotels": {
+      "ui_variants": {
+        "date": "text_input",
+        "select_city": "native_select",
+        "counter_guests": "compact_select"
+      }
+    },
+    "rail": {
+      "ui_variants": {
+        "date": "native_input",
+        "select_station": "native_select"
+      }
+    },
+    "files": {
+      "ui_variants": {
+        "collections": "list",
+        "years": "buttons",
+        "buttons": "solid"
+      }
+    }
+  }
+}

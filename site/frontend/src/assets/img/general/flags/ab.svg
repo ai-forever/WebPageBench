@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 24 16">
+  <rect width="24" height="16" fill="#1f9448"/>
+  <g fill="#fff">
+    <rect y="2.67" width="24" height="2.67"/>
+    <rect y="8" width="24" height="2.67"/>
+    <rect y="13.33" width="24" height="2.67"/>
+  </g>
+  <rect x="0" y="0" width="9" height="6.67" fill="#d81e34"/>
+  <!-- simplified hand/star omitted for minimal icon -->
+</svg>
+

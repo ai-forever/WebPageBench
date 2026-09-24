@@ -1,0 +1,11 @@
+{
+  "profile_id": "books_search_pill",
+  "description": "Книги: pill-стиль SearchBar",
+  "domain_configs": {
+    "books": {
+      "ui_variants": {
+        "text_search": "pill"
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "test_data": {
+    "login_data": {
+      "login": "bench@example.com",
+      "password": "bench123",
+      "phone": "9150000000",
+      "email": "bench@example.com"
+    },
+    "bench_first_domain": "rail",
+    "bench_first_state": "state_rail_main",
+    "task": "На %HOST% в «Поездах» оформи и оплати билет Москва — Санкт-Петербург на 04.09.2026 для 2 пассажиров.",
+    "conditions": [
+      {
+        "event_name": "select_city",
+        "parameters": {
+          "field": "from",
+          "name": "Москва"
+        }
+      },
+      {
+        "event_name": "select_city",
+        "parameters": {
+          "field": "to",
+          "name": "Санкт-Петербург"
+        }
+      },
+      {
+        "event_name": "select_date",
+        "parameters": {
+          "date": "2026-09-04"
+        }
+      },
+      {
+        "event_name": "select_seat",
+        "parameters": {
+          "seats_amount": 2
+        }
+      },
+      {
+        "event_name": "select_passenger",
+        "parameters": {
+          "passenger_index": 1
+        }
+      },
+      {
+        "event_name": "select_passenger",
+        "parameters": {
+          "passenger_index": 2
+        }
+      },
+      {
+        "event_name": "basket_add",
+        "parameters": {}
+      },
+      {
+        "event_name": "submit_payment",
+        "parameters": {
+          "result": "success"
+        }
+      }
+    ],
+    "ui_taxonomy": {
+      "primary": "PAY",
+      "classes": [
+        "SELECT_LIST",
+        "DATE",
+        "SEAT",
+        "BASKET",
+        "PAY"
+      ],
+      "subtypes": [
+        "search_trains"
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "profile_id": "rail_date_native",
+  "description": "ЖД: native date input + typeahead станций",
+  "domain_configs": {
+    "rail": {
+      "ui_variants": {
+        "date": "native_input",
+        "select_station": "typeahead"
+      }
+    }
+  }
+}

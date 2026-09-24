@@ -1,0 +1,31 @@
+{
+  "test_data": {
+    "login_data": {
+      "login": "bench@example.com",
+      "password": "bench123",
+      "phone": "9150000000",
+      "email": "bench@example.com"
+    },
+    "bench_first_domain": "books",
+    "bench_first_state": "state_books_main",
+    "task": "На %HOST% в «Книги» найди «Белый камертон над тихой рекой» (текст) и добавь в избранное.",
+    "conditions": [
+      {
+        "event_name": "add_favorites",
+        "parameters": {
+          "item_id": "item_66367392"
+        }
+      }
+    ],
+    "ui_taxonomy": {
+      "primary": "FAV",
+      "classes": [
+        "FAV"
+      ],
+      "subtypes": [
+        "nav_product_card",
+        "search_books"
+      ]
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "test_data": {
+    "login_data": {
+      "login": "bench@example.com",
+      "password": "bench123",
+      "phone": "9150000000",
+      "email": "bench@example.com"
+    },
+    "bench_first_domain": "hotels",
+    "bench_first_state": "state_hotels_main",
+    "task": "На %HOST% в «Отели» покажи варианты в Сеуле, Южная Корея с 01 по 05 октября 2026 для 2 гостей.",
+    "conditions": [
+      {
+        "event_name": "bench_hotel_select_city",
+        "parameters": {
+          "cityId": "kr-sel",
+          "label": "Сеул, Южная Корея",
+          "cityName": "Сеул",
+          "countryName": "Южная Корея"
+        }
+      },
+      {
+        "event_name": "bench_hotel_select_start_date",
+        "parameters": {
+          "date": "2026-10-01"
+        }
+      },
+      {
+        "event_name": "bench_hotel_select_end_date",
+        "parameters": {
+          "date": "2026-10-05"
+        }
+      },
+      {
+        "event_name": "bench_hotel_select_guests",
+        "parameters": {
+          "rooms": [
+            {
+              "adults": 2,
+              "kids": []
+            }
+          ],
+          "roomsCount": 1,
+          "guestsCount": 2
+        }
+      },
+      {
+        "event_name": "state_changed",
+        "parameters": {
+          "new_state": "bench_hotel_search"
+        }
+      }
+    ],
+    "ui_taxonomy": {
+      "primary": "COUNTER",
+      "classes": [
+        "SELECT_AC",
+        "DATE",
+        "COUNTER",
+        "NAV"
+      ],
+      "subtypes": [
+        "search_hotels"
+      ]
+    },
+    "ui_variants": {
+      "select_city": "native_select"
+    },
+    "ui_variant_profile": "hotels_city_native"
+  },
+  "domain_configs": {
+    "hotels": {
+      "ui_variants": {
+        "select_city": "native_select"
+      }
+    }
+  }
+}

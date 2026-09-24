@@ -1,0 +1,13 @@
+{
+  "profile_id": "hotels_date_inline",
+  "description": "Отели: inline-календарь вместо popup",
+  "domain_configs": {
+    "hotels": {
+      "ui_variants": {
+        "date": "inline_calendar",
+        "select_city": "autocomplete",
+        "counter_guests": "rooms_popup"
+      }
+    }
+  }
+}

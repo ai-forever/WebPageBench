@@ -1,0 +1,42 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="sbergalka">
+<g id="Oval">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z" fill="#00A421"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z" fill="url(#paint0_diamond_2071_5696)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z" fill="url(#paint1_diamond_2071_5696)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z" fill="url(#paint2_diamond_2071_5696)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z" fill="url(#paint3_diamond_2071_5696)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z" fill="url(#paint4_diamond_2071_5696)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z" fill="url(#paint5_diamond_2071_5696)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z" fill="#21A038"/>
+</g>
+<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M24.0012 10.5601C27.231 10.5601 30.1947 11.6985 32.5119 13.5977L30.1974 15.4484C28.4568 14.185 26.3157 13.4404 23.9999 13.4404C18.1666 13.4404 13.4395 18.1688 13.4395 24.0007C13.4395 29.834 18.168 34.5611 23.9999 34.5611C29.8331 34.5611 34.5602 29.8326 34.5602 24.0007C34.5602 23.8663 34.5575 23.7319 34.5535 23.5975L37.2376 21.6594C37.372 22.4201 37.4405 23.2024 37.4405 24.0007C37.4405 31.424 31.4232 37.4414 23.9999 37.4414C16.5766 37.4414 10.5605 31.424 10.5605 24.0007C10.5605 16.5774 16.5779 10.5601 24.0012 10.5601Z" fill="white"/>
+<path id="Vector_2" fill-rule="evenodd" clip-rule="evenodd" d="M18.9453 20.7251L24.0017 24.0006L34.9128 16.0034L36.5338 18.6364L24.0017 27.7949L18.9453 24.6391V20.7251Z" fill="white"/>
+</g>
+<defs>
+<radialGradient id="paint0_diamond_2071_5696" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(38.7707 6.90307) rotate(170.606) scale(26.0707 42.7098)">
+<stop offset="0.476798" stop-color="#2591C9"/>
+<stop offset="1" stop-color="#0B8ACB" stop-opacity="0.39"/>
+</radialGradient>
+<radialGradient id="paint1_diamond_2071_5696" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(41.7967 22.3168) rotate(112.1) scale(33.6802)">
+<stop stop-color="#00A421"/>
+<stop offset="1" stop-color="#00A421" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint2_diamond_2071_5696" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(8.13239 39.9054) rotate(135) scale(45.87)">
+<stop stop-color="#F7EE21"/>
+<stop offset="1" stop-color="#F7EE21" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint3_diamond_2071_5696" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(6.61939 4.91726) rotate(-34.2055) scale(34.9882)">
+<stop offset="0.169488" stop-color="#03A8FB"/>
+<stop offset="1" stop-color="#03A8FB" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint4_diamond_2071_5696" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(11.6312 -2.83688) rotate(-33.7607) scale(21.2701)">
+<stop offset="0.169488" stop-color="#03A8FB"/>
+<stop offset="1" stop-color="#03A8FB" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint5_diamond_2071_5696" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(8.13239 39.9054) rotate(135) scale(45.87)">
+<stop stop-color="#F7EE21"/>
+<stop offset="1" stop-color="#F7EE21" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

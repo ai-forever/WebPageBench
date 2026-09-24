@@ -1,0 +1,80 @@
+/**
+ * Bench roots use .bench-* layout classes.
+ * Bench views use dual root classes (e.g. bench-market); this file
+ * covers any bench-*-only roots and shared product card layout.
+ */
+
+.bench-market .grid,
+.bench-market .cards,
+.bench-market .card,
+.bench-market .thumb {
+  /* fallthrough — prefer dual class on template root */
+}
+
+/* Ensure product thumbnails keep aspect ratio when parent only has bench-* */
+.bench-anonymized .bench-market .thumb,
+.bench-anonymized .bench-market .thumb,
+.bench-anonymized .bench-market .thumb {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3/4;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 8px;
+  background: var(--bench-surface, #f5f7fa);
+}
+
+.bench-anonymized .bench-market .cards,
+.bench-anonymized .bench-market .cards,
+.bench-anonymized .bench-market .cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+.bench-anonymized .bench-market .grid,
+.bench-anonymized .bench-market .grid,
+.bench-anonymized .bench-market .grid {
+  max-width: var(--shop-max-width, 1200px);
+  margin: 24px auto;
+  padding: 20px;
+  background-color: var(--bench-surface-elevated, #fff);
+  border-radius: 32px;
+}
+
+.bench-anonymized .bench-books .cards,
+.bench-anonymized .bench-books .cards {
+  display: grid;
+  gap: 16px;
+}
+
+.bench-anonymized .bench-grocery .product-card .image-wrap,
+.bench-anonymized .bench-grocery .product-card .image-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1;
+  overflow: hidden;
+}
+
+.bench-anonymized .bench-grocery .grocery-cards,
+.bench-anonymized .bench-grocery .grocery-cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+.bench-anonymized .bench-grocery .grid,
+.bench-anonymized .bench-grocery .grid {
+  max-width: var(--shop-max-width, 1200px);
+  margin: 24px auto;
+  padding: 20px;
+  background-color: var(--bench-surface-elevated, #fff);
+  border-radius: 32px;
+}
+
+.bench-anonymized .bench-grocery .product-card img,
+.bench-anonymized .bench-grocery .product-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

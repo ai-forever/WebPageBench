@@ -1,0 +1,71 @@
+{
+  "test_data": {
+    "login_data": {
+      "login": "bench@example.com",
+      "password": "bench123",
+      "phone": "9150000000",
+      "email": "bench@example.com"
+    },
+    "bench_first_domain": "hotels",
+    "bench_first_state": "state_hotels_main",
+    "task": "На %HOST% в «Отели» подбери жильё в Милане, Италия на 12–16.09.2026: два номера по 2 взрослых в каждом.",
+    "conditions": [
+      {
+        "event_name": "bench_hotel_select_city",
+        "parameters": {
+          "cityId": "it-mil",
+          "label": "Милан, Италия",
+          "cityName": "Милан",
+          "countryName": "Италия"
+        }
+      },
+      {
+        "event_name": "bench_hotel_select_start_date",
+        "parameters": {
+          "date": "2026-09-12"
+        }
+      },
+      {
+        "event_name": "bench_hotel_select_end_date",
+        "parameters": {
+          "date": "2026-09-16"
+        }
+      },
+      {
+        "event_name": "bench_hotel_select_guests",
+        "parameters": {
+          "rooms": [
+            {
+              "adults": 2,
+              "kids": []
+            },
+            {
+              "adults": 2,
+              "kids": []
+            }
+          ],
+          "roomsCount": 2,
+          "guestsCount": 4
+        }
+      },
+      {
+        "event_name": "state_changed",
+        "parameters": {
+          "new_state": "bench_hotel_search"
+        }
+      }
+    ],
+    "ui_taxonomy": {
+      "primary": "COUNTER",
+      "classes": [
+        "SELECT_AC",
+        "DATE",
+        "COUNTER",
+        "NAV"
+      ],
+      "subtypes": [
+        "search_hotels"
+      ]
+    }
+  }
+}

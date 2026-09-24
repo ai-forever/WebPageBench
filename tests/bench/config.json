@@ -1,0 +1,2082 @@
+{
+  "test_data": {
+    "unified_bench": true,
+    "bench_anonymized": true,
+    "site_title": "WebPageBench",
+    "login_data": {
+      "login": "bench@example.com",
+      "password": "bench123",
+      "phone_validation_code": "456789"
+    },
+    "personal_info": {
+      "surname": "Ярославцев",
+      "name": "Сергей",
+      "patronymic": "Александрович",
+      "email": "bench@example.com",
+      "phone": "+7 915 000-00-00",
+      "address": "Кутузовский проспект, 32"
+    },
+    "task": "Открой единый бенчмарк по адресу %HOST% и выполни задание.",
+    "target_events": [
+      "state_changed",
+      "basket_add",
+      "add_favorites",
+      "submit_login",
+      "submit_payment",
+      "bench_hotel_select_city",
+      "bench_files_select_collection",
+      "bench_files_select_year",
+      "bench_files_download"
+    ]
+  },
+  "bench_sections": [
+    {
+      "id": "hub",
+      "label": "Главная",
+      "state": "state_hub",
+      "view_type": "bench_hub",
+      "domain": null
+    },
+    {
+      "id": "shop",
+      "label": "Маркет",
+      "state": "state_shop_main",
+      "view_type": "bench_catalog_main",
+      "domain": "shop"
+    },
+    {
+      "id": "books",
+      "label": "Книги",
+      "state": "state_books_main",
+      "view_type": "bench_books_main",
+      "domain": "books"
+    },
+    {
+      "id": "grocery",
+      "label": "Продукты",
+      "state": "state_grocery_main",
+      "view_type": "bench_grocery_main",
+      "domain": "grocery"
+    },
+    {
+      "id": "rail",
+      "label": "Поезда",
+      "state": "state_rail_main",
+      "view_type": "bench_rail_main",
+      "domain": "rail"
+    },
+    {
+      "id": "hotels",
+      "label": "Отели",
+      "state": "state_hotels_main",
+      "view_type": "bench_hotel_main",
+      "domain": "hotels"
+    },
+    {
+      "id": "files",
+      "label": "Файлы",
+      "state": "state_files_main",
+      "view_type": "bench_files_cabinet",
+      "domain": "files"
+    }
+  ],
+  "domain_configs": {
+    "shop": {
+      "common_elements": {
+        "suggestions_list": {
+          "pixel": {
+            "tags": [
+              "Pixel 9",
+              "Pixel 8",
+              "Смартфоны Pixel 6",
+              "Pixel 7",
+              "Смартфоны Pixel 5",
+              "Смартфоны Pixel 7 Pro",
+              "Смартфоны Pixel 4",
+              "Pixel 7A",
+              "Смартфоны Pixel 6A 5G",
+              "Смартфоны Pixel 6 Pro"
+            ],
+            "search": [
+              "9 pro",
+              "9 pro google",
+              "9",
+              "8 pro",
+              "9 pro чехол"
+            ]
+          },
+          "pixel 9 pro google": {
+            "tags": [
+              "Pixel 9",
+              "Pixel 8",
+              "Смартфоны Pixel 6",
+              "Pixel 7",
+              "Смартфоны Pixel 5",
+              "Смартфоны Pixel 7 Pro",
+              "Смартфоны Pixel 4",
+              "Pixel 7A",
+              "Смартфоны Pixel 6A 5G",
+              "Смартфоны Pixel 6 Pro"
+            ],
+            "search": [
+              "9 pro",
+              "9 pro google",
+              "9",
+              "8 pro",
+              "9 pro чехол"
+            ]
+          },
+          "iphone": {
+            "tags": [
+              "iPhone 15",
+              "iPhone 14",
+              "iPhone 13",
+              "iPhone 12",
+              "iPhone 11",
+              "iPhone 10",
+              "iPhone 9",
+              "iPhone 8",
+              "iPhone 7",
+              "iPhone 6"
+            ],
+            "search": [
+              "256",
+              "512",
+              "1tb",
+              "чехол",
+              "256gb"
+            ]
+          }
+        },
+        "header": {
+          "logo": {
+            "to_state": "state_main",
+            "to_view_type": "bench_catalog_main"
+          },
+          "catalogButton": {
+            "label": "Каталог",
+            "to_state": "state_main",
+            "to_view_type": "bench_catalog_main"
+          },
+          "search": {
+            "placeholder": "Искать в каталоге",
+            "hint": "Теперь товары можно найти по фото",
+            "location": "Москва",
+            "scopes": [
+              "Электроника",
+              "Одежда",
+              "Обувь",
+              "Дом и сад",
+              "Красота и здоровье",
+              "Спорт и отдых",
+              "Продукты питания",
+              "Товары для животных",
+              "Туризм, рыбалка, охота",
+              "Мебель",
+              "Аксессуары",
+              "Музыка и видео",
+              "Товары для взрослых",
+              "Цифровые товары",
+              "Доставка",
+              "Товары для курения и аксессуары",
+              "Билеты, отели, туры"
+            ]
+          },
+          "controls": [
+            {
+              "id": "login",
+              "icon": "mdi-account-circle-outline",
+              "label": "Войти",
+              "button_type": "login",
+              "to_state": "state_profile",
+              "to_view_type": "bench_catalog_profile"
+            },
+            {
+              "id": "orders",
+              "icon": "mdi-clipboard-check-outline",
+              "label": "Заказы"
+            },
+            {
+              "id": "favorites",
+              "icon": "mdi-heart-outline",
+              "label": "Избранное",
+              "to_state": "state_favorites",
+              "to_view_type": "bench_catalog_favorites",
+              "badge": 6
+            },
+            {
+              "id": "basket",
+              "icon": "mdi-cart-outline",
+              "label": "Корзина",
+              "to_state": "state_basket",
+              "to_view_type": "bench_catalog_basket",
+              "badge": 3
+            }
+          ],
+          "loginHint": {
+            "text": "Войдите, чтобы делать покупки, отслеживать заказы и пользоваться персональными скидками и баллами.\nПосле входа вы сможете создать аккаунт юрлица.",
+            "primaryAction": {
+              "caption": "Войти или зарегистрироваться",
+              "action": "open-login"
+            },
+            "secondaryAction": {
+              "caption": "Личный кабинет",
+              "to_state": "state_profile",
+              "to_view_type": "bench_catalog_profile"
+            }
+          }
+        },
+        "search_bar": {
+          "logo": {
+            "to_state": "state_main",
+            "to_view_type": "bench_catalog_main"
+          },
+          "searchPlaceholder": "Искать в каталоге",
+          "searchButtonCaption": "Найти",
+          "panelButtons": [
+            {
+              "icon": "mdi-heart-outline",
+              "label": "Избранное",
+              "highlight": true,
+              "to_state": "state_favorites",
+              "to_view_type": "bench_catalog_favorites"
+            },
+            {
+              "icon": "mdi-cart-outline",
+              "label": "Корзина",
+              "button_type": "basket",
+              "to_state": "state_basket",
+              "to_view_type": "bench_catalog_basket"
+            },
+            {
+              "icon": "mdi-clipboard-check-outline",
+              "label": "Заказы",
+              "to_state": "state_orders",
+              "to_view_type": "bench_catalog_orders"
+            },
+            {
+              "icon": "mdi-account-circle-outline",
+              "label": "Войти",
+              "dialog": "login",
+              "button_type": "login",
+              "to_state": "state_profile",
+              "to_view_type": "bench_catalog_profile"
+            }
+          ]
+        },
+        "menu": {
+          "items": [
+            {
+              "caption": "Доставка"
+            },
+            {
+              "caption": "Карта"
+            },
+            {
+              "caption": "Билеты, отели"
+            },
+            {
+              "caption": "Для бизнеса"
+            },
+            {
+              "caption": "Одежда, обувь"
+            },
+            {
+              "caption": "Электроника"
+            },
+            {
+              "caption": "Дом и сад"
+            },
+            {
+              "caption": "Товары за 1₽"
+            },
+            {
+              "caption": "Сертификаты"
+            }
+          ],
+          "actions": [
+            {
+              "caption": "За покупками",
+              "to_state": "state_main",
+              "to_view_type": "bench_catalog_main"
+            }
+          ]
+        },
+        "loginForm": {
+          "title": "Вход в аккаунт",
+          "subtitle": "Укажите почту и пароль от своего аккаунта",
+          "loginPlaceholder": "Введите ваш email",
+          "passwordPlaceholder": "Пароль",
+          "buttonLabel": "Войти",
+          "hint": "Например, вы авторизованы в мобильном приложении Маркета",
+          "links": [
+            {
+              "caption": "Забыли пароль"
+            },
+            {
+              "caption": "Зарегистрироваться"
+            }
+          ]
+        },
+        "grid": {
+          "items": [
+            {
+              "kv_id": "item_2551220911"
+            },
+            {
+              "kv_id": "item_1805895777"
+            },
+            {
+              "kv_id": "item_136495278"
+            },
+            {
+              "kv_id": "item_1931974549"
+            },
+            {
+              "kv_id": "item_647371114"
+            },
+            {
+              "kv_id": "item_1554210173"
+            },
+            {
+              "kv_id": "item_29288925"
+            },
+            {
+              "kv_id": "item_712618381"
+            }
+          ]
+        },
+        "grid2": {
+          "items": [
+            {
+              "kv_id": "item_387906561"
+            },
+            {
+              "kv_id": "item_2129109943"
+            },
+            {
+              "kv_id": "item_2316709053"
+            },
+            {
+              "kv_id": "item_2316708961"
+            },
+            {
+              "kv_id": "item_1417585321"
+            },
+            {
+              "kv_id": "item_543848911"
+            },
+            {
+              "kv_id": "item_1717020676"
+            },
+            {
+              "kv_id": "item_1117086622"
+            }
+          ]
+        },
+        "grid3": {
+          "items": [
+            {
+              "kv_id": "item_1489491636"
+            },
+            {
+              "kv_id": "item_150030882"
+            },
+            {
+              "kv_id": "item_1117085974"
+            },
+            {
+              "kv_id": "item_140701758"
+            },
+            {
+              "kv_id": "item_714958775"
+            },
+            {
+              "kv_id": "item_501438861"
+            },
+            {
+              "kv_id": "item_1441302164"
+            }
+          ]
+        },
+        "grid4": {
+          "items": [
+            {
+              "kv_id": "item_701419625"
+            },
+            {
+              "kv_id": "item_2316709278"
+            },
+            {
+              "kv_id": "item_1864018295"
+            },
+            {
+              "kv_id": "item_1646171704"
+            },
+            {
+              "kv_id": "item_142210671"
+            },
+            {
+              "kv_id": "item_1681959529"
+            },
+            {
+              "kv_id": "item_29288925"
+            },
+            {
+              "kv_id": "item_790396789"
+            }
+          ]
+        },
+        "grid5": {
+          "items": [
+            {
+              "kv_id": "item_1350562416"
+            },
+            {
+              "kv_id": "item_1048871548"
+            },
+            {
+              "kv_id": "item_2316708956"
+            },
+            {
+              "kv_id": "item_203551511"
+            },
+            {
+              "kv_id": "item_933027806"
+            },
+            {
+              "kv_id": "item_1160040708"
+            },
+            {
+              "kv_id": "item_2316708952"
+            }
+          ]
+        }
+      },
+      "test_data": {
+        "user_data": {
+          "delivery_type": "Постамат",
+          "shop_box_name": "Постамат пункт выдачи 1776",
+          "shop_box_address": "Тверская, 10",
+          "bopus_points_balance": 100,
+          "bonus_points_to_add": 94,
+          "name": "Ярославцев Сергей Александрович",
+          "email": "bench@example.com",
+          "phone": "+7 915 000-00-00",
+          "address": "Кутузовский проспект, 32"
+        },
+        "kv_store_path": "shop/shop_kv.json"
+      },
+      "state_shop_main": {
+        "view_type": "bench_catalog_main",
+        "content": {
+          "hero": {
+            "title": "Подарок, который ждут!",
+            "subtitle": "Сертификат Маркета с быстрой доставкой.",
+            "image": "banner_main"
+          },
+          "loginForm": {
+            "title": "Войдите, чтобы получить персональные привилегии",
+            "subtitle": "Используйте логин и пароль",
+            "buttonLabel": "Продолжить"
+          }
+        }
+      },
+      "state_shop_basket": {
+        "view_type": "bench_catalog_basket",
+        "content": {}
+      },
+      "state_shop_favorites": {
+        "view_type": "bench_catalog_favorites",
+        "content": {
+          "title": "Избранные товары",
+          "subtitle": "То, что вы отметили сердечком",
+          "items": [
+            {
+              "kv_id": "product_allure_socks_2pairs_black",
+              "to_state": "state_product_allure_black",
+              "to_view_type": "bench_catalog_item"
+            },
+            {
+              "kv_id": "product_basic_socks_sport_3pairs",
+              "to_state": "state_product_basic_sport",
+              "to_view_type": "bench_catalog_item"
+            }
+          ]
+        }
+      },
+      "state_shop_profile": {
+        "view_type": "bench_catalog_profile",
+        "content": {
+          "sidebar": [
+            {
+              "title": "Личная информация",
+              "items": [
+                {
+                  "caption": "Главная"
+                },
+                {
+                  "caption": "Карта"
+                },
+                {
+                  "caption": "Кредитная карта"
+                },
+                {
+                  "caption": "Мои компании"
+                }
+              ]
+            },
+            {
+              "title": "Заказы",
+              "items": [
+                {
+                  "caption": "Моя корзина",
+                  "to_state": "state_basket",
+                  "to_view_type": "bench_catalog_basket"
+                },
+                {
+                  "caption": "Мои заказы"
+                },
+                {
+                  "caption": "Возвраты"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "state_shop_search": {
+        "view_type": "bench_catalog_search",
+        "content": {
+          "gridTitle": "Результаты поиска",
+          "gridSubtitle": "Подобрали по запросу",
+          "filters": [
+            {
+              "title": "Доставка",
+              "options": [
+                "Завтра",
+                "До 3 дней"
+              ]
+            },
+            {
+              "title": "Цена",
+              "options": [
+                "до 500 ₽",
+                "до 1000 ₽"
+              ]
+            }
+          ],
+          "items": [
+            {
+              "kv_id": "product_allure_socks_2pairs_black",
+              "to_state": "state_product_allure_black",
+              "to_view_type": "bench_catalog_item"
+            },
+            {
+              "kv_id": "product_allure_socks_casual_2pairs",
+              "to_state": "state_product_allure_casual",
+              "to_view_type": "bench_catalog_item"
+            },
+            {
+              "kv_id": "product_basic_socks_sport_3pairs",
+              "to_state": "state_product_basic_sport",
+              "to_view_type": "bench_catalog_item"
+            }
+          ]
+        }
+      },
+      "state_shop_item_demo": {
+        "view_type": "bench_catalog_item",
+        "content": {
+          "kv_id": "product_allure_socks_2pairs_black"
+        }
+      },
+      "state_shop_catalog": {
+        "view_type": "bench_catalog_catalog",
+        "content": {}
+      },
+      "state_shop_orders": {
+        "view_type": "bench_catalog_orders",
+        "content": {}
+      },
+      "state_shop_purchase": {
+        "view_type": "bench_catalog_purchase",
+        "content": {}
+      },
+      "state_shop_payment_success": {
+        "view_type": "bench_catalog_payment_success",
+        "content": {}
+      },
+      "state_aliases": {
+        "state_main": "state_shop_main",
+        "state_basket": "state_shop_basket",
+        "state_favorites": "state_shop_favorites",
+        "state_profile": "state_shop_profile",
+        "state_search": "state_shop_search",
+        "state_catalog": "state_shop_catalog",
+        "state_orders": "state_shop_orders",
+        "state_purchase": "state_shop_purchase",
+        "state_payment_success": "state_shop_payment_success",
+        "state_product_allure_black": "state_shop_item_demo",
+        "state_product_allure_casual": "state_shop_item_demo",
+        "state_product_basic_sport": "state_shop_item_demo"
+      }
+    },
+    "books": {
+      "common_elements": {
+        "search_bar": {
+          "logo": {
+            "to_state": "state_main",
+            "to_view_type": "bench_books_main"
+          },
+          "searchPlaceholder": "Искать книги",
+          "searchButtonCaption": "Найти",
+          "additionalButton": {
+            "caption": "Каталог",
+            "to_state": "state_catalog",
+            "to_view_type": "bench_books_catalog"
+          },
+          "panelButtons": [
+            {
+              "icon": "mdi-heart-outline",
+              "label": "Избранное",
+              "highlight": true,
+              "to_state": "state_books_favorites",
+              "to_view_type": "bench_books_favorites"
+            },
+            {
+              "icon": "mdi-cart-outline",
+              "label": "Корзина",
+              "button_type": "basket",
+              "to_state": "state_basket",
+              "to_view_type": "bench_books_basket"
+            },
+            {
+              "icon": "mdi-book-open-variant",
+              "label": "Мои книги",
+              "to_state": "state_my_books",
+              "to_view_type": "bench_books_my_books"
+            },
+            {
+              "icon": "mdi-account-circle-outline",
+              "label": "Войти",
+              "dialog": "login",
+              "button_type": "login",
+              "to_state": "state_profile",
+              "to_view_type": "bench_books_profile"
+            }
+          ],
+          "suggestionsStartData": [
+            "озеровы",
+            "генри эшвуд",
+            "ника леднева",
+            "платон вешнев",
+            "вера руднева",
+            "тихий янтарь",
+            "эшвуд"
+          ],
+          "suggestionsList": [
+            "озеровы",
+            "генри эшвуд",
+            "ника леднева",
+            "платон вешнев",
+            "вера руднева",
+            "тихий янтарь",
+            "эшвуд",
+            "глеб и тихон",
+            "высокий циферблат",
+            "северов",
+            "руднева",
+            "леднева",
+            "грачев",
+            "эдвард принс",
+            "ночной кипарис",
+            "белый камертон",
+            "тонкий фарфор"
+          ]
+        },
+        "menu_bar": {
+          "items": [
+            {
+              "caption": "Подписка за 0 ₽",
+              "orange": true
+            },
+            {
+              "caption": "Промокод",
+              "orange": true
+            },
+            {
+              "caption": "Новинки"
+            },
+            {
+              "caption": "Популярное"
+            },
+            {
+              "caption": "Подборки"
+            },
+            {
+              "caption": "Аудиокниги"
+            },
+            {
+              "caption": "Эксклюзивы"
+            },
+            {
+              "caption": "Черновики"
+            },
+            {
+              "caption": "Лекции"
+            },
+            {
+              "caption": "Комиксы и вебтуны"
+            },
+            {
+              "caption": "Журналы"
+            }
+          ]
+        },
+        "item_carousel": {
+          "title": "Новинки",
+          "items": [
+            {
+              "kv_id": "item_72271483"
+            },
+            {
+              "kv_id": "item_28731109"
+            },
+            {
+              "kv_id": "item_43802695"
+            },
+            {
+              "kv_id": "item_5023304"
+            },
+            {
+              "kv_id": "item_71908318"
+            },
+            {
+              "kv_id": "item_57017808"
+            },
+            {
+              "kv_id": "item_70610995"
+            },
+            {
+              "kv_id": "item_69401950"
+            },
+            {
+              "kv_id": "item_66026061"
+            },
+            {
+              "kv_id": "item_71848099"
+            },
+            {
+              "kv_id": "item_67469669"
+            },
+            {
+              "kv_id": "item_68503715"
+            }
+          ]
+        },
+        "item_carousel2": {
+          "title": "Популярное",
+          "items": [
+            {
+              "kv_id": "item_69586360"
+            },
+            {
+              "kv_id": "item_69562579"
+            },
+            {
+              "kv_id": "item_70472269"
+            },
+            {
+              "kv_id": "item_69244669"
+            },
+            {
+              "kv_id": "item_183412"
+            },
+            {
+              "kv_id": "item_68010761"
+            },
+            {
+              "kv_id": "item_64008473"
+            },
+            {
+              "kv_id": "item_3140955"
+            },
+            {
+              "kv_id": "item_6277801"
+            },
+            {
+              "kv_id": "item_5806869"
+            },
+            {
+              "kv_id": "item_4986890"
+            },
+            {
+              "kv_id": "item_38612679"
+            },
+            {
+              "kv_id": "item_7003942"
+            },
+            {
+              "kv_id": "item_2547755"
+            },
+            {
+              "kv_id": "item_22579246"
+            },
+            {
+              "kv_id": "item_65061217"
+            },
+            {
+              "kv_id": "item_42758610"
+            },
+            {
+              "kv_id": "item_3956285"
+            },
+            {
+              "kv_id": "item_122360"
+            },
+            {
+              "kv_id": "item_72450115"
+            },
+            {
+              "kv_id": "item_55681877"
+            },
+            {
+              "kv_id": "item_28515766"
+            }
+          ]
+        },
+        "item_carousel3": {
+          "title": "Для вас",
+          "items": [
+            {
+              "kv_id": "item_120081"
+            },
+            {
+              "kv_id": "item_19068701"
+            },
+            {
+              "kv_id": "item_72032179"
+            },
+            {
+              "kv_id": "item_144442"
+            },
+            {
+              "kv_id": "item_3940705"
+            },
+            {
+              "kv_id": "item_70766035"
+            },
+            {
+              "kv_id": "item_51562870"
+            },
+            {
+              "kv_id": "item_37670639"
+            },
+            {
+              "kv_id": "item_71138224"
+            },
+            {
+              "kv_id": "item_5317878"
+            },
+            {
+              "kv_id": "item_71899996"
+            },
+            {
+              "kv_id": "item_70629673"
+            }
+          ]
+        },
+        "logo_line": {
+          "color": "#ffffff"
+        },
+        "footer": {
+          "columns": [
+            {
+              "items": [
+                {
+                  "caption": "О компании"
+                },
+                {
+                  "caption": "Контакты"
+                },
+                {
+                  "caption": "Карьера в Книги"
+                },
+                {
+                  "caption": "Участие в исследованиях"
+                },
+                {
+                  "caption": "Служба поддержки"
+                },
+                {
+                  "caption": "Возврат"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "caption": "Издательствам"
+                },
+                {
+                  "caption": "Авторам"
+                },
+                {
+                  "caption": "Библиотекам"
+                },
+                {
+                  "caption": "Варианты сотрудничества"
+                },
+                {
+                  "caption": "Партнёрская программа"
+                },
+                {
+                  "caption": "Стать автором Книги"
+                },
+                {
+                  "caption": "Озвучить книгу"
+                },
+                {
+                  "caption": "Корпоративная библиотека"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "caption": "Активировать промокод"
+                },
+                {
+                  "caption": "Бестселлеры"
+                },
+                {
+                  "caption": "Новинки"
+                },
+                {
+                  "caption": "Аудиокниги"
+                },
+                {
+                  "caption": "Эксклюзивы"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "caption": "Публичная оферта"
+                },
+                {
+                  "caption": "Политика обработки персональных данных"
+                },
+                {
+                  "caption": "Согласие на получение рассылки"
+                },
+                {
+                  "caption": "Рекомендательные технологии"
+                }
+              ]
+            }
+          ],
+          "bottomText": "© ООО «Книги»"
+        }
+      },
+      "test_data": {
+        "card_data": {
+          "number": "4000060000000006",
+          "date": "10/35",
+          "cvv": "102"
+        },
+        "show_basket_popup": true,
+        "kv_store_path": "books/books_kv.json"
+      },
+      "state_books_main": {
+        "view_type": "bench_books_main",
+        "content": {}
+      },
+      "state_books_basket": {
+        "view_type": "bench_books_basket",
+        "content": {}
+      },
+      "state_books_profile": {
+        "view_type": "bench_books_profile",
+        "content": {}
+      },
+      "state_books_purchase": {
+        "view_type": "bench_books_purchase",
+        "content": {
+          "pay_methods": [
+            {
+              "name": "СБП",
+              "type": "sbp",
+              "image": "pay_sbp",
+              "to_state": "state_purchase_sbp",
+              "to_view_type": "bench_books_purchase_sbp"
+            },
+            {
+              "name": "Бонусы",
+              "type": "spasibo",
+              "image": "pay_spasibo",
+              "to_state": "state_purchase_spasibo",
+              "to_view_type": "bench_books_purchase_spasibo"
+            },
+            {
+              "name": "Российская карта",
+              "type": "card_ru",
+              "image": "pay_visa_master_mir",
+              "to_state": "state_purchase_rucard",
+              "to_view_type": "bench_books_purchase_rucard"
+            },
+            {
+              "name": "МИР",
+              "type": "card_mir",
+              "image": "pay_mir",
+              "to_state": "state_purchase_rucard",
+              "to_view_type": "bench_books_purchase_rucard"
+            },
+            {
+              "name": "Иностранная карта",
+              "type": "card_other",
+              "image": "pay_visa_master",
+              "to_state": "state_purchase_rucard",
+              "to_view_type": "bench_books_purchase_rucard"
+            },
+            {
+              "name": "PayPal",
+              "type": "paypal",
+              "image": "pay_paypal",
+              "to_state": "state_purchase_paypal",
+              "to_view_type": "bench_books_purchase_paypal"
+            }
+          ]
+        }
+      },
+      "state_books_payment_success": {
+        "view_type": "bench_books_payment_success",
+        "content": {}
+      },
+      "state_books_favorites": {
+        "view_type": "bench_books_favorites",
+        "content": {}
+      },
+      "state_aliases": {
+        "state_main": "state_books_main",
+        "state_basket": "state_books_basket",
+        "state_catalog": "state_books_catalog",
+        "state_profile": "state_books_profile",
+        "state_purchase": "state_books_purchase",
+        "state_payment_success": "state_books_payment_success",
+        "state_favorites": "state_books_favorites"
+      }
+    },
+    "grocery": {
+      "common_elements": {
+        "header": {
+          "logo": {
+            "to_state": "state_main",
+            "to_view_type": "bench_grocery_main"
+          },
+          "searchPlaceholder": "Искать в каталоге",
+          "loginButton": {
+            "label": "Войти",
+            "button_type": "login"
+          }
+        },
+        "leftMenu": {
+          "items": [
+            {
+              "caption": "Собрали для вас",
+              "image": "left_menu_0",
+              "categories": [
+                {
+                  "name": "Танцуют все!",
+                  "id": "tantsuyut_vse"
+                },
+                {
+                  "name": "Что нового",
+                  "id": "chto_novogo_13"
+                },
+                {
+                  "name": "Вкусы со всего мира",
+                  "id": "vkusy_so_vsego_mira"
+                },
+                {
+                  "name": "Цены стали ниже",
+                  "id": "tseny_stali_nizhe"
+                },
+                {
+                  "name": "Что купить осенью",
+                  "id": "chto_kupit_osenyu"
+                },
+                {
+                  "name": "Больше — выгоднее",
+                  "id": "bolshe_vygodnee"
+                }
+              ]
+            },
+            {
+              "caption": "От доставки",
+              "image": "left_menu_1",
+              "categories": [
+                {
+                  "name": "Продукты",
+                  "id": "produkty_11"
+                },
+                {
+                  "name": "Товары",
+                  "id": "tovary"
+                },
+                {
+                  "name": "Часто заказывают",
+                  "id": "chasto_zakazyvayut"
+                },
+                {
+                  "name": "В тренде",
+                  "id": "v_trende"
+                }
+              ]
+            },
+            {
+              "caption": "Готовая еда",
+              "image": "left_menu_2",
+              "categories": [
+                {
+                  "name": "Всё горячее",
+                  "id": "vsyo_goryachee_1"
+                },
+                {
+                  "name": "Red box от Pinskiy&Co",
+                  "id": "red_box_ot_pinskiy_co"
+                },
+                {
+                  "name": "Из ресторанов и кафе",
+                  "id": "iz_restoranov_i_kafe"
+                },
+                {
+                  "name": "Стритфуд",
+                  "id": "stritfud_1"
+                },
+                {
+                  "name": "Десерты и выпечка",
+                  "id": "deserty_i_vypechka"
+                },
+                {
+                  "name": "Напитки",
+                  "id": "napitki_49"
+                }
+              ]
+            },
+            {
+              "caption": "Овощи и фрукты",
+              "image": "left_menu_3",
+              "categories": [
+                {
+                  "name": "Сейчас сезон",
+                  "id": "seychas_sezon"
+                },
+                {
+                  "name": "Овощи, грибы и зелень",
+                  "id": "ovoshchi_griby_i_zelen"
+                },
+                {
+                  "name": "Фрукты и ягоды",
+                  "id": "frukty_i_yagody_1"
+                }
+              ]
+            },
+            {
+              "caption": "Молоко, яйца и сыр",
+              "image": "left_menu_4",
+              "categories": [
+                {
+                  "name": "Молочное и яйца",
+                  "id": "molochnoe_i_yaytsa"
+                },
+                {
+                  "name": "Йогурты и десерты",
+                  "id": "yogurty_i_deserty"
+                },
+                {
+                  "name": "Сыр",
+                  "id": "syr"
+                }
+              ]
+            }
+          ]
+        },
+        "recipesSection": {
+          "title": "Чем радовать себя и любимых",
+          "items": [
+            {
+              "image": "recipe_1"
+            },
+            {
+              "image": "recipe_2"
+            },
+            {
+              "image": "recipe_3"
+            },
+            {
+              "image": "recipe_4"
+            },
+            {
+              "image": "recipe_5"
+            },
+            {
+              "image": "recipe_6"
+            },
+            {
+              "image": "recipe_7"
+            },
+            {
+              "image": "recipe_8"
+            }
+          ]
+        },
+        "mapSection": {
+          "city": "Москва",
+          "description": "Выберите адрес, и покажем товары и акции, которые точно доступны",
+          "buttonLabel": "Выбрать адрес"
+        },
+        "search_bar": {
+          "logo": {
+            "to_state": "state_main",
+            "to_view_type": "bench_grocery_main"
+          },
+          "searchPlaceholder": "Искать в каталоге",
+          "searchButtonCaption": "Найти",
+          "additionalButton": {
+            "caption": "Каталог",
+            "to_state": "state_catalog",
+            "to_view_type": "bench_grocery_catalog"
+          },
+          "panelButtons": [
+            {
+              "icon": "mdi-star-circle-outline",
+              "label": "Бонусы",
+              "highlight": true
+            },
+            {
+              "icon": "mdi-cart-outline",
+              "label": "Корзина",
+              "button_type": "basket",
+              "to_state": "state_basket",
+              "to_view_type": "bench_grocery_basket"
+            },
+            {
+              "icon": "mdi-account-circle-outline",
+              "label": "Войти",
+              "button_type": "login",
+              "to_state": "state_profile",
+              "to_view_type": "bench_grocery_profile"
+            }
+          ]
+        },
+        "menu_bar": {
+          "items": [
+            {
+              "caption": "Собрали для вас",
+              "orange": true,
+              "to_view_type": "bench_grocery_category",
+              "to_state": "tantsuyut_vse"
+            },
+            {
+              "caption": "От доставки",
+              "orange": true,
+              "to_view_type": "bench_grocery_category",
+              "to_state": "produkty_11"
+            },
+            {
+              "caption": "Готовая еда",
+              "orange": false,
+              "to_view_type": "bench_grocery_category",
+              "to_state": "vsyo_goryachee_1"
+            },
+            {
+              "caption": "Овощи и фрукты",
+              "orange": false,
+              "to_view_type": "bench_grocery_category",
+              "to_state": "seychas_sezon"
+            },
+            {
+              "caption": "Молоко, яйца и сыр",
+              "orange": false,
+              "to_view_type": "bench_grocery_category",
+              "to_state": "molochnoe_i_yaytsa"
+            }
+          ]
+        },
+        "grid": {
+          "title": "Популярное",
+          "items": [
+            {
+              "kv_id": "item_3b51864a"
+            },
+            {
+              "kv_id": "item_63b88d2e"
+            },
+            {
+              "kv_id": "item_04dd559b"
+            },
+            {
+              "kv_id": "item_38699889"
+            },
+            {
+              "kv_id": "item_24bd5917"
+            },
+            {
+              "kv_id": "item_913ddade"
+            },
+            {
+              "kv_id": "item_2f742dc9"
+            },
+            {
+              "kv_id": "item_ddd7bd00"
+            },
+            {
+              "kv_id": "item_9d1ebf15"
+            },
+            {
+              "kv_id": "item_9dfcd949"
+            }
+          ]
+        },
+        "grid2": {
+          "title": "Выгодные предложения",
+          "items": [
+            {
+              "kv_id": "item_9400ed7e"
+            },
+            {
+              "kv_id": "item_ac1da87d"
+            },
+            {
+              "kv_id": "item_ef27e878"
+            },
+            {
+              "kv_id": "item_526392c7"
+            },
+            {
+              "kv_id": "item_3ae02e37"
+            },
+            {
+              "kv_id": "item_3b51864a"
+            },
+            {
+              "kv_id": "item_63b88d2e"
+            },
+            {
+              "kv_id": "item_04dd559b"
+            },
+            {
+              "kv_id": "item_38699889"
+            },
+            {
+              "kv_id": "item_24bd5917"
+            }
+          ]
+        },
+        "grid3": {
+          "title": "Часто заказывают",
+          "items": [
+            {
+              "kv_id": "item_913ddade"
+            },
+            {
+              "kv_id": "item_2f742dc9"
+            },
+            {
+              "kv_id": "item_ddd7bd00"
+            },
+            {
+              "kv_id": "item_9d1ebf15"
+            },
+            {
+              "kv_id": "item_9dfcd949"
+            },
+            {
+              "kv_id": "item_9400ed7e"
+            },
+            {
+              "kv_id": "item_ac1da87d"
+            },
+            {
+              "kv_id": "item_ef27e878"
+            },
+            {
+              "kv_id": "item_526392c7"
+            },
+            {
+              "kv_id": "item_3ae02e37"
+            }
+          ]
+        },
+        "footer": {
+          "columns": [
+            {
+              "items": [
+                {
+                  "caption": "О сервисе"
+                },
+                {
+                  "caption": "Контакты"
+                },
+                {
+                  "caption": "Вакансии"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "caption": "Доставка"
+                },
+                {
+                  "caption": "Оплата"
+                },
+                {
+                  "caption": "Возврат"
+                }
+              ]
+            }
+          ],
+          "bottomText": "© WebPageBench"
+        }
+      },
+      "test_data": {
+        "user_data": {
+          "address_details": "кв. 15, подъезд 2, этаж 3, код домофона 1505",
+          "on_door": true,
+          "bonus_points": 2788,
+          "payment_method": "sberpay",
+          "card_number": "4000060000000006",
+          "card_money": "31 280, 55",
+          "card_date": "10/35",
+          "card_cvv": "102",
+          "name": "Ярославцев Сергей Александрович",
+          "email": "bench@example.com",
+          "phone": "+7 915 000-00-00",
+          "address": "Кутузовский проспект, 32"
+        },
+        "auth_delay": 2,
+        "min_order_price": 950,
+        "kv_store_path": "grocery/grocery_kv.json"
+      },
+      "state_grocery_main": {
+        "view_type": "bench_grocery_main",
+        "delay": 0,
+        "content": {
+          "deliveryTime": "от 15 минут",
+          "city": "Москва"
+        }
+      },
+      "state_grocery_category": {
+        "view_type": "bench_grocery_category",
+        "delay": 0,
+        "content": {
+          "categoryName": "Овощи и фрукты",
+          "items": []
+        }
+      },
+      "state_grocery_basket": {
+        "view_type": "bench_grocery_basket",
+        "delay": 0,
+        "content": {
+          "items": []
+        }
+      },
+      "state_grocery_purchase": {
+        "view_type": "bench_grocery_purchase",
+        "delay": 0,
+        "content": {}
+      },
+      "state_grocery_catalog": {
+        "view_type": "bench_grocery_catalog",
+        "delay": 0,
+        "content": {}
+      },
+      "state_grocery_authorization": {
+        "view_type": "bench_grocery_authorization",
+        "delay": 0,
+        "content": {}
+      },
+      "state_aliases": {
+        "state_main": "state_grocery_main",
+        "state_category": "state_grocery_category",
+        "state_basket": "state_grocery_basket",
+        "state_purchase": "state_grocery_purchase",
+        "state_authorization": "state_grocery_authorization",
+        "state_profile": "state_grocery_profile",
+        "state_catalog": "state_grocery_catalog"
+      },
+      "state_grocery_profile": {
+        "view_type": "bench_grocery_profile",
+        "content": {}
+      }
+    },
+    "rail": {
+      "common_elements": {
+        "header": {
+          "logo": {
+            "to_state": "state_main",
+            "to_view_type": "bench_rail_main"
+          },
+          "mainMenu": [
+            {
+              "label": "Пассажирам",
+              "active": true
+            },
+            {
+              "label": "Грузовые перевозки"
+            },
+            {
+              "label": "Компания"
+            },
+            {
+              "label": "Работа в ЖД"
+            },
+            {
+              "label": "Контакты"
+            }
+          ]
+        },
+        "secondaryNav": [
+          {
+            "label": "Купить билет"
+          },
+          {
+            "label": "Поезда и маршруты",
+            "dropdown": true
+          },
+          {
+            "label": "Вокзалы"
+          },
+          {
+            "label": "Тарифы и акции",
+            "dropdown": true
+          },
+          {
+            "label": "Услуги и сервисы",
+            "dropdown": true
+          },
+          {
+            "label": "Бонус",
+            "dropdown": true
+          },
+          {
+            "label": "Правила",
+            "dropdown": true
+          },
+          {
+            "label": "Информация",
+            "dropdown": true
+          },
+          {
+            "label": "Карта сайта"
+          }
+        ],
+        "searchWidget": {
+          "tabs": [
+            {
+              "label": "БИЛЕТЫ",
+              "icon": "ticket",
+              "active": true
+            },
+            {
+              "label": "ОТЕЛИ",
+              "icon": "hotel"
+            }
+          ],
+          "defaultPassengers": 1
+        },
+        "announcements": [
+          {
+            "type": "warning",
+            "text": "С 20 января 2026 года вносятся изменения в ФЗ «О порядке выезда из Российской Федерации и въезда в Российскую Федерацию».",
+            "linkText": "изменения",
+            "linkUrl": "#"
+          },
+          {
+            "type": "info",
+            "text": "Здание Ленинградского вокзала Москвы закрыто на ремонт. Схема прохода на посадку в поезда",
+            "linkText": "здесь",
+            "linkUrl": "#"
+          }
+        ],
+        "infoCards": {
+          "myTickets": {
+            "title": "Мои билеты",
+            "links": [
+              {
+                "text": "Личный кабинет пассажира на tickets.example",
+                "url": "#"
+              },
+              {
+                "text": "Программа «Бонус»",
+                "url": "#"
+              },
+              {
+                "text": "Купить премиальный билет",
+                "url": "#"
+              }
+            ]
+          },
+          "support": {
+            "title": "Служба поддержки",
+            "phone": "8 800 775-00-00",
+            "phoneHint": "Центр поддержки клиентов оператор",
+            "email": "tickets@example.com",
+            "emailHint": "Для вопросов по электронным билетам",
+            "specialLink": {
+              "text": "Участникам СВО",
+              "url": "#"
+            }
+          },
+          "accessibility": {
+            "title": "Маломобильные пассажиры",
+            "backgroundImage": "accessibility",
+            "links": [
+              {
+                "text": "Центр содействия мобильности оператор",
+                "url": "#"
+              },
+              {
+                "text": "Оформление билетов",
+                "url": "#"
+              },
+              {
+                "text": "Инструкции по оформлению билетов",
+                "url": "#"
+              },
+              {
+                "text": "Рекомендации по поездкам в турпоездах",
+                "url": "#"
+              }
+            ]
+          }
+        },
+        "promoCards": {
+          "travel": {
+            "title": "Путешествуй с ЖД",
+            "backgroundImage": "travel_promo",
+            "items": [
+              "«Зимняя сказка» из регионов",
+              "«Лыжная стрела» В Розу Хутор",
+              "«В Сибирь»",
+              "«Лыжная стрела». В Хибины",
+              "«В Дивеево»"
+            ]
+          },
+          "dedMoroz": {
+            "title": "Поезд Деда Мороза",
+            "backgroundImage": "ded_moroz",
+            "subtitle": "Из Великого Устюга по всей России!",
+            "linkText": "Купить билет"
+          },
+          "discounts": {
+            "title": "Акции и скидки",
+            "backgroundImage": "discounts",
+            "items": [
+              "Льгота «Скидка детям – 50%»",
+              "«Путешествуй с детьми»",
+              "«Для пассажиров 60+»",
+              "«В День рождения лучше поездом!»",
+              "«Клуб путешественников»"
+            ]
+          }
+        },
+        "bottomInfo": [
+          {
+            "title": "Перед поездкой",
+            "subtitle": "Информация в дорогу"
+          },
+          {
+            "title": "В поезде",
+            "subtitle": "Услуги в поезде, доставка еды к поезду,"
+          },
+          {
+            "title": "После поездки",
+            "subtitle": "Услуги после поездки, поиск забытых вещей"
+          }
+        ],
+        "loginForm": {
+          "title": "Вход в систему",
+          "tabs": [
+            "Вход",
+            "Регистрация"
+          ],
+          "loginPlaceholder": "Логин",
+          "passwordPlaceholder": "Пароль",
+          "captchaPlaceholder": "Защитный код",
+          "forgotPasswordLink": "Забыли пароль?",
+          "buttons": {
+            "cancel": "Отмена",
+            "login": "Войти"
+          }
+        }
+      },
+      "test_data": {
+        "user_data": [
+          {
+            "rail_bonus_number": "123456789",
+            "rail_bonus_points": 5420,
+            "birthday": "1990-01-01",
+            "passport_number": "1234567890",
+            "name": "Ярославцев Сергей Александрович",
+            "email": "bench@example.com",
+            "phone": "+7 915 000-00-00"
+          },
+          {
+            "name": "Мария Сидорова",
+            "email": "maria@example.com",
+            "phone": "+79161234567",
+            "rail_bonus_number": "987654321",
+            "rail_bonus_points": 1250,
+            "birthday": "1985-05-15",
+            "passport_number": "0987654321"
+          }
+        ],
+        "card_data": {
+          "number": "4000060000000006",
+          "date": "10/35",
+          "cvv": "102"
+        },
+        "kv_store_path": "rail/rail_kv.json"
+      },
+      "state_rail_main": {
+        "view_type": "bench_rail_main",
+        "content": {
+          "heroTitle": "КУПИТЬ БИЛЕТ, ПОСМОТРЕТЬ РАСПИСАНИЕ"
+        },
+        "delay": 0
+      },
+      "state_aliases": {
+        "state_main": "state_rail_main",
+        "state_profile": "state_rail_profile"
+      },
+      "state_rail_profile": {
+        "view_type": "bench_rail_profile",
+        "content": {}
+      }
+    },
+    "hotels": {
+      "test_data": {
+        "kv_store_path": "hotels/hotels_index.json"
+      },
+      "state_hotels_main": {
+        "view_type": "bench_hotel_main",
+        "delay": 0,
+        "content": {}
+      },
+      "state_hotels_search": {
+        "view_type": "bench_hotel_search",
+        "delay": 0,
+        "content": {}
+      },
+      "state_hotels_hotel": {
+        "view_type": "bench_hotel_hotel",
+        "delay": 0,
+        "content": {}
+      },
+      "state_hotels_checkout": {
+        "view_type": "bench_hotel_checkout",
+        "delay": 0,
+        "content": {}
+      },
+      "state_aliases": {
+        "state_main": "state_hotels_main",
+        "state_search": "state_hotels_search",
+        "state_hotel": "state_hotels_hotel",
+        "state_checkout": "state_hotels_checkout"
+      }
+    },
+    "files": {
+      "state_files_main": {
+        "view_type": "bench_files_cabinet",
+        "content": {
+          "title": "Файлы"
+        }
+      },
+      "state_files_collection": {
+        "view_type": "bench_files_collection",
+        "content": {
+          "title": "Коллекция"
+        }
+      },
+      "states": {
+        "collection": {
+          "state": "state_files_collection",
+          "view_type": "bench_files_collection"
+        }
+      },
+      "ui_variants": {
+        "collections": "cards",
+        "years": "select",
+        "buttons": "outline"
+      },
+      "collections": [
+        {
+          "id": "lab_reports",
+          "label": "Отчёты лаборатории",
+          "years": {
+            "2024": [
+              {
+                "format": "pdf",
+                "file": "lab-reports-2024.pdf",
+                "url": "/mocks/files/lab-reports-2024.pdf"
+              },
+              {
+                "format": "csv",
+                "file": "lab-reports-2024.csv",
+                "url": "/mocks/files/lab-reports-2024.csv"
+              }
+            ],
+            "2025": [
+              {
+                "format": "csv",
+                "file": "lab-reports-2025.csv",
+                "url": "/mocks/files/lab-reports-2025.csv"
+              },
+              {
+                "format": "pdf",
+                "file": "lab-reports-2025.pdf",
+                "url": "/mocks/files/lab-reports-2025.pdf"
+              },
+              {
+                "format": "pdf",
+                "file": "lab-reports-2025-notes.pdf",
+                "url": "/mocks/files/lab-reports-2025-notes.pdf"
+              },
+              {
+                "format": "csv",
+                "file": "lab-reports-2025-raw.csv",
+                "url": "/mocks/files/lab-reports-2025-raw.csv"
+              },
+              {
+                "format": "csv",
+                "file": "lab-reports-2025-summary.csv",
+                "url": "/mocks/files/lab-reports-2025-summary.csv"
+              }
+            ]
+          }
+        },
+        {
+          "id": "project_archive",
+          "label": "Архив проектов",
+          "years": {
+            "2023": [
+              {
+                "format": "pdf",
+                "file": "project-archive-2023.pdf",
+                "url": "/mocks/files/project-archive-2023.pdf"
+              },
+              {
+                "format": "pdf",
+                "file": "project-archive-2023-01.pdf",
+                "url": "/mocks/files/project-archive-2023-01.pdf"
+              },
+              {
+                "format": "csv",
+                "file": "project-archive-2023-02.csv",
+                "url": "/mocks/files/project-archive-2023-02.csv"
+              },
+              {
+                "format": "pdf",
+                "file": "project-archive-2023-03.pdf",
+                "url": "/mocks/files/project-archive-2023-03.pdf"
+              },
+              {
+                "format": "csv",
+                "file": "project-archive-2023-04.csv",
+                "url": "/mocks/files/project-archive-2023-04.csv"
+              },
+              {
+                "format": "pdf",
+                "file": "project-archive-2023-05.pdf",
+                "url": "/mocks/files/project-archive-2023-05.pdf"
+              },
+              {
+                "format": "pdf",
+                "file": "project-archive-2023-06.pdf",
+                "url": "/mocks/files/project-archive-2023-06.pdf"
+              },
+              {
+                "format": "csv",
+                "file": "project-archive-2023-07.csv",
+                "url": "/mocks/files/project-archive-2023-07.csv"
+              },
+              {
+                "format": "pdf",
+                "file": "project-archive-2023-08.pdf",
+                "url": "/mocks/files/project-archive-2023-08.pdf"
+              },
+              {
+                "format": "csv",
+                "file": "project-archive-2023-09.csv",
+                "url": "/mocks/files/project-archive-2023-09.csv"
+              },
+              {
+                "format": "pdf",
+                "file": "project-archive-2023-10.pdf",
+                "url": "/mocks/files/project-archive-2023-10.pdf"
+              },
+              {
+                "format": "csv",
+                "file": "project-archive-2023-11.csv",
+                "url": "/mocks/files/project-archive-2023-11.csv"
+              }
+            ],
+            "2024": [
+              {
+                "format": "csv",
+                "file": "project-archive-2024.csv",
+                "url": "/mocks/files/project-archive-2024.csv"
+              },
+              {
+                "format": "pdf",
+                "file": "project-archive-2024-01.pdf",
+                "url": "/mocks/files/project-archive-2024-01.pdf"
+              },
+              {
+                "format": "csv",
+                "file": "project-archive-2024-02.csv",
+                "url": "/mocks/files/project-archive-2024-02.csv"
+              },
+              {
+                "format": "pdf",
+                "file": "project-archive-2024-03.pdf",
+                "url": "/mocks/files/project-archive-2024-03.pdf"
+              },
+              {
+                "format": "csv",
+                "file": "project-archive-2024-04.csv",
+                "url": "/mocks/files/project-archive-2024-04.csv"
+              },
+              {
+                "format": "pdf",
+                "file": "project-archive-2024-05.pdf",
+                "url": "/mocks/files/project-archive-2024-05.pdf"
+              },
+              {
+                "format": "csv",
+                "file": "project-archive-2024-06.csv",
+                "url": "/mocks/files/project-archive-2024-06.csv"
+              },
+              {
+                "format": "pdf",
+                "file": "project-archive-2024-07.pdf",
+                "url": "/mocks/files/project-archive-2024-07.pdf"
+              },
+              {
+                "format": "csv",
+                "file": "project-archive-2024-08.csv",
+                "url": "/mocks/files/project-archive-2024-08.csv"
+              },
+              {
+                "format": "pdf",
+                "file": "project-archive-2024-09.pdf",
+                "url": "/mocks/files/project-archive-2024-09.pdf"
+              },
+              {
+                "format": "csv",
+                "file": "project-archive-2024-10.csv",
+                "url": "/mocks/files/project-archive-2024-10.csv"
+              },
+              {
+                "format": "pdf",
+                "file": "project-archive-2024-11.pdf",
+                "url": "/mocks/files/project-archive-2024-11.pdf"
+              },
+              {
+                "format": "csv",
+                "file": "project-archive-2024-12.csv",
+                "url": "/mocks/files/project-archive-2024-12.csv"
+              },
+              {
+                "format": "pdf",
+                "file": "project-archive-2024-03-31.pdf",
+                "url": "/mocks/files/project-archive-2024-03-31.pdf"
+              },
+              {
+                "format": "csv",
+                "file": "project-archive-2024-06-30.csv",
+                "url": "/mocks/files/project-archive-2024-06-30.csv"
+              },
+              {
+                "format": "pdf",
+                "file": "project-archive-2024-09-30.pdf",
+                "url": "/mocks/files/project-archive-2024-09-30.pdf"
+              },
+              {
+                "format": "csv",
+                "file": "project-archive-2024-12-31.csv",
+                "url": "/mocks/files/project-archive-2024-12-31.csv"
+              },
+              {
+                "format": "pdf",
+                "file": "project-archive-2024-q1.pdf",
+                "url": "/mocks/files/project-archive-2024-q1.pdf"
+              }
+            ]
+          }
+        },
+        {
+          "id": "manuals",
+          "label": "Руководства",
+          "years": {
+            "2026": [
+              {
+                "format": "pdf",
+                "file": "manuals-2026.pdf",
+                "url": "/mocks/files/manuals-2026.pdf"
+              },
+              {
+                "format": "csv",
+                "file": "manuals-2026.csv",
+                "url": "/mocks/files/manuals-2026.csv"
+              },
+              {
+                "format": "pdf",
+                "file": "manuals-2026-quickstart.pdf",
+                "url": "/mocks/files/manuals-2026-quickstart.pdf"
+              }
+            ]
+          }
+        },
+        {
+          "id": "datasets",
+          "label": "Наборы данных",
+          "years": {
+            "2026": [
+              {
+                "format": "csv",
+                "file": "datasets-2026.csv",
+                "url": "/mocks/files/datasets-2026.csv"
+              },
+              {
+                "format": "pdf",
+                "file": "datasets-2026.pdf",
+                "url": "/mocks/files/datasets-2026.pdf"
+              },
+              {
+                "format": "csv",
+                "file": "datasets-2026-schema.csv",
+                "url": "/mocks/files/datasets-2026-schema.csv"
+              },
+              {
+                "format": "csv",
+                "file": "datasets-2026-extra.csv",
+                "url": "/mocks/files/datasets-2026-extra.csv"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "state_hub": {
+    "view_type": "bench_hub",
+    "delay": 0,
+    "content": {}
+  }
+}

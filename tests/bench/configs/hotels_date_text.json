@@ -1,0 +1,13 @@
+{
+  "profile_id": "hotels_date_text",
+  "description": "Отели: ввод дат строкой ДД.ММ.ГГГГ",
+  "domain_configs": {
+    "hotels": {
+      "ui_variants": {
+        "date": "text_input",
+        "select_city": "autocomplete",
+        "counter_guests": "rooms_popup"
+      }
+    }
+  }
+}

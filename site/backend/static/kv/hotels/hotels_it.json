@@ -1,0 +1,1724 @@
+{
+  "id": "it",
+  "label": "Италия",
+  "cities": [
+    {
+      "id": "it-rom",
+      "name": "Рим",
+      "countryCode": "IT",
+      "countryName": "Италия"
+    },
+    {
+      "id": "it-mil",
+      "name": "Милан",
+      "countryCode": "IT",
+      "countryName": "Италия"
+    },
+    {
+      "id": "it-ven",
+      "name": "Венеция",
+      "countryCode": "IT",
+      "countryName": "Италия"
+    }
+  ],
+  "hotels": [
+    {
+      "id": "h-it-rom-centro",
+      "cityId": "it-rom",
+      "name": "Roma Centro Boutique",
+      "address": "Via del Corso 10, Roma",
+      "distanceFromCenter": "0.6 км от центра Рим",
+      "stars": 4,
+      "rating": 9.1,
+      "reviews": 1320,
+      "priceTotalRub": 204000,
+      "nights": 4,
+      "distanceKm": 0.6,
+      "type": "hotel",
+      "amenities": [
+        "wifi",
+        "breakfast",
+        "airConditioning",
+        "pets"
+      ],
+      "imageUrl": "/hotels/cdn/photos/picsum_it_rom_centro_main_900_600.jpg",
+      "images": [
+        "/hotels/cdn/photos/picsum_it_rom_centro_1_900_600.jpg",
+        "/hotels/cdn/photos/picsum_it_rom_centro_2_900_600.jpg",
+        "/hotels/cdn/photos/picsum_it_rom_centro_3_900_600.jpg",
+        "/hotels/cdn/photos/picsum_it_rom_centro_4_900_600.jpg",
+        "/hotels/cdn/photos/picsum_it_rom_centro_7_900_600.jpg",
+        "/hotels/cdn/photos/picsum_it_rom_centro_8_900_600.jpg"
+      ],
+      "offer": {
+        "roomTitle": "Номер Superior",
+        "beds": "двуспальная кровать",
+        "mealPlan": "breakfast",
+        "cancellation": "free",
+        "payment": "at_hotel"
+      },
+      "geoBlock": {
+        "title": "Расположение",
+        "address": "Via del Corso 10, Roma",
+        "map": {
+          "lat": 35.337782131070156,
+          "lng": 139.5336754415569,
+          "zoom": 14,
+          "query": "Via del Corso 10, Roma, Рим",
+          "tileUrlTemplate": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          "tileAttribution": "© Участники OpenStreetMap"
+        },
+        "poiGroups": [
+          {
+            "id": "nearby",
+            "title": "Что вокруг",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Старая площадь Рим",
+                "distance": "280 м"
+              },
+              {
+                "type": "CHURCH",
+                "name": "Собор Рим",
+                "distance": "430 м"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Городской музей Рим",
+                "distance": "620 м"
+              },
+              {
+                "type": "PARK",
+                "name": "Парк Рим",
+                "distance": "910 м"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Набережная Рим",
+                "distance": "1,1 км"
+              }
+            ]
+          },
+          {
+            "id": "top",
+            "title": "Достопримечательности",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Главная достопримечательность Рим",
+                "distance": "1,4 км"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Национальный музей Рим",
+                "distance": "1,8 км"
+              },
+              {
+                "type": "PARK",
+                "name": "Центральный парк Рим",
+                "distance": "2,1 км"
+              },
+              {
+                "type": "AIRPORT",
+                "name": "Аэропорт Рим",
+                "distance": "18 км"
+              }
+            ]
+          },
+          {
+            "id": "airports",
+            "title": "Аэропорты",
+            "items": [
+              {
+                "type": "AIRPORT",
+                "name": "Аэропорт Рим",
+                "distance": "18 км"
+              }
+            ]
+          },
+          {
+            "id": "railways",
+            "title": "Вокзалы",
+            "items": [
+              {
+                "type": "RAILWAY_STATION",
+                "name": "Центральный вокзал Рим",
+                "distance": "1,2 км"
+              }
+            ]
+          }
+        ]
+      },
+      "roomOptions": {
+        "galleryCtaText": "фото",
+        "availabilityTitle": "Доступные варианты",
+        "groups": [
+          {
+            "id": "h-it-rom-centro-std",
+            "name": "Двухместный номер Standard",
+            "nameAdditional": "1 двуспальная кровать",
+            "alert": "На нашем сайте осталось 3 номера",
+            "imageUrl": "/hotels/cdn/photos/picsum_it_rom_centro_room_std_640_420.jpg",
+            "imageCount": 8,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "22 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-it-rom-centro-std-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Питание не включено",
+                  "isFeature": false
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена",
+                "priceRub": 159120,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 35 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/h-it-rom-centro-std-r1"
+              },
+              {
+                "id": "h-it-rom-centro-std-r2",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена с питанием",
+                "priceRub": 175440,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 35 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/h-it-rom-centro-std-r2"
+              }
+            ]
+          },
+          {
+            "id": "h-it-rom-centro-sup",
+            "name": "Номер Superior",
+            "nameAdditional": "1 двуспальная кровать • вид на город",
+            "alert": "Осталось 2 номера по этой цене",
+            "imageUrl": "/hotels/cdn/photos/picsum_it_rom_centro_room_sup_640_420.jpg",
+            "imageCount": 12,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "28 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-it-rom-centro-sup-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 5 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Карта для гарантии"
+                },
+                "deal": "Популярный вариант",
+                "priceRub": 204000,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 45 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/h-it-rom-centro-sup-r1"
+              }
+            ]
+          }
+        ]
+      },
+      "aboutBlock": {
+        "title": "Описание отеля",
+        "expandText": "Развернуть описание",
+        "collapseText": "Свернуть описание",
+        "sections": [
+          {
+            "id": "location",
+            "title": "Расположение",
+            "paragraphs": [
+              "Отель «Roma Centro Boutique» находится в пешей доступности от центра Рим. Рядом — исторический центр, музеи, рестораны и транспортные узлы."
+            ]
+          },
+          {
+            "id": "hotel",
+            "title": "В отеле",
+            "paragraphs": [
+              "Для гостей работает ресторан и лобби-бар. На всей территории доступен бесплатный Wi‑Fi.",
+              "Гостям доступны услуги консьержа, хранение багажа и трансфер по запросу. В отеле есть лифт и круглосуточная стойка регистрации."
+            ],
+            "spoiler": true
+          },
+          {
+            "id": "room",
+            "title": "В номере",
+            "paragraphs": [
+              "В номере есть душ, телевизор, рабочая зона и набор для приготовления чая/кофе. Оснащение зависит от категории номера."
+            ],
+            "spoiler": true
+          }
+        ],
+        "facts": {
+          "title": "Факты об отеле",
+          "items": [
+            {
+              "key": "renovation",
+              "label": "Год реновации",
+              "value": "2019 год"
+            },
+            {
+              "key": "socket",
+              "label": "Тип розетки",
+              "value": [
+                "Италия",
+                "220 В / 50–60 Гц"
+              ]
+            },
+            {
+              "key": "rooms_floors",
+              "label": "Количество номеров и этажей",
+              "value": "96 номеров, 12 этажей"
+            }
+          ]
+        }
+      },
+      "additionalInfoBlock": {
+        "title": "Дополнительная информация",
+        "paragraphs": [
+          "При заезде может взиматься городской налог. Его размер зависит от правил города и категории размещения.",
+          "Если планируется поздний заезд, рекомендуется предупредить отель заранее.",
+          "Некоторые услуги могут предоставляться за дополнительную плату."
+        ]
+      },
+      "accommodationBlock": {
+        "title": "Условия размещения",
+        "checkInOut": {
+          "title": "Заселение и выезд",
+          "checkIn": {
+            "label": "Заселение",
+            "value": "После 15:00"
+          },
+          "checkOut": {
+            "label": "Выезд",
+            "value": "До 11:00"
+          }
+        },
+        "blocks": [
+          {
+            "id": "deposit",
+            "title": "Депозит",
+            "icon": "deposit",
+            "items": [
+              {
+                "label": "Гарантия картой",
+                "value": "Требуется при заезде"
+              }
+            ]
+          },
+          {
+            "id": "extraBed",
+            "title": "Дополнительная кровать",
+            "icon": "extraBed",
+            "items": [
+              {
+                "label": "По запросу",
+                "value": "45 у.е. за ночь"
+              }
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Животные",
+            "icon": "pets",
+            "items": [
+              {
+                "label": "Размещение с животными",
+                "value": "Нужно уточнять заранее"
+              }
+            ]
+          }
+        ]
+      },
+      "currencyCode": "EUR",
+      "paymentSection": {
+        "payment": {
+          "title": "Оплата",
+          "inHotelTitle": "В отеле",
+          "onSiteTitle": "На сайте",
+          "inHotelItems": [
+            {
+              "type": "text",
+              "text": "Наличными в валюте отеля — EUR"
+            },
+            {
+              "type": "cards",
+              "label": "Картой:",
+              "codes": [
+                "visa",
+                "mastercard",
+                "american-express"
+              ]
+            }
+          ],
+          "onSiteText": "Для некоторых тарифов доступна онлайн-оплата банковской картой при бронировании."
+        }
+      },
+      "amenitiesBlock": {
+        "title": "Услуги и удобства",
+        "groups": [
+          {
+            "id": "popular",
+            "title": "Популярные",
+            "icon": "popular",
+            "variant": "popular",
+            "items": [
+              "Бесплатный интернет",
+              "Завтрак",
+              "Кондиционер",
+              "Разрешено с домашними животными"
+            ]
+          },
+          {
+            "id": "common",
+            "title": "Общее",
+            "icon": "common_info",
+            "items": [
+              "Круглосуточная стойка регистрации",
+              "Лифт",
+              "Отель для некурящих",
+              "Отопление",
+              "Терраса"
+            ]
+          },
+          {
+            "id": "rooms",
+            "title": "В номерах",
+            "icon": "extra_service",
+            "items": [
+              "Номера для некурящих",
+              "Телевизор",
+              "Фен",
+              "Душ",
+              "Туалетные принадлежности"
+            ]
+          },
+          {
+            "id": "meal",
+            "title": "Питание",
+            "icon": "meal",
+            "items": [
+              "Бар",
+              "Завтрак",
+              "Ресторан",
+              "Чайник"
+            ]
+          },
+          {
+            "id": "internet",
+            "title": "Интернет",
+            "icon": "internet",
+            "items": [
+              "Бесплатный Wi‑Fi",
+              "Доступ в интернет"
+            ]
+          }
+        ]
+      },
+      "reviewsBlock": {
+        "title": "Отзывы",
+        "ratingSummary": {
+          "value": 8.3,
+          "totalReviews": 1320,
+          "localLanguageReviews": 12,
+          "basedOnText": "Основано на {TOTAL} отзывах гостей из разных стран.",
+          "localLanguageText": "На вашем языке доступно {LOCAL} отзывов"
+        },
+        "detailedScores": [
+          {
+            "label": "Чистота",
+            "value": 8.8
+          },
+          {
+            "label": "Расположение",
+            "value": 9
+          },
+          {
+            "label": "Цена/Качество",
+            "value": 8.5
+          },
+          {
+            "label": "Номер",
+            "value": 8.7
+          },
+          {
+            "label": "Обслуживание",
+            "value": 8.9
+          },
+          {
+            "label": "Качество Wi‑Fi",
+            "value": 8.6
+          }
+        ],
+        "tripadvisor": {
+          "label": "TripAdvisor",
+          "reviews": 1315,
+          "href": "https://www.tripadvisor.com"
+        },
+        "featuredReviews": [
+          {
+            "author": "рим_traveler",
+            "countryCode": "EU",
+            "text": "Отличное расположение в Рим, чистые номера, дружелюбный персонал и хороший завтрак."
+          }
+        ],
+        "reviews": [
+          {
+            "id": "h-it-rom-centro-r1",
+            "source": "tripadvisor",
+            "author": "travel_guest_1",
+            "countryCode": "RU",
+            "tripType": "пара",
+            "date": "май 2024 г.",
+            "rating": 5,
+            "title": "Очень понравилось",
+            "text": "Останавливались в Roma Centro Boutique на несколько ночей. Отличный сервис, хорошее расположение и комфортные номера."
+          },
+          {
+            "id": "h-it-rom-centro-r2",
+            "source": "tripadvisor",
+            "author": "travel_guest_2",
+            "countryCode": "DE",
+            "tripType": "семья",
+            "date": "февраль 2024 г.",
+            "rating": 4,
+            "title": "Хороший вариант",
+            "text": "Удобный отель для поездки в город. Понравились завтраки и удобство расположения рядом с транспортом."
+          }
+        ],
+        "moreLink": {
+          "href": "https://www.tripadvisor.com",
+          "remaining": 1318,
+          "text": "Посмотреть ещё {N} отзывов на TripAdvisor"
+        }
+      },
+      "filters": {
+        "amenitiesHotel": [
+          "internet",
+          "parking",
+          "fitness"
+        ],
+        "amenitiesRoom": [],
+        "placement": [
+          "accessible",
+          "pets"
+        ],
+        "meals": [
+          "breakfastIncluded"
+        ],
+        "paymentAndBooking": [
+          "freeCancellation",
+          "payOnsite"
+        ],
+        "rooms": 1,
+        "bedTypes": [
+          "doubleBed"
+        ]
+      }
+    },
+    {
+      "id": "h-it-mil-duomo",
+      "cityId": "it-mil",
+      "name": "Milano Duomo Hotel",
+      "address": "Duomo District, Milano",
+      "distanceFromCenter": "0.5 км от центра Милан",
+      "stars": 5,
+      "rating": 9.2,
+      "reviews": 870,
+      "priceTotalRub": 266000,
+      "nights": 4,
+      "distanceKm": 0.5,
+      "type": "hotel",
+      "amenities": [
+        "wifi",
+        "breakfast",
+        "parking",
+        "accessible"
+      ],
+      "imageUrl": "/hotels/cdn/photos/picsum_it_mil_duomo_main_900_600.jpg",
+      "images": [
+        "/hotels/cdn/photos/picsum_it_mil_duomo_1_900_600.jpg",
+        "/hotels/cdn/photos/picsum_it_mil_duomo_3_900_600.jpg",
+        "/hotels/cdn/photos/picsum_it_mil_duomo_4_900_600.jpg",
+        "/hotels/cdn/photos/picsum_it_mil_duomo_6_900_600.jpg",
+        "/hotels/cdn/photos/picsum_it_mil_duomo_7_900_600.jpg",
+        "/hotels/cdn/photos/picsum_it_mil_duomo_8_900_600.jpg",
+        "/hotels/cdn/photos/picsum_it_mil_duomo_10_900_600.jpg"
+      ],
+      "offer": {
+        "roomTitle": "Номер Superior",
+        "beds": "двуспальная кровать",
+        "mealPlan": "breakfast",
+        "cancellation": "free",
+        "payment": "at_hotel"
+      },
+      "geoBlock": {
+        "title": "Расположение",
+        "address": "Duomo District, Milano",
+        "map": {
+          "lat": 35.00201109156108,
+          "lng": 139.5165964914578,
+          "zoom": 14,
+          "query": "Duomo District, Milano, Милан",
+          "tileUrlTemplate": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          "tileAttribution": "© Участники OpenStreetMap"
+        },
+        "poiGroups": [
+          {
+            "id": "nearby",
+            "title": "Что вокруг",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Старая площадь Милан",
+                "distance": "280 м"
+              },
+              {
+                "type": "CHURCH",
+                "name": "Собор Милан",
+                "distance": "430 м"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Городской музей Милан",
+                "distance": "620 м"
+              },
+              {
+                "type": "PARK",
+                "name": "Парк Милан",
+                "distance": "910 м"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Набережная Милан",
+                "distance": "1,1 км"
+              }
+            ]
+          },
+          {
+            "id": "top",
+            "title": "Достопримечательности",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Главная достопримечательность Милан",
+                "distance": "1,4 км"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Национальный музей Милан",
+                "distance": "1,8 км"
+              },
+              {
+                "type": "PARK",
+                "name": "Центральный парк Милан",
+                "distance": "2,1 км"
+              },
+              {
+                "type": "AIRPORT",
+                "name": "Аэропорт Милан",
+                "distance": "18 км"
+              }
+            ]
+          },
+          {
+            "id": "airports",
+            "title": "Аэропорты",
+            "items": [
+              {
+                "type": "AIRPORT",
+                "name": "Аэропорт Милан",
+                "distance": "18 км"
+              }
+            ]
+          },
+          {
+            "id": "railways",
+            "title": "Вокзалы",
+            "items": [
+              {
+                "type": "RAILWAY_STATION",
+                "name": "Центральный вокзал Милан",
+                "distance": "1,2 км"
+              }
+            ]
+          }
+        ]
+      },
+      "roomOptions": {
+        "galleryCtaText": "фото",
+        "availabilityTitle": "Доступные варианты",
+        "groups": [
+          {
+            "id": "h-it-mil-duomo-std",
+            "name": "Двухместный номер Standard",
+            "nameAdditional": "1 двуспальная кровать",
+            "alert": "На нашем сайте осталось 3 номера",
+            "imageUrl": "/hotels/cdn/photos/picsum_it_mil_duomo_room_std_640_420.jpg",
+            "imageCount": 8,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "22 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-it-mil-duomo-std-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Питание не включено",
+                  "isFeature": false
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена",
+                "priceRub": 207480,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 35 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/h-it-mil-duomo-std-r1"
+              },
+              {
+                "id": "h-it-mil-duomo-std-r2",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена с питанием",
+                "priceRub": 228760,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 35 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/h-it-mil-duomo-std-r2"
+              }
+            ]
+          },
+          {
+            "id": "h-it-mil-duomo-sup",
+            "name": "Номер Superior",
+            "nameAdditional": "1 двуспальная кровать • вид на город",
+            "alert": "Осталось 2 номера по этой цене",
+            "imageUrl": "/hotels/cdn/photos/picsum_it_mil_duomo_room_sup_640_420.jpg",
+            "imageCount": 12,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "28 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-it-mil-duomo-sup-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 5 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Карта для гарантии"
+                },
+                "deal": "Популярный вариант",
+                "priceRub": 266000,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 45 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/h-it-mil-duomo-sup-r1"
+              }
+            ]
+          }
+        ]
+      },
+      "aboutBlock": {
+        "title": "Описание отеля",
+        "expandText": "Развернуть описание",
+        "collapseText": "Свернуть описание",
+        "sections": [
+          {
+            "id": "location",
+            "title": "Расположение",
+            "paragraphs": [
+              "Отель «Milano Duomo Hotel» находится в пешей доступности от центра Милан. Рядом — исторический центр, музеи, рестораны и транспортные узлы."
+            ]
+          },
+          {
+            "id": "hotel",
+            "title": "В отеле",
+            "paragraphs": [
+              "Для гостей работает ресторан и лобби-бар. На всей территории доступен бесплатный Wi‑Fi.",
+              "Гостям доступны услуги консьержа, хранение багажа и трансфер по запросу. В отеле есть лифт и круглосуточная стойка регистрации."
+            ],
+            "spoiler": true
+          },
+          {
+            "id": "room",
+            "title": "В номере",
+            "paragraphs": [
+              "В номере есть душ, телевизор, рабочая зона и набор для приготовления чая/кофе. Оснащение зависит от категории номера."
+            ],
+            "spoiler": true
+          }
+        ],
+        "facts": {
+          "title": "Факты об отеле",
+          "items": [
+            {
+              "key": "renovation",
+              "label": "Год реновации",
+              "value": "2019 год"
+            },
+            {
+              "key": "socket",
+              "label": "Тип розетки",
+              "value": [
+                "Италия",
+                "220 В / 50–60 Гц"
+              ]
+            },
+            {
+              "key": "rooms_floors",
+              "label": "Количество номеров и этажей",
+              "value": "96 номеров, 12 этажей"
+            }
+          ]
+        }
+      },
+      "additionalInfoBlock": {
+        "title": "Дополнительная информация",
+        "paragraphs": [
+          "При заезде может взиматься городской налог. Его размер зависит от правил города и категории размещения.",
+          "Если планируется поздний заезд, рекомендуется предупредить отель заранее.",
+          "Некоторые услуги могут предоставляться за дополнительную плату."
+        ]
+      },
+      "accommodationBlock": {
+        "title": "Условия размещения",
+        "checkInOut": {
+          "title": "Заселение и выезд",
+          "checkIn": {
+            "label": "Заселение",
+            "value": "После 15:00"
+          },
+          "checkOut": {
+            "label": "Выезд",
+            "value": "До 11:00"
+          }
+        },
+        "blocks": [
+          {
+            "id": "deposit",
+            "title": "Депозит",
+            "icon": "deposit",
+            "items": [
+              {
+                "label": "Гарантия картой",
+                "value": "Требуется при заезде"
+              }
+            ]
+          },
+          {
+            "id": "extraBed",
+            "title": "Дополнительная кровать",
+            "icon": "extraBed",
+            "items": [
+              {
+                "label": "По запросу",
+                "value": "45 у.е. за ночь"
+              }
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Животные",
+            "icon": "pets",
+            "items": [
+              {
+                "label": "Размещение с животными",
+                "value": "Нужно уточнять заранее"
+              }
+            ]
+          }
+        ]
+      },
+      "currencyCode": "EUR",
+      "paymentSection": {
+        "payment": {
+          "title": "Оплата",
+          "inHotelTitle": "В отеле",
+          "onSiteTitle": "На сайте",
+          "inHotelItems": [
+            {
+              "type": "text",
+              "text": "Наличными в валюте отеля — EUR"
+            },
+            {
+              "type": "cards",
+              "label": "Картой:",
+              "codes": [
+                "visa",
+                "mastercard",
+                "american-express"
+              ]
+            }
+          ],
+          "onSiteText": "Для некоторых тарифов доступна онлайн-оплата банковской картой при бронировании."
+        }
+      },
+      "amenitiesBlock": {
+        "title": "Услуги и удобства",
+        "groups": [
+          {
+            "id": "popular",
+            "title": "Популярные",
+            "icon": "popular",
+            "variant": "popular",
+            "items": [
+              "Бесплатный интернет",
+              "Завтрак",
+              "Парковка",
+              "Для гостей с ограниченными возможностями"
+            ]
+          },
+          {
+            "id": "common",
+            "title": "Общее",
+            "icon": "common_info",
+            "items": [
+              "Круглосуточная стойка регистрации",
+              "Лифт",
+              "Отель для некурящих",
+              "Отопление",
+              "Терраса"
+            ]
+          },
+          {
+            "id": "rooms",
+            "title": "В номерах",
+            "icon": "extra_service",
+            "items": [
+              "Номера для некурящих",
+              "Телевизор",
+              "Фен",
+              "Душ",
+              "Туалетные принадлежности"
+            ]
+          },
+          {
+            "id": "meal",
+            "title": "Питание",
+            "icon": "meal",
+            "items": [
+              "Бар",
+              "Завтрак",
+              "Ресторан",
+              "Чайник"
+            ]
+          },
+          {
+            "id": "internet",
+            "title": "Интернет",
+            "icon": "internet",
+            "items": [
+              "Бесплатный Wi‑Fi",
+              "Доступ в интернет"
+            ]
+          }
+        ]
+      },
+      "reviewsBlock": {
+        "title": "Отзывы",
+        "ratingSummary": {
+          "value": 8.4,
+          "totalReviews": 870,
+          "localLanguageReviews": 12,
+          "basedOnText": "Основано на {TOTAL} отзывах гостей из разных стран.",
+          "localLanguageText": "На вашем языке доступно {LOCAL} отзывов"
+        },
+        "detailedScores": [
+          {
+            "label": "Чистота",
+            "value": 8.9
+          },
+          {
+            "label": "Расположение",
+            "value": 9.1
+          },
+          {
+            "label": "Цена/Качество",
+            "value": 8.6
+          },
+          {
+            "label": "Номер",
+            "value": 8.8
+          },
+          {
+            "label": "Обслуживание",
+            "value": 9
+          },
+          {
+            "label": "Качество Wi‑Fi",
+            "value": 8.7
+          }
+        ],
+        "tripadvisor": {
+          "label": "TripAdvisor",
+          "reviews": 865,
+          "href": "https://www.tripadvisor.com"
+        },
+        "featuredReviews": [
+          {
+            "author": "милан_traveler",
+            "countryCode": "EU",
+            "text": "Отличное расположение в Милан, чистые номера, дружелюбный персонал и хороший завтрак."
+          }
+        ],
+        "reviews": [
+          {
+            "id": "h-it-mil-duomo-r1",
+            "source": "tripadvisor",
+            "author": "travel_guest_1",
+            "countryCode": "RU",
+            "tripType": "пара",
+            "date": "май 2024 г.",
+            "rating": 5,
+            "title": "Очень понравилось",
+            "text": "Останавливались в Milano Duomo Hotel на несколько ночей. Отличный сервис, хорошее расположение и комфортные номера."
+          },
+          {
+            "id": "h-it-mil-duomo-r2",
+            "source": "tripadvisor",
+            "author": "travel_guest_2",
+            "countryCode": "DE",
+            "tripType": "семья",
+            "date": "февраль 2024 г.",
+            "rating": 4,
+            "title": "Хороший вариант",
+            "text": "Удобный отель для поездки в город. Понравились завтраки и удобство расположения рядом с транспортом."
+          }
+        ],
+        "moreLink": {
+          "href": "https://www.tripadvisor.com",
+          "remaining": 868,
+          "text": "Посмотреть ещё {N} отзывов на TripAdvisor"
+        }
+      },
+      "filters": {
+        "amenitiesHotel": [
+          "internet",
+          "parking",
+          "fitness"
+        ],
+        "amenitiesRoom": [],
+        "placement": [
+          "accessible",
+          "pets"
+        ],
+        "meals": [
+          "breakfastIncluded"
+        ],
+        "paymentAndBooking": [
+          "freeCancellation",
+          "payOnsite"
+        ],
+        "rooms": 1,
+        "bedTypes": [
+          "doubleBed"
+        ]
+      }
+    },
+    {
+      "id": "h-it-ven-canal",
+      "cityId": "it-ven",
+      "name": "Canal Palace Venezia",
+      "address": "Cannaregio, Venezia",
+      "distanceFromCenter": "1.2 км от центра Венеция",
+      "stars": 4,
+      "rating": 8.9,
+      "reviews": 710,
+      "priceTotalRub": 239000,
+      "nights": 4,
+      "distanceKm": 1.2,
+      "type": "hotel",
+      "amenities": [
+        "wifi",
+        "breakfast",
+        "pets"
+      ],
+      "imageUrl": "/hotels/cdn/photos/picsum_it_ven_canal_main_900_600.jpg",
+      "images": [
+        "/hotels/cdn/photos/picsum_it_ven_canal_1_900_600.jpg",
+        "/hotels/cdn/photos/picsum_it_ven_canal_2_900_600.jpg",
+        "/hotels/cdn/photos/picsum_it_ven_canal_3_900_600.jpg",
+        "/hotels/cdn/photos/picsum_it_ven_canal_4_900_600.jpg",
+        "/hotels/cdn/photos/picsum_it_ven_canal_6_900_600.jpg",
+        "/hotels/cdn/photos/picsum_it_ven_canal_7_900_600.jpg",
+        "/hotels/cdn/photos/picsum_it_ven_canal_8_900_600.jpg"
+      ],
+      "offer": {
+        "roomTitle": "Номер Superior",
+        "beds": "двуспальная кровать",
+        "mealPlan": "breakfast",
+        "cancellation": "free",
+        "payment": "at_hotel"
+      },
+      "geoBlock": {
+        "title": "Расположение",
+        "address": "Cannaregio, Venezia",
+        "map": {
+          "lat": 35.81572082309059,
+          "lng": 139.7036659138781,
+          "zoom": 14,
+          "query": "Cannaregio, Venezia, Венеция",
+          "tileUrlTemplate": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          "tileAttribution": "© Участники OpenStreetMap"
+        },
+        "poiGroups": [
+          {
+            "id": "nearby",
+            "title": "Что вокруг",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Старая площадь Венеция",
+                "distance": "280 м"
+              },
+              {
+                "type": "CHURCH",
+                "name": "Собор Венеция",
+                "distance": "430 м"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Городской музей Венеция",
+                "distance": "620 м"
+              },
+              {
+                "type": "PARK",
+                "name": "Парк Венеция",
+                "distance": "910 м"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Набережная Венеция",
+                "distance": "1,1 км"
+              }
+            ]
+          },
+          {
+            "id": "top",
+            "title": "Достопримечательности",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Главная достопримечательность Венеция",
+                "distance": "1,4 км"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Национальный музей Венеция",
+                "distance": "1,8 км"
+              },
+              {
+                "type": "PARK",
+                "name": "Центральный парк Венеция",
+                "distance": "2,1 км"
+              },
+              {
+                "type": "AIRPORT",
+                "name": "Аэропорт Венеция",
+                "distance": "18 км"
+              }
+            ]
+          },
+          {
+            "id": "airports",
+            "title": "Аэропорты",
+            "items": [
+              {
+                "type": "AIRPORT",
+                "name": "Аэропорт Венеция",
+                "distance": "18 км"
+              }
+            ]
+          },
+          {
+            "id": "railways",
+            "title": "Вокзалы",
+            "items": [
+              {
+                "type": "RAILWAY_STATION",
+                "name": "Центральный вокзал Венеция",
+                "distance": "1,2 км"
+              }
+            ]
+          }
+        ]
+      },
+      "roomOptions": {
+        "galleryCtaText": "фото",
+        "availabilityTitle": "Доступные варианты",
+        "groups": [
+          {
+            "id": "h-it-ven-canal-std",
+            "name": "Двухместный номер Standard",
+            "nameAdditional": "1 двуспальная кровать",
+            "alert": "На нашем сайте осталось 3 номера",
+            "imageUrl": "/hotels/cdn/photos/picsum_it_ven_canal_room_std_640_420.jpg",
+            "imageCount": 8,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "22 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-it-ven-canal-std-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Питание не включено",
+                  "isFeature": false
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена",
+                "priceRub": 186420,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 35 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/h-it-ven-canal-std-r1"
+              },
+              {
+                "id": "h-it-ven-canal-std-r2",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена с питанием",
+                "priceRub": 205540,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 35 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/h-it-ven-canal-std-r2"
+              }
+            ]
+          },
+          {
+            "id": "h-it-ven-canal-sup",
+            "name": "Номер Superior",
+            "nameAdditional": "1 двуспальная кровать • вид на город",
+            "alert": "Осталось 2 номера по этой цене",
+            "imageUrl": "/hotels/cdn/photos/picsum_it_ven_canal_room_sup_640_420.jpg",
+            "imageCount": 12,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "28 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-it-ven-canal-sup-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 5 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Карта для гарантии"
+                },
+                "deal": "Популярный вариант",
+                "priceRub": 239000,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 45 EUR налоги и сборы",
+                "bookUrl": "/orders/reserve/h-it-ven-canal-sup-r1"
+              }
+            ]
+          }
+        ]
+      },
+      "aboutBlock": {
+        "title": "Описание отеля",
+        "expandText": "Развернуть описание",
+        "collapseText": "Свернуть описание",
+        "sections": [
+          {
+            "id": "location",
+            "title": "Расположение",
+            "paragraphs": [
+              "Отель «Canal Palace Venezia» находится в пешей доступности от центра Венеция. Рядом — исторический центр, музеи, рестораны и транспортные узлы."
+            ]
+          },
+          {
+            "id": "hotel",
+            "title": "В отеле",
+            "paragraphs": [
+              "Для гостей работает ресторан и лобби-бар. На всей территории доступен бесплатный Wi‑Fi.",
+              "Гостям доступны услуги консьержа, хранение багажа и трансфер по запросу. В отеле есть лифт и круглосуточная стойка регистрации."
+            ],
+            "spoiler": true
+          },
+          {
+            "id": "room",
+            "title": "В номере",
+            "paragraphs": [
+              "В номере есть душ, телевизор, рабочая зона и набор для приготовления чая/кофе. Оснащение зависит от категории номера."
+            ],
+            "spoiler": true
+          }
+        ],
+        "facts": {
+          "title": "Факты об отеле",
+          "items": [
+            {
+              "key": "renovation",
+              "label": "Год реновации",
+              "value": "2019 год"
+            },
+            {
+              "key": "socket",
+              "label": "Тип розетки",
+              "value": [
+                "Италия",
+                "220 В / 50–60 Гц"
+              ]
+            },
+            {
+              "key": "rooms_floors",
+              "label": "Количество номеров и этажей",
+              "value": "96 номеров, 12 этажей"
+            }
+          ]
+        }
+      },
+      "additionalInfoBlock": {
+        "title": "Дополнительная информация",
+        "paragraphs": [
+          "При заезде может взиматься городской налог. Его размер зависит от правил города и категории размещения.",
+          "Если планируется поздний заезд, рекомендуется предупредить отель заранее.",
+          "Некоторые услуги могут предоставляться за дополнительную плату."
+        ]
+      },
+      "accommodationBlock": {
+        "title": "Условия размещения",
+        "checkInOut": {
+          "title": "Заселение и выезд",
+          "checkIn": {
+            "label": "Заселение",
+            "value": "После 15:00"
+          },
+          "checkOut": {
+            "label": "Выезд",
+            "value": "До 11:00"
+          }
+        },
+        "blocks": [
+          {
+            "id": "deposit",
+            "title": "Депозит",
+            "icon": "deposit",
+            "items": [
+              {
+                "label": "Гарантия картой",
+                "value": "Требуется при заезде"
+              }
+            ]
+          },
+          {
+            "id": "extraBed",
+            "title": "Дополнительная кровать",
+            "icon": "extraBed",
+            "items": [
+              {
+                "label": "По запросу",
+                "value": "45 у.е. за ночь"
+              }
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Животные",
+            "icon": "pets",
+            "items": [
+              {
+                "label": "Размещение с животными",
+                "value": "Нужно уточнять заранее"
+              }
+            ]
+          }
+        ]
+      },
+      "currencyCode": "EUR",
+      "paymentSection": {
+        "payment": {
+          "title": "Оплата",
+          "inHotelTitle": "В отеле",
+          "onSiteTitle": "На сайте",
+          "inHotelItems": [
+            {
+              "type": "text",
+              "text": "Наличными в валюте отеля — EUR"
+            },
+            {
+              "type": "cards",
+              "label": "Картой:",
+              "codes": [
+                "visa",
+                "mastercard",
+                "american-express"
+              ]
+            }
+          ],
+          "onSiteText": "Для некоторых тарифов доступна онлайн-оплата банковской картой при бронировании."
+        }
+      },
+      "amenitiesBlock": {
+        "title": "Услуги и удобства",
+        "groups": [
+          {
+            "id": "popular",
+            "title": "Популярные",
+            "icon": "popular",
+            "variant": "popular",
+            "items": [
+              "Бесплатный интернет",
+              "Завтрак",
+              "Разрешено с домашними животными"
+            ]
+          },
+          {
+            "id": "common",
+            "title": "Общее",
+            "icon": "common_info",
+            "items": [
+              "Круглосуточная стойка регистрации",
+              "Лифт",
+              "Отель для некурящих",
+              "Отопление",
+              "Терраса"
+            ]
+          },
+          {
+            "id": "rooms",
+            "title": "В номерах",
+            "icon": "extra_service",
+            "items": [
+              "Номера для некурящих",
+              "Телевизор",
+              "Фен",
+              "Душ",
+              "Туалетные принадлежности"
+            ]
+          },
+          {
+            "id": "meal",
+            "title": "Питание",
+            "icon": "meal",
+            "items": [
+              "Бар",
+              "Завтрак",
+              "Ресторан",
+              "Чайник"
+            ]
+          },
+          {
+            "id": "internet",
+            "title": "Интернет",
+            "icon": "internet",
+            "items": [
+              "Бесплатный Wi‑Fi",
+              "Доступ в интернет"
+            ]
+          }
+        ]
+      },
+      "reviewsBlock": {
+        "title": "Отзывы",
+        "ratingSummary": {
+          "value": 8.1,
+          "totalReviews": 710,
+          "localLanguageReviews": 12,
+          "basedOnText": "Основано на {TOTAL} отзывах гостей из разных стран.",
+          "localLanguageText": "На вашем языке доступно {LOCAL} отзывов"
+        },
+        "detailedScores": [
+          {
+            "label": "Чистота",
+            "value": 8.6
+          },
+          {
+            "label": "Расположение",
+            "value": 8.8
+          },
+          {
+            "label": "Цена/Качество",
+            "value": 8.3
+          },
+          {
+            "label": "Номер",
+            "value": 8.5
+          },
+          {
+            "label": "Обслуживание",
+            "value": 8.7
+          },
+          {
+            "label": "Качество Wi‑Fi",
+            "value": 8.4
+          }
+        ],
+        "tripadvisor": {
+          "label": "TripAdvisor",
+          "reviews": 705,
+          "href": "https://www.tripadvisor.com"
+        },
+        "featuredReviews": [
+          {
+            "author": "венеция_traveler",
+            "countryCode": "EU",
+            "text": "Отличное расположение в Венеция, чистые номера, дружелюбный персонал и хороший завтрак."
+          }
+        ],
+        "reviews": [
+          {
+            "id": "h-it-ven-canal-r1",
+            "source": "tripadvisor",
+            "author": "travel_guest_1",
+            "countryCode": "RU",
+            "tripType": "пара",
+            "date": "май 2024 г.",
+            "rating": 5,
+            "title": "Очень понравилось",
+            "text": "Останавливались в Canal Palace Venezia на несколько ночей. Отличный сервис, хорошее расположение и комфортные номера."
+          },
+          {
+            "id": "h-it-ven-canal-r2",
+            "source": "tripadvisor",
+            "author": "travel_guest_2",
+            "countryCode": "DE",
+            "tripType": "семья",
+            "date": "февраль 2024 г.",
+            "rating": 4,
+            "title": "Хороший вариант",
+            "text": "Удобный отель для поездки в город. Понравились завтраки и удобство расположения рядом с транспортом."
+          }
+        ],
+        "moreLink": {
+          "href": "https://www.tripadvisor.com",
+          "remaining": 708,
+          "text": "Посмотреть ещё {N} отзывов на TripAdvisor"
+        }
+      },
+      "filters": {
+        "amenitiesHotel": [
+          "internet",
+          "parking",
+          "fitness"
+        ],
+        "amenitiesRoom": [],
+        "placement": [
+          "accessible",
+          "pets"
+        ],
+        "meals": [
+          "breakfastIncluded"
+        ],
+        "paymentAndBooking": [
+          "freeCancellation",
+          "payOnsite"
+        ],
+        "rooms": 1,
+        "bedTypes": [
+          "doubleBed"
+        ]
+      }
+    }
+  ]
+}

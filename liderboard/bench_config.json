@@ -1,0 +1,238 @@
+{
+  "benchmark": {
+    "name": "WebPageBench",
+    "mock": "bench",
+    "task_count": 152,
+    "full_bench_min_tasks": 6,
+    "primary_metric": "success_rate",
+    "primary_metric_label": "WebPageBench Success Rate",
+    "primary_metric_help": "Доля задач, где все conditions из dab_check прошли (all_passed). Не путать с Agent Completion.",
+    "docs_url": "https://github.com/ai-forever/WebPageBench/blob/release/docs/EVAL_README.md"
+  },
+  "views": [
+    {
+      "id": "success",
+      "label": "Success Rate",
+      "emoji": "🦀",
+      "sort_key": "success_rate",
+      "ascending": false
+    },
+    {
+      "id": "speed",
+      "label": "Speed",
+      "emoji": "⚡",
+      "sort_key": "total_duration_seconds",
+      "ascending": true
+    },
+    {
+      "id": "cost",
+      "label": "Cost",
+      "emoji": "💰",
+      "sort_key": "total_cost_usd",
+      "ascending": true
+    }
+  ],
+  "quick_picks": {
+    "success": [
+      {
+        "id": "best_overall",
+        "label": "Best Overall",
+        "metric": "success_rate",
+        "subtitle": "Highest WebPageBench success rate on full bench (>5 tasks)."
+      },
+      {
+        "id": "best_full_bench",
+        "label": "Best Full Bench",
+        "metric": "full_bench_success_rate",
+        "subtitle": "Best success on runs with all 152 tasks."
+      }
+    ],
+    "speed": [
+      {
+        "id": "fastest",
+        "label": "Fastest",
+        "metric": "total_duration_seconds",
+        "subtitle": "Lowest total run duration (sum of per-task times)."
+      }
+    ],
+    "cost": [
+      {
+        "id": "best_budget",
+        "label": "Best Budget",
+        "metric": "total_cost_usd",
+        "subtitle": "Lowest total LLM cost for the run."
+      },
+      {
+        "id": "best_value",
+        "label": "Best Value",
+        "metric": "value_score",
+        "subtitle": "Highest success rate per dollar spent."
+      }
+    ]
+  },
+  "ui_classes": {
+    "NAV": {
+      "label": "NAV",
+      "description": "Навигация: переходы между разделами, меню, вкладки хаба, карточки каталога."
+    },
+    "BASKET": {
+      "label": "BASKET",
+      "description": "Корзина: добавление, удаление и изменение количества товаров."
+    },
+    "FAV": {
+      "label": "FAV",
+      "description": "Избранное: добавление и удаление товаров из списка желаний."
+    },
+    "FILES": {
+      "label": "FILES",
+      "description": "Кабинет файлов: коллекции, год и скачивание документов."
+    },
+    "SEARCH": {
+      "label": "SEARCH",
+      "description": "Поиск: ввод запроса, подсказки и отправка формы поиска."
+    },
+    "DATE": {
+      "label": "DATE",
+      "description": "Выбор даты и периода в формах поиска и бронирования."
+    },
+    "SELECT_AC": {
+      "label": "SELECT",
+      "description": "Выбор из списка: станции, города, подсказки autocomplete."
+    },
+    "CARD": {
+      "label": "CARD",
+      "description": "Карточки в каталоге: выбор позиции из сетки или списка."
+    },
+    "PAY": {
+      "label": "PAY",
+      "description": "Оплата: выбор способа оплаты и подтверждение платежа."
+    },
+    "AUTH": {
+      "label": "AUTH",
+      "description": "Авторизация: логин, телефон и подтверждение кода."
+    },
+    "FILTER": {
+      "label": "FILTER",
+      "description": "Фильтры и сортировка в каталогах и списках."
+    },
+    "BTN": {
+      "label": "BTN",
+      "description": "Кнопки и ссылки: CTA, «В корзину», «Найти»."
+    }
+  },
+  "sections": {
+    "shop": {
+      "label": "Маркет",
+      "description": "Каталог маркетплейса: корзина, избранное, поиск и фильтрация.",
+      "core": true,
+      "domain": "shop",
+      "tasks": [
+        "ecommerce_basket_and_favorites",
+        "ecommerce_basket_and_favorites_02",
+        "ecommerce_basket_any_product",
+        "ecommerce_basket_multiple",
+        "ecommerce_basket_multiple_02",
+        "ecommerce_basket_named_product_02",
+        "ecommerce_basket_named_product_03",
+        "ecommerce_basket_named_smartphone",
+        "ecommerce_basket_price_1k",
+        "ecommerce_basket_price_35k",
+        "ecommerce_basket_price_constraint",
+        "ecommerce_basket_three_products",
+        "ecommerce_basket_two_products",
+        "ecommerce_basket_typo",
+        "ecommerce_basket_typo_02",
+        "ecommerce_favorites",
+        "ecommerce_favorites_05",
+        "ecommerce_favorites_any_product"
+      ]
+    },
+    "books": {
+      "label": "Книги",
+      "description": "Каталог цифровых книг: поиск, корзина и избранное.",
+      "core": false,
+      "domain": "books",
+      "tasks": [
+        "digital_books_audio_basket",
+        "digital_books_audio_basket_02",
+        "digital_books_audio_favorites",
+        "digital_books_author_cheapest_basket",
+        "digital_books_author_expensive_basket",
+        "digital_books_author_expensive_favorites",
+        "digital_books_named_product_basket",
+        "digital_books_named_product_basket_02",
+        "digital_books_named_product_favorites",
+        "digital_books_named_product_favorites_02",
+        "digital_books_named_product_favorites_03"
+      ]
+    },
+    "grocery": {
+      "label": "Продукты",
+      "description": "Каталог продуктов: навигация по разделам и корзина.",
+      "core": false,
+      "domain": "grocery",
+      "tasks": [
+        "bench_grocery_navigation",
+        "grocery_basket_any_product",
+        "grocery_basket_category_named_product",
+        "grocery_basket_category_named_product_02",
+        "grocery_basket_multiple",
+        "grocery_basket_named_product",
+        "grocery_basket_named_product_02",
+        "grocery_basket_price_expensive"
+      ]
+    },
+    "rail": {
+      "label": "Поезда",
+      "description": "Бронирование поездок: маршрут, даты, места, пассажиры и оплата.",
+      "core": true,
+      "domain": "rail",
+      "tasks": [
+        "rail_atomic_select_city_from",
+        "rail_atomic_select_date",
+        "rail_book_and_pay",
+        "rail_book_and_pay_2_passengers",
+        "rail_book_and_pay_business",
+        "rail_book_to_cart",
+        "rail_book_to_cart_2_passengers",
+        "rail_book_to_cart_business",
+        "rail_book_to_cart_platskart"
+      ]
+    },
+    "hotels": {
+      "label": "Отели",
+      "description": "Бронирование размещения: город, даты, гости и выбор объекта.",
+      "core": false,
+      "domain": "hotels",
+      "tasks": [
+        "hotel_atomic_select_city",
+        "hotel_atomic_select_start_date",
+        "hotel_search_scenario",
+        "hotel_search_scenario_dubai",
+        "hotel_search_scenario_family",
+        "hotel_search_scenario_seoul",
+        "hotel_search_scenario_two_rooms",
+        "hotel_search_scenario_typo"
+      ]
+    },
+    "files": {
+      "label": "Файлы",
+      "description": "Кабинет документов: коллекции, год и скачивание PDF/CSV.",
+      "core": false,
+      "domain": "files",
+      "tasks": [
+        "files_archive_csv",
+        "files_archive_date",
+        "files_archive_month_csv",
+        "files_archive_month_pdf",
+        "files_archive_pdf",
+        "files_archive_quarter",
+        "files_download_csv",
+        "files_download_pdf",
+        "files_select_collection",
+        "files_select_year",
+        "files_select_year_archive"
+      ]
+    }
+  }
+}

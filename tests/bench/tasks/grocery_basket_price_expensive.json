@@ -1,0 +1,30 @@
+{
+  "test_data": {
+    "login_data": {
+      "login": "bench@example.com",
+      "password": "bench123",
+      "phone": "9150000000",
+      "email": "bench@example.com"
+    },
+    "bench_first_domain": "grocery",
+    "bench_first_state": "state_grocery_main",
+    "task": "На %HOST% в «Продукты» добавь в корзину самый дорогой товар с витрины главной страницы.",
+    "conditions": [
+      {
+        "event_name": "basket_add",
+        "parameters": {
+          "item_id": "item_9dfcd949"
+        }
+      }
+    ],
+    "ui_taxonomy": {
+      "primary": "BASKET",
+      "classes": [
+        "BASKET"
+      ],
+      "subtypes": [
+        "nav_product_card"
+      ]
+    }
+  }
+}

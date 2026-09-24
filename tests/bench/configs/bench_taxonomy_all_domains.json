@@ -1,0 +1,36 @@
+{
+  "profile_id": "bench_taxonomy_all_domains",
+  "description": "Все домены с нестандартными вариантами UI",
+  "domain_configs": {
+    "hotels": {
+      "ui_variants": {
+        "date": "single_popup",
+        "select_city": "autocomplete",
+        "counter_guests": "pill_buttons"
+      }
+    },
+    "rail": {
+      "ui_variants": {
+        "date": "text_input",
+        "select_station": "typeahead"
+      }
+    },
+    "files": {
+      "ui_variants": {
+        "collections": "compact",
+        "years": "radio",
+        "buttons": "icon"
+      }
+    },
+    "shop": {
+      "ui_variants": {
+        "text_search": "underlined"
+      }
+    },
+    "books": {
+      "ui_variants": {
+        "text_search": "filled"
+      }
+    }
+  }
+}

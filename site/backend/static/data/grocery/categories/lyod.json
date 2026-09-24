@@ -1,0 +1,35 @@
+{
+  "title": "Лёд",
+  "tags": [
+    "Лёд",
+    "Пакеты для льда",
+    "Формы для льда",
+    "Основы для коктейлей"
+  ],
+  "sections": [
+    {
+      "caption": "Выгодная полка",
+      "items": [
+        "item_ae441e6e",
+        "item_720da191",
+        "item_fc0b9ed6"
+      ]
+    },
+    {
+      "caption": "Пакеты для льда",
+      "items": [
+        "item_ae441e6e",
+        "item_720da191",
+        "item_fc0b9ed6"
+      ]
+    },
+    {
+      "caption": "Формы для льда",
+      "items": [
+        "item_ae441e6e",
+        "item_720da191",
+        "item_fc0b9ed6"
+      ]
+    }
+  ]
+}

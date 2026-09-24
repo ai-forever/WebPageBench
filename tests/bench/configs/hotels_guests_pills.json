@@ -1,0 +1,13 @@
+{
+  "profile_id": "hotels_guests_pills",
+  "description": "Отели: pill-кнопки для выбора числа гостей",
+  "domain_configs": {
+    "hotels": {
+      "ui_variants": {
+        "date": "split_popup",
+        "select_city": "autocomplete",
+        "counter_guests": "pill_buttons"
+      }
+    }
+  }
+}

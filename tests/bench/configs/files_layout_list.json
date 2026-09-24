@@ -1,0 +1,13 @@
+{
+  "profile_id": "files_layout_list",
+  "description": "Файлы: список коллекций",
+  "domain_configs": {
+    "files": {
+      "ui_variants": {
+        "collections": "list",
+        "years": "buttons",
+        "buttons": "solid"
+      }
+    }
+  }
+}

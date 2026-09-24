@@ -1,0 +1,13 @@
+{
+  "profile_id": "files_layout_tree",
+  "description": "Файлы: древовидный список коллекций",
+  "domain_configs": {
+    "files": {
+      "ui_variants": {
+        "collections": "tree",
+        "years": "radio",
+        "buttons": "icon"
+      }
+    }
+  }
+}

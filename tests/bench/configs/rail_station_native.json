@@ -1,0 +1,12 @@
+{
+  "profile_id": "rail_station_native",
+  "description": "ЖД: native select для станций + popup-календарь",
+  "domain_configs": {
+    "rail": {
+      "ui_variants": {
+        "date": "popup_grid",
+        "select_station": "native_select"
+      }
+    }
+  }
+}

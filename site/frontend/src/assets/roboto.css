@@ -1,0 +1,64 @@
+/* Local Roboto (Apache-2.0) — https://github.com/googlefonts/roboto-2 */
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/roboto/Roboto-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/roboto/Roboto-Italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/roboto/Roboto-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/roboto/Roboto-Bold.woff2") format("woff2");
+}
+
+/* Alias leftover brand/family names so scoped CSS still renders Roboto */
+@font-face { font-family: "PTRootUI"; font-weight: 400; font-style: normal; font-display: swap; src: url("./fonts/roboto/Roboto-Regular.woff2") format("woff2"); }
+@font-face { font-family: "PTRootUI"; font-weight: 500; font-style: normal; font-display: swap; src: url("./fonts/roboto/Roboto-Medium.woff2") format("woff2"); }
+@font-face { font-family: "PTRootUI"; font-weight: 700; font-style: normal; font-display: swap; src: url("./fonts/roboto/Roboto-Bold.woff2") format("woff2"); }
+@font-face { font-family: "Spoof"; font-weight: 400; font-style: normal; font-display: swap; src: url("./fonts/roboto/Roboto-Regular.woff2") format("woff2"); }
+@font-face { font-family: "Spoof"; font-weight: 500; font-style: normal; font-display: swap; src: url("./fonts/roboto/Roboto-Medium.woff2") format("woff2"); }
+@font-face { font-family: "Spoof"; font-weight: 700; font-style: normal; font-display: swap; src: url("./fonts/roboto/Roboto-Bold.woff2") format("woff2"); }
+@font-face { font-family: "Onest"; font-weight: 400; font-style: normal; font-display: swap; src: url("./fonts/roboto/Roboto-Regular.woff2") format("woff2"); }
+@font-face { font-family: "Onest"; font-weight: 500; font-style: normal; font-display: swap; src: url("./fonts/roboto/Roboto-Medium.woff2") format("woff2"); }
+@font-face { font-family: "Onest"; font-weight: 700; font-style: normal; font-display: swap; src: url("./fonts/roboto/Roboto-Bold.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-weight: 400; font-style: normal; font-display: swap; src: url("./fonts/roboto/Roboto-Regular.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-weight: 500; font-style: normal; font-display: swap; src: url("./fonts/roboto/Roboto-Medium.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-weight: 700; font-style: normal; font-display: swap; src: url("./fonts/roboto/Roboto-Bold.woff2") format("woff2"); }
+@font-face { font-family: "RussianRail G Pro Extended"; font-weight: 400; font-style: normal; font-display: swap; src: url("./fonts/roboto/Roboto-Regular.woff2") format("woff2"); }
+@font-face { font-family: "RussianRail G Pro Extended"; font-weight: 500; font-style: normal; font-display: swap; src: url("./fonts/roboto/Roboto-Medium.woff2") format("woff2"); }
+@font-face { font-family: "RussianRail G Pro Extended"; font-weight: 700; font-style: normal; font-display: swap; src: url("./fonts/roboto/Roboto-Bold.woff2") format("woff2"); }
+@font-face { font-family: "IBM Plex Sans"; font-weight: 400; font-style: normal; font-display: swap; src: url("./fonts/roboto/Roboto-Regular.woff2") format("woff2"); }
+@font-face { font-family: "IBM Plex Sans"; font-weight: 500; font-style: normal; font-display: swap; src: url("./fonts/roboto/Roboto-Medium.woff2") format("woff2"); }
+@font-face { font-family: "IBM Plex Sans"; font-weight: 700; font-style: normal; font-display: swap; src: url("./fonts/roboto/Roboto-Bold.woff2") format("woff2"); }
+@font-face { font-family: "SBSansInterface"; font-weight: 400; font-style: normal; font-display: swap; src: url("./fonts/roboto/Roboto-Regular.woff2") format("woff2"); }
+@font-face { font-family: "SBSansInterface"; font-weight: 500; font-style: normal; font-display: swap; src: url("./fonts/roboto/Roboto-Medium.woff2") format("woff2"); }
+@font-face { font-family: "SBSansInterface"; font-weight: 700; font-style: normal; font-display: swap; src: url("./fonts/roboto/Roboto-Bold.woff2") format("woff2"); }
+@font-face { font-family: "Audiowide"; font-weight: 400; font-style: normal; font-display: swap; src: url("./fonts/roboto/Roboto-Regular.woff2") format("woff2"); }
+
+html,
+body,
+.v-application,
+.bench-anonymized {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}

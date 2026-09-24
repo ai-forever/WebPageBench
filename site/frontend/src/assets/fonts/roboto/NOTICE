@@ -1,0 +1,7 @@
+Roboto font family
+Copyright 2011 Google Inc.
+
+Licensed under the Apache License, Version 2.0.
+Source: https://github.com/googlefonts/roboto-2
+Hinted TTF files from src/hinted/, converted to WOFF2 for web use.
+See LICENSE in this directory.

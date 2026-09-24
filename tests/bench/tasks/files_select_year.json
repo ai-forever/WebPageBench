@@ -1,0 +1,38 @@
+{
+  "test_data": {
+    "login_data": {
+      "login": "bench@example.com",
+      "password": "bench123",
+      "phone": "9150000000",
+      "email": "bench@example.com"
+    },
+    "bench_first_domain": "files",
+    "bench_first_state": "state_files_main",
+    "task": "На %HOST% в разделе «Файлы» открой «Отчёты лаборатории» и выбери 2024 год.",
+    "conditions": [
+      {
+        "event_name": "bench_files_select_collection",
+        "parameters": {
+          "collection": "lab_reports"
+        }
+      },
+      {
+        "event_name": "bench_files_select_year",
+        "parameters": {
+          "year": "2024"
+        }
+      }
+    ],
+    "ui_taxonomy": {
+      "primary": "FILES",
+      "classes": [
+        "CARD",
+        "FILES",
+        "SELECT_LIST"
+      ],
+      "subtypes": [
+        "files_cabinet"
+      ]
+    }
+  }
+}

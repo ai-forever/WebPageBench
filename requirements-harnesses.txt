@@ -1,0 +1,21 @@
+# Transitive pip deps for submodule-based harness adapters.
+# Harness sources are git submodules (pinned commits in parent repo):
+#   deepagents/   -> deepagents==0.6.11
+#   openhands/    -> openhands-sdk/tools v1.17.0
+#   openmanus/    -> v0.3.0 (prompt source; executor = ./browser-use)
+#
+# Install:
+#   git submodule update --init deepagents openhands openmanus browser-use
+#   ./scripts/install_harnesses.sh
+#
+# deepagents is installed with --no-deps to avoid pulling langchain-anthropic
+# (which upgrades anthropic/openai and conflicts with editable ./browser-use).
+# Runtime deps for deepagents are installed last in install_harnesses.sh
+# (see requirements-harnesses-deepagents.txt).
+
+langchain-mcp-adapters>=0.3.0
+langchain-openai>=0.3.0
+langchain-core>=1.4.7,<2.0.0
+langchain>=1.3.9,<2.0.0
+langsmith>=0.8.11
+wcmatch>=10.1

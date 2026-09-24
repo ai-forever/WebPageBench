@@ -1,0 +1,50 @@
+{
+  "title": "Из ресторанов и кафе",
+  "tags": [
+    "Комбо-наборы",
+    "Британские пекарни",
+    "Red box by Pinskiy&Co",
+    "Mates",
+    "Шаверно",
+    "Soul in the Bowl",
+    "Zotman",
+    "All Day",
+    "Чихо",
+    "Братья Караваевы",
+    "Шоколадница",
+    "Rostic's"
+  ],
+  "sections": [
+    {
+      "caption": "Выгодная полка",
+      "items": [
+        "item_aef79bb8"
+      ]
+    },
+    {
+      "caption": "Британские пекарни",
+      "items": [
+        "item_aef79bb8"
+      ]
+    },
+    {
+      "caption": "Red box by Pinskiy&Co",
+      "items": [
+        "item_e97256b5",
+        "item_0770f673",
+        "item_8654087f",
+        "item_0f2c7c24",
+        "item_1db4bd5d",
+        "item_5f313b48",
+        "item_9acfaf9c"
+      ]
+    },
+    {
+      "caption": "Zotman",
+      "items": [
+        "item_546b2f4f",
+        "item_a9656846"
+      ]
+    }
+  ]
+}

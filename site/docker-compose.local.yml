@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  agentb:
+    build:
+      context: .
+    image: agentb:local
+    container_name: agentb-local
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    volumes:
+      - ./dev/data:/app/data
+      - ./dev/litres/items:/app/static/img/litres/items
+    environment:
+      - FLASK_ENV=development
+      - STATIC_INDEX=1

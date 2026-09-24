@@ -1,0 +1,31 @@
+{
+  "test_data": {
+    "login_data": {
+      "login": "bench@example.com",
+      "password": "bench123",
+      "phone": "9150000000",
+      "email": "bench@example.com"
+    },
+    "bench_first_domain": "shop",
+    "bench_first_state": "state_shop_main",
+    "task": "На %HOST% в «Маркете» добавь в корзину самый дешёвый товар с главной страницы каталога.",
+    "conditions": [
+      {
+        "event_name": "basket_add",
+        "parameters": {
+          "item_id": "item_712618381",
+          "amount": 1
+        }
+      }
+    ],
+    "ui_taxonomy": {
+      "primary": "BASKET",
+      "classes": [
+        "BASKET"
+      ],
+      "subtypes": [
+        "nav_product_card"
+      ]
+    }
+  }
+}

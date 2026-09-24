@@ -1,0 +1,11 @@
+{
+  "profile_id": "hotels_city_modal",
+  "description": "Отели: autocomplete города (стандартный dropdown)",
+  "domain_configs": {
+    "hotels": {
+      "ui_variants": {
+        "select_city": "autocomplete"
+      }
+    }
+  }
+}

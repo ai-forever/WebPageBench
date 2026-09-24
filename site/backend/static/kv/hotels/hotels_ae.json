@@ -1,0 +1,4247 @@
+{
+  "id": "ae",
+  "label": "ОАЭ",
+  "cities": [
+    {
+      "id": "ae-dubai",
+      "name": "Дубай",
+      "countryCode": "AE",
+      "countryName": "ОАЭ"
+    },
+    {
+      "id": "ae-abudhabi",
+      "name": "Абу-Даби",
+      "countryCode": "AE",
+      "countryName": "ОАЭ"
+    },
+    {
+      "id": "ae-sharjah",
+      "name": "Шарджа",
+      "countryCode": "AE",
+      "countryName": "ОАЭ"
+    }
+  ],
+  "hotels": [
+    {
+      "id": "h-ae-dubai-2",
+      "cityId": "ae-dubai",
+      "name": "Marina Skyline Towers",
+      "address": "Dubai Marina, Dubai",
+      "distanceFromCenter": "2.5 км от центра Дубай",
+      "stars": 5,
+      "rating": 9.4,
+      "reviews": 2338,
+      "priceTotalRub": 174000,
+      "nights": 4,
+      "distanceKm": 1.6,
+      "type": "hotel",
+      "amenities": [
+        "wifi",
+        "parking",
+        "breakfast",
+        "airConditioning"
+      ],
+      "imageUrl": "/hotels/cdn/photos/picsum_h-ae-dubai-2_main_1200_800.jpg",
+      "images": [
+        "/hotels/cdn/photos/picsum_h-ae-dubai-2_1_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-dubai-2_2_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-dubai-2_3_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-dubai-2_4_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-dubai-2_5_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-dubai-2_6_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-dubai-2_7_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-dubai-2_8_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-dubai-2_9_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-dubai-2_10_1200_800.jpg"
+      ],
+      "offer": {
+        "roomTitle": "Представительский номер",
+        "beds": "двуспальная кровать",
+        "mealPlan": "breakfast",
+        "cancellation": "free",
+        "payment": "at_hotel"
+      },
+      "geoBlock": {
+        "title": "Расположение",
+        "address": "Dubai Marina, Dubai",
+        "map": {
+          "lat": 25.2020536857016,
+          "lng": 55.259363297509374,
+          "zoom": 14,
+          "query": "Dubai Marina, Dubai",
+          "tileUrlTemplate": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          "tileAttribution": "© Участники OpenStreetMap"
+        },
+        "poiGroups": [
+          {
+            "id": "nearby",
+            "title": "Что вокруг",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Burj Khalifa",
+                "distance": "350 м"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Dubai Mall",
+                "distance": "620 м"
+              },
+              {
+                "type": "PARK",
+                "name": "Dubai Marina",
+                "distance": "890 м"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Palm Jumeirah",
+                "distance": "1,2 км"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Museum of the Future",
+                "distance": "1,6 км"
+              }
+            ]
+          },
+          {
+            "id": "top",
+            "title": "Достопримечательности",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Burj Khalifa",
+                "distance": "1,1 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Dubai Mall",
+                "distance": "1,8 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Dubai Marina",
+                "distance": "2,2 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Palm Jumeirah",
+                "distance": "2,9 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Museum of the Future",
+                "distance": "3,3 км"
+              }
+            ]
+          },
+          {
+            "id": "airports",
+            "title": "Аэропорты",
+            "items": [
+              {
+                "type": "AIRPORT",
+                "name": "Дубай (DXB)",
+                "distance": "18,4 км"
+              }
+            ]
+          },
+          {
+            "id": "railways",
+            "title": "Вокзалы",
+            "items": [
+              {
+                "type": "RAILWAY_STATION",
+                "name": "Burj Khalifa/Dubai Mall",
+                "distance": "1,4 км"
+              }
+            ]
+          }
+        ]
+      },
+      "roomOptions": {
+        "galleryCtaText": "фото",
+        "availabilityTitle": "Доступные варианты",
+        "groups": [
+          {
+            "id": "rg-h-ae-dubai-2-std",
+            "name": "Двухместный номер Standard",
+            "nameAdditional": "1 большая двуспальная кровать",
+            "alert": "Осталось 2 номера по этой цене",
+            "imageUrl": "/hotels/cdn/photos/picsum_h-ae-dubai-2_room_1_640_420.jpg",
+            "imageCount": 8,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "18 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Телевизор"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-ae-dubai-2-std-r1",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Питание не включено",
+                  "isFeature": false
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена",
+                "priceRub": 86651,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-dubai-2-std-h-ae-dubai-2-std-r1"
+              },
+              {
+                "id": "h-ae-dubai-2-std-r2",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена с питанием",
+                "priceRub": 105091,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-dubai-2-std-h-ae-dubai-2-std-r2"
+              },
+              {
+                "id": "h-ae-dubai-2-std-r3",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "priceRub": 108384,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-dubai-2-std-h-ae-dubai-2-std-r3"
+              }
+            ]
+          },
+          {
+            "id": "rg-h-ae-dubai-2-dlx",
+            "name": "Номер Deluxe",
+            "nameAdditional": "1 кровать king-size",
+            "alert": "Высокий спрос на даты",
+            "imageUrl": "/hotels/cdn/photos/picsum_h-ae-dubai-2_room_2_640_420.jpg",
+            "imageCount": 12,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "24 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-ae-dubai-2-dlx-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 5 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Карта для гарантии"
+                },
+                "deal": "Популярный вариант",
+                "priceRub": 137658,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 30 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-dubai-2-dlx-h-ae-dubai-2-dlx-r1"
+              },
+              {
+                "id": "h-ae-dubai-2-dlx-r2",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Полупансион",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Списание сразу после брони"
+                },
+                "deal": "Лучшая цена с ужином",
+                "priceRub": 153113,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 30 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-dubai-2-dlx-h-ae-dubai-2-dlx-r2"
+              }
+            ]
+          }
+        ]
+      },
+      "aboutBlock": {
+        "title": "Об отеле",
+        "expandText": "Показать полностью",
+        "collapseText": "Свернуть",
+        "sections": [
+          {
+            "title": "Кратко",
+            "paragraphs": [
+              "Marina Skyline Towers расположен в одном из самых удобных районов города Дубай и подойдёт как для туристических поездок, так и для деловых визитов.",
+              "Это 5-звёздочный объект размещения с современными номерами, стабильным Wi‑Fi и удобным доступом к транспорту и главным достопримечательностям ОАЭ."
+            ]
+          },
+          {
+            "title": "Почему стоит выбрать",
+            "paragraphs": [
+              "Гости чаще всего выбирают этот вариант за удачное расположение, комфортные номера и понятные условия бронирования.",
+              "В отеле предусмотрены разные тарифы: с завтраком и без, с оплатой на месте и онлайн, с бесплатной отменой и невозвратные."
+            ]
+          }
+        ],
+        "facts": [
+          {
+            "label": "Тип размещения",
+            "value": "Отель"
+          },
+          {
+            "label": "Заезд",
+            "value": "с 15:00"
+          },
+          {
+            "label": "Выезд",
+            "value": "до 12:00"
+          },
+          {
+            "label": "Подходит для",
+            "value": "деловых поездок, отдыха вдвоём, семейного отдыха"
+          }
+        ]
+      },
+      "additionalInfoBlock": {
+        "title": "Важно знать",
+        "paragraphs": [
+          "При заселении может потребоваться банковская карта для гарантии дополнительных расходов.",
+          "Туристический налог и местные сборы, если применимо, оплачиваются отдельно по правилам города Дубай.",
+          "Конкретные условия отмены и оплаты зависят от выбранного тарифа и будут показаны перед подтверждением бронирования."
+        ]
+      },
+      "accommodationBlock": {
+        "title": "Условия размещения",
+        "checkInOut": {
+          "checkIn": "15:00",
+          "checkOut": "12:00",
+          "lateCheckOut": "Поздний выезд по запросу"
+        },
+        "blocks": [
+          {
+            "id": "deposit",
+            "title": "Депозит",
+            "items": [
+              "При заселении может взиматься депозит в размере 100 AED за номер.",
+              "Сумма депозита зависит от категории номера и тарифа."
+            ]
+          },
+          {
+            "id": "children",
+            "title": "Дети и дополнительные кровати",
+            "items": [
+              "Дети до 6 лет могут проживать бесплатно при размещении на имеющихся кроватях.",
+              "Дополнительная кровать предоставляется по запросу и оплачивается отдельно."
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Домашние животные",
+            "items": [
+              "Размещение с питомцами возможно не для всех тарифов. Уточняйте правила перед бронированием."
+            ]
+          }
+        ]
+      },
+      "currencyCode": "AED",
+      "paymentSection": {
+        "payment": {
+          "title": "Оплата",
+          "inHotelTitle": "В отеле",
+          "onSiteTitle": "На сайте",
+          "inHotelItems": [
+            {
+              "type": "text",
+              "text": "Наличными в валюте отеля — AED"
+            },
+            {
+              "type": "cards",
+              "label": "Картой:",
+              "codes": [
+                "visa",
+                "mastercard",
+                "american-express",
+                "dinersclub"
+              ]
+            }
+          ],
+          "onSiteText": "Для некоторых тарифов доступна оплата банковской картой при бронировании на сайте. Можно частично или полностью оплатить бронирование баллами. Можно оплатить бронирование с помощью промокода, если он у вас есть."
+        }
+      },
+      "amenitiesBlock": {
+        "title": "Удобства и услуги",
+        "groups": [
+          {
+            "id": "highlights",
+            "title": "Главное",
+            "icon": "star",
+            "items": [
+              "Бесплатный Wi‑Fi",
+              "Парковка",
+              "Завтрак",
+              "Кондиционер"
+            ]
+          },
+          {
+            "id": "popular",
+            "title": "Популярные",
+            "icon": "popular",
+            "variant": "popular",
+            "items": [
+              "Бесплатный интернет",
+              "Трансфер",
+              "Бар или ресторан",
+              "Для гостей с ограниченными возможностями",
+              "Разрешено с домашними животными"
+            ]
+          },
+          {
+            "id": "common",
+            "title": "Общее",
+            "icon": "common_info",
+            "items": [
+              "Круглосуточная стойка регистрации",
+              "Лифт",
+              "Обмен валюты",
+              "Отель для некурящих",
+              "Отопление",
+              "Продажа билетов",
+              "Ускоренная регистрация заезда и выезда",
+              "Терраса",
+              "Курение запрещено на всей территории"
+            ]
+          },
+          {
+            "id": "rooms",
+            "title": "В номерах",
+            "icon": "extra_service",
+            "items": [
+              "Номера для некурящих",
+              "Кабельное телевидение",
+              "Телевизор",
+              "Фен",
+              "Душ/Ванна",
+              "Душ",
+              "Шкаф/гардероб",
+              "Постельное белье",
+              "Туалетные принадлежности"
+            ]
+          },
+          {
+            "id": "accessibility",
+            "title": "Доступность",
+            "icon": "disabled_support",
+            "items": [
+              "Удобства для гостей с ограниченными физическими возможностями"
+            ]
+          },
+          {
+            "id": "services",
+            "title": "Услуги и удобства",
+            "icon": "extra_services",
+            "items": [
+              "Услуги консьержа",
+              "Хранение багажа",
+              "Услуга «звонок - будильник»",
+              "Телефон"
+            ]
+          },
+          {
+            "id": "meal",
+            "title": "Питание",
+            "icon": "meal",
+            "items": [
+              "Бар",
+              "Бесплатный чай/кофе",
+              "Завтрак",
+              "Ресторан",
+              "Торговый автомат с закусками/напитками",
+              "Кухня",
+              "Чайник"
+            ]
+          },
+          {
+            "id": "internet",
+            "title": "Интернет",
+            "icon": "internet",
+            "items": [
+              "Бесплатный Wi-Fi",
+              "Доступ в интернет"
+            ]
+          },
+          {
+            "id": "shuttle",
+            "title": "Трансфер",
+            "icon": "shuttle",
+            "items": [
+              {
+                "text": "Трансфер от/до аэропорта",
+                "note": "оплачивается отдельно"
+              },
+              "Заказ такси"
+            ]
+          },
+          {
+            "id": "languages",
+            "title": "Персонал говорит",
+            "icon": "languages",
+            "items": [
+              "на испанском",
+              "на немецком",
+              "на английском",
+              "на итальянском",
+              "на французском",
+              "Мультиязычный персонал",
+              "на португальском",
+              "на арабском"
+            ]
+          },
+          {
+            "id": "tours",
+            "title": "Туризм",
+            "icon": "tours",
+            "items": [
+              "Экскурсионное бюро"
+            ]
+          },
+          {
+            "id": "pool",
+            "title": "Бассейн и пляж",
+            "icon": "pool",
+            "items": [
+              "Полотенца для пляжа/бассейна"
+            ]
+          },
+          {
+            "id": "health",
+            "title": "Красота и здоровье",
+            "icon": "barber_shop",
+            "items": [
+              "Врач",
+              "Аптечка первой помощи"
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Животные",
+            "icon": "pets",
+            "items": [
+              "Размещение с домашними животными"
+            ]
+          },
+          {
+            "id": "anticovid",
+            "title": "Санитарные меры",
+            "icon": "anticovid",
+            "items": [
+              "Температурный контроль для персонала",
+              "Усиленные меры дезинфекции",
+              "Температурный контроль для гостей",
+              "Индивидуальные средства защиты для гостей",
+              "Дополнительные меры против COVID-19"
+            ]
+          }
+        ]
+      },
+      "reviewsBlock": {
+        "title": "Отзывы",
+        "ratingSummary": {
+          "value": 9.4,
+          "totalReviews": 2338,
+          "localLanguageReviews": 58,
+          "basedOnText": "Основано на {TOTAL} отзывах гостей из разных стран.",
+          "localLanguageText": "На вашем языке доступно {LOCAL} отзывов"
+        },
+        "detailedScores": [
+          {
+            "label": "Чистота",
+            "value": 9
+          },
+          {
+            "label": "Средства гигиены"
+          },
+          {
+            "label": "Расположение",
+            "value": 9.5
+          },
+          {
+            "label": "Питание"
+          },
+          {
+            "label": "Цена/Качество",
+            "value": 9.4
+          },
+          {
+            "label": "Номер",
+            "value": 9.3
+          },
+          {
+            "label": "Обслуживание",
+            "value": 9.3
+          },
+          {
+            "label": "Качество Wi‑Fi"
+          }
+        ],
+        "tripadvisor": {
+          "label": "TripAdvisor",
+          "reviews": 2335,
+          "href": "https://www.tripadvisor.com"
+        },
+        "reviews": [
+          {
+            "id": "rv-1",
+            "source": "tripadvisor",
+            "author": "AlexTraveler",
+            "countryCode": "RU",
+            "tripType": "пара",
+            "date": "май 2025 г.",
+            "rating": 5,
+            "title": "Отличное расположение",
+            "text": "Marina Skyline Towers приятно удивил: удобный район, хорошие завтраки и быстрый заезд. До основных точек в Дубай легко добраться пешком или на метро."
+          },
+          {
+            "id": "rv-2",
+            "source": "tripadvisor",
+            "author": "BusinessGuest",
+            "countryCode": "KZ",
+            "tripType": "деловая поездка",
+            "date": "февраль 2025 г.",
+            "rating": 4,
+            "title": "Подходит для командировок",
+            "text": "Стабильный интернет, удобное рабочее место в номере и вежливый персонал. Для короткой деловой поездки вариант очень удачный."
+          },
+          {
+            "id": "rv-3",
+            "source": "tripadvisor",
+            "author": "FamilyTrip",
+            "countryCode": "BY",
+            "tripType": "семья",
+            "date": "январь 2025 г.",
+            "rating": 5,
+            "title": "Комфортно с детьми",
+            "text": "Чистый номер, хорошие кровати, понятные правила заселения. Особенно понравилось, что рядом есть кафе, магазины и транспорт."
+          }
+        ],
+        "moreLink": {
+          "href": "https://www.tripadvisor.com",
+          "remaining": 2335,
+          "text": "Посмотреть ещё {N} отзывов на TripAdvisor"
+        }
+      },
+      "filters": {
+        "amenitiesHotel": [
+          "conf",
+          "internet",
+          "parking"
+        ],
+        "amenitiesRoom": [],
+        "placement": [
+          "kids"
+        ],
+        "meals": [
+          "breakfastIncluded"
+        ],
+        "paymentAndBooking": [
+          "freeCancellation",
+          "payOnsite"
+        ],
+        "rooms": 1,
+        "bedTypes": [
+          "doubleBed"
+        ]
+      }
+    },
+    {
+      "id": "h-ae-dubai-3",
+      "cityId": "ae-dubai",
+      "name": "Downtown Business Residences",
+      "address": "Downtown Dubai, Dubai",
+      "distanceFromCenter": "2.6 км от центра Дубай",
+      "stars": 5,
+      "rating": 9,
+      "reviews": 2315,
+      "priceTotalRub": 254000,
+      "nights": 4,
+      "distanceKm": 2,
+      "type": "apartment",
+      "amenities": [
+        "wifi",
+        "parking",
+        "accessible"
+      ],
+      "imageUrl": "/hotels/cdn/photos/picsum_h-ae-dubai-3_main_1200_800.jpg",
+      "images": [
+        "/hotels/cdn/photos/picsum_h-ae-dubai-3_1_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-dubai-3_2_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-dubai-3_3_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-dubai-3_4_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-dubai-3_7_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-dubai-3_10_1200_800.jpg"
+      ],
+      "offer": {
+        "roomTitle": "Номер Superior",
+        "beds": "двуспальная кровать",
+        "mealPlan": "none",
+        "cancellation": "free",
+        "payment": "at_hotel"
+      },
+      "geoBlock": {
+        "title": "Расположение",
+        "address": "Downtown Dubai, Dubai",
+        "map": {
+          "lat": 25.192763901278312,
+          "lng": 55.267580623529916,
+          "zoom": 14,
+          "query": "Downtown Dubai, Dubai",
+          "tileUrlTemplate": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          "tileAttribution": "© Участники OpenStreetMap"
+        },
+        "poiGroups": [
+          {
+            "id": "nearby",
+            "title": "Что вокруг",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Burj Khalifa",
+                "distance": "350 м"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Dubai Mall",
+                "distance": "620 м"
+              },
+              {
+                "type": "PARK",
+                "name": "Dubai Marina",
+                "distance": "890 м"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Palm Jumeirah",
+                "distance": "1,2 км"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Museum of the Future",
+                "distance": "1,6 км"
+              }
+            ]
+          },
+          {
+            "id": "top",
+            "title": "Достопримечательности",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Burj Khalifa",
+                "distance": "1,1 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Dubai Mall",
+                "distance": "1,8 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Dubai Marina",
+                "distance": "2,2 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Palm Jumeirah",
+                "distance": "2,9 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Museum of the Future",
+                "distance": "3,3 км"
+              }
+            ]
+          },
+          {
+            "id": "airports",
+            "title": "Аэропорты",
+            "items": [
+              {
+                "type": "AIRPORT",
+                "name": "Дубай (DXB)",
+                "distance": "18,4 км"
+              }
+            ]
+          },
+          {
+            "id": "railways",
+            "title": "Вокзалы",
+            "items": [
+              {
+                "type": "RAILWAY_STATION",
+                "name": "Burj Khalifa/Dubai Mall",
+                "distance": "1,4 км"
+              }
+            ]
+          }
+        ]
+      },
+      "roomOptions": {
+        "galleryCtaText": "фото",
+        "availabilityTitle": "Доступные варианты",
+        "groups": [
+          {
+            "id": "rg-h-ae-dubai-3-std",
+            "name": "Двухместный номер Standard",
+            "nameAdditional": "1 большая двуспальная кровать",
+            "alert": "Осталось 2 номера по этой цене",
+            "imageUrl": "/hotels/cdn/photos/picsum_h-ae-dubai-3_room_1_640_420.jpg",
+            "imageCount": 8,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "18 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Телевизор"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-ae-dubai-3-std-r1",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Питание не включено",
+                  "isFeature": false
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена",
+                "priceRub": 91928,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-dubai-3-std-h-ae-dubai-3-std-r1"
+              },
+              {
+                "id": "h-ae-dubai-3-std-r2",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена с питанием",
+                "priceRub": 96826,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-dubai-3-std-h-ae-dubai-3-std-r2"
+              },
+              {
+                "id": "h-ae-dubai-3-std-r3",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "priceRub": 103403,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-dubai-3-std-h-ae-dubai-3-std-r3"
+              }
+            ]
+          },
+          {
+            "id": "rg-h-ae-dubai-3-dlx",
+            "name": "Номер Deluxe",
+            "nameAdditional": "1 кровать king-size",
+            "alert": "Высокий спрос на даты",
+            "imageUrl": "/hotels/cdn/photos/picsum_h-ae-dubai-3_room_2_640_420.jpg",
+            "imageCount": 12,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "24 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-ae-dubai-3-dlx-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 5 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Карта для гарантии"
+                },
+                "deal": "Популярный вариант",
+                "priceRub": 130423,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 30 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-dubai-3-dlx-h-ae-dubai-3-dlx-r1"
+              },
+              {
+                "id": "h-ae-dubai-3-dlx-r2",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Полупансион",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Списание сразу после брони"
+                },
+                "deal": "Лучшая цена с ужином",
+                "priceRub": 144797,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 30 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-dubai-3-dlx-h-ae-dubai-3-dlx-r2"
+              }
+            ]
+          }
+        ]
+      },
+      "aboutBlock": {
+        "title": "Об отеле",
+        "expandText": "Показать полностью",
+        "collapseText": "Свернуть",
+        "sections": [
+          {
+            "title": "Кратко",
+            "paragraphs": [
+              "Downtown Business Residences расположен в одном из самых удобных районов города Дубай и подойдёт как для туристических поездок, так и для деловых визитов.",
+              "Это 5-звёздочный объект размещения с современными номерами, стабильным Wi‑Fi и удобным доступом к транспорту и главным достопримечательностям ОАЭ."
+            ]
+          },
+          {
+            "title": "Почему стоит выбрать",
+            "paragraphs": [
+              "Гости чаще всего выбирают этот вариант за удачное расположение, комфортные номера и понятные условия бронирования.",
+              "В отеле предусмотрены разные тарифы: с завтраком и без, с оплатой на месте и онлайн, с бесплатной отменой и невозвратные."
+            ]
+          }
+        ],
+        "facts": [
+          {
+            "label": "Тип размещения",
+            "value": "Отель"
+          },
+          {
+            "label": "Заезд",
+            "value": "с 15:00"
+          },
+          {
+            "label": "Выезд",
+            "value": "до 12:00"
+          },
+          {
+            "label": "Подходит для",
+            "value": "деловых поездок, отдыха вдвоём, семейного отдыха"
+          }
+        ]
+      },
+      "additionalInfoBlock": {
+        "title": "Важно знать",
+        "paragraphs": [
+          "При заселении может потребоваться банковская карта для гарантии дополнительных расходов.",
+          "Туристический налог и местные сборы, если применимо, оплачиваются отдельно по правилам города Дубай.",
+          "Конкретные условия отмены и оплаты зависят от выбранного тарифа и будут показаны перед подтверждением бронирования."
+        ]
+      },
+      "accommodationBlock": {
+        "title": "Условия размещения",
+        "checkInOut": {
+          "checkIn": "15:00",
+          "checkOut": "12:00",
+          "lateCheckOut": "Поздний выезд по запросу"
+        },
+        "blocks": [
+          {
+            "id": "deposit",
+            "title": "Депозит",
+            "items": [
+              "При заселении может взиматься депозит в размере 100 AED за номер.",
+              "Сумма депозита зависит от категории номера и тарифа."
+            ]
+          },
+          {
+            "id": "children",
+            "title": "Дети и дополнительные кровати",
+            "items": [
+              "Дети до 6 лет могут проживать бесплатно при размещении на имеющихся кроватях.",
+              "Дополнительная кровать предоставляется по запросу и оплачивается отдельно."
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Домашние животные",
+            "items": [
+              "Размещение с питомцами возможно не для всех тарифов. Уточняйте правила перед бронированием."
+            ]
+          }
+        ]
+      },
+      "currencyCode": "AED",
+      "paymentSection": {
+        "payment": {
+          "title": "Оплата",
+          "inHotelTitle": "В отеле",
+          "onSiteTitle": "На сайте",
+          "inHotelItems": [
+            {
+              "type": "text",
+              "text": "Наличными в валюте отеля — AED"
+            },
+            {
+              "type": "cards",
+              "label": "Картой:",
+              "codes": [
+                "visa",
+                "mastercard",
+                "american-express",
+                "dinersclub"
+              ]
+            }
+          ],
+          "onSiteText": "Для некоторых тарифов доступна оплата банковской картой при бронировании на сайте. Можно частично или полностью оплатить бронирование баллами. Можно оплатить бронирование с помощью промокода, если он у вас есть."
+        }
+      },
+      "amenitiesBlock": {
+        "title": "Удобства и услуги",
+        "groups": [
+          {
+            "id": "highlights",
+            "title": "Главное",
+            "icon": "star",
+            "items": [
+              "Бесплатный Wi‑Fi",
+              "Парковка",
+              "Удобства для гостей с ограниченными физическими возможностями"
+            ]
+          },
+          {
+            "id": "popular",
+            "title": "Популярные",
+            "icon": "popular",
+            "variant": "popular",
+            "items": [
+              "Бесплатный интернет",
+              "Трансфер",
+              "Бар или ресторан",
+              "Для гостей с ограниченными возможностями",
+              "Разрешено с домашними животными"
+            ]
+          },
+          {
+            "id": "common",
+            "title": "Общее",
+            "icon": "common_info",
+            "items": [
+              "Круглосуточная стойка регистрации",
+              "Лифт",
+              "Обмен валюты",
+              "Отель для некурящих",
+              "Отопление",
+              "Продажа билетов",
+              "Ускоренная регистрация заезда и выезда",
+              "Терраса",
+              "Курение запрещено на всей территории"
+            ]
+          },
+          {
+            "id": "rooms",
+            "title": "В номерах",
+            "icon": "extra_service",
+            "items": [
+              "Номера для некурящих",
+              "Кабельное телевидение",
+              "Телевизор",
+              "Фен",
+              "Душ/Ванна",
+              "Душ",
+              "Шкаф/гардероб",
+              "Постельное белье",
+              "Туалетные принадлежности"
+            ]
+          },
+          {
+            "id": "accessibility",
+            "title": "Доступность",
+            "icon": "disabled_support",
+            "items": [
+              "Удобства для гостей с ограниченными физическими возможностями"
+            ]
+          },
+          {
+            "id": "services",
+            "title": "Услуги и удобства",
+            "icon": "extra_services",
+            "items": [
+              "Услуги консьержа",
+              "Хранение багажа",
+              "Услуга «звонок - будильник»",
+              "Телефон"
+            ]
+          },
+          {
+            "id": "meal",
+            "title": "Питание",
+            "icon": "meal",
+            "items": [
+              "Бар",
+              "Бесплатный чай/кофе",
+              "Завтрак",
+              "Ресторан",
+              "Торговый автомат с закусками/напитками",
+              "Кухня",
+              "Чайник"
+            ]
+          },
+          {
+            "id": "internet",
+            "title": "Интернет",
+            "icon": "internet",
+            "items": [
+              "Бесплатный Wi-Fi",
+              "Доступ в интернет"
+            ]
+          },
+          {
+            "id": "shuttle",
+            "title": "Трансфер",
+            "icon": "shuttle",
+            "items": [
+              {
+                "text": "Трансфер от/до аэропорта",
+                "note": "оплачивается отдельно"
+              },
+              "Заказ такси"
+            ]
+          },
+          {
+            "id": "languages",
+            "title": "Персонал говорит",
+            "icon": "languages",
+            "items": [
+              "на испанском",
+              "на немецком",
+              "на английском",
+              "на итальянском",
+              "на французском",
+              "Мультиязычный персонал",
+              "на португальском",
+              "на арабском"
+            ]
+          },
+          {
+            "id": "tours",
+            "title": "Туризм",
+            "icon": "tours",
+            "items": [
+              "Экскурсионное бюро"
+            ]
+          },
+          {
+            "id": "pool",
+            "title": "Бассейн и пляж",
+            "icon": "pool",
+            "items": [
+              "Полотенца для пляжа/бассейна"
+            ]
+          },
+          {
+            "id": "health",
+            "title": "Красота и здоровье",
+            "icon": "barber_shop",
+            "items": [
+              "Врач",
+              "Аптечка первой помощи"
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Животные",
+            "icon": "pets",
+            "items": [
+              "Размещение с домашними животными"
+            ]
+          },
+          {
+            "id": "anticovid",
+            "title": "Санитарные меры",
+            "icon": "anticovid",
+            "items": [
+              "Температурный контроль для персонала",
+              "Усиленные меры дезинфекции",
+              "Температурный контроль для гостей",
+              "Индивидуальные средства защиты для гостей",
+              "Дополнительные меры против COVID-19"
+            ]
+          }
+        ]
+      },
+      "reviewsBlock": {
+        "title": "Отзывы",
+        "ratingSummary": {
+          "value": 9,
+          "totalReviews": 2315,
+          "localLanguageReviews": 57,
+          "basedOnText": "Основано на {TOTAL} отзывах гостей из разных стран.",
+          "localLanguageText": "На вашем языке доступно {LOCAL} отзывов"
+        },
+        "detailedScores": [
+          {
+            "label": "Чистота",
+            "value": 8.9
+          },
+          {
+            "label": "Средства гигиены"
+          },
+          {
+            "label": "Расположение",
+            "value": 9.3
+          },
+          {
+            "label": "Питание"
+          },
+          {
+            "label": "Цена/Качество",
+            "value": 8.4
+          },
+          {
+            "label": "Номер",
+            "value": 8.5
+          },
+          {
+            "label": "Обслуживание",
+            "value": 9.2
+          },
+          {
+            "label": "Качество Wi‑Fi"
+          }
+        ],
+        "tripadvisor": {
+          "label": "TripAdvisor",
+          "reviews": 2312,
+          "href": "https://www.tripadvisor.com"
+        },
+        "reviews": [
+          {
+            "id": "rv-1",
+            "source": "tripadvisor",
+            "author": "AlexTraveler",
+            "countryCode": "RU",
+            "tripType": "пара",
+            "date": "май 2025 г.",
+            "rating": 5,
+            "title": "Отличное расположение",
+            "text": "Downtown Business Residences приятно удивил: удобный район, хорошие завтраки и быстрый заезд. До основных точек в Дубай легко добраться пешком или на метро."
+          },
+          {
+            "id": "rv-2",
+            "source": "tripadvisor",
+            "author": "BusinessGuest",
+            "countryCode": "KZ",
+            "tripType": "деловая поездка",
+            "date": "февраль 2025 г.",
+            "rating": 4,
+            "title": "Подходит для командировок",
+            "text": "Стабильный интернет, удобное рабочее место в номере и вежливый персонал. Для короткой деловой поездки вариант очень удачный."
+          },
+          {
+            "id": "rv-3",
+            "source": "tripadvisor",
+            "author": "FamilyTrip",
+            "countryCode": "BY",
+            "tripType": "семья",
+            "date": "январь 2025 г.",
+            "rating": 5,
+            "title": "Комфортно с детьми",
+            "text": "Чистый номер, хорошие кровати, понятные правила заселения. Особенно понравилось, что рядом есть кафе, магазины и транспорт."
+          }
+        ],
+        "moreLink": {
+          "href": "https://www.tripadvisor.com",
+          "remaining": 2312,
+          "text": "Посмотреть ещё {N} отзывов на TripAdvisor"
+        }
+      },
+      "filters": {
+        "amenitiesHotel": [
+          "conf",
+          "internet",
+          "parking"
+        ],
+        "amenitiesRoom": [],
+        "placement": [
+          "accessible",
+          "kids"
+        ],
+        "meals": [],
+        "paymentAndBooking": [
+          "freeCancellation",
+          "payOnsite"
+        ],
+        "rooms": 1,
+        "bedTypes": [
+          "doubleBed"
+        ]
+      }
+    },
+    {
+      "id": "h-ae-abudhabi-2",
+      "cityId": "ae-abudhabi",
+      "name": "Corniche Palace Hotel",
+      "address": "Corniche, Abu Dhabi",
+      "distanceFromCenter": "0.7 км от центра Абу-Даби",
+      "stars": 5,
+      "rating": 9.1,
+      "reviews": 667,
+      "priceTotalRub": 313000,
+      "nights": 4,
+      "distanceKm": 0.5,
+      "type": "hotel",
+      "amenities": [
+        "wifi",
+        "breakfast",
+        "parking"
+      ],
+      "imageUrl": "/hotels/cdn/photos/picsum_h-ae-abudhabi-2_main_1200_800.jpg",
+      "images": [
+        "/hotels/cdn/photos/picsum_h-ae-abudhabi-2_1_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-abudhabi-2_2_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-abudhabi-2_3_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-abudhabi-2_4_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-abudhabi-2_7_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-abudhabi-2_8_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-abudhabi-2_9_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-abudhabi-2_10_1200_800.jpg"
+      ],
+      "offer": {
+        "roomTitle": "Номер Deluxe",
+        "beds": "двуспальная кровать",
+        "mealPlan": "breakfast",
+        "cancellation": "free",
+        "payment": "online"
+      },
+      "geoBlock": {
+        "title": "Расположение",
+        "address": "Corniche, Abu Dhabi",
+        "map": {
+          "lat": 24.447607124027222,
+          "lng": 54.377072620423526,
+          "zoom": 14,
+          "query": "Corniche, Abu Dhabi",
+          "tileUrlTemplate": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          "tileAttribution": "© Участники OpenStreetMap"
+        },
+        "poiGroups": [
+          {
+            "id": "nearby",
+            "title": "Что вокруг",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Sheikh Zayed Grand Mosque",
+                "distance": "350 м"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Louvre Abu Dhabi",
+                "distance": "620 м"
+              },
+              {
+                "type": "PARK",
+                "name": "Corniche",
+                "distance": "890 м"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Yas Island",
+                "distance": "1,2 км"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Qasr Al Watan",
+                "distance": "1,6 км"
+              }
+            ]
+          },
+          {
+            "id": "top",
+            "title": "Достопримечательности",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Sheikh Zayed Grand Mosque",
+                "distance": "1,1 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Louvre Abu Dhabi",
+                "distance": "1,8 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Corniche",
+                "distance": "2,2 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Yas Island",
+                "distance": "2,9 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Qasr Al Watan",
+                "distance": "3,3 км"
+              }
+            ]
+          },
+          {
+            "id": "airports",
+            "title": "Аэропорты",
+            "items": [
+              {
+                "type": "AIRPORT",
+                "name": "Абу-Даби (AUH)",
+                "distance": "18,4 км"
+              }
+            ]
+          },
+          {
+            "id": "railways",
+            "title": "Вокзалы",
+            "items": [
+              {
+                "type": "RAILWAY_STATION",
+                "name": "Abu Dhabi Central Bus Station",
+                "distance": "1,4 км"
+              }
+            ]
+          }
+        ]
+      },
+      "roomOptions": {
+        "galleryCtaText": "фото",
+        "availabilityTitle": "Доступные варианты",
+        "groups": [
+          {
+            "id": "rg-h-ae-abudhabi-2-std",
+            "name": "Двухместный номер Standard",
+            "nameAdditional": "1 большая двуспальная кровать",
+            "alert": "Осталось 2 номера по этой цене",
+            "imageUrl": "/hotels/cdn/photos/picsum_h-ae-abudhabi-2_room_1_640_420.jpg",
+            "imageCount": 8,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "18 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Телевизор"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-ae-abudhabi-2-std-r1",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Питание не включено",
+                  "isFeature": false
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена",
+                "priceRub": 99721,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-abudhabi-2-std-h-ae-abudhabi-2-std-r1"
+              },
+              {
+                "id": "h-ae-abudhabi-2-std-r2",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена с питанием",
+                "priceRub": 99278,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-abudhabi-2-std-h-ae-abudhabi-2-std-r2"
+              },
+              {
+                "id": "h-ae-abudhabi-2-std-r3",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "priceRub": 93670,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-abudhabi-2-std-h-ae-abudhabi-2-std-r3"
+              }
+            ]
+          },
+          {
+            "id": "rg-h-ae-abudhabi-2-dlx",
+            "name": "Номер Deluxe",
+            "nameAdditional": "1 кровать king-size",
+            "alert": "Высокий спрос на даты",
+            "imageUrl": "/hotels/cdn/photos/picsum_h-ae-abudhabi-2_room_2_640_420.jpg",
+            "imageCount": 12,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "24 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-ae-abudhabi-2-dlx-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 5 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Карта для гарантии"
+                },
+                "deal": "Популярный вариант",
+                "priceRub": 130793,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 30 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-abudhabi-2-dlx-h-ae-abudhabi-2-dlx-r1"
+              },
+              {
+                "id": "h-ae-abudhabi-2-dlx-r2",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Полупансион",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Списание сразу после брони"
+                },
+                "deal": "Лучшая цена с ужином",
+                "priceRub": 163888,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 30 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-abudhabi-2-dlx-h-ae-abudhabi-2-dlx-r2"
+              }
+            ]
+          }
+        ]
+      },
+      "aboutBlock": {
+        "title": "Об отеле",
+        "expandText": "Показать полностью",
+        "collapseText": "Свернуть",
+        "sections": [
+          {
+            "title": "Кратко",
+            "paragraphs": [
+              "Corniche Palace Hotel расположен в одном из самых удобных районов города Абу-Даби и подойдёт как для туристических поездок, так и для деловых визитов.",
+              "Это 5-звёздочный объект размещения с современными номерами, стабильным Wi‑Fi и удобным доступом к транспорту и главным достопримечательностям ОАЭ."
+            ]
+          },
+          {
+            "title": "Почему стоит выбрать",
+            "paragraphs": [
+              "Гости чаще всего выбирают этот вариант за удачное расположение, комфортные номера и понятные условия бронирования.",
+              "В отеле предусмотрены разные тарифы: с завтраком и без, с оплатой на месте и онлайн, с бесплатной отменой и невозвратные."
+            ]
+          }
+        ],
+        "facts": [
+          {
+            "label": "Тип размещения",
+            "value": "Отель"
+          },
+          {
+            "label": "Заезд",
+            "value": "с 15:00"
+          },
+          {
+            "label": "Выезд",
+            "value": "до 12:00"
+          },
+          {
+            "label": "Подходит для",
+            "value": "деловых поездок, отдыха вдвоём, семейного отдыха"
+          }
+        ]
+      },
+      "additionalInfoBlock": {
+        "title": "Важно знать",
+        "paragraphs": [
+          "При заселении может потребоваться банковская карта для гарантии дополнительных расходов.",
+          "Туристический налог и местные сборы, если применимо, оплачиваются отдельно по правилам города Абу-Даби.",
+          "Конкретные условия отмены и оплаты зависят от выбранного тарифа и будут показаны перед подтверждением бронирования."
+        ]
+      },
+      "accommodationBlock": {
+        "title": "Условия размещения",
+        "checkInOut": {
+          "checkIn": "15:00",
+          "checkOut": "12:00",
+          "lateCheckOut": "Поздний выезд по запросу"
+        },
+        "blocks": [
+          {
+            "id": "deposit",
+            "title": "Депозит",
+            "items": [
+              "При заселении может взиматься депозит в размере 100 AED за номер.",
+              "Сумма депозита зависит от категории номера и тарифа."
+            ]
+          },
+          {
+            "id": "children",
+            "title": "Дети и дополнительные кровати",
+            "items": [
+              "Дети до 6 лет могут проживать бесплатно при размещении на имеющихся кроватях.",
+              "Дополнительная кровать предоставляется по запросу и оплачивается отдельно."
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Домашние животные",
+            "items": [
+              "Размещение с питомцами возможно не для всех тарифов. Уточняйте правила перед бронированием."
+            ]
+          }
+        ]
+      },
+      "currencyCode": "AED",
+      "paymentSection": {
+        "payment": {
+          "title": "Оплата",
+          "inHotelTitle": "В отеле",
+          "onSiteTitle": "На сайте",
+          "inHotelItems": [
+            {
+              "type": "text",
+              "text": "Наличными в валюте отеля — AED"
+            },
+            {
+              "type": "cards",
+              "label": "Картой:",
+              "codes": [
+                "visa",
+                "mastercard",
+                "american-express",
+                "dinersclub"
+              ]
+            }
+          ],
+          "onSiteText": "Для некоторых тарифов доступна оплата банковской картой при бронировании на сайте. Можно частично или полностью оплатить бронирование баллами. Можно оплатить бронирование с помощью промокода, если он у вас есть."
+        }
+      },
+      "amenitiesBlock": {
+        "title": "Удобства и услуги",
+        "groups": [
+          {
+            "id": "highlights",
+            "title": "Главное",
+            "icon": "star",
+            "items": [
+              "Бесплатный Wi‑Fi",
+              "Завтрак",
+              "Парковка"
+            ]
+          },
+          {
+            "id": "popular",
+            "title": "Популярные",
+            "icon": "popular",
+            "variant": "popular",
+            "items": [
+              "Бесплатный интернет",
+              "Трансфер",
+              "Бар или ресторан",
+              "Для гостей с ограниченными возможностями",
+              "Разрешено с домашними животными"
+            ]
+          },
+          {
+            "id": "common",
+            "title": "Общее",
+            "icon": "common_info",
+            "items": [
+              "Круглосуточная стойка регистрации",
+              "Лифт",
+              "Обмен валюты",
+              "Отель для некурящих",
+              "Отопление",
+              "Продажа билетов",
+              "Ускоренная регистрация заезда и выезда",
+              "Терраса",
+              "Курение запрещено на всей территории"
+            ]
+          },
+          {
+            "id": "rooms",
+            "title": "В номерах",
+            "icon": "extra_service",
+            "items": [
+              "Номера для некурящих",
+              "Кабельное телевидение",
+              "Телевизор",
+              "Фен",
+              "Душ/Ванна",
+              "Душ",
+              "Шкаф/гардероб",
+              "Постельное белье",
+              "Туалетные принадлежности"
+            ]
+          },
+          {
+            "id": "accessibility",
+            "title": "Доступность",
+            "icon": "disabled_support",
+            "items": [
+              "Удобства для гостей с ограниченными физическими возможностями"
+            ]
+          },
+          {
+            "id": "services",
+            "title": "Услуги и удобства",
+            "icon": "extra_services",
+            "items": [
+              "Услуги консьержа",
+              "Хранение багажа",
+              "Услуга «звонок - будильник»",
+              "Телефон"
+            ]
+          },
+          {
+            "id": "meal",
+            "title": "Питание",
+            "icon": "meal",
+            "items": [
+              "Бар",
+              "Бесплатный чай/кофе",
+              "Завтрак",
+              "Ресторан",
+              "Торговый автомат с закусками/напитками",
+              "Кухня",
+              "Чайник"
+            ]
+          },
+          {
+            "id": "internet",
+            "title": "Интернет",
+            "icon": "internet",
+            "items": [
+              "Бесплатный Wi-Fi",
+              "Доступ в интернет"
+            ]
+          },
+          {
+            "id": "shuttle",
+            "title": "Трансфер",
+            "icon": "shuttle",
+            "items": [
+              {
+                "text": "Трансфер от/до аэропорта",
+                "note": "оплачивается отдельно"
+              },
+              "Заказ такси"
+            ]
+          },
+          {
+            "id": "languages",
+            "title": "Персонал говорит",
+            "icon": "languages",
+            "items": [
+              "на испанском",
+              "на немецком",
+              "на английском",
+              "на итальянском",
+              "на французском",
+              "Мультиязычный персонал",
+              "на португальском",
+              "на арабском"
+            ]
+          },
+          {
+            "id": "tours",
+            "title": "Туризм",
+            "icon": "tours",
+            "items": [
+              "Экскурсионное бюро"
+            ]
+          },
+          {
+            "id": "pool",
+            "title": "Бассейн и пляж",
+            "icon": "pool",
+            "items": [
+              "Полотенца для пляжа/бассейна"
+            ]
+          },
+          {
+            "id": "health",
+            "title": "Красота и здоровье",
+            "icon": "barber_shop",
+            "items": [
+              "Врач",
+              "Аптечка первой помощи"
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Животные",
+            "icon": "pets",
+            "items": [
+              "Размещение с домашними животными"
+            ]
+          },
+          {
+            "id": "anticovid",
+            "title": "Санитарные меры",
+            "icon": "anticovid",
+            "items": [
+              "Температурный контроль для персонала",
+              "Усиленные меры дезинфекции",
+              "Температурный контроль для гостей",
+              "Индивидуальные средства защиты для гостей",
+              "Дополнительные меры против COVID-19"
+            ]
+          }
+        ]
+      },
+      "reviewsBlock": {
+        "title": "Отзывы",
+        "ratingSummary": {
+          "value": 9.1,
+          "totalReviews": 667,
+          "localLanguageReviews": 16,
+          "basedOnText": "Основано на {TOTAL} отзывах гостей из разных стран.",
+          "localLanguageText": "На вашем языке доступно {LOCAL} отзывов"
+        },
+        "detailedScores": [
+          {
+            "label": "Чистота",
+            "value": 9
+          },
+          {
+            "label": "Средства гигиены"
+          },
+          {
+            "label": "Расположение",
+            "value": 9.4
+          },
+          {
+            "label": "Питание"
+          },
+          {
+            "label": "Цена/Качество",
+            "value": 8.5
+          },
+          {
+            "label": "Номер",
+            "value": 8.9
+          },
+          {
+            "label": "Обслуживание",
+            "value": 8.9
+          },
+          {
+            "label": "Качество Wi‑Fi"
+          }
+        ],
+        "tripadvisor": {
+          "label": "TripAdvisor",
+          "reviews": 664,
+          "href": "https://www.tripadvisor.com"
+        },
+        "reviews": [
+          {
+            "id": "rv-1",
+            "source": "tripadvisor",
+            "author": "AlexTraveler",
+            "countryCode": "RU",
+            "tripType": "пара",
+            "date": "май 2025 г.",
+            "rating": 5,
+            "title": "Отличное расположение",
+            "text": "Corniche Palace Hotel приятно удивил: удобный район, хорошие завтраки и быстрый заезд. До основных точек в Абу-Даби легко добраться пешком или на метро."
+          },
+          {
+            "id": "rv-2",
+            "source": "tripadvisor",
+            "author": "BusinessGuest",
+            "countryCode": "KZ",
+            "tripType": "деловая поездка",
+            "date": "февраль 2025 г.",
+            "rating": 4,
+            "title": "Подходит для командировок",
+            "text": "Стабильный интернет, удобное рабочее место в номере и вежливый персонал. Для короткой деловой поездки вариант очень удачный."
+          },
+          {
+            "id": "rv-3",
+            "source": "tripadvisor",
+            "author": "FamilyTrip",
+            "countryCode": "BY",
+            "tripType": "семья",
+            "date": "январь 2025 г.",
+            "rating": 5,
+            "title": "Комфортно с детьми",
+            "text": "Чистый номер, хорошие кровати, понятные правила заселения. Особенно понравилось, что рядом есть кафе, магазины и транспорт."
+          }
+        ],
+        "moreLink": {
+          "href": "https://www.tripadvisor.com",
+          "remaining": 664,
+          "text": "Посмотреть ещё {N} отзывов на TripAdvisor"
+        }
+      },
+      "filters": {
+        "amenitiesHotel": [
+          "conf",
+          "internet",
+          "parking"
+        ],
+        "amenitiesRoom": [],
+        "placement": [
+          "kids"
+        ],
+        "meals": [
+          "breakfastIncluded"
+        ],
+        "paymentAndBooking": [
+          "freeCancellation",
+          "payOnsite"
+        ],
+        "rooms": 1,
+        "bedTypes": [
+          "doubleBed"
+        ]
+      }
+    },
+    {
+      "id": "h-ae-abudhabi-3",
+      "cityId": "ae-abudhabi",
+      "name": "Yas Island Family Resort",
+      "address": "Yas Island, Abu Dhabi",
+      "distanceFromCenter": "2.8 км от центра Абу-Даби",
+      "stars": 5,
+      "rating": 8.9,
+      "reviews": 1505,
+      "priceTotalRub": 152000,
+      "nights": 4,
+      "distanceKm": 3.1,
+      "type": "hotel",
+      "amenities": [
+        "wifi",
+        "pets",
+        "parking",
+        "airConditioning"
+      ],
+      "imageUrl": "/hotels/cdn/photos/picsum_h-ae-abudhabi-3_main_1200_800.jpg",
+      "images": [
+        "/hotels/cdn/photos/picsum_h-ae-abudhabi-3_1_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-abudhabi-3_2_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-abudhabi-3_3_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-abudhabi-3_4_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-abudhabi-3_7_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-abudhabi-3_8_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-abudhabi-3_9_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-abudhabi-3_10_1200_800.jpg"
+      ],
+      "offer": {
+        "roomTitle": "Номер Superior",
+        "beds": "двуспальная кровать",
+        "mealPlan": "none",
+        "cancellation": "no_free",
+        "payment": "at_hotel"
+      },
+      "geoBlock": {
+        "title": "Расположение",
+        "address": "Yas Island, Abu Dhabi",
+        "map": {
+          "lat": 24.45480221825121,
+          "lng": 54.390444745292754,
+          "zoom": 14,
+          "query": "Yas Island, Abu Dhabi",
+          "tileUrlTemplate": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          "tileAttribution": "© Участники OpenStreetMap"
+        },
+        "poiGroups": [
+          {
+            "id": "nearby",
+            "title": "Что вокруг",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Sheikh Zayed Grand Mosque",
+                "distance": "350 м"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Louvre Abu Dhabi",
+                "distance": "620 м"
+              },
+              {
+                "type": "PARK",
+                "name": "Corniche",
+                "distance": "890 м"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Yas Island",
+                "distance": "1,2 км"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Qasr Al Watan",
+                "distance": "1,6 км"
+              }
+            ]
+          },
+          {
+            "id": "top",
+            "title": "Достопримечательности",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Sheikh Zayed Grand Mosque",
+                "distance": "1,1 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Louvre Abu Dhabi",
+                "distance": "1,8 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Corniche",
+                "distance": "2,2 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Yas Island",
+                "distance": "2,9 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Qasr Al Watan",
+                "distance": "3,3 км"
+              }
+            ]
+          },
+          {
+            "id": "airports",
+            "title": "Аэропорты",
+            "items": [
+              {
+                "type": "AIRPORT",
+                "name": "Абу-Даби (AUH)",
+                "distance": "18,4 км"
+              }
+            ]
+          },
+          {
+            "id": "railways",
+            "title": "Вокзалы",
+            "items": [
+              {
+                "type": "RAILWAY_STATION",
+                "name": "Abu Dhabi Central Bus Station",
+                "distance": "1,4 км"
+              }
+            ]
+          }
+        ]
+      },
+      "roomOptions": {
+        "galleryCtaText": "фото",
+        "availabilityTitle": "Доступные варианты",
+        "groups": [
+          {
+            "id": "rg-h-ae-abudhabi-3-std",
+            "name": "Двухместный номер Standard",
+            "nameAdditional": "1 большая двуспальная кровать",
+            "alert": "Осталось 2 номера по этой цене",
+            "imageUrl": "/hotels/cdn/photos/picsum_h-ae-abudhabi-3_room_1_640_420.jpg",
+            "imageCount": 8,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "18 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Телевизор"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-ae-abudhabi-3-std-r1",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Питание не включено",
+                  "isFeature": false
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена",
+                "priceRub": 95488,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-abudhabi-3-std-h-ae-abudhabi-3-std-r1"
+              },
+              {
+                "id": "h-ae-abudhabi-3-std-r2",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена с питанием",
+                "priceRub": 97299,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-abudhabi-3-std-h-ae-abudhabi-3-std-r2"
+              },
+              {
+                "id": "h-ae-abudhabi-3-std-r3",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "priceRub": 104036,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-abudhabi-3-std-h-ae-abudhabi-3-std-r3"
+              }
+            ]
+          },
+          {
+            "id": "rg-h-ae-abudhabi-3-dlx",
+            "name": "Номер Deluxe",
+            "nameAdditional": "1 кровать king-size",
+            "alert": "Высокий спрос на даты",
+            "imageUrl": "/hotels/cdn/photos/picsum_h-ae-abudhabi-3_room_2_640_420.jpg",
+            "imageCount": 12,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "24 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-ae-abudhabi-3-dlx-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 5 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Карта для гарантии"
+                },
+                "deal": "Популярный вариант",
+                "priceRub": 144617,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 30 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-abudhabi-3-dlx-h-ae-abudhabi-3-dlx-r1"
+              },
+              {
+                "id": "h-ae-abudhabi-3-dlx-r2",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Полупансион",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Списание сразу после брони"
+                },
+                "deal": "Лучшая цена с ужином",
+                "priceRub": 166993,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 30 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-abudhabi-3-dlx-h-ae-abudhabi-3-dlx-r2"
+              }
+            ]
+          }
+        ]
+      },
+      "aboutBlock": {
+        "title": "Об отеле",
+        "expandText": "Показать полностью",
+        "collapseText": "Свернуть",
+        "sections": [
+          {
+            "title": "Кратко",
+            "paragraphs": [
+              "Yas Island Family Resort расположен в одном из самых удобных районов города Абу-Даби и подойдёт как для туристических поездок, так и для деловых визитов.",
+              "Это 5-звёздочный объект размещения с современными номерами, стабильным Wi‑Fi и удобным доступом к транспорту и главным достопримечательностям ОАЭ."
+            ]
+          },
+          {
+            "title": "Почему стоит выбрать",
+            "paragraphs": [
+              "Гости чаще всего выбирают этот вариант за удачное расположение, комфортные номера и понятные условия бронирования.",
+              "В отеле предусмотрены разные тарифы: с завтраком и без, с оплатой на месте и онлайн, с бесплатной отменой и невозвратные."
+            ]
+          }
+        ],
+        "facts": [
+          {
+            "label": "Тип размещения",
+            "value": "Отель"
+          },
+          {
+            "label": "Заезд",
+            "value": "с 15:00"
+          },
+          {
+            "label": "Выезд",
+            "value": "до 12:00"
+          },
+          {
+            "label": "Подходит для",
+            "value": "деловых поездок, отдыха вдвоём, семейного отдыха"
+          }
+        ]
+      },
+      "additionalInfoBlock": {
+        "title": "Важно знать",
+        "paragraphs": [
+          "При заселении может потребоваться банковская карта для гарантии дополнительных расходов.",
+          "Туристический налог и местные сборы, если применимо, оплачиваются отдельно по правилам города Абу-Даби.",
+          "Конкретные условия отмены и оплаты зависят от выбранного тарифа и будут показаны перед подтверждением бронирования."
+        ]
+      },
+      "accommodationBlock": {
+        "title": "Условия размещения",
+        "checkInOut": {
+          "checkIn": "15:00",
+          "checkOut": "12:00",
+          "lateCheckOut": "Поздний выезд по запросу"
+        },
+        "blocks": [
+          {
+            "id": "deposit",
+            "title": "Депозит",
+            "items": [
+              "При заселении может взиматься депозит в размере 100 AED за номер.",
+              "Сумма депозита зависит от категории номера и тарифа."
+            ]
+          },
+          {
+            "id": "children",
+            "title": "Дети и дополнительные кровати",
+            "items": [
+              "Дети до 6 лет могут проживать бесплатно при размещении на имеющихся кроватях.",
+              "Дополнительная кровать предоставляется по запросу и оплачивается отдельно."
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Домашние животные",
+            "items": [
+              "Размещение с питомцами возможно не для всех тарифов. Уточняйте правила перед бронированием."
+            ]
+          }
+        ]
+      },
+      "currencyCode": "AED",
+      "paymentSection": {
+        "payment": {
+          "title": "Оплата",
+          "inHotelTitle": "В отеле",
+          "onSiteTitle": "На сайте",
+          "inHotelItems": [
+            {
+              "type": "text",
+              "text": "Наличными в валюте отеля — AED"
+            },
+            {
+              "type": "cards",
+              "label": "Картой:",
+              "codes": [
+                "visa",
+                "mastercard",
+                "american-express",
+                "dinersclub"
+              ]
+            }
+          ],
+          "onSiteText": "Для некоторых тарифов доступна оплата банковской картой при бронировании на сайте. Можно частично или полностью оплатить бронирование баллами. Можно оплатить бронирование с помощью промокода, если он у вас есть."
+        }
+      },
+      "amenitiesBlock": {
+        "title": "Удобства и услуги",
+        "groups": [
+          {
+            "id": "highlights",
+            "title": "Главное",
+            "icon": "star",
+            "items": [
+              "Бесплатный Wi‑Fi",
+              "Размещение с домашними животными",
+              "Парковка",
+              "Кондиционер"
+            ]
+          },
+          {
+            "id": "popular",
+            "title": "Популярные",
+            "icon": "popular",
+            "variant": "popular",
+            "items": [
+              "Бесплатный интернет",
+              "Трансфер",
+              "Бар или ресторан",
+              "Для гостей с ограниченными возможностями",
+              "Разрешено с домашними животными"
+            ]
+          },
+          {
+            "id": "common",
+            "title": "Общее",
+            "icon": "common_info",
+            "items": [
+              "Круглосуточная стойка регистрации",
+              "Лифт",
+              "Обмен валюты",
+              "Отель для некурящих",
+              "Отопление",
+              "Продажа билетов",
+              "Ускоренная регистрация заезда и выезда",
+              "Терраса",
+              "Курение запрещено на всей территории"
+            ]
+          },
+          {
+            "id": "rooms",
+            "title": "В номерах",
+            "icon": "extra_service",
+            "items": [
+              "Номера для некурящих",
+              "Кабельное телевидение",
+              "Телевизор",
+              "Фен",
+              "Душ/Ванна",
+              "Душ",
+              "Шкаф/гардероб",
+              "Постельное белье",
+              "Туалетные принадлежности"
+            ]
+          },
+          {
+            "id": "accessibility",
+            "title": "Доступность",
+            "icon": "disabled_support",
+            "items": [
+              "Удобства для гостей с ограниченными физическими возможностями"
+            ]
+          },
+          {
+            "id": "services",
+            "title": "Услуги и удобства",
+            "icon": "extra_services",
+            "items": [
+              "Услуги консьержа",
+              "Хранение багажа",
+              "Услуга «звонок - будильник»",
+              "Телефон"
+            ]
+          },
+          {
+            "id": "meal",
+            "title": "Питание",
+            "icon": "meal",
+            "items": [
+              "Бар",
+              "Бесплатный чай/кофе",
+              "Завтрак",
+              "Ресторан",
+              "Торговый автомат с закусками/напитками",
+              "Кухня",
+              "Чайник"
+            ]
+          },
+          {
+            "id": "internet",
+            "title": "Интернет",
+            "icon": "internet",
+            "items": [
+              "Бесплатный Wi-Fi",
+              "Доступ в интернет"
+            ]
+          },
+          {
+            "id": "shuttle",
+            "title": "Трансфер",
+            "icon": "shuttle",
+            "items": [
+              {
+                "text": "Трансфер от/до аэропорта",
+                "note": "оплачивается отдельно"
+              },
+              "Заказ такси"
+            ]
+          },
+          {
+            "id": "languages",
+            "title": "Персонал говорит",
+            "icon": "languages",
+            "items": [
+              "на испанском",
+              "на немецком",
+              "на английском",
+              "на итальянском",
+              "на французском",
+              "Мультиязычный персонал",
+              "на португальском",
+              "на арабском"
+            ]
+          },
+          {
+            "id": "tours",
+            "title": "Туризм",
+            "icon": "tours",
+            "items": [
+              "Экскурсионное бюро"
+            ]
+          },
+          {
+            "id": "pool",
+            "title": "Бассейн и пляж",
+            "icon": "pool",
+            "items": [
+              "Полотенца для пляжа/бассейна"
+            ]
+          },
+          {
+            "id": "health",
+            "title": "Красота и здоровье",
+            "icon": "barber_shop",
+            "items": [
+              "Врач",
+              "Аптечка первой помощи"
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Животные",
+            "icon": "pets",
+            "items": [
+              "Размещение с домашними животными"
+            ]
+          },
+          {
+            "id": "anticovid",
+            "title": "Санитарные меры",
+            "icon": "anticovid",
+            "items": [
+              "Температурный контроль для персонала",
+              "Усиленные меры дезинфекции",
+              "Температурный контроль для гостей",
+              "Индивидуальные средства защиты для гостей",
+              "Дополнительные меры против COVID-19"
+            ]
+          }
+        ]
+      },
+      "reviewsBlock": {
+        "title": "Отзывы",
+        "ratingSummary": {
+          "value": 8.9,
+          "totalReviews": 1505,
+          "localLanguageReviews": 37,
+          "basedOnText": "Основано на {TOTAL} отзывах гостей из разных стран.",
+          "localLanguageText": "На вашем языке доступно {LOCAL} отзывов"
+        },
+        "detailedScores": [
+          {
+            "label": "Чистота",
+            "value": 8.8
+          },
+          {
+            "label": "Средства гигиены"
+          },
+          {
+            "label": "Расположение",
+            "value": 9.2
+          },
+          {
+            "label": "Питание"
+          },
+          {
+            "label": "Цена/Качество",
+            "value": 8.8
+          },
+          {
+            "label": "Номер",
+            "value": 8.8
+          },
+          {
+            "label": "Обслуживание",
+            "value": 9
+          },
+          {
+            "label": "Качество Wi‑Fi"
+          }
+        ],
+        "tripadvisor": {
+          "label": "TripAdvisor",
+          "reviews": 1502,
+          "href": "https://www.tripadvisor.com"
+        },
+        "reviews": [
+          {
+            "id": "rv-1",
+            "source": "tripadvisor",
+            "author": "AlexTraveler",
+            "countryCode": "RU",
+            "tripType": "пара",
+            "date": "май 2025 г.",
+            "rating": 5,
+            "title": "Отличное расположение",
+            "text": "Yas Island Family Resort приятно удивил: удобный район, хорошие завтраки и быстрый заезд. До основных точек в Абу-Даби легко добраться пешком или на метро."
+          },
+          {
+            "id": "rv-2",
+            "source": "tripadvisor",
+            "author": "BusinessGuest",
+            "countryCode": "KZ",
+            "tripType": "деловая поездка",
+            "date": "февраль 2025 г.",
+            "rating": 4,
+            "title": "Подходит для командировок",
+            "text": "Стабильный интернет, удобное рабочее место в номере и вежливый персонал. Для короткой деловой поездки вариант очень удачный."
+          },
+          {
+            "id": "rv-3",
+            "source": "tripadvisor",
+            "author": "FamilyTrip",
+            "countryCode": "BY",
+            "tripType": "семья",
+            "date": "январь 2025 г.",
+            "rating": 5,
+            "title": "Комфортно с детьми",
+            "text": "Чистый номер, хорошие кровати, понятные правила заселения. Особенно понравилось, что рядом есть кафе, магазины и транспорт."
+          }
+        ],
+        "moreLink": {
+          "href": "https://www.tripadvisor.com",
+          "remaining": 1502,
+          "text": "Посмотреть ещё {N} отзывов на TripAdvisor"
+        }
+      },
+      "filters": {
+        "amenitiesHotel": [
+          "conf",
+          "internet",
+          "parking"
+        ],
+        "amenitiesRoom": [],
+        "placement": [
+          "kids",
+          "pets"
+        ],
+        "meals": [],
+        "paymentAndBooking": [
+          "freeCancellation",
+          "payOnsite"
+        ],
+        "rooms": 1,
+        "bedTypes": [
+          "doubleBed"
+        ]
+      }
+    },
+    {
+      "id": "h-ae-sharjah-2",
+      "cityId": "ae-sharjah",
+      "name": "Al Majaz Bay Hotel",
+      "address": "Al Majaz, Sharjah",
+      "distanceFromCenter": "1.1 км от центра Шарджа",
+      "stars": 4,
+      "rating": 8.5,
+      "reviews": 1544,
+      "priceTotalRub": 127000,
+      "nights": 4,
+      "distanceKm": 2,
+      "type": "hotel",
+      "amenities": [
+        "wifi",
+        "breakfast",
+        "parking"
+      ],
+      "imageUrl": "/hotels/cdn/photos/picsum_h-ae-sharjah-2_main_1200_800.jpg",
+      "images": [
+        "/hotels/cdn/photos/picsum_h-ae-sharjah-2_1_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-sharjah-2_2_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-sharjah-2_3_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-sharjah-2_4_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-sharjah-2_6_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-sharjah-2_7_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-sharjah-2_8_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-sharjah-2_9_1200_800.jpg"
+      ],
+      "offer": {
+        "roomTitle": "Представительский номер",
+        "beds": "2 односпальные кровати",
+        "mealPlan": "breakfast",
+        "cancellation": "free",
+        "payment": "at_hotel"
+      },
+      "geoBlock": {
+        "title": "Расположение",
+        "address": "Al Majaz, Sharjah",
+        "map": {
+          "lat": 25.345983794944715,
+          "lng": 55.42925167567822,
+          "zoom": 14,
+          "query": "Al Majaz, Sharjah",
+          "tileUrlTemplate": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          "tileAttribution": "© Участники OpenStreetMap"
+        },
+        "poiGroups": [
+          {
+            "id": "nearby",
+            "title": "Что вокруг",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Al Noor Mosque",
+                "distance": "350 м"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Sharjah Aquarium",
+                "distance": "620 м"
+              },
+              {
+                "type": "PARK",
+                "name": "Heart of Sharjah",
+                "distance": "890 м"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Al Majaz Waterfront",
+                "distance": "1,2 км"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Museum of Islamic Civilization",
+                "distance": "1,6 км"
+              }
+            ]
+          },
+          {
+            "id": "top",
+            "title": "Достопримечательности",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Al Noor Mosque",
+                "distance": "1,1 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Sharjah Aquarium",
+                "distance": "1,8 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Heart of Sharjah",
+                "distance": "2,2 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Al Majaz Waterfront",
+                "distance": "2,9 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Museum of Islamic Civilization",
+                "distance": "3,3 км"
+              }
+            ]
+          },
+          {
+            "id": "airports",
+            "title": "Аэропорты",
+            "items": [
+              {
+                "type": "AIRPORT",
+                "name": "Шарджа (SHJ)",
+                "distance": "18,4 км"
+              }
+            ]
+          },
+          {
+            "id": "railways",
+            "title": "Вокзалы",
+            "items": [
+              {
+                "type": "RAILWAY_STATION",
+                "name": "Al Jubail Bus Station",
+                "distance": "1,4 км"
+              }
+            ]
+          }
+        ]
+      },
+      "roomOptions": {
+        "galleryCtaText": "фото",
+        "availabilityTitle": "Доступные варианты",
+        "groups": [
+          {
+            "id": "rg-h-ae-sharjah-2-std",
+            "name": "Двухместный номер Standard",
+            "nameAdditional": "1 большая двуспальная кровать",
+            "alert": "Осталось 2 номера по этой цене",
+            "imageUrl": "/hotels/cdn/photos/picsum_h-ae-sharjah-2_room_1_640_420.jpg",
+            "imageCount": 8,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "18 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Телевизор"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-ae-sharjah-2-std-r1",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Питание не включено",
+                  "isFeature": false
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена",
+                "priceRub": 99094,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-sharjah-2-std-h-ae-sharjah-2-std-r1"
+              },
+              {
+                "id": "h-ae-sharjah-2-std-r2",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена с питанием",
+                "priceRub": 99096,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-sharjah-2-std-h-ae-sharjah-2-std-r2"
+              },
+              {
+                "id": "h-ae-sharjah-2-std-r3",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "priceRub": 115894,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-sharjah-2-std-h-ae-sharjah-2-std-r3"
+              }
+            ]
+          },
+          {
+            "id": "rg-h-ae-sharjah-2-dlx",
+            "name": "Номер Deluxe",
+            "nameAdditional": "1 кровать king-size",
+            "alert": "Высокий спрос на даты",
+            "imageUrl": "/hotels/cdn/photos/picsum_h-ae-sharjah-2_room_2_640_420.jpg",
+            "imageCount": 12,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "24 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-ae-sharjah-2-dlx-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 5 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Карта для гарантии"
+                },
+                "deal": "Популярный вариант",
+                "priceRub": 136221,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 30 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-sharjah-2-dlx-h-ae-sharjah-2-dlx-r1"
+              },
+              {
+                "id": "h-ae-sharjah-2-dlx-r2",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Полупансион",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Списание сразу после брони"
+                },
+                "deal": "Лучшая цена с ужином",
+                "priceRub": 150559,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 30 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-sharjah-2-dlx-h-ae-sharjah-2-dlx-r2"
+              }
+            ]
+          }
+        ]
+      },
+      "aboutBlock": {
+        "title": "Об отеле",
+        "expandText": "Показать полностью",
+        "collapseText": "Свернуть",
+        "sections": [
+          {
+            "title": "Кратко",
+            "paragraphs": [
+              "Al Majaz Bay Hotel расположен в одном из самых удобных районов города Шарджа и подойдёт как для туристических поездок, так и для деловых визитов.",
+              "Это 4-звёздочный объект размещения с современными номерами, стабильным Wi‑Fi и удобным доступом к транспорту и главным достопримечательностям ОАЭ."
+            ]
+          },
+          {
+            "title": "Почему стоит выбрать",
+            "paragraphs": [
+              "Гости чаще всего выбирают этот вариант за удачное расположение, комфортные номера и понятные условия бронирования.",
+              "В отеле предусмотрены разные тарифы: с завтраком и без, с оплатой на месте и онлайн, с бесплатной отменой и невозвратные."
+            ]
+          }
+        ],
+        "facts": [
+          {
+            "label": "Тип размещения",
+            "value": "Отель"
+          },
+          {
+            "label": "Заезд",
+            "value": "с 15:00"
+          },
+          {
+            "label": "Выезд",
+            "value": "до 12:00"
+          },
+          {
+            "label": "Подходит для",
+            "value": "деловых поездок, отдыха вдвоём, семейного отдыха"
+          }
+        ]
+      },
+      "additionalInfoBlock": {
+        "title": "Важно знать",
+        "paragraphs": [
+          "При заселении может потребоваться банковская карта для гарантии дополнительных расходов.",
+          "Туристический налог и местные сборы, если применимо, оплачиваются отдельно по правилам города Шарджа.",
+          "Конкретные условия отмены и оплаты зависят от выбранного тарифа и будут показаны перед подтверждением бронирования."
+        ]
+      },
+      "accommodationBlock": {
+        "title": "Условия размещения",
+        "checkInOut": {
+          "checkIn": "15:00",
+          "checkOut": "12:00",
+          "lateCheckOut": "Поздний выезд по запросу"
+        },
+        "blocks": [
+          {
+            "id": "deposit",
+            "title": "Депозит",
+            "items": [
+              "При заселении может взиматься депозит в размере 100 AED за номер.",
+              "Сумма депозита зависит от категории номера и тарифа."
+            ]
+          },
+          {
+            "id": "children",
+            "title": "Дети и дополнительные кровати",
+            "items": [
+              "Дети до 6 лет могут проживать бесплатно при размещении на имеющихся кроватях.",
+              "Дополнительная кровать предоставляется по запросу и оплачивается отдельно."
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Домашние животные",
+            "items": [
+              "Размещение с питомцами возможно не для всех тарифов. Уточняйте правила перед бронированием."
+            ]
+          }
+        ]
+      },
+      "currencyCode": "AED",
+      "paymentSection": {
+        "payment": {
+          "title": "Оплата",
+          "inHotelTitle": "В отеле",
+          "onSiteTitle": "На сайте",
+          "inHotelItems": [
+            {
+              "type": "text",
+              "text": "Наличными в валюте отеля — AED"
+            },
+            {
+              "type": "cards",
+              "label": "Картой:",
+              "codes": [
+                "visa",
+                "mastercard",
+                "american-express",
+                "dinersclub"
+              ]
+            }
+          ],
+          "onSiteText": "Для некоторых тарифов доступна оплата банковской картой при бронировании на сайте. Можно частично или полностью оплатить бронирование баллами. Можно оплатить бронирование с помощью промокода, если он у вас есть."
+        }
+      },
+      "amenitiesBlock": {
+        "title": "Удобства и услуги",
+        "groups": [
+          {
+            "id": "highlights",
+            "title": "Главное",
+            "icon": "star",
+            "items": [
+              "Бесплатный Wi‑Fi",
+              "Завтрак",
+              "Парковка"
+            ]
+          },
+          {
+            "id": "popular",
+            "title": "Популярные",
+            "icon": "popular",
+            "variant": "popular",
+            "items": [
+              "Бесплатный интернет",
+              "Трансфер",
+              "Бар или ресторан",
+              "Для гостей с ограниченными возможностями",
+              "Разрешено с домашними животными"
+            ]
+          },
+          {
+            "id": "common",
+            "title": "Общее",
+            "icon": "common_info",
+            "items": [
+              "Круглосуточная стойка регистрации",
+              "Лифт",
+              "Обмен валюты",
+              "Отель для некурящих",
+              "Отопление",
+              "Продажа билетов",
+              "Ускоренная регистрация заезда и выезда",
+              "Терраса",
+              "Курение запрещено на всей территории"
+            ]
+          },
+          {
+            "id": "rooms",
+            "title": "В номерах",
+            "icon": "extra_service",
+            "items": [
+              "Номера для некурящих",
+              "Кабельное телевидение",
+              "Телевизор",
+              "Фен",
+              "Душ/Ванна",
+              "Душ",
+              "Шкаф/гардероб",
+              "Постельное белье",
+              "Туалетные принадлежности"
+            ]
+          },
+          {
+            "id": "accessibility",
+            "title": "Доступность",
+            "icon": "disabled_support",
+            "items": [
+              "Удобства для гостей с ограниченными физическими возможностями"
+            ]
+          },
+          {
+            "id": "services",
+            "title": "Услуги и удобства",
+            "icon": "extra_services",
+            "items": [
+              "Услуги консьержа",
+              "Хранение багажа",
+              "Услуга «звонок - будильник»",
+              "Телефон"
+            ]
+          },
+          {
+            "id": "meal",
+            "title": "Питание",
+            "icon": "meal",
+            "items": [
+              "Бар",
+              "Бесплатный чай/кофе",
+              "Завтрак",
+              "Ресторан",
+              "Торговый автомат с закусками/напитками",
+              "Кухня",
+              "Чайник"
+            ]
+          },
+          {
+            "id": "internet",
+            "title": "Интернет",
+            "icon": "internet",
+            "items": [
+              "Бесплатный Wi-Fi",
+              "Доступ в интернет"
+            ]
+          },
+          {
+            "id": "shuttle",
+            "title": "Трансфер",
+            "icon": "shuttle",
+            "items": [
+              {
+                "text": "Трансфер от/до аэропорта",
+                "note": "оплачивается отдельно"
+              },
+              "Заказ такси"
+            ]
+          },
+          {
+            "id": "languages",
+            "title": "Персонал говорит",
+            "icon": "languages",
+            "items": [
+              "на испанском",
+              "на немецком",
+              "на английском",
+              "на итальянском",
+              "на французском",
+              "Мультиязычный персонал",
+              "на португальском",
+              "на арабском"
+            ]
+          },
+          {
+            "id": "tours",
+            "title": "Туризм",
+            "icon": "tours",
+            "items": [
+              "Экскурсионное бюро"
+            ]
+          },
+          {
+            "id": "pool",
+            "title": "Бассейн и пляж",
+            "icon": "pool",
+            "items": [
+              "Полотенца для пляжа/бассейна"
+            ]
+          },
+          {
+            "id": "health",
+            "title": "Красота и здоровье",
+            "icon": "barber_shop",
+            "items": [
+              "Врач",
+              "Аптечка первой помощи"
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Животные",
+            "icon": "pets",
+            "items": [
+              "Размещение с домашними животными"
+            ]
+          },
+          {
+            "id": "anticovid",
+            "title": "Санитарные меры",
+            "icon": "anticovid",
+            "items": [
+              "Температурный контроль для персонала",
+              "Усиленные меры дезинфекции",
+              "Температурный контроль для гостей",
+              "Индивидуальные средства защиты для гостей",
+              "Дополнительные меры против COVID-19"
+            ]
+          }
+        ]
+      },
+      "reviewsBlock": {
+        "title": "Отзывы",
+        "ratingSummary": {
+          "value": 8.5,
+          "totalReviews": 1544,
+          "localLanguageReviews": 38,
+          "basedOnText": "Основано на {TOTAL} отзывах гостей из разных стран.",
+          "localLanguageText": "На вашем языке доступно {LOCAL} отзывов"
+        },
+        "detailedScores": [
+          {
+            "label": "Чистота",
+            "value": 8
+          },
+          {
+            "label": "Средства гигиены"
+          },
+          {
+            "label": "Расположение",
+            "value": 8.7
+          },
+          {
+            "label": "Питание"
+          },
+          {
+            "label": "Цена/Качество",
+            "value": 8.3
+          },
+          {
+            "label": "Номер",
+            "value": 8.1
+          },
+          {
+            "label": "Обслуживание",
+            "value": 8.8
+          },
+          {
+            "label": "Качество Wi‑Fi"
+          }
+        ],
+        "tripadvisor": {
+          "label": "TripAdvisor",
+          "reviews": 1541,
+          "href": "https://www.tripadvisor.com"
+        },
+        "reviews": [
+          {
+            "id": "rv-1",
+            "source": "tripadvisor",
+            "author": "AlexTraveler",
+            "countryCode": "RU",
+            "tripType": "пара",
+            "date": "май 2025 г.",
+            "rating": 5,
+            "title": "Отличное расположение",
+            "text": "Al Majaz Bay Hotel приятно удивил: удобный район, хорошие завтраки и быстрый заезд. До основных точек в Шарджа легко добраться пешком или на метро."
+          },
+          {
+            "id": "rv-2",
+            "source": "tripadvisor",
+            "author": "BusinessGuest",
+            "countryCode": "KZ",
+            "tripType": "деловая поездка",
+            "date": "февраль 2025 г.",
+            "rating": 4,
+            "title": "Подходит для командировок",
+            "text": "Стабильный интернет, удобное рабочее место в номере и вежливый персонал. Для короткой деловой поездки вариант очень удачный."
+          },
+          {
+            "id": "rv-3",
+            "source": "tripadvisor",
+            "author": "FamilyTrip",
+            "countryCode": "BY",
+            "tripType": "семья",
+            "date": "январь 2025 г.",
+            "rating": 5,
+            "title": "Комфортно с детьми",
+            "text": "Чистый номер, хорошие кровати, понятные правила заселения. Особенно понравилось, что рядом есть кафе, магазины и транспорт."
+          }
+        ],
+        "moreLink": {
+          "href": "https://www.tripadvisor.com",
+          "remaining": 1541,
+          "text": "Посмотреть ещё {N} отзывов на TripAdvisor"
+        }
+      },
+      "filters": {
+        "amenitiesHotel": [
+          "conf",
+          "internet",
+          "parking"
+        ],
+        "amenitiesRoom": [],
+        "placement": [
+          "kids"
+        ],
+        "meals": [
+          "breakfastIncluded"
+        ],
+        "paymentAndBooking": [
+          "freeCancellation",
+          "payOnsite"
+        ],
+        "rooms": 1,
+        "bedTypes": [
+          "doubleBed"
+        ]
+      }
+    },
+    {
+      "id": "h-ae-sharjah-3",
+      "cityId": "ae-sharjah",
+      "name": "Heritage Souq Stay",
+      "address": "Heart of Sharjah, Sharjah",
+      "distanceFromCenter": "2.3 км от центра Шарджа",
+      "stars": 4,
+      "rating": 8.4,
+      "reviews": 2122,
+      "priceTotalRub": 76000,
+      "nights": 4,
+      "distanceKm": 0.4,
+      "type": "guest_house",
+      "amenities": [
+        "wifi",
+        "airConditioning"
+      ],
+      "imageUrl": "/hotels/cdn/photos/picsum_h-ae-sharjah-3_main_1200_800.jpg",
+      "images": [
+        "/hotels/cdn/photos/picsum_h-ae-sharjah-3_1_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-sharjah-3_2_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-sharjah-3_3_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-sharjah-3_4_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-sharjah-3_6_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-sharjah-3_8_1200_800.jpg",
+        "/hotels/cdn/photos/picsum_h-ae-sharjah-3_9_1200_800.jpg"
+      ],
+      "offer": {
+        "roomTitle": "Номер Superior",
+        "beds": "двуспальная кровать",
+        "mealPlan": "none",
+        "cancellation": "free",
+        "payment": "online"
+      },
+      "geoBlock": {
+        "title": "Расположение",
+        "address": "Heart of Sharjah, Sharjah",
+        "map": {
+          "lat": 25.352967365782877,
+          "lng": 55.40474191618701,
+          "zoom": 14,
+          "query": "Heart of Sharjah, Sharjah",
+          "tileUrlTemplate": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          "tileAttribution": "© Участники OpenStreetMap"
+        },
+        "poiGroups": [
+          {
+            "id": "nearby",
+            "title": "Что вокруг",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Al Noor Mosque",
+                "distance": "350 м"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Sharjah Aquarium",
+                "distance": "620 м"
+              },
+              {
+                "type": "PARK",
+                "name": "Heart of Sharjah",
+                "distance": "890 м"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Al Majaz Waterfront",
+                "distance": "1,2 км"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Museum of Islamic Civilization",
+                "distance": "1,6 км"
+              }
+            ]
+          },
+          {
+            "id": "top",
+            "title": "Достопримечательности",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Al Noor Mosque",
+                "distance": "1,1 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Sharjah Aquarium",
+                "distance": "1,8 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Heart of Sharjah",
+                "distance": "2,2 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Al Majaz Waterfront",
+                "distance": "2,9 км"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Museum of Islamic Civilization",
+                "distance": "3,3 км"
+              }
+            ]
+          },
+          {
+            "id": "airports",
+            "title": "Аэропорты",
+            "items": [
+              {
+                "type": "AIRPORT",
+                "name": "Шарджа (SHJ)",
+                "distance": "18,4 км"
+              }
+            ]
+          },
+          {
+            "id": "railways",
+            "title": "Вокзалы",
+            "items": [
+              {
+                "type": "RAILWAY_STATION",
+                "name": "Al Jubail Bus Station",
+                "distance": "1,4 км"
+              }
+            ]
+          }
+        ]
+      },
+      "roomOptions": {
+        "galleryCtaText": "фото",
+        "availabilityTitle": "Доступные варианты",
+        "groups": [
+          {
+            "id": "rg-h-ae-sharjah-3-std",
+            "name": "Двухместный номер Standard",
+            "nameAdditional": "1 большая двуспальная кровать",
+            "alert": "Осталось 2 номера по этой цене",
+            "imageUrl": "/hotels/cdn/photos/picsum_h-ae-sharjah-3_room_1_640_420.jpg",
+            "imageCount": 8,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "18 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Телевизор"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-ae-sharjah-3-std-r1",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Питание не включено",
+                  "isFeature": false
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена",
+                "priceRub": 87649,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-sharjah-3-std-h-ae-sharjah-3-std-r1"
+              },
+              {
+                "id": "h-ae-sharjah-3-std-r2",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена с питанием",
+                "priceRub": 106273,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-sharjah-3-std-h-ae-sharjah-3-std-r2"
+              },
+              {
+                "id": "h-ae-sharjah-3-std-r3",
+                "bedText": "2 односпальные кровати",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "priceRub": 97166,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 25 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-sharjah-3-std-h-ae-sharjah-3-std-r3"
+              }
+            ]
+          },
+          {
+            "id": "rg-h-ae-sharjah-3-dlx",
+            "name": "Номер Deluxe",
+            "nameAdditional": "1 кровать king-size",
+            "alert": "Высокий спрос на даты",
+            "imageUrl": "/hotels/cdn/photos/picsum_h-ae-sharjah-3_room_2_640_420.jpg",
+            "imageCount": 12,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "24 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-ae-sharjah-3-dlx-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 5 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Карта для гарантии"
+                },
+                "deal": "Популярный вариант",
+                "priceRub": 128357,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 30 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-sharjah-3-dlx-h-ae-sharjah-3-dlx-r1"
+              },
+              {
+                "id": "h-ae-sharjah-3-dlx-r2",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Полупансион",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Списание сразу после брони"
+                },
+                "deal": "Лучшая цена с ужином",
+                "priceRub": 150518,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 30 AED налоги и сборы",
+                "bookUrl": "/orders/reserve/rg-h-ae-sharjah-3-dlx-h-ae-sharjah-3-dlx-r2"
+              }
+            ]
+          }
+        ]
+      },
+      "aboutBlock": {
+        "title": "Об отеле",
+        "expandText": "Показать полностью",
+        "collapseText": "Свернуть",
+        "sections": [
+          {
+            "title": "Кратко",
+            "paragraphs": [
+              "Heritage Souq Stay расположен в одном из самых удобных районов города Шарджа и подойдёт как для туристических поездок, так и для деловых визитов.",
+              "Это 4-звёздочный объект размещения с современными номерами, стабильным Wi‑Fi и удобным доступом к транспорту и главным достопримечательностям ОАЭ."
+            ]
+          },
+          {
+            "title": "Почему стоит выбрать",
+            "paragraphs": [
+              "Гости чаще всего выбирают этот вариант за удачное расположение, комфортные номера и понятные условия бронирования.",
+              "В отеле предусмотрены разные тарифы: с завтраком и без, с оплатой на месте и онлайн, с бесплатной отменой и невозвратные."
+            ]
+          }
+        ],
+        "facts": [
+          {
+            "label": "Тип размещения",
+            "value": "Отель"
+          },
+          {
+            "label": "Заезд",
+            "value": "с 15:00"
+          },
+          {
+            "label": "Выезд",
+            "value": "до 12:00"
+          },
+          {
+            "label": "Подходит для",
+            "value": "деловых поездок, отдыха вдвоём, семейного отдыха"
+          }
+        ]
+      },
+      "additionalInfoBlock": {
+        "title": "Важно знать",
+        "paragraphs": [
+          "При заселении может потребоваться банковская карта для гарантии дополнительных расходов.",
+          "Туристический налог и местные сборы, если применимо, оплачиваются отдельно по правилам города Шарджа.",
+          "Конкретные условия отмены и оплаты зависят от выбранного тарифа и будут показаны перед подтверждением бронирования."
+        ]
+      },
+      "accommodationBlock": {
+        "title": "Условия размещения",
+        "checkInOut": {
+          "checkIn": "15:00",
+          "checkOut": "12:00",
+          "lateCheckOut": "Поздний выезд по запросу"
+        },
+        "blocks": [
+          {
+            "id": "deposit",
+            "title": "Депозит",
+            "items": [
+              "При заселении может взиматься депозит в размере 100 AED за номер.",
+              "Сумма депозита зависит от категории номера и тарифа."
+            ]
+          },
+          {
+            "id": "children",
+            "title": "Дети и дополнительные кровати",
+            "items": [
+              "Дети до 6 лет могут проживать бесплатно при размещении на имеющихся кроватях.",
+              "Дополнительная кровать предоставляется по запросу и оплачивается отдельно."
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Домашние животные",
+            "items": [
+              "Размещение с питомцами возможно не для всех тарифов. Уточняйте правила перед бронированием."
+            ]
+          }
+        ]
+      },
+      "currencyCode": "AED",
+      "paymentSection": {
+        "payment": {
+          "title": "Оплата",
+          "inHotelTitle": "В отеле",
+          "onSiteTitle": "На сайте",
+          "inHotelItems": [
+            {
+              "type": "text",
+              "text": "Наличными в валюте отеля — AED"
+            },
+            {
+              "type": "cards",
+              "label": "Картой:",
+              "codes": [
+                "visa",
+                "mastercard",
+                "american-express",
+                "dinersclub"
+              ]
+            }
+          ],
+          "onSiteText": "Для некоторых тарифов доступна оплата банковской картой при бронировании на сайте. Можно частично или полностью оплатить бронирование баллами. Можно оплатить бронирование с помощью промокода, если он у вас есть."
+        }
+      },
+      "amenitiesBlock": {
+        "title": "Удобства и услуги",
+        "groups": [
+          {
+            "id": "highlights",
+            "title": "Главное",
+            "icon": "star",
+            "items": [
+              "Бесплатный Wi‑Fi",
+              "Кондиционер"
+            ]
+          },
+          {
+            "id": "popular",
+            "title": "Популярные",
+            "icon": "popular",
+            "variant": "popular",
+            "items": [
+              "Бесплатный интернет",
+              "Трансфер",
+              "Бар или ресторан",
+              "Для гостей с ограниченными возможностями",
+              "Разрешено с домашними животными"
+            ]
+          },
+          {
+            "id": "common",
+            "title": "Общее",
+            "icon": "common_info",
+            "items": [
+              "Круглосуточная стойка регистрации",
+              "Лифт",
+              "Обмен валюты",
+              "Отель для некурящих",
+              "Отопление",
+              "Продажа билетов",
+              "Ускоренная регистрация заезда и выезда",
+              "Терраса",
+              "Курение запрещено на всей территории"
+            ]
+          },
+          {
+            "id": "rooms",
+            "title": "В номерах",
+            "icon": "extra_service",
+            "items": [
+              "Номера для некурящих",
+              "Кабельное телевидение",
+              "Телевизор",
+              "Фен",
+              "Душ/Ванна",
+              "Душ",
+              "Шкаф/гардероб",
+              "Постельное белье",
+              "Туалетные принадлежности"
+            ]
+          },
+          {
+            "id": "accessibility",
+            "title": "Доступность",
+            "icon": "disabled_support",
+            "items": [
+              "Удобства для гостей с ограниченными физическими возможностями"
+            ]
+          },
+          {
+            "id": "services",
+            "title": "Услуги и удобства",
+            "icon": "extra_services",
+            "items": [
+              "Услуги консьержа",
+              "Хранение багажа",
+              "Услуга «звонок - будильник»",
+              "Телефон"
+            ]
+          },
+          {
+            "id": "meal",
+            "title": "Питание",
+            "icon": "meal",
+            "items": [
+              "Бар",
+              "Бесплатный чай/кофе",
+              "Завтрак",
+              "Ресторан",
+              "Торговый автомат с закусками/напитками",
+              "Кухня",
+              "Чайник"
+            ]
+          },
+          {
+            "id": "internet",
+            "title": "Интернет",
+            "icon": "internet",
+            "items": [
+              "Бесплатный Wi-Fi",
+              "Доступ в интернет"
+            ]
+          },
+          {
+            "id": "shuttle",
+            "title": "Трансфер",
+            "icon": "shuttle",
+            "items": [
+              {
+                "text": "Трансфер от/до аэропорта",
+                "note": "оплачивается отдельно"
+              },
+              "Заказ такси"
+            ]
+          },
+          {
+            "id": "languages",
+            "title": "Персонал говорит",
+            "icon": "languages",
+            "items": [
+              "на испанском",
+              "на немецком",
+              "на английском",
+              "на итальянском",
+              "на французском",
+              "Мультиязычный персонал",
+              "на португальском",
+              "на арабском"
+            ]
+          },
+          {
+            "id": "tours",
+            "title": "Туризм",
+            "icon": "tours",
+            "items": [
+              "Экскурсионное бюро"
+            ]
+          },
+          {
+            "id": "pool",
+            "title": "Бассейн и пляж",
+            "icon": "pool",
+            "items": [
+              "Полотенца для пляжа/бассейна"
+            ]
+          },
+          {
+            "id": "health",
+            "title": "Красота и здоровье",
+            "icon": "barber_shop",
+            "items": [
+              "Врач",
+              "Аптечка первой помощи"
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Животные",
+            "icon": "pets",
+            "items": [
+              "Размещение с домашними животными"
+            ]
+          },
+          {
+            "id": "anticovid",
+            "title": "Санитарные меры",
+            "icon": "anticovid",
+            "items": [
+              "Температурный контроль для персонала",
+              "Усиленные меры дезинфекции",
+              "Температурный контроль для гостей",
+              "Индивидуальные средства защиты для гостей",
+              "Дополнительные меры против COVID-19"
+            ]
+          }
+        ]
+      },
+      "reviewsBlock": {
+        "title": "Отзывы",
+        "ratingSummary": {
+          "value": 8.4,
+          "totalReviews": 2122,
+          "localLanguageReviews": 53,
+          "basedOnText": "Основано на {TOTAL} отзывах гостей из разных стран.",
+          "localLanguageText": "На вашем языке доступно {LOCAL} отзывов"
+        },
+        "detailedScores": [
+          {
+            "label": "Чистота",
+            "value": 8.5
+          },
+          {
+            "label": "Средства гигиены"
+          },
+          {
+            "label": "Расположение",
+            "value": 7.7
+          },
+          {
+            "label": "Питание"
+          },
+          {
+            "label": "Цена/Качество",
+            "value": 7.7
+          },
+          {
+            "label": "Номер",
+            "value": 8.4
+          },
+          {
+            "label": "Обслуживание",
+            "value": 7.9
+          },
+          {
+            "label": "Качество Wi‑Fi"
+          }
+        ],
+        "tripadvisor": {
+          "label": "TripAdvisor",
+          "reviews": 2119,
+          "href": "https://www.tripadvisor.com"
+        },
+        "reviews": [
+          {
+            "id": "rv-1",
+            "source": "tripadvisor",
+            "author": "AlexTraveler",
+            "countryCode": "RU",
+            "tripType": "пара",
+            "date": "май 2025 г.",
+            "rating": 5,
+            "title": "Отличное расположение",
+            "text": "Heritage Souq Stay приятно удивил: удобный район, хорошие завтраки и быстрый заезд. До основных точек в Шарджа легко добраться пешком или на метро."
+          },
+          {
+            "id": "rv-2",
+            "source": "tripadvisor",
+            "author": "BusinessGuest",
+            "countryCode": "KZ",
+            "tripType": "деловая поездка",
+            "date": "февраль 2025 г.",
+            "rating": 4,
+            "title": "Подходит для командировок",
+            "text": "Стабильный интернет, удобное рабочее место в номере и вежливый персонал. Для короткой деловой поездки вариант очень удачный."
+          },
+          {
+            "id": "rv-3",
+            "source": "tripadvisor",
+            "author": "FamilyTrip",
+            "countryCode": "BY",
+            "tripType": "семья",
+            "date": "январь 2025 г.",
+            "rating": 5,
+            "title": "Комфортно с детьми",
+            "text": "Чистый номер, хорошие кровати, понятные правила заселения. Особенно понравилось, что рядом есть кафе, магазины и транспорт."
+          }
+        ],
+        "moreLink": {
+          "href": "https://www.tripadvisor.com",
+          "remaining": 2119,
+          "text": "Посмотреть ещё {N} отзывов на TripAdvisor"
+        }
+      },
+      "filters": {
+        "amenitiesHotel": [
+          "conf",
+          "internet"
+        ],
+        "amenitiesRoom": [],
+        "placement": [
+          "kids"
+        ],
+        "meals": [],
+        "paymentAndBooking": [
+          "freeCancellation",
+          "payOnsite"
+        ],
+        "rooms": 1,
+        "bedTypes": [
+          "doubleBed"
+        ]
+      }
+    }
+  ],
+  "version": 2
+}

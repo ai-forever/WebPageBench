@@ -1,0 +1,42 @@
+{
+  "test_data": {
+    "login_data": {
+      "login": "bench@example.com",
+      "password": "bench123",
+      "phone": "9150000000",
+      "email": "bench@example.com"
+    },
+    "bench_first_domain": "shop",
+    "bench_first_state": "state_shop_main",
+    "task": "На %HOST% в «Маркете» найди смартфон Google Pixel 9 Pro XL на 128 ГБ в серого цвета и добавь в корзину.",
+    "conditions": [
+      {
+        "event_name": "basket_add",
+        "parameters": {
+          "item_id": "item_1864018295",
+          "amount": 1
+        }
+      }
+    ],
+    "ui_taxonomy": {
+      "primary": "BASKET",
+      "classes": [
+        "BASKET"
+      ],
+      "subtypes": [
+        "nav_product_card"
+      ]
+    },
+    "ui_variants": {
+      "text_search": "outlined"
+    },
+    "ui_variant_profile": "shop_search_outlined"
+  },
+  "domain_configs": {
+    "shop": {
+      "ui_variants": {
+        "text_search": "outlined"
+      }
+    }
+  }
+}

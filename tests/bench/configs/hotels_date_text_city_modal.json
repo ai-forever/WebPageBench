@@ -1,0 +1,13 @@
+{
+  "profile_id": "hotels_date_text_city_modal",
+  "description": "Отели: ввод дат строкой + autocomplete города + compact select гостей",
+  "domain_configs": {
+    "hotels": {
+      "ui_variants": {
+        "date": "text_input",
+        "select_city": "autocomplete",
+        "counter_guests": "compact_select"
+      }
+    }
+  }
+}

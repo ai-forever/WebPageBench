@@ -1,0 +1,1254 @@
+/* RAIL Main Styles — Roboto via assets/roboto.css */
+
+.bench-rail {
+  --rail-red: #e21a1a;
+  --rail-gray: #333333;
+  --rail-light-gray2: #767d89;
+  --rail-light-gray: #e9eaed;
+  --rail-border: #e0e0e0;
+  --rail-dark-gray: #d9dbdf;
+  --rail-dark-gray2: #464a53;
+  --rail-text: #1a1a1a;
+  --rail-text-muted: #666;
+  --rail-content-width: 1330px;
+  
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  background: var(--rail-gray);
+  min-height: 100vh;
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--rail-text);
+  /* Needed so the login overlay can be positioned relative to the page,
+     allowing normal page scrolling while the dialog is open. */
+  position: relative;
+}
+
+.bench-rail *, .bench-rail *::before, .bench-rail *::after {
+  box-sizing: border-box;
+}
+
+/* Header */
+.bench-rail .rail-header {
+  background: #fff;
+}
+
+.bench-rail .header-inner {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+}
+
+.bench-rail .logo-link {
+  flex-shrink: 0;
+  background: var(--rail-red);
+  display: flex;
+  align-items: center;
+  height: 56px;
+  width: 105px;
+  justify-content: center;
+}
+
+.bench-rail .logo-img {
+  width: auto;
+}
+
+.bench-rail .main-nav {
+  display: flex;
+  gap: 24px;
+  margin-left: 15px;
+  flex: 1;
+}
+
+.bench-rail .main-nav a {
+  color: var(--rail-text);
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.bench-rail .main-nav a:hover,
+.bench-rail .main-nav a.active {
+  color: var(--rail-red);
+}
+
+.bench-rail .header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-right: 15px;
+}
+
+.bench-rail .header-right a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--rail-text);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.bench-rail .header-right a:hover {
+  color: var(--rail-red);
+}
+
+.bench-rail .hero {
+  background: var(--rail-gray);
+  padding: 32px 20px 110px;
+}
+
+.bench-rail .hero-inner {
+  max-width: var(--rail-content-width);
+  margin: 0 auto;
+}
+
+.bench-rail .hero-title {
+  line-height: normal;
+  font-size: 28px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  color: #fff;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  font-family: 'RussianRail G Pro Extended', Arial, Helvetica, sans-serif;
+}
+
+.bench-rail .hero-title .red {
+  color: white;
+  background-color: var(--rail-red);
+  padding: 2px 7px 0 2px;
+}
+
+.bench-rail .hero-title .icon {
+  background: var(--rail-red);
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Search Widget */
+.bench-rail .search-widget {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+.bench-rail .widget-tabs {
+  display: flex;
+  border-bottom: 1px solid var(--rail-border);
+}
+
+.bench-rail .widget-tabs button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 18px 12px;
+  border: none;
+  background: none;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #555;
+  cursor: pointer;
+  font-family: 'RussianRail G Pro Extended', Arial, Helvetica, sans-serif;
+}
+
+.bench-rail .widget-tabs button.active {
+  background: var(--rail-red);
+  color: #fff;
+  font-weight: 700;
+}
+
+.bench-rail .search-form {
+  display: flex;
+  align-items: stretch;
+}
+
+.bench-rail .form-field {
+  flex: 1;
+  padding: 0px 2px;
+  border-right: 1px solid var(--rail-border);
+  position: relative;
+}
+
+.bench-rail .form-field:last-child {
+  border-right: none;
+}
+
+.bench-rail .form-field.station {
+  flex: 1.5;
+}
+
+.bench-rail .form-field input {
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  font-family: inherit;
+  outline: none;
+  background: transparent;
+  font-weight: 500;
+}
+
+.bench-rail .form-field input::placeholder {
+  color: #aaa;
+  opacity: 1;
+}
+
+.bench-rail .passengers-field {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 6px 20px;
+  border-right: 1px solid var(--rail-border);
+  color: #000;
+}
+
+.bench-rail .passengers-field select {
+  border: none;
+  font-size: 16px;
+  font-family: inherit;
+  background: transparent;
+  outline: none;
+  appearance: none;
+}
+
+/* Announcements */
+.bench-rail .announcements {
+  background: #fff;
+  padding: 20px 0 12px 20px;
+  max-width: var(--rail-content-width);
+  margin: 0 auto;
+  margin-top: -60px; 
+  margin-bottom: 50px;
+}
+
+.bench-rail .announcement {
+  margin-bottom: 18px;
+  font-size: 16px;
+  color: #000;
+  text-indent: 0px;
+  font-weight: 600;
+}
+
+.bench-rail .announcement:last-child {
+  margin-bottom: 0;
+}
+
+.bench-rail .announcement a {
+  color: var(--rail-red);
+  text-decoration: none;
+}
+
+.bench-rail .announcement a:hover {
+  text-decoration: underline;
+}
+
+/* Cards Section */
+.bench-rail .cards-section {
+  background: var(--rail-light-gray);
+  padding: 20px 0 15px;
+}
+
+.bench-rail .cards-inner {
+  max-width: var(--rail-content-width);
+  margin: 0 auto;
+}
+
+.bench-rail .cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.bench-rail .cards-grid.first-row {
+  margin-bottom: 20px;
+}
+
+/* Info Card */
+.bench-rail .info-card {
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.bench-rail .card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  flex-shrink: 0;
+}
+
+.bench-rail .card-head h3 {
+  font-size: 25px;
+  font-weight: 400;
+  margin: 0;
+  color: var(--rail-text);
+  font-family: 'RussianRail G Pro Extended', Arial, Helvetica, sans-serif;
+}
+
+.bench-rail .card-head .arrow {
+  color: var(--rail-text-muted);
+}
+
+.bench-rail .card-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: auto;
+}
+
+.bench-rail .card-links li {
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid var(--rail-border);
+}
+
+.bench-rail .card-links a {
+  color: var(--rail-light-gray2);
+  text-decoration: none;
+  font-size: 16px;
+}
+.bench-rail .card-links li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.bench-rail .card-links a:hover {
+  color: var(--rail-red);
+}
+
+/* Support Card */
+.bench-rail .support-card .phone {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--rail-light-gray2);
+  margin-bottom: 4px;
+}
+
+.bench-rail .support-card .phone-hint {
+  font-size: 16px;
+  color: var(--rail-light-gray2);
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--rail-border);
+}
+
+.bench-rail .support-card .email {
+  color: var(--rail-light-gray2);
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.bench-rail .support-card .email:hover {
+  text-decoration: underline;
+}
+
+.bench-rail .support-card .email-hint {
+  font-size: 16px;
+  color: var(--rail-light-gray2);
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--rail-border);
+}
+
+.bench-rail .support-card .svo-link {
+  color: var(--rail-light-gray2);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+/* Promo Card */
+.bench-rail .promo-card {
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  overflow: hidden;
+  min-height: 200px;
+  position: relative;
+}
+
+.bench-rail .promo-card .overlay {
+  background: linear-gradient(135deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.25) 100%);
+  padding: 20px 30px;
+  height: 100%;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bench-rail .promo-card .card-head h3 {
+  color: #fff;
+  font-weight: 500;
+}
+
+.bench-rail .promo-card .card-head .arrow {
+  color: #fff;
+}
+
+.bench-rail .promo-card .promo-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bench-rail .promo-card .promo-links li {
+  color: #fff;
+  font-size: 16px;
+  padding-bottom: 8px;
+  margin-bottom: 3px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.bench-rail .promo-card .promo-links li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.bench-rail .promo-card .promo-links .underline {
+  text-decoration: underline;
+}
+
+.bench-rail .promo-card .promo-text {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.bench-rail .promo-card .promo-link {
+  color: #fff;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+/* Info Section (Перед поездкой, В поезде, После поездки) */
+.bench-rail .info-section {
+  background: var(--rail-dark-gray);
+  padding: 30px 0;
+}
+
+.bench-rail .info-section-inner {
+  max-width: var(--rail-content-width);
+  margin: 0 auto;
+}
+
+.bench-rail .info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.bench-rail .info-block {
+  background: var(--rail-light-gray2);
+  border-radius: 4px;
+  padding: 23px 32px;
+  position: relative;
+  color: #fff;
+}
+
+.bench-rail .info-block h3 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0 0 10px;
+  font-family: 'RussianRail G Pro Extended', Arial, Helvetica, sans-serif;
+}
+
+.bench-rail .info-block p {
+  font-size: 16px;
+  margin: 0 0 0px;
+  text-indent: 0;
+  color: #ddd;
+}
+
+.bench-rail .info-block .phone-row {
+  margin: -5px 0 0px;
+}
+
+.bench-rail .info-block .hint {
+  font-size: 16px;
+  margin: 0 0 0px;
+}
+
+.bench-rail .info-block .arrow-icon {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  color: #ddd;
+}
+
+/* Promo Section */
+.bench-rail .promo-section {
+  background: var(--rail-light-gray);
+  padding: 15px 20px 20px;
+}
+
+.bench-rail .promo-section-inner {
+  max-width: var(--rail-content-width);
+  margin: 0 auto;
+}
+
+.bench-rail .promo-grid {
+  display: grid;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.bench-rail .promo-grid:last-child {
+  margin-bottom: 0;
+}
+
+.bench-rail .promo-grid.row1 {
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.bench-rail .promo-grid.row2 {
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
+.bench-rail .promo-card.large .overlay,
+.bench-rail .promo-card.wide .overlay {
+  min-height: 240px;
+}
+
+.bench-rail .promo-card.medium .overlay,
+.bench-rail .promo-card.small .overlay {
+  min-height: 240px;
+}
+
+.bench-rail .promo-card .card-bottom {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bench-rail .promo-card .bottom-text {
+  color: rgba(255,255,255,0.8);
+  font-size: 11px;
+  letter-spacing: 0.5px;
+}
+
+/* Footer */
+.bench-rail .rail-footer {
+  background-color: #3c3c3c;
+  color: #9e9e9e;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.bench-rail .rail-footer .phone-number,
+.bench-rail .rail-footer .email-link,
+.bench-rail .rail-footer .app-title,
+.bench-rail .rail-footer .footer-col h4 {
+  font-family: 'RussianRail G Pro Extended', Arial, Helvetica, sans-serif;
+}
+
+.bench-rail .rail-footer .footer-top-section {
+  background-color: var(--rail-dark-gray2);
+  padding: 40px 0;
+}
+
+.bench-rail .rail-footer .footer-contact-area {
+  max-width: var(--rail-content-width);
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 40px;
+  border-bottom: 1px solid var(--rail-light-gray2);
+}
+
+.bench-rail .rail-footer .footer-contact-left {
+  display: flex;
+  gap: 40px;
+  align-items: start;
+}
+
+.bench-rail .rail-footer .footer-app-section {
+  max-width: var(--rail-content-width);
+  margin: 0 auto;
+  padding: 0 20px;
+  border-bottom: 1px solid var(--rail-light-gray2);
+}
+
+.bench-rail .rail-footer .contact-phones {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bench-rail .rail-footer .phone-block {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.bench-rail .rail-footer .phone-number {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+
+.bench-rail .rail-footer .phone-number:hover {
+  color: #e21a1a;
+}
+
+.bench-rail .rail-footer .phone-desc {
+  color: #9e9e9e;
+  font-size: 12px;
+  line-height: 1.4;
+  margin: 0;
+  text-indent: 0;
+}
+
+.bench-rail .rail-footer .mobile-app-section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bench-rail .rail-footer .app-title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0 0 20px 0;
+}
+
+.bench-rail .rail-footer .phone-image {
+  max-width: 180px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.bench-rail .rail-footer .email-stores-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+.bench-rail .rail-footer .email-block {
+  text-align: right;
+}
+
+.bench-rail .rail-footer .email-link {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.bench-rail .rail-footer .email-link:hover {
+  color: #e21a1a;
+}
+
+.bench-rail .rail-footer .email-desc {
+  color: #9e9e9e;
+  font-size: 11px;
+  line-height: 1.5;
+  margin: 6px 0 0 0;
+  text-align: right;
+}
+
+.bench-rail .rail-footer .app-stores {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bench-rail .rail-footer .stores-row {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.bench-rail .rail-footer .store-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #4a4a4a;
+  border-radius: 8px;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background 0.2s;
+  height: 44px;
+  min-width: 130px;
+}
+
+.bench-rail .rail-footer .store-btn:hover {
+  background: #5a5a5a;
+}
+
+.bench-rail .rail-footer .store-btn img {
+  height: 28px;
+  width: auto;
+  object-fit: contain;
+}
+
+.bench-rail .rail-footer .footer-main {
+  background-color: var(--rail-dark-gray2);
+  padding: 40px 0;
+  border-bottom: 1px solid var(--rail-light-gray2);
+}
+
+.bench-rail .rail-footer .footer-inner {
+  max-width: var(--rail-content-width);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.bench-rail .rail-footer .footer-app-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 250px;
+  margin-top: -50px;
+}
+
+.bench-rail .rail-footer .app-title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.bench-rail .rail-footer .footer-columns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.bench-rail .rail-footer .footer-col h4 {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0 0 16px 0;
+  letter-spacing: 0.5px;
+}
+
+.bench-rail .rail-footer .footer-col h4.sub-header {
+  margin-top: 20px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.bench-rail .rail-footer .footer-col h4.sub-header:hover {
+  color: #e21a1a;
+}
+
+.bench-rail .rail-footer .footer-col h4.sub-header.small {
+  line-height: 1.4;
+}
+
+.bench-rail .rail-footer .footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bench-rail .rail-footer .footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.bench-rail .rail-footer .footer-col ul li a {
+  color: #9e9e9e;
+  font-size: 13px;
+  text-decoration: none;
+  transition: color 0.2s;
+  line-height: 1.4;
+}
+
+.bench-rail .rail-footer .footer-col ul li a:hover {
+  color: #fff;
+}
+
+.bench-rail .rail-footer .footer-col ul.policies {
+  margin-top: 20px;
+}
+
+.bench-rail .rail-footer .footer-col ul.policies li a {
+  font-size: 11px;
+  color: #777;
+}
+
+.bench-rail .rail-footer .footer-bottom {
+  background-color: var(--rail-dark-gray2);
+  padding: 20px 0 30px;
+}
+
+.bench-rail .rail-footer .footer-bottom-inner {
+  max-width: var(--rail-content-width);
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: var(--rail-light-gray2);
+}
+
+.bench-rail .rail-footer .copyright p {
+  margin: 0;
+}
+
+.bench-rail .rail-footer .legal-info {
+  text-align: center;
+}
+
+.bench-rail .rail-footer .legal-info p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.bench-rail .rail-footer .social-links {
+  display: flex;
+  gap: 12px;
+}
+
+.bench-rail .rail-footer .social-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.bench-rail .rail-footer .social-icon:hover {
+  background: #e21a1a;
+}
+
+@media (max-width: 1024px) {
+  .bench-rail .rail-footer .footer-contact-area {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .bench-rail .rail-footer .footer-contact-left {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .bench-rail .rail-footer .contact-phones {
+    align-items: center;
+  }
+
+  .bench-rail .rail-footer .email-stores-section {
+    align-items: center;
+  }
+
+  .bench-rail .rail-footer .email-block {
+    text-align: center;
+  }
+
+  .bench-rail .rail-footer .email-desc {
+    text-align: center;
+  }
+
+  .bench-rail .rail-footer .stores-row {
+    justify-content: center;
+  }
+
+  .bench-rail .rail-footer .footer-columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .bench-rail .rail-footer .footer-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .bench-rail .rail-footer .footer-bottom-inner {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+}
+
+/* Cookie Notice */
+.bench-rail .cookie-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(77,77,77,0.95);
+  color: #fff;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 200;
+}
+
+.bench-rail .cookie-bar p {
+  font-size: 13px;
+  margin: 0;
+  flex: 1;
+}
+
+.bench-rail .cookie-bar a {
+  color: #89c4ff;
+}
+
+.bench-rail .cookie-bar button {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 28px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.bench-rail .cookie-bar button:hover {
+  background: #fff;
+  color: var(--rail-gray);
+}
+
+/* Loading */
+.bench-rail .loading-box {
+  background: var(--rail-light-gray);
+  display: flex;
+  justify-content: center;
+  padding: 80px 20px;
+}
+
+/* RAIL-only app shell styling.
+   Uses :has(.bench-rail) to scope global Vuetify layout elements to this mock only. */
+.v-application__wrap:has(.bench-rail) {
+  background: #333333;
+}
+
+/* Search page should have a light app-shell background, without affecting other RAIL pages */
+.v-application__wrap:has(.bench-rail.rail-gray-bg) {
+  background: #e9eaed;
+}
+
+main.v-main:has(.bench-rail) {
+  width: 100%;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Login Dialog */
+.bench-rail .rail-login-overlay {
+  /* Attach overlay to the document flow (scrolls with the page),
+     instead of pinning it to the viewport. */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 1000;
+  /* No inner scrolling; scrolling remains on the page itself. */
+  padding: clamp(16px, 180px, 180px) 16px 48px;
+}
+
+.bench-rail .rail-login-card {
+  background: #fff;
+  border-radius: 0;
+  width: 100%;
+  max-width: 656px;
+  background: transparent;
+}
+
+.bench-rail .rail-login-tabs {
+  display: flex;
+  border-bottom: 1px solid var(--rail-border);
+  background: transparent;
+}
+
+.bench-rail .rail-login-tab {
+  flex: 1;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #fff;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+  background: transparent;
+  font-family: 'RussianRail G Pro Extended', Arial, Helvetica, sans-serif;
+}
+
+.bench-rail .rail-login-tab.active {
+  color: var(--rail-red);
+  background: white;
+}
+
+.bench-rail .rail-login-form {
+  padding: 25px 30px 30px 30px;
+  background: white;
+}
+
+.bench-rail .rail-login-error {
+  background: #fdecea;
+  color: #c62828;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  border-left: 3px solid #c62828;
+}
+
+.bench-rail .rail-form-row {
+  display: flex;
+  gap: 16px;
+  padding-bottom: 15px;
+}
+
+.bench-rail .rail-form-row.single {
+  max-width: 50%;
+}
+
+.bench-rail .rail-form-field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.bench-rail .rail-form-field label {
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 4px;
+}
+
+.bench-rail .rail-form-field label .required {
+  color: var(--rail-red);
+  margin-left: 2px;
+}
+
+.bench-rail .rail-form-field label .hint-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background: #aaa;
+  color: #fff;
+  font-size: 12px;
+  margin-left: 4px;
+  cursor: help;
+}
+
+.bench-rail .rail-form-field input {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  font-size: 16px;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.bench-rail .rail-form-field input:focus {
+  border-color: var(--rail-red);
+}
+
+.bench-rail .rail-form-field input::placeholder {
+  color: #aaa;
+}
+
+.bench-rail .rail-form-field .forgot-link {
+  font-size: 12px;
+  color: var(--rail-red);
+  text-decoration: none;
+  margin-top: 6px;
+}
+
+.bench-rail .rail-form-field .forgot-link:hover {
+  text-decoration: underline;
+}
+
+.bench-rail .rail-separator {
+  height: 1px;
+  background: var(--rail-border);
+  margin: 16px 0;
+}
+
+.bench-rail .rail-checkbox-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 20px 0
+}
+
+.bench-rail .rail-checkbox-row input[type="checkbox"] {
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+.bench-rail .rail-checkbox-row label {
+  font-size: 14px;
+  color: #000;
+  line-height: 1.4;
+}
+
+.bench-rail .rail-checkbox-row label a {
+  color: var(--rail-red);
+  text-decoration: none;
+}
+
+.bench-rail .rail-checkbox-row label a:hover {
+  text-decoration: underline;
+}
+
+.bench-rail .rail-checkbox-row label .required {
+  color: var(--rail-red);
+}
+
+.bench-rail .rail-captcha-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.bench-rail .rail-captcha-row .captcha-field {
+  flex: 0 0 200px;
+}
+
+.bench-rail .rail-captcha-row .captcha-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bench-rail .rail-captcha-row .captcha-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: none;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.bench-rail .rail-captcha-row .captcha-btn:hover {
+  color: var(--rail-red);
+}
+
+.bench-rail .rail-captcha-row .captcha-btn span {
+  font-size: 12px;
+}
+
+.bench-rail .rail-captcha-row .captcha-image {
+  background: linear-gradient(135deg, #f0f0f0 0%, #e0e0e0 100%);
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+}
+
+.bench-rail .rail-captcha-row .captcha-text {
+  font-family: 'Courier New', monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  letter-spacing: 4px;
+  text-decoration: line-through;
+}
+
+.bench-rail .rail-legal-text {
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #E0E0E0;
+  padding-bottom: 30px;
+}
+
+.bench-rail .rail-legal-text p {
+  margin: 0 0 20px;
+  text-indent: 0;
+}
+
+.bench-rail .rail-legal-text ul {
+  margin: 0 0 8px;
+  padding-left: 20px;
+}
+
+.bench-rail .rail-legal-text li {
+  margin-bottom: 40px;
+}
+
+.bench-rail .rail-legal-text a {
+  color: var(--rail-red);
+  text-decoration: none;
+}
+
+.bench-rail .rail-legal-text a:hover {
+  text-decoration: underline;
+}
+
+.bench-rail .rail-dialog-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 20px;
+  width: 100%;
+  font-family: 'RussianRail G Pro Extended', Arial, Helvetica, sans-serif;
+}
+
+.bench-rail .rail-dialog-actions .btn-cancel {
+  flex: 0 0 calc(50% - 6px);
+  padding: 15px 32px;
+  background: #f3f3f3;
+  color: var(--rail-red);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.bench-rail .rail-dialog-actions .btn-cancel:hover {
+  border-color: #999;
+  color: #333;
+}
+
+.bench-rail .rail-dialog-actions .btn-submit {
+  flex: 0 0 calc(50% - 6px);
+  padding: 12px 32px;
+  background: var(--rail-red);
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.bench-rail .rail-dialog-actions .btn-submit:hover {
+  background: #c41515;
+}

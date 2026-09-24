@@ -1,0 +1,18 @@
+# Exclude local dependencies and build artifacts from Docker context
+frontend/node_modules
+frontend/dist
+frontend/.vite
+frontend/.cache
+
+# Python caches
+backend/__pycache__
+**/*.pyc
+
+# VCS and editor files
+.git
+.gitignore
+.vscode
+.idea
+
+# OS junk
+**/.DS_Store

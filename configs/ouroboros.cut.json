@@ -1,0 +1,26 @@
+{
+  "_comment": "Ouroboros cut mode: base loop with WebPageBench browser-use tools/prompts and an isolated per-task drive (no identity, no evolution).",
+  "harness": "ouroboros-cut",
+  "mode": "cut",
+  "drive": {
+    "memory_mode": "empty",
+    "include_identity": false,
+    "evolution_enabled": false,
+    "shared_drive": false,
+    "per_task_drive": true,
+    "require_workers_one": false
+  },
+  "execution": {
+    "backend": "dab-cut-loop"
+  },
+  "api": {
+    "bin": "ouroboros",
+    "url": "http://127.0.0.1:9000",
+    "repo_dir": null,
+    "timeout_seconds": 1200
+  },
+  "prompt": {
+    "prefix": "You are executing a browser automation task on a mock e-commerce site.",
+    "suffix": "Interact with the site in the browser until the task is complete."
+  }
+}

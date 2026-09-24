@@ -1,0 +1,21 @@
+[submodule "browser-use"]
+	path = browser-use
+	url = https://github.com/browser-use/browser-use.git
+[submodule "deepeval"]
+	path = deepeval
+	url = https://github.com/confident-ai/deepeval.git
+[submodule "hermes-ouroboros"]
+	path = hermes-ouroboros
+	url = https://github.com/Ridwannurudeen/hermes-ouroboros.git
+[submodule "ouroboros"]
+	path = ouroboros
+	url = https://github.com/razzant/ouroboros.git
+[submodule "deepagents"]
+	path = deepagents
+	url = https://github.com/langchain-ai/deepagents.git
+[submodule "openhands"]
+	path = openhands
+	url = https://github.com/OpenHands/software-agent-sdk.git
+[submodule "openmanus"]
+	path = openmanus
+	url = https://github.com/FoundationAgents/OpenManus.git

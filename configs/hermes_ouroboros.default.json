@@ -1,0 +1,26 @@
+{
+  "_comment": "WebPageBench eval client config for the hermes-ouroboros planning harness. Council LLM/provider is configured separately in hermes-ouroboros/config.yaml and .env when you run `python main.py --api`. Browser LLM uses LLM_PROVIDER / LLM_MODEL / OPENROUTER_API_KEY from eval .env.",
+  "harness": "hermes-ouroboros",
+  "api": {
+    "base_url": "http://127.0.0.1:8000",
+    "api_key": null,
+    "timeout_seconds": 300
+  },
+  "council": {
+    "analysis_mode": "research",
+    "planning_prompt_prefix": "You are planning a browser automation task on a mock e-commerce site.",
+    "planning_prompt_suffix": "Identify the safest step-by-step strategy, likely UI pitfalls, and success criteria for completing this task in a real browser.",
+    "on_api_error": "continue_with_original_task"
+  },
+  "browser": {
+    "inherit_from_eval_config": true,
+    "max_steps": null
+  },
+  "task_enhancement": {
+    "enabled": true,
+    "include_summary": true,
+    "include_full_verdict": true,
+    "include_fatal_flaws": true,
+    "instruction": "Execute the web task above in the browser. Use the council guidance as planning context, not as a substitute for interacting with the site."
+  }
+}

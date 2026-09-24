@@ -1,0 +1,13 @@
+{
+  "profile_id": "hotels_city_native",
+  "description": "Отели: native select для выбора города",
+  "domain_configs": {
+    "hotels": {
+      "ui_variants": {
+        "date": "split_popup",
+        "select_city": "native_select",
+        "counter_guests": "rooms_popup"
+      }
+    }
+  }
+}

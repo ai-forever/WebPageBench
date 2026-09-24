@@ -1,0 +1,1725 @@
+{
+  "id": "us",
+  "label": "США",
+  "cities": [
+    {
+      "id": "us-nyc",
+      "name": "Нью-Йорк",
+      "countryCode": "US",
+      "countryName": "США"
+    },
+    {
+      "id": "us-sfo",
+      "name": "Сан-Франциско",
+      "countryCode": "US",
+      "countryName": "США"
+    },
+    {
+      "id": "us-mia",
+      "name": "Майами",
+      "countryCode": "US",
+      "countryName": "США"
+    }
+  ],
+  "hotels": [
+    {
+      "id": "h-us-nyc-midtown",
+      "cityId": "us-nyc",
+      "name": "Midtown Grand Hotel",
+      "address": "5th Avenue, New York",
+      "distanceFromCenter": "0.9 км от центра Нью-Йорк",
+      "stars": 5,
+      "rating": 9,
+      "reviews": 2110,
+      "priceTotalRub": 318000,
+      "nights": 4,
+      "distanceKm": 0.9,
+      "type": "hotel",
+      "amenities": [
+        "wifi",
+        "breakfast",
+        "parking",
+        "pets",
+        "accessible"
+      ],
+      "imageUrl": "/hotels/cdn/photos/picsum_us_nyc_midtown_main_900_600.jpg",
+      "images": [
+        "/hotels/cdn/photos/picsum_us_nyc_midtown_1_900_600.jpg",
+        "/hotels/cdn/photos/picsum_us_nyc_midtown_2_900_600.jpg",
+        "/hotels/cdn/photos/picsum_us_nyc_midtown_3_900_600.jpg",
+        "/hotels/cdn/photos/picsum_us_nyc_midtown_4_900_600.jpg",
+        "/hotels/cdn/photos/picsum_us_nyc_midtown_7_900_600.jpg",
+        "/hotels/cdn/photos/picsum_us_nyc_midtown_8_900_600.jpg"
+      ],
+      "offer": {
+        "roomTitle": "Номер Superior",
+        "beds": "двуспальная кровать",
+        "mealPlan": "breakfast",
+        "cancellation": "free",
+        "payment": "at_hotel"
+      },
+      "geoBlock": {
+        "title": "Расположение",
+        "address": "5th Avenue, New York",
+        "map": {
+          "lat": 35.21812180326621,
+          "lng": 139.42921011561486,
+          "zoom": 14,
+          "query": "5th Avenue, New York, Нью-Йорк",
+          "tileUrlTemplate": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          "tileAttribution": "© Участники OpenStreetMap"
+        },
+        "poiGroups": [
+          {
+            "id": "nearby",
+            "title": "Что вокруг",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Старая площадь Нью-Йорк",
+                "distance": "280 м"
+              },
+              {
+                "type": "CHURCH",
+                "name": "Собор Нью-Йорк",
+                "distance": "430 м"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Городской музей Нью-Йорк",
+                "distance": "620 м"
+              },
+              {
+                "type": "PARK",
+                "name": "Парк Нью-Йорк",
+                "distance": "910 м"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Набережная Нью-Йорк",
+                "distance": "1,1 км"
+              }
+            ]
+          },
+          {
+            "id": "top",
+            "title": "Достопримечательности",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Главная достопримечательность Нью-Йорк",
+                "distance": "1,4 км"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Национальный музей Нью-Йорк",
+                "distance": "1,8 км"
+              },
+              {
+                "type": "PARK",
+                "name": "Центральный парк Нью-Йорк",
+                "distance": "2,1 км"
+              },
+              {
+                "type": "AIRPORT",
+                "name": "Аэропорт Нью-Йорк",
+                "distance": "18 км"
+              }
+            ]
+          },
+          {
+            "id": "airports",
+            "title": "Аэропорты",
+            "items": [
+              {
+                "type": "AIRPORT",
+                "name": "Аэропорт Нью-Йорк",
+                "distance": "18 км"
+              }
+            ]
+          },
+          {
+            "id": "railways",
+            "title": "Вокзалы",
+            "items": [
+              {
+                "type": "RAILWAY_STATION",
+                "name": "Центральный вокзал Нью-Йорк",
+                "distance": "1,2 км"
+              }
+            ]
+          }
+        ]
+      },
+      "roomOptions": {
+        "galleryCtaText": "фото",
+        "availabilityTitle": "Доступные варианты",
+        "groups": [
+          {
+            "id": "h-us-nyc-midtown-std",
+            "name": "Двухместный номер Standard",
+            "nameAdditional": "1 двуспальная кровать",
+            "alert": "На нашем сайте осталось 3 номера",
+            "imageUrl": "/hotels/cdn/photos/picsum_us_nyc_midtown_room_std_640_420.jpg",
+            "imageCount": 8,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "22 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-us-nyc-midtown-std-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Питание не включено",
+                  "isFeature": false
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена",
+                "priceRub": 248040,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 35 USD налоги и сборы",
+                "bookUrl": "/orders/reserve/h-us-nyc-midtown-std-r1"
+              },
+              {
+                "id": "h-us-nyc-midtown-std-r2",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена с питанием",
+                "priceRub": 273480,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 35 USD налоги и сборы",
+                "bookUrl": "/orders/reserve/h-us-nyc-midtown-std-r2"
+              }
+            ]
+          },
+          {
+            "id": "h-us-nyc-midtown-sup",
+            "name": "Номер Superior",
+            "nameAdditional": "1 двуспальная кровать • вид на город",
+            "alert": "Осталось 2 номера по этой цене",
+            "imageUrl": "/hotels/cdn/photos/picsum_us_nyc_midtown_room_sup_640_420.jpg",
+            "imageCount": 12,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "28 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-us-nyc-midtown-sup-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 5 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Карта для гарантии"
+                },
+                "deal": "Популярный вариант",
+                "priceRub": 318000,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 45 USD налоги и сборы",
+                "bookUrl": "/orders/reserve/h-us-nyc-midtown-sup-r1"
+              }
+            ]
+          }
+        ]
+      },
+      "aboutBlock": {
+        "title": "Описание отеля",
+        "expandText": "Развернуть описание",
+        "collapseText": "Свернуть описание",
+        "sections": [
+          {
+            "id": "location",
+            "title": "Расположение",
+            "paragraphs": [
+              "Отель «Midtown Grand Hotel» находится в пешей доступности от центра Нью-Йорк. Рядом — исторический центр, музеи, рестораны и транспортные узлы."
+            ]
+          },
+          {
+            "id": "hotel",
+            "title": "В отеле",
+            "paragraphs": [
+              "Для гостей работает ресторан и лобби-бар. На всей территории доступен бесплатный Wi‑Fi.",
+              "Гостям доступны услуги консьержа, хранение багажа и трансфер по запросу. В отеле есть лифт и круглосуточная стойка регистрации."
+            ],
+            "spoiler": true
+          },
+          {
+            "id": "room",
+            "title": "В номере",
+            "paragraphs": [
+              "В номере есть душ, телевизор, рабочая зона и набор для приготовления чая/кофе. Оснащение зависит от категории номера."
+            ],
+            "spoiler": true
+          }
+        ],
+        "facts": {
+          "title": "Факты об отеле",
+          "items": [
+            {
+              "key": "renovation",
+              "label": "Год реновации",
+              "value": "2019 год"
+            },
+            {
+              "key": "socket",
+              "label": "Тип розетки",
+              "value": [
+                "США",
+                "220 В / 50–60 Гц"
+              ]
+            },
+            {
+              "key": "rooms_floors",
+              "label": "Количество номеров и этажей",
+              "value": "96 номеров, 12 этажей"
+            }
+          ]
+        }
+      },
+      "additionalInfoBlock": {
+        "title": "Дополнительная информация",
+        "paragraphs": [
+          "При заезде может взиматься городской налог. Его размер зависит от правил города и категории размещения.",
+          "Если планируется поздний заезд, рекомендуется предупредить отель заранее.",
+          "Некоторые услуги могут предоставляться за дополнительную плату."
+        ]
+      },
+      "accommodationBlock": {
+        "title": "Условия размещения",
+        "checkInOut": {
+          "title": "Заселение и выезд",
+          "checkIn": {
+            "label": "Заселение",
+            "value": "После 15:00"
+          },
+          "checkOut": {
+            "label": "Выезд",
+            "value": "До 11:00"
+          }
+        },
+        "blocks": [
+          {
+            "id": "deposit",
+            "title": "Депозит",
+            "icon": "deposit",
+            "items": [
+              {
+                "label": "Гарантия картой",
+                "value": "Требуется при заезде"
+              }
+            ]
+          },
+          {
+            "id": "extraBed",
+            "title": "Дополнительная кровать",
+            "icon": "extraBed",
+            "items": [
+              {
+                "label": "По запросу",
+                "value": "45 у.е. за ночь"
+              }
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Животные",
+            "icon": "pets",
+            "items": [
+              {
+                "label": "Размещение с животными",
+                "value": "Нужно уточнять заранее"
+              }
+            ]
+          }
+        ]
+      },
+      "currencyCode": "USD",
+      "paymentSection": {
+        "payment": {
+          "title": "Оплата",
+          "inHotelTitle": "В отеле",
+          "onSiteTitle": "На сайте",
+          "inHotelItems": [
+            {
+              "type": "text",
+              "text": "Наличными в валюте отеля — USD"
+            },
+            {
+              "type": "cards",
+              "label": "Картой:",
+              "codes": [
+                "visa",
+                "mastercard",
+                "american-express"
+              ]
+            }
+          ],
+          "onSiteText": "Для некоторых тарифов доступна онлайн-оплата банковской картой при бронировании."
+        }
+      },
+      "amenitiesBlock": {
+        "title": "Услуги и удобства",
+        "groups": [
+          {
+            "id": "popular",
+            "title": "Популярные",
+            "icon": "popular",
+            "variant": "popular",
+            "items": [
+              "Бесплатный интернет",
+              "Завтрак",
+              "Парковка",
+              "Разрешено с домашними животными",
+              "Для гостей с ограниченными возможностями"
+            ]
+          },
+          {
+            "id": "common",
+            "title": "Общее",
+            "icon": "common_info",
+            "items": [
+              "Круглосуточная стойка регистрации",
+              "Лифт",
+              "Отель для некурящих",
+              "Отопление",
+              "Терраса"
+            ]
+          },
+          {
+            "id": "rooms",
+            "title": "В номерах",
+            "icon": "extra_service",
+            "items": [
+              "Номера для некурящих",
+              "Телевизор",
+              "Фен",
+              "Душ",
+              "Туалетные принадлежности"
+            ]
+          },
+          {
+            "id": "meal",
+            "title": "Питание",
+            "icon": "meal",
+            "items": [
+              "Бар",
+              "Завтрак",
+              "Ресторан",
+              "Чайник"
+            ]
+          },
+          {
+            "id": "internet",
+            "title": "Интернет",
+            "icon": "internet",
+            "items": [
+              "Бесплатный Wi‑Fi",
+              "Доступ в интернет"
+            ]
+          }
+        ]
+      },
+      "reviewsBlock": {
+        "title": "Отзывы",
+        "ratingSummary": {
+          "value": 8.2,
+          "totalReviews": 2110,
+          "localLanguageReviews": 12,
+          "basedOnText": "Основано на {TOTAL} отзывах гостей из разных стран.",
+          "localLanguageText": "На вашем языке доступно {LOCAL} отзывов"
+        },
+        "detailedScores": [
+          {
+            "label": "Чистота",
+            "value": 8.7
+          },
+          {
+            "label": "Расположение",
+            "value": 8.9
+          },
+          {
+            "label": "Цена/Качество",
+            "value": 8.4
+          },
+          {
+            "label": "Номер",
+            "value": 8.6
+          },
+          {
+            "label": "Обслуживание",
+            "value": 8.8
+          },
+          {
+            "label": "Качество Wi‑Fi",
+            "value": 8.5
+          }
+        ],
+        "tripadvisor": {
+          "label": "TripAdvisor",
+          "reviews": 2105,
+          "href": "https://www.tripadvisor.com"
+        },
+        "featuredReviews": [
+          {
+            "author": "нью-йорк_traveler",
+            "countryCode": "US",
+            "text": "Отличное расположение в Нью-Йорк, чистые номера, дружелюбный персонал и хороший завтрак."
+          }
+        ],
+        "reviews": [
+          {
+            "id": "h-us-nyc-midtown-r1",
+            "source": "tripadvisor",
+            "author": "travel_guest_1",
+            "countryCode": "RU",
+            "tripType": "пара",
+            "date": "май 2024 г.",
+            "rating": 5,
+            "title": "Очень понравилось",
+            "text": "Останавливались в Midtown Grand Hotel на несколько ночей. Отличный сервис, хорошее расположение и комфортные номера."
+          },
+          {
+            "id": "h-us-nyc-midtown-r2",
+            "source": "tripadvisor",
+            "author": "travel_guest_2",
+            "countryCode": "DE",
+            "tripType": "семья",
+            "date": "февраль 2024 г.",
+            "rating": 4,
+            "title": "Хороший вариант",
+            "text": "Удобный отель для поездки в город. Понравились завтраки и удобство расположения рядом с транспортом."
+          }
+        ],
+        "moreLink": {
+          "href": "https://www.tripadvisor.com",
+          "remaining": 2108,
+          "text": "Посмотреть ещё {N} отзывов на TripAdvisor"
+        }
+      },
+      "filters": {
+        "amenitiesHotel": [
+          "internet",
+          "parking",
+          "fitness"
+        ],
+        "amenitiesRoom": [],
+        "placement": [
+          "accessible",
+          "pets"
+        ],
+        "meals": [
+          "breakfastIncluded"
+        ],
+        "paymentAndBooking": [
+          "freeCancellation",
+          "payOnsite"
+        ],
+        "rooms": 1,
+        "bedTypes": [
+          "doubleBed"
+        ]
+      }
+    },
+    {
+      "id": "h-us-sfo-bay",
+      "cityId": "us-sfo",
+      "name": "San Francisco Bay Hotel",
+      "address": "Market Street, San Francisco",
+      "distanceFromCenter": "1.5 км от центра Сан-Франциско",
+      "stars": 4,
+      "rating": 8.7,
+      "reviews": 690,
+      "priceTotalRub": 229000,
+      "nights": 4,
+      "distanceKm": 1.5,
+      "type": "hotel",
+      "amenities": [
+        "wifi",
+        "breakfast",
+        "airConditioning"
+      ],
+      "imageUrl": "/hotels/cdn/photos/picsum_us_sfo_bay_main_900_600.jpg",
+      "images": [
+        "/hotels/cdn/photos/picsum_us_sfo_bay_1_900_600.jpg",
+        "/hotels/cdn/photos/picsum_us_sfo_bay_2_900_600.jpg",
+        "/hotels/cdn/photos/picsum_us_sfo_bay_4_900_600.jpg",
+        "/hotels/cdn/photos/picsum_us_sfo_bay_7_900_600.jpg",
+        "/hotels/cdn/photos/picsum_us_sfo_bay_8_900_600.jpg",
+        "/hotels/cdn/photos/picsum_us_sfo_bay_9_900_600.jpg",
+        "/hotels/cdn/photos/picsum_us_sfo_bay_10_900_600.jpg"
+      ],
+      "offer": {
+        "roomTitle": "Номер Superior",
+        "beds": "двуспальная кровать",
+        "mealPlan": "breakfast",
+        "cancellation": "free",
+        "payment": "at_hotel"
+      },
+      "geoBlock": {
+        "title": "Расположение",
+        "address": "Market Street, San Francisco",
+        "map": {
+          "lat": 35.709285521642165,
+          "lng": 139.3436427299042,
+          "zoom": 14,
+          "query": "Market Street, San Francisco, Сан-Франциско",
+          "tileUrlTemplate": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          "tileAttribution": "© Участники OpenStreetMap"
+        },
+        "poiGroups": [
+          {
+            "id": "nearby",
+            "title": "Что вокруг",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Старая площадь Сан-Франциско",
+                "distance": "280 м"
+              },
+              {
+                "type": "CHURCH",
+                "name": "Собор Сан-Франциско",
+                "distance": "430 м"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Городской музей Сан-Франциско",
+                "distance": "620 м"
+              },
+              {
+                "type": "PARK",
+                "name": "Парк Сан-Франциско",
+                "distance": "910 м"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Набережная Сан-Франциско",
+                "distance": "1,1 км"
+              }
+            ]
+          },
+          {
+            "id": "top",
+            "title": "Достопримечательности",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Главная достопримечательность Сан-Франциско",
+                "distance": "1,4 км"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Национальный музей Сан-Франциско",
+                "distance": "1,8 км"
+              },
+              {
+                "type": "PARK",
+                "name": "Центральный парк Сан-Франциско",
+                "distance": "2,1 км"
+              },
+              {
+                "type": "AIRPORT",
+                "name": "Аэропорт Сан-Франциско",
+                "distance": "18 км"
+              }
+            ]
+          },
+          {
+            "id": "airports",
+            "title": "Аэропорты",
+            "items": [
+              {
+                "type": "AIRPORT",
+                "name": "Аэропорт Сан-Франциско",
+                "distance": "18 км"
+              }
+            ]
+          },
+          {
+            "id": "railways",
+            "title": "Вокзалы",
+            "items": [
+              {
+                "type": "RAILWAY_STATION",
+                "name": "Центральный вокзал Сан-Франциско",
+                "distance": "1,2 км"
+              }
+            ]
+          }
+        ]
+      },
+      "roomOptions": {
+        "galleryCtaText": "фото",
+        "availabilityTitle": "Доступные варианты",
+        "groups": [
+          {
+            "id": "h-us-sfo-bay-std",
+            "name": "Двухместный номер Standard",
+            "nameAdditional": "1 двуспальная кровать",
+            "alert": "На нашем сайте осталось 3 номера",
+            "imageUrl": "/hotels/cdn/photos/picsum_us_sfo_bay_room_std_640_420.jpg",
+            "imageCount": 8,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "22 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-us-sfo-bay-std-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Питание не включено",
+                  "isFeature": false
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена",
+                "priceRub": 178620,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 35 USD налоги и сборы",
+                "bookUrl": "/orders/reserve/h-us-sfo-bay-std-r1"
+              },
+              {
+                "id": "h-us-sfo-bay-std-r2",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена с питанием",
+                "priceRub": 196940,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 35 USD налоги и сборы",
+                "bookUrl": "/orders/reserve/h-us-sfo-bay-std-r2"
+              }
+            ]
+          },
+          {
+            "id": "h-us-sfo-bay-sup",
+            "name": "Номер Superior",
+            "nameAdditional": "1 двуспальная кровать • вид на город",
+            "alert": "Осталось 2 номера по этой цене",
+            "imageUrl": "/hotels/cdn/photos/picsum_us_sfo_bay_room_sup_640_420.jpg",
+            "imageCount": 12,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "28 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-us-sfo-bay-sup-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 5 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Карта для гарантии"
+                },
+                "deal": "Популярный вариант",
+                "priceRub": 229000,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 45 USD налоги и сборы",
+                "bookUrl": "/orders/reserve/h-us-sfo-bay-sup-r1"
+              }
+            ]
+          }
+        ]
+      },
+      "aboutBlock": {
+        "title": "Описание отеля",
+        "expandText": "Развернуть описание",
+        "collapseText": "Свернуть описание",
+        "sections": [
+          {
+            "id": "location",
+            "title": "Расположение",
+            "paragraphs": [
+              "Отель «San Francisco Bay Hotel» находится в пешей доступности от центра Сан-Франциско. Рядом — исторический центр, музеи, рестораны и транспортные узлы."
+            ]
+          },
+          {
+            "id": "hotel",
+            "title": "В отеле",
+            "paragraphs": [
+              "Для гостей работает ресторан и лобби-бар. На всей территории доступен бесплатный Wi‑Fi.",
+              "Гостям доступны услуги консьержа, хранение багажа и трансфер по запросу. В отеле есть лифт и круглосуточная стойка регистрации."
+            ],
+            "spoiler": true
+          },
+          {
+            "id": "room",
+            "title": "В номере",
+            "paragraphs": [
+              "В номере есть душ, телевизор, рабочая зона и набор для приготовления чая/кофе. Оснащение зависит от категории номера."
+            ],
+            "spoiler": true
+          }
+        ],
+        "facts": {
+          "title": "Факты об отеле",
+          "items": [
+            {
+              "key": "renovation",
+              "label": "Год реновации",
+              "value": "2019 год"
+            },
+            {
+              "key": "socket",
+              "label": "Тип розетки",
+              "value": [
+                "США",
+                "220 В / 50–60 Гц"
+              ]
+            },
+            {
+              "key": "rooms_floors",
+              "label": "Количество номеров и этажей",
+              "value": "96 номеров, 12 этажей"
+            }
+          ]
+        }
+      },
+      "additionalInfoBlock": {
+        "title": "Дополнительная информация",
+        "paragraphs": [
+          "При заезде может взиматься городской налог. Его размер зависит от правил города и категории размещения.",
+          "Если планируется поздний заезд, рекомендуется предупредить отель заранее.",
+          "Некоторые услуги могут предоставляться за дополнительную плату."
+        ]
+      },
+      "accommodationBlock": {
+        "title": "Условия размещения",
+        "checkInOut": {
+          "title": "Заселение и выезд",
+          "checkIn": {
+            "label": "Заселение",
+            "value": "После 15:00"
+          },
+          "checkOut": {
+            "label": "Выезд",
+            "value": "До 11:00"
+          }
+        },
+        "blocks": [
+          {
+            "id": "deposit",
+            "title": "Депозит",
+            "icon": "deposit",
+            "items": [
+              {
+                "label": "Гарантия картой",
+                "value": "Требуется при заезде"
+              }
+            ]
+          },
+          {
+            "id": "extraBed",
+            "title": "Дополнительная кровать",
+            "icon": "extraBed",
+            "items": [
+              {
+                "label": "По запросу",
+                "value": "45 у.е. за ночь"
+              }
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Животные",
+            "icon": "pets",
+            "items": [
+              {
+                "label": "Размещение с животными",
+                "value": "Нужно уточнять заранее"
+              }
+            ]
+          }
+        ]
+      },
+      "currencyCode": "USD",
+      "paymentSection": {
+        "payment": {
+          "title": "Оплата",
+          "inHotelTitle": "В отеле",
+          "onSiteTitle": "На сайте",
+          "inHotelItems": [
+            {
+              "type": "text",
+              "text": "Наличными в валюте отеля — USD"
+            },
+            {
+              "type": "cards",
+              "label": "Картой:",
+              "codes": [
+                "visa",
+                "mastercard",
+                "american-express"
+              ]
+            }
+          ],
+          "onSiteText": "Для некоторых тарифов доступна онлайн-оплата банковской картой при бронировании."
+        }
+      },
+      "amenitiesBlock": {
+        "title": "Услуги и удобства",
+        "groups": [
+          {
+            "id": "popular",
+            "title": "Популярные",
+            "icon": "popular",
+            "variant": "popular",
+            "items": [
+              "Бесплатный интернет",
+              "Завтрак",
+              "Кондиционер"
+            ]
+          },
+          {
+            "id": "common",
+            "title": "Общее",
+            "icon": "common_info",
+            "items": [
+              "Круглосуточная стойка регистрации",
+              "Лифт",
+              "Отель для некурящих",
+              "Отопление",
+              "Терраса"
+            ]
+          },
+          {
+            "id": "rooms",
+            "title": "В номерах",
+            "icon": "extra_service",
+            "items": [
+              "Номера для некурящих",
+              "Телевизор",
+              "Фен",
+              "Душ",
+              "Туалетные принадлежности"
+            ]
+          },
+          {
+            "id": "meal",
+            "title": "Питание",
+            "icon": "meal",
+            "items": [
+              "Бар",
+              "Завтрак",
+              "Ресторан",
+              "Чайник"
+            ]
+          },
+          {
+            "id": "internet",
+            "title": "Интернет",
+            "icon": "internet",
+            "items": [
+              "Бесплатный Wi‑Fi",
+              "Доступ в интернет"
+            ]
+          }
+        ]
+      },
+      "reviewsBlock": {
+        "title": "Отзывы",
+        "ratingSummary": {
+          "value": 7.9,
+          "totalReviews": 690,
+          "localLanguageReviews": 12,
+          "basedOnText": "Основано на {TOTAL} отзывах гостей из разных стран.",
+          "localLanguageText": "На вашем языке доступно {LOCAL} отзывов"
+        },
+        "detailedScores": [
+          {
+            "label": "Чистота",
+            "value": 8.4
+          },
+          {
+            "label": "Расположение",
+            "value": 8.6
+          },
+          {
+            "label": "Цена/Качество",
+            "value": 8.1
+          },
+          {
+            "label": "Номер",
+            "value": 8.3
+          },
+          {
+            "label": "Обслуживание",
+            "value": 8.5
+          },
+          {
+            "label": "Качество Wi‑Fi",
+            "value": 8.2
+          }
+        ],
+        "tripadvisor": {
+          "label": "TripAdvisor",
+          "reviews": 685,
+          "href": "https://www.tripadvisor.com"
+        },
+        "featuredReviews": [
+          {
+            "author": "сан-франциско_traveler",
+            "countryCode": "US",
+            "text": "Отличное расположение в Сан-Франциско, чистые номера, дружелюбный персонал и хороший завтрак."
+          }
+        ],
+        "reviews": [
+          {
+            "id": "h-us-sfo-bay-r1",
+            "source": "tripadvisor",
+            "author": "travel_guest_1",
+            "countryCode": "RU",
+            "tripType": "пара",
+            "date": "май 2024 г.",
+            "rating": 5,
+            "title": "Очень понравилось",
+            "text": "Останавливались в San Francisco Bay Hotel на несколько ночей. Отличный сервис, хорошее расположение и комфортные номера."
+          },
+          {
+            "id": "h-us-sfo-bay-r2",
+            "source": "tripadvisor",
+            "author": "travel_guest_2",
+            "countryCode": "DE",
+            "tripType": "семья",
+            "date": "февраль 2024 г.",
+            "rating": 4,
+            "title": "Хороший вариант",
+            "text": "Удобный отель для поездки в город. Понравились завтраки и удобство расположения рядом с транспортом."
+          }
+        ],
+        "moreLink": {
+          "href": "https://www.tripadvisor.com",
+          "remaining": 688,
+          "text": "Посмотреть ещё {N} отзывов на TripAdvisor"
+        }
+      },
+      "filters": {
+        "amenitiesHotel": [
+          "internet",
+          "parking",
+          "fitness"
+        ],
+        "amenitiesRoom": [],
+        "placement": [
+          "accessible",
+          "pets"
+        ],
+        "meals": [
+          "breakfastIncluded"
+        ],
+        "paymentAndBooking": [
+          "freeCancellation",
+          "payOnsite"
+        ],
+        "rooms": 1,
+        "bedTypes": [
+          "doubleBed"
+        ]
+      }
+    },
+    {
+      "id": "h-us-mia-beach",
+      "cityId": "us-mia",
+      "name": "Miami Beach Resort",
+      "address": "Collins Ave, Miami Beach",
+      "distanceFromCenter": "0.4 км от центра Майами",
+      "stars": 5,
+      "rating": 9.3,
+      "reviews": 980,
+      "priceTotalRub": 287000,
+      "nights": 4,
+      "distanceKm": 0.4,
+      "type": "hotel",
+      "amenities": [
+        "wifi",
+        "breakfast",
+        "parking",
+        "airConditioning"
+      ],
+      "imageUrl": "/hotels/cdn/photos/picsum_us_mia_beach_main_900_600.jpg",
+      "images": [
+        "/hotels/cdn/photos/picsum_us_mia_beach_1_900_600.jpg",
+        "/hotels/cdn/photos/picsum_us_mia_beach_2_900_600.jpg",
+        "/hotels/cdn/photos/picsum_us_mia_beach_3_900_600.jpg",
+        "/hotels/cdn/photos/picsum_us_mia_beach_4_900_600.jpg",
+        "/hotels/cdn/photos/picsum_us_mia_beach_6_900_600.jpg",
+        "/hotels/cdn/photos/picsum_us_mia_beach_7_900_600.jpg"
+      ],
+      "offer": {
+        "roomTitle": "Номер Superior",
+        "beds": "двуспальная кровать",
+        "mealPlan": "breakfast",
+        "cancellation": "free",
+        "payment": "at_hotel"
+      },
+      "geoBlock": {
+        "title": "Расположение",
+        "address": "Collins Ave, Miami Beach",
+        "map": {
+          "lat": 35.698977400075194,
+          "lng": 139.29311428051008,
+          "zoom": 14,
+          "query": "Collins Ave, Miami Beach, Майами",
+          "tileUrlTemplate": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          "tileAttribution": "© Участники OpenStreetMap"
+        },
+        "poiGroups": [
+          {
+            "id": "nearby",
+            "title": "Что вокруг",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Старая площадь Майами",
+                "distance": "280 м"
+              },
+              {
+                "type": "CHURCH",
+                "name": "Собор Майами",
+                "distance": "430 м"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Городской музей Майами",
+                "distance": "620 м"
+              },
+              {
+                "type": "PARK",
+                "name": "Парк Майами",
+                "distance": "910 м"
+              },
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Набережная Майами",
+                "distance": "1,1 км"
+              }
+            ]
+          },
+          {
+            "id": "top",
+            "title": "Достопримечательности",
+            "items": [
+              {
+                "type": "HISTORICAL_POI",
+                "name": "Главная достопримечательность Майами",
+                "distance": "1,4 км"
+              },
+              {
+                "type": "MUSEUM",
+                "name": "Национальный музей Майами",
+                "distance": "1,8 км"
+              },
+              {
+                "type": "PARK",
+                "name": "Центральный парк Майами",
+                "distance": "2,1 км"
+              },
+              {
+                "type": "AIRPORT",
+                "name": "Аэропорт Майами",
+                "distance": "18 км"
+              }
+            ]
+          },
+          {
+            "id": "airports",
+            "title": "Аэропорты",
+            "items": [
+              {
+                "type": "AIRPORT",
+                "name": "Аэропорт Майами",
+                "distance": "18 км"
+              }
+            ]
+          },
+          {
+            "id": "railways",
+            "title": "Вокзалы",
+            "items": [
+              {
+                "type": "RAILWAY_STATION",
+                "name": "Центральный вокзал Майами",
+                "distance": "1,2 км"
+              }
+            ]
+          }
+        ]
+      },
+      "roomOptions": {
+        "galleryCtaText": "фото",
+        "availabilityTitle": "Доступные варианты",
+        "groups": [
+          {
+            "id": "h-us-mia-beach-std",
+            "name": "Двухместный номер Standard",
+            "nameAdditional": "1 двуспальная кровать",
+            "alert": "На нашем сайте осталось 3 номера",
+            "imageUrl": "/hotels/cdn/photos/picsum_us_mia_beach_room_std_640_420.jpg",
+            "imageCount": 8,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "22 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-us-mia-beach-std-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Питание не включено",
+                  "isFeature": false
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 6 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена",
+                "priceRub": 223860,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 35 USD налоги и сборы",
+                "bookUrl": "/orders/reserve/h-us-mia-beach-std-r1"
+              },
+              {
+                "id": "h-us-mia-beach-std-r2",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "При отмене стоимость не возвращается",
+                  "isFeature": false
+                },
+                "payment": {
+                  "title": "Предоплата",
+                  "subText": "Для бронирования нужна карта"
+                },
+                "deal": "Лучшая цена с питанием",
+                "priceRub": 246820,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 35 USD налоги и сборы",
+                "bookUrl": "/orders/reserve/h-us-mia-beach-std-r2"
+              }
+            ]
+          },
+          {
+            "id": "h-us-mia-beach-sup",
+            "name": "Номер Superior",
+            "nameAdditional": "1 двуспальная кровать • вид на город",
+            "alert": "Осталось 2 номера по этой цене",
+            "imageUrl": "/hotels/cdn/photos/picsum_us_mia_beach_room_sup_640_420.jpg",
+            "imageCount": 12,
+            "amenities": [
+              {
+                "key": "square",
+                "label": "28 кв.м"
+              },
+              {
+                "key": "private_bathroom",
+                "label": "Собственная ванная комната"
+              },
+              {
+                "key": "wifi",
+                "label": "Бесплатный Wi‑Fi"
+              },
+              {
+                "key": "coffee",
+                "label": "Кофемашина"
+              },
+              {
+                "key": "tv",
+                "label": "Смарт‑ТВ"
+              },
+              {
+                "key": "towels",
+                "label": "Полотенца"
+              }
+            ],
+            "rates": [
+              {
+                "id": "h-us-mia-beach-sup-r1",
+                "bedText": "1 двуспальная кровать",
+                "meal": {
+                  "text": "Завтрак включён",
+                  "isFeature": true
+                },
+                "cancellation": {
+                  "text": "Бесплатная отмена до 5 февраля*",
+                  "isFeature": true
+                },
+                "payment": {
+                  "title": "Оплата на месте",
+                  "subText": "Карта для гарантии"
+                },
+                "deal": "Популярный вариант",
+                "priceRub": 287000,
+                "guestsAndNightsText": "за 4 ночи для 2 гостей",
+                "taxesText": "+ 45 USD налоги и сборы",
+                "bookUrl": "/orders/reserve/h-us-mia-beach-sup-r1"
+              }
+            ]
+          }
+        ]
+      },
+      "aboutBlock": {
+        "title": "Описание отеля",
+        "expandText": "Развернуть описание",
+        "collapseText": "Свернуть описание",
+        "sections": [
+          {
+            "id": "location",
+            "title": "Расположение",
+            "paragraphs": [
+              "Отель «Miami Beach Resort» находится в пешей доступности от центра Майами. Рядом — исторический центр, музеи, рестораны и транспортные узлы."
+            ]
+          },
+          {
+            "id": "hotel",
+            "title": "В отеле",
+            "paragraphs": [
+              "Для гостей работает ресторан и лобби-бар. На всей территории доступен бесплатный Wi‑Fi.",
+              "Гостям доступны услуги консьержа, хранение багажа и трансфер по запросу. В отеле есть лифт и круглосуточная стойка регистрации."
+            ],
+            "spoiler": true
+          },
+          {
+            "id": "room",
+            "title": "В номере",
+            "paragraphs": [
+              "В номере есть душ, телевизор, рабочая зона и набор для приготовления чая/кофе. Оснащение зависит от категории номера."
+            ],
+            "spoiler": true
+          }
+        ],
+        "facts": {
+          "title": "Факты об отеле",
+          "items": [
+            {
+              "key": "renovation",
+              "label": "Год реновации",
+              "value": "2019 год"
+            },
+            {
+              "key": "socket",
+              "label": "Тип розетки",
+              "value": [
+                "США",
+                "220 В / 50–60 Гц"
+              ]
+            },
+            {
+              "key": "rooms_floors",
+              "label": "Количество номеров и этажей",
+              "value": "96 номеров, 12 этажей"
+            }
+          ]
+        }
+      },
+      "additionalInfoBlock": {
+        "title": "Дополнительная информация",
+        "paragraphs": [
+          "При заезде может взиматься городской налог. Его размер зависит от правил города и категории размещения.",
+          "Если планируется поздний заезд, рекомендуется предупредить отель заранее.",
+          "Некоторые услуги могут предоставляться за дополнительную плату."
+        ]
+      },
+      "accommodationBlock": {
+        "title": "Условия размещения",
+        "checkInOut": {
+          "title": "Заселение и выезд",
+          "checkIn": {
+            "label": "Заселение",
+            "value": "После 15:00"
+          },
+          "checkOut": {
+            "label": "Выезд",
+            "value": "До 11:00"
+          }
+        },
+        "blocks": [
+          {
+            "id": "deposit",
+            "title": "Депозит",
+            "icon": "deposit",
+            "items": [
+              {
+                "label": "Гарантия картой",
+                "value": "Требуется при заезде"
+              }
+            ]
+          },
+          {
+            "id": "extraBed",
+            "title": "Дополнительная кровать",
+            "icon": "extraBed",
+            "items": [
+              {
+                "label": "По запросу",
+                "value": "45 у.е. за ночь"
+              }
+            ]
+          },
+          {
+            "id": "pets",
+            "title": "Животные",
+            "icon": "pets",
+            "items": [
+              {
+                "label": "Размещение с животными",
+                "value": "Нужно уточнять заранее"
+              }
+            ]
+          }
+        ]
+      },
+      "currencyCode": "USD",
+      "paymentSection": {
+        "payment": {
+          "title": "Оплата",
+          "inHotelTitle": "В отеле",
+          "onSiteTitle": "На сайте",
+          "inHotelItems": [
+            {
+              "type": "text",
+              "text": "Наличными в валюте отеля — USD"
+            },
+            {
+              "type": "cards",
+              "label": "Картой:",
+              "codes": [
+                "visa",
+                "mastercard",
+                "american-express"
+              ]
+            }
+          ],
+          "onSiteText": "Для некоторых тарифов доступна онлайн-оплата банковской картой при бронировании."
+        }
+      },
+      "amenitiesBlock": {
+        "title": "Услуги и удобства",
+        "groups": [
+          {
+            "id": "popular",
+            "title": "Популярные",
+            "icon": "popular",
+            "variant": "popular",
+            "items": [
+              "Бесплатный интернет",
+              "Завтрак",
+              "Парковка",
+              "Кондиционер"
+            ]
+          },
+          {
+            "id": "common",
+            "title": "Общее",
+            "icon": "common_info",
+            "items": [
+              "Круглосуточная стойка регистрации",
+              "Лифт",
+              "Отель для некурящих",
+              "Отопление",
+              "Терраса"
+            ]
+          },
+          {
+            "id": "rooms",
+            "title": "В номерах",
+            "icon": "extra_service",
+            "items": [
+              "Номера для некурящих",
+              "Телевизор",
+              "Фен",
+              "Душ",
+              "Туалетные принадлежности"
+            ]
+          },
+          {
+            "id": "meal",
+            "title": "Питание",
+            "icon": "meal",
+            "items": [
+              "Бар",
+              "Завтрак",
+              "Ресторан",
+              "Чайник"
+            ]
+          },
+          {
+            "id": "internet",
+            "title": "Интернет",
+            "icon": "internet",
+            "items": [
+              "Бесплатный Wi‑Fi",
+              "Доступ в интернет"
+            ]
+          }
+        ]
+      },
+      "reviewsBlock": {
+        "title": "Отзывы",
+        "ratingSummary": {
+          "value": 8.5,
+          "totalReviews": 980,
+          "localLanguageReviews": 12,
+          "basedOnText": "Основано на {TOTAL} отзывах гостей из разных стран.",
+          "localLanguageText": "На вашем языке доступно {LOCAL} отзывов"
+        },
+        "detailedScores": [
+          {
+            "label": "Чистота",
+            "value": 9
+          },
+          {
+            "label": "Расположение",
+            "value": 9.2
+          },
+          {
+            "label": "Цена/Качество",
+            "value": 8.7
+          },
+          {
+            "label": "Номер",
+            "value": 8.9
+          },
+          {
+            "label": "Обслуживание",
+            "value": 9.1
+          },
+          {
+            "label": "Качество Wi‑Fi",
+            "value": 8.8
+          }
+        ],
+        "tripadvisor": {
+          "label": "TripAdvisor",
+          "reviews": 975,
+          "href": "https://www.tripadvisor.com"
+        },
+        "featuredReviews": [
+          {
+            "author": "майами_traveler",
+            "countryCode": "US",
+            "text": "Отличное расположение в Майами, чистые номера, дружелюбный персонал и хороший завтрак."
+          }
+        ],
+        "reviews": [
+          {
+            "id": "h-us-mia-beach-r1",
+            "source": "tripadvisor",
+            "author": "travel_guest_1",
+            "countryCode": "RU",
+            "tripType": "пара",
+            "date": "май 2024 г.",
+            "rating": 5,
+            "title": "Очень понравилось",
+            "text": "Останавливались в Miami Beach Resort на несколько ночей. Отличный сервис, хорошее расположение и комфортные номера."
+          },
+          {
+            "id": "h-us-mia-beach-r2",
+            "source": "tripadvisor",
+            "author": "travel_guest_2",
+            "countryCode": "DE",
+            "tripType": "семья",
+            "date": "февраль 2024 г.",
+            "rating": 4,
+            "title": "Хороший вариант",
+            "text": "Удобный отель для поездки в город. Понравились завтраки и удобство расположения рядом с транспортом."
+          }
+        ],
+        "moreLink": {
+          "href": "https://www.tripadvisor.com",
+          "remaining": 978,
+          "text": "Посмотреть ещё {N} отзывов на TripAdvisor"
+        }
+      },
+      "filters": {
+        "amenitiesHotel": [
+          "internet",
+          "parking",
+          "fitness"
+        ],
+        "amenitiesRoom": [],
+        "placement": [
+          "accessible",
+          "pets"
+        ],
+        "meals": [
+          "breakfastIncluded"
+        ],
+        "paymentAndBooking": [
+          "freeCancellation",
+          "payOnsite"
+        ],
+        "rooms": 1,
+        "bedTypes": [
+          "doubleBed"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "title": "Сейчас сезон",
+  "tags": [
+    "Фрукты и ягоды",
+    "Овощи, грибы и зелень"
+  ],
+  "sections": [
+    {
+      "caption": "Выгодная полка",
+      "items": [
+        "item_a5535d49",
+        "item_950705b8",
+        "item_2de0c63c",
+        "item_a3844e8a",
+        "item_7e50c33f",
+        "item_3531c310",
+        "item_9d1ebf15",
+        "item_913ddade",
+        "item_9dfcd949",
+        "item_2f742dc9",
+        "item_82681df5"
+      ]
+    },
+    {
+      "caption": "Фрукты и ягоды",
+      "items": [
+        "item_a5535d49",
+        "item_950705b8",
+        "item_2de0c63c",
+        "item_a3844e8a",
+        "item_7e50c33f",
+        "item_3531c310"
+      ]
+    },
+    {
+      "caption": "Овощи, грибы и зелень",
+      "items": [
+        "item_9d1ebf15",
+        "item_913ddade",
+        "item_9dfcd949",
+        "item_2f742dc9",
+        "item_82681df5"
+      ]
+    }
+  ]
+}

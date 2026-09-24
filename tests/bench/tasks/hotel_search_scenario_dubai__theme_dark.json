@@ -1,0 +1,80 @@
+{
+  "test_data": {
+    "login_data": {
+      "login": "bench@example.com",
+      "password": "bench123",
+      "phone": "9150000000",
+      "email": "bench@example.com"
+    },
+    "bench_first_domain": "hotels",
+    "bench_first_state": "state_hotels_main",
+    "task": "На %HOST% в «Отели» найди жильё в Дубае, ОАЭ на 05–09.03.2027 для 2 гостей и открой Marina Skyline Towers.",
+    "conditions": [
+      {
+        "event_name": "bench_hotel_select_city",
+        "parameters": {
+          "cityId": "ae-dubai",
+          "label": "Дубай, ОАЭ",
+          "cityName": "Дубай",
+          "countryName": "ОАЭ"
+        }
+      },
+      {
+        "event_name": "bench_hotel_select_start_date",
+        "parameters": {
+          "date": "2027-03-05"
+        }
+      },
+      {
+        "event_name": "bench_hotel_select_end_date",
+        "parameters": {
+          "date": "2027-03-09"
+        }
+      },
+      {
+        "event_name": "bench_hotel_select_guests",
+        "parameters": {
+          "rooms": [
+            {
+              "adults": 2,
+              "kids": []
+            }
+          ],
+          "roomsCount": 1,
+          "guestsCount": 2
+        }
+      },
+      {
+        "event_name": "state_changed",
+        "parameters": {
+          "new_state": "bench_hotel_search"
+        }
+      },
+      {
+        "event_name": "bench_hotel_select_hotel",
+        "parameters": {
+          "hotelId": "h-ae-dubai-2",
+          "hotelName": "Marina Skyline Towers",
+          "cityId": "ae-dubai"
+        }
+      }
+    ],
+    "ui_taxonomy": {
+      "primary": "CARD",
+      "classes": [
+        "SELECT_AC",
+        "DATE",
+        "COUNTER",
+        "NAV",
+        "CARD"
+      ],
+      "subtypes": [
+        "search_hotels"
+      ]
+    },
+    "ui_variants": {
+      "theme": "dark"
+    },
+    "ui_variant_profile": "theme_dark"
+  }
+}
