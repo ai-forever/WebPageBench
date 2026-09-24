@@ -92,5 +92,5 @@ python liderboard/src/export_results.py
 
 - [Space](https://huggingface.co/spaces/ai-forever/WebPageBench)
 - [Репозиторий](https://github.com/ai-forever/WebPageBench)
-- [Задачи](https://github.com/ai-forever/WebPageBench/tree/main/tests/bench)
-- [Таксономия](https://github.com/ai-forever/WebPageBench/blob/main/docs/TAXONOMY.md)
+- [Задачи](https://github.com/ai-forever/WebPageBench/tree/release/tests/bench)
+- [Таксономия](https://github.com/ai-forever/WebPageBench/blob/release/docs/TAXONOMY.md)

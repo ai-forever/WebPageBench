@@ -495,9 +495,9 @@ PROFILE=hotels_date_text ./scripts/run_ui_variants_demo.sh --profile
 |------|------------|
 | [TAXONOMY.md](./TAXONOMY.md) | Таксономия **задач** (6 доменов, 152 задачи) |
 | [bench-tasks.md](./bench-tasks.md) | Список типовых bench-задач |
-| [site/frontend/src/common/tracker.js](./site/frontend/src/common/tracker.js) | Пассивные события |
+| [site/frontend/src/common/tracker.js](../site/frontend/src/common/tracker.js) | Пассивные события |
 | [site/frontend/src/hotels/composable/useHotelTrackEvent.ts](../site/frontend/src/hotels/composable/useHotelTrackEvent.ts) | События отелей |
-| [bench_eval/ui_variants.py](./bench_eval/ui_variants.py) | Схема и валидация `ui_variants` |
+| [bench_eval/ui_variants.py](../bench_eval/ui_variants.py) | Схема и валидация `ui_variants` |
 | [scripts/ui_pattern_task_map.py](../scripts/ui_pattern_task_map.py) | Карта eval-вариантов контролов и темы |
-| [tests/bench/configs/](./tests/bench/configs/) | Demo-профили вариантов UI |
-| [site/frontend/src/bench/ui/](./site/frontend/src/bench/ui/) | Компоненты вариантов на фронтенде |
+| [tests/bench/configs/](../tests/bench/configs/) | Demo-профили вариантов UI |
+| [site/frontend/src/bench/ui/](../site/frontend/src/bench/ui/) | Компоненты вариантов на фронтенде |
