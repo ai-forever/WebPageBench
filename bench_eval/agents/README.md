@@ -111,6 +111,13 @@ python -m bench_eval.agents.cli.benchmark opencua-7b --max-tasks 5 --output runs
 
 `cli/benchmark.py` — быстрый sweep со своим JSON-отчётом; `scripts/run_eval.sh` — штатный путь со всей отчётностью бенча.
 
+Внешний запуск той же оценки — `python -m bench_eval.eval_api` (порт `9100`,
+`EVAL_SERVICE_PORT`). Сервис не поднимает фронт и бэк: они уже должны слушать
+`127.0.0.1:5173` и `localhost:9000`. На задачу он вызывает тот же
+`deepeval test run tests/evals/test_agent_bench.py`, что и `./scripts/run_eval.sh`,
+и отдаёт два скора (`agent_completion`, `conditions`) плюс путь к `results.json`.
+Ключ модели попадает только в окружение дочернего процесса DeepEval.
+
 ---
 
 ## Переменные окружения

@@ -43,6 +43,11 @@ _HARNESS_ALIASES = {
 }
 
 
+def canonical_harness_names() -> list[str]:
+    """Sorted harness ids DeepEval accepts after alias normalization."""
+    return sorted(set(_HARNESS_ALIASES.values()))
+
+
 def normalize_harness_name(name: str) -> str:
     key = name.strip().lower()
     if key not in _HARNESS_ALIASES:
