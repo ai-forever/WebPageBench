@@ -105,6 +105,7 @@ def build_child_env(spec: dict[str, Any], base_env: dict[str, str] | None = None
     child["EVAL_TRACK_SUFFIX"] = spec["run_id"][:8]
     child["DEEPEVAL_IDENTIFIER"] = _safe_identifier(spec["harness"], model["name"], spec["run_id"])
     child["DEEPEVAL_EXTRA_ARGS"] = ""
+    child["EVAL_TASK_SUFFIX"] = spec.get("extra_instructions") or ""
     child["GUI_AGENT_BASE_URL"] = model["base_url"]
     child["GUI_AGENT_MODEL"] = model["name"]
     api_key = model.get("api_key")
@@ -180,6 +181,10 @@ def _validate_task_name(task_name: str) -> str:
     return task_name
 
 
+#: Upper bound on caller-supplied text appended to a task.
+_MAX_EXTRA_INSTRUCTIONS = 2000
+
+
 def parse_run_request(body: dict[str, Any]) -> dict[str, Any]:
     """Validate a run body and return the fields the child process needs."""
     if not isinstance(body, dict):
@@ -199,9 +204,15 @@ def parse_run_request(body: dict[str, Any]) -> dict[str, Any]:
     provider = body.get("provider")
     if provider is not None and not str(provider).strip():
         provider = None
+    extra_instructions = body.get("extra_instructions")
+    if extra_instructions is not None:
+        if not isinstance(extra_instructions, str) or len(extra_instructions) > _MAX_EXTRA_INSTRUCTIONS:
+            raise ValueError(f"extra_instructions must be a string of at most {_MAX_EXTRA_INSTRUCTIONS} characters")
+        extra_instructions = extra_instructions.strip() or None
     return {
         "task_name": task_name,
         "harness": harness,
+        "extra_instructions": extra_instructions,
         "provider": None if provider is None else str(provider),
         "model": {
             "name": name,

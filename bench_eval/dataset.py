@@ -91,6 +91,12 @@ def configs_to_goldens(
         track_id = _track_id(test_name, suffix=track_suffix)
         full_host = f"http://{frontend_host}/{track_id}"
         task = config["test_data"]["task"].replace("%HOST%", full_host)
+        # An evaluation driver may add instruction text to every task (a
+        # prompt constraint such as a word or time budget). It is appended,
+        # never substituted, so the task itself is unchanged.
+        task_suffix = os.environ.get("EVAL_TASK_SUFFIX", "").strip()
+        if task_suffix:
+            task = f"{task}\n\n{task_suffix}"
 
         goldens.append(
             Golden(

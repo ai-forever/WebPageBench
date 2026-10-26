@@ -187,3 +187,36 @@ def test_http_run_round_trip_hides_the_key(tmp_path: Path):
     finally:
         server.shutdown()
         server.server_close()
+
+
+def test_extra_instructions_reach_the_child_as_a_task_suffix():
+    spec = parse_run_request(
+        {
+            "task_name": "demo_task",
+            "model": {"name": "m", "base_url": "https://openrouter.ai/api/v1"},
+            "extra_instructions": "  The answer must be at most 50 words. ",
+        }
+    )
+    spec["run_id"] = "a" * 32
+    spec["output_dir"] = "C:/tmp/out"
+    assert build_child_env(spec, base_env={})["EVAL_TASK_SUFFIX"] == "The answer must be at most 50 words."
+
+
+def test_no_extra_instructions_leaves_the_task_alone():
+    spec = parse_run_request({"task_name": "demo_task", "model": {"name": "m", "base_url": "https://openrouter.ai/api/v1"}})
+    spec["run_id"] = "a" * 32
+    spec["output_dir"] = "C:/tmp/out"
+    assert build_child_env(spec, base_env={})["EVAL_TASK_SUFFIX"] == ""
+
+
+def test_oversized_extra_instructions_are_refused():
+    import pytest
+
+    with pytest.raises(ValueError, match="extra_instructions"):
+        parse_run_request(
+            {
+                "task_name": "demo_task",
+                "model": {"name": "m", "base_url": "https://openrouter.ai/api/v1"},
+                "extra_instructions": "x" * 5000,
+            }
+        )

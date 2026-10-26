@@ -38,3 +38,16 @@ def test_configs_to_goldens_applies_track_suffix(tmp_path, monkeypatch):
     meta = goldens[0].additional_metadata
     assert meta["track_id"] == "demo_task__deadbeef"
     assert meta["task_url"] == "http://127.0.0.1:5173/demo_task__deadbeef"
+
+
+def test_configs_to_goldens_appends_the_task_suffix(tmp_path, monkeypatch):
+    tests_dir = tmp_path / "bench"
+    (tests_dir / "tasks").mkdir(parents=True)
+    (tests_dir / "build").mkdir(parents=True)
+    (tests_dir / "config.json").write_text('{"test_data": {}}', encoding="utf-8")
+    (tests_dir / "tasks" / "demo_task.json").write_text(
+        '{"test_data": {"task": "Open %HOST%", "conditions": []}}', encoding="utf-8"
+    )
+    monkeypatch.setenv("EVAL_TASK_SUFFIX", "You have 300 seconds to respond.")
+    goldens = configs_to_goldens(str(tests_dir), frontend_host="127.0.0.1:5173", track_suffix="deadbeef")
+    assert goldens[0].input == "Open http://127.0.0.1:5173/demo_task__deadbeef\n\nYou have 300 seconds to respond."
