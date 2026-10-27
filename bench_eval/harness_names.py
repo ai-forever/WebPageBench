@@ -24,6 +24,14 @@ _HARNESS_ALIASES = {
     "open-hands": "openhands",
     "openmanus": "openmanus",
     "open-manus": "openmanus",
+    # External agent CLIs driven headless, browser via Playwright MCP.
+    "claude-code": "claude-code",
+    "claude_code": "claude-code",
+    "claudecode": "claude-code",
+    "gigaagent": "gigaagent",
+    "giga-agent": "gigaagent",
+    "giga_agent": "gigaagent",
+    "gc-cli": "gigaagent",
     # GUI (screenshot → coordinates) model families — see bench_eval/agents/.
     "gui-agent": "gui-agent",
     "gui_agent": "gui-agent",

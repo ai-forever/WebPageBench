@@ -49,7 +49,7 @@ Config: `tests/bench/config.json`, tasks: `tests/bench/tasks/`. Browse: `http://
 
 Public leaderboard (6 browser/DOM + 5 screenshot-only): `browser-use`, `ouroboros-cut`, `ouroboros-full-isolated`, `ouroboros-full-evolving`, `openmanus`, `openhands`; GUI: `qwen3-vl`, `uitars`, `opencua`, `evocua`, `fara`.
 
-Also wired in the runner: `hermes-ouroboros`, `deepagents`, `jedi`. See [gui-agents.md](./gui-agents.md) and [`bench_eval/agents/`](../bench_eval/agents/README.md).
+Also wired in the runner: `hermes-ouroboros`, `deepagents`, `jedi`, and the external agent CLIs `claude-code` (Claude Code) and `gigaagent` (GigaAgent `gc-cli`), both driving Playwright MCP — see [EVAL_README.md](./EVAL_README.md#claude-code-и-gigaagent). See [gui-agents.md](./gui-agents.md) and [`bench_eval/agents/`](../bench_eval/agents/README.md).
 
 Готовые конфиги: `envs/runs/<harness>/<model>.env`. Установка submodules: `./scripts/install_harnesses.sh` (после `pip install -r requirements-eval.txt`). OpenHands требует Python ≥3.12.
 

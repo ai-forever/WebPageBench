@@ -5,6 +5,7 @@ from __future__ import annotations
 import importlib
 import importlib.util
 import os
+import shutil
 import sys
 from dataclasses import dataclass
 from pathlib import Path
@@ -98,8 +99,16 @@ _OPTIONAL_HARNESS_PACKAGES: dict[str, tuple[tuple[str, str], ...]] = {
     ),
 }
 
+#: External agent CLIs: harness -> (override env var, default binary on PATH).
+_CLI_HARNESS_BINARIES: dict[str, tuple[str, str]] = {
+    "claude-code": ("CLAUDE_CODE_BIN", "claude"),
+    "gigaagent": ("GIGAAGENT_BIN", "gc-cli"),
+}
+
 _HARNESS_ENTRYPOINTS: dict[str, str] = {
     "browser-use": "bench_eval.harnesses.browser_use:run_browser_use_harness",
+    "claude-code": "bench_eval.harnesses.claude_code:run_claude_code_harness",
+    "gigaagent": "bench_eval.harnesses.gigaagent:run_gigaagent_harness",
     "deepagents": "bench_eval.harnesses.deepagents:run_deepagents_harness",
     "hermes-ouroboros": "bench_eval.harnesses.hermes_ouroboros:run_hermes_ouroboros_harness",
     "openhands": "bench_eval.harnesses.openhands:run_openhands_harness",
@@ -233,6 +242,16 @@ def _missing_optional_packages(harness: str) -> list[str]:
         if not _module_available(module_name):
             missing.append(label)
 
+    if harness in _CLI_HARNESS_BINARIES:
+        env_var, default = _CLI_HARNESS_BINARIES[harness]
+        if not (os.getenv(env_var, "").strip() or shutil.which(default)):
+            missing.append(f"{default} on PATH (or {env_var}=<path to the binary>)")
+        if resolve_npx_command() is None and not os.getenv("PLAYWRIGHT_MCP_COMMAND"):
+            missing.append(
+                "npx (Node.js) for Playwright MCP; set NODE_BIN_DIR / NPX_BIN / "
+                "PLAYWRIGHT_MCP_COMMAND"
+            )
+
     if harness == "deepagents" and meta is not None:
         status = inspect_submodule(meta)
         if status["initialized"] and not deepagents_import_ok():
@@ -265,6 +284,17 @@ def _harness_notes(harness: str) -> list[str]:
                 f"openhands-sdk v1.17.0 submodule pin требует Python >=3.12 "
                 f"(текущий {sys.version_info.major}.{sys.version_info.minor})."
             )
+    if harness == "claude-code":
+        notes.append(
+            "claude-code: headless `claude -p` с Playwright MCP; встроенные tools "
+            "отключены. Нужен Anthropic Messages endpoint: OpenRouter "
+            "(LLM_PROVIDER=openrouter) или CLAUDE_CODE_BASE_URL (LiteLLM proxy)."
+        )
+    if harness == "gigaagent":
+        notes.append(
+            "gigaagent: `gc-cli --config <file> -q <task>` с Playwright MCP; "
+            "backend — LLM_BASE_URL/chat/completions (или GIGAAGENT_BASE_URL)."
+        )
     if harness == "openmanus":
         notes.append(
             "openmanus читает промпты из submodule openmanus/; "

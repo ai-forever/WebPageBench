@@ -125,7 +125,38 @@ unset EVAL_MAX_TASKS EVAL_TASK_FILTER
 | `openmanus` | OpenManus prompts → browser-use | нет |
 | `openhands` | OpenHands BrowserToolSet | нет, Python 3.12+ |
 | `deepagents` | LangGraph + Playwright MCP | Node.js / `npx` |
+| `claude-code` | Claude Code (`claude -p`) + Playwright MCP | `claude`, Node.js / `npx`, Anthropic Messages endpoint |
+| `gigaagent` | GigaAgent (`gc-cli`) + Playwright MCP | `gc-cli`, Node.js / `npx` |
 | `qwen3-vl`, `uitars`, `jedi`, `opencua`, `evocua`, `fara` | screenshot-only executor | vLLM или GigaHF |
+
+### Claude Code и GigaAgent
+
+Оба harness запускают внешний CLI без интерфейса на каждую задачу. Браузер —
+тот же Playwright MCP, что у `deepagents`; встроенные инструменты Claude Code
+отключены (`--tools ""`), поэтому агент действует только через браузер.
+Текст задачи (вместе с `EVAL_TASK_SUFFIX`) и `Start URL` формируются так же,
+как у `openhands`.
+
+| | `claude-code` | `gigaagent` |
+|-|---------------|-------------|
+| Команда | `claude -p --output-format stream-json --verbose --dangerously-skip-permissions --tools "" --strict-mcp-config --mcp-config <file> --max-turns $AGENT_MAX_STEPS`, задача — в stdin | `gc-cli --config <file> -q "<задача>"` |
+| Модель | Anthropic Messages API. OpenRouter отдаёт его на `https://openrouter.ai/api` для любых моделей каталога — при `LLM_PROVIDER=openrouter` прокси не нужен. Иначе поднимите Anthropic-совместимый прокси (например, LiteLLM) и задайте `CLAUDE_CODE_BASE_URL` / `CLAUDE_CODE_API_KEY` | OpenAI Chat Completions: `$LLM_BASE_URL/chat/completions` (или `GIGAAGENT_BASE_URL`), ключ — `LLM_API_KEY` (или `GIGAAGENT_API_KEY`) |
+| Ответ | поле `result` события `type: result`; `is_error: true` — задача не завершена | `task_report` из JSON-конверта `turn_finish` в поле `answer` события `final_answer`; `couldnt_solve`, `partial_solution`, `status: step_limit` ответом не считаются |
+| Токены | `usage` события `result` | событие `run_usage` |
+| Бинарник | `CLAUDE_CODE_BIN` (иначе `claude` из `PATH`) | `GIGAAGENT_BIN` (иначе `gc-cli` из `PATH`) |
+
+Claude Code запускается с чистым окружением: переменные `ANTHROPIC_*` и
+`CLAUDE_*` родительского процесса не наследуются, а `CLAUDE_CONFIG_DIR`
+указывает во временный каталог задачи, чтобы прогон не авторизовался чужим
+логином. Под root выставляется `IS_SANDBOX=1`. Конфиг GigaAgent включает
+`logging.console_trace: true` и `logging.format: jsonl` и открывает guards
+(`ask` без tty означает отказ каждому вызову инструмента). Playwright MCP
+подключён как `stream_stdio` с `persistent_session: true`: обычный `stdio`
+запускает новый сервер (и пустой браузер) на каждый вызов и принимает запрос
+`roots/list` от сервера за результат инструмента.
+
+`harness_metadata.total_cost_usd` у `claude-code` — оценка самого Claude Code
+по тарифам Anthropic, а не фактическая стоимость у OpenRouter.
 
 Подробности, которые не дублируются здесь:
 
