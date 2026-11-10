@@ -629,8 +629,6 @@ export default defineComponent({
 });
 </script>
 
-<style src="@/assets/shop.css"></style>
-
 <style scoped>
 /* Page Background */
 .purchase-page {

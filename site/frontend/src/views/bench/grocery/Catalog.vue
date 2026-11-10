@@ -103,7 +103,6 @@ export default defineComponent({
 });
 </script>
 
-<style src="@/assets/books.css"></style>
 <style scoped>
 .catalog-page {
   max-width: var(--shop-max-width, 1600px);

@@ -116,7 +116,6 @@ export default defineComponent({
   } });
 </script>
 
-<style src="@/assets/books.css"></style>
 <style scoped>
 .bench-books { --shop-max-width: 1600px; }
 

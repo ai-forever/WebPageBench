@@ -384,8 +384,6 @@ export default defineComponent({
 });
 </script>
 
-<style src="@/assets/books.css"></style>
-<style src="@/assets/shop.css"></style>
 
 <style scoped>
 .bench-market .menu-bg-wrap { position: relative; }

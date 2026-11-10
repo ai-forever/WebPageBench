@@ -399,7 +399,6 @@ export default defineComponent({
 });
 </script>
 
-<style src="@/assets/books.css"></style>
 <style>
 :root {
   --sber-gradient-base: linear-gradient(84.67deg,#fbee01 -11.85%,#c7e701 -1.91%,#2cda01 21.01%,#21de58 41.9%,#3ee3a9 60.03%,#37dabe 78.36%,#15cae0 97.56%,#00c7d3 111.85%);

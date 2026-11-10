@@ -72,8 +72,6 @@ export default defineComponent({
 });
 </script>
 
-<style src="@/assets/books.css"></style>
-<style src="@/assets/shop.css"></style>
 <style scoped>
 .catalog-subtitle {
   padding: 0 16px 24px;

@@ -215,7 +215,6 @@ export default defineComponent({
   } });
 </script>
 
-<style src="@/assets/books.css"></style>
 <style scoped>
 .skeleton-carousel {
   max-width: var(--shop-max-width);

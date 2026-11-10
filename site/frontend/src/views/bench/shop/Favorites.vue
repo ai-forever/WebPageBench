@@ -168,8 +168,6 @@ export default defineComponent({
 });
 </script>
 
-<style src="@/assets/books.css"></style>
-<style src="@/assets/shop.css"></style>
 
 <style scoped>
 .fav-section { max-width: var(--shop-max-width, 1400px); margin: 16px auto; padding: 0 16px; }

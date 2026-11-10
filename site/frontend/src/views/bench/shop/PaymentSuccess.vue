@@ -71,8 +71,6 @@ export default defineComponent({
 });
 </script>
 
-<style src="@/assets/shop.css"></style>
-
 <style scoped>
 .purchase-page { background-color: var(--bench-surface, #f2f3f5); min-height: 100vh; display: flex; flex-direction: column; }
 .simple-header { background-color: var(--bench-surface, #f2f3f5); border-bottom: 1px solid #e6eaed; padding: 20px 0; }

@@ -323,7 +323,6 @@ export default defineComponent({
 });
 </script>
 
-<style src="@/assets/books.css"></style>
 <style src="@/assets/grocery.css"></style>
 <style scoped>
 .bench-grocery {

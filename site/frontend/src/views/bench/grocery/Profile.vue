@@ -123,4 +123,3 @@ export default defineComponent({
 }
 </style>
 
-<style src="@/assets/books.css"></style>

@@ -101,7 +101,6 @@ export default defineComponent({
   } });
 </script>
 
-<style src="@/assets/books.css"></style>
 <style scoped>
 .success-main { max-width: var(--shop-max-width); margin: 24px auto; padding: 0 16px; }
 .success-main .title { font-size: 28px; font-weight: 800; color: #15223b; margin-bottom: 16px; }

@@ -510,8 +510,6 @@ export default defineComponent({
 });
 </script>
 
-<style src="@/assets/books.css"></style>
-<style src="@/assets/shop.css"></style>
 
 <style scoped>
 .page-suggest-tags { max-width: var(--shop-max-width, 1400px); margin: 0 auto; padding: 20px 16px 8px 0px; display: flex; flex-wrap: wrap; gap: 10px; }

@@ -333,7 +333,6 @@ export default {
 }
 </script>
 
-<style src="@/assets/shop.css" scoped></style>
 <style scoped>
 .bench-market-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.35); z-index: 30; }
 .panel { position: relative; }

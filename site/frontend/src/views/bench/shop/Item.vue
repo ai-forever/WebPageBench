@@ -659,6 +659,4 @@ export default defineComponent({
 });
 </script>
 
-<style src="@/assets/books.css"></style>
-<style src="@/assets/shop.css"></style>
 
