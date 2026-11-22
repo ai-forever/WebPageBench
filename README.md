@@ -73,6 +73,16 @@ npm run dev
 
 Or both: `./scripts/start_dab.sh`.
 
+## Demo
+
+`demo/` is a static example of one task: find a named product and add it to the cart, in the light theme and the dark theme. It is the page published to GitHub Pages. It does not include the API, the other five sites, or the 152-task suite.
+
+```bash
+python -m http.server -d demo 8080
+```
+
+`.github/workflows/pages.yml` publishes `demo/` on pushes to `release`. In the repository settings, set Pages to **GitHub Actions**.
+
 ## Documentation
 
 See the [documentation index](./docs/README.md).
