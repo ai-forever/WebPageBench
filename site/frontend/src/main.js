@@ -14,6 +14,7 @@ import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
 
 import ApiService from "@/common/api.service";
+import { installPagesDemo } from "@/common/pagesDemo";
 
 // import axios from "axios";
 import VueAxios from "vue-axios";
@@ -35,6 +36,7 @@ const vuetify = createVuetify({
 })
 
 ApiService.init();
+installPagesDemo();
 
 createApp(App)
   .use(router)

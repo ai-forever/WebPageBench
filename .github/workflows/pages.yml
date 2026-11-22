@@ -4,7 +4,10 @@ on:
   push:
     branches: [release, main]
     paths:
-      - "demo/**"
+      - "site/frontend/**"
+      - "site/backend/static/kv/shop/**"
+      - "tests/bench/config.json"
+      - "scripts/build_pages_demo_data.py"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
@@ -12,6 +15,7 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  administration: write
 
 concurrency:
   group: pages
@@ -26,14 +30,37 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: site/frontend/package-lock.json
+
+      - name: Build market catalog
+        run: python scripts/build_pages_demo_data.py
+
+      - name: Build frontend
+        working-directory: site/frontend
+        env:
+          VITE_PAGES_DEMO: "1"
+          VITE_BASE: /WebPageBench/
+        run: |
+          npm ci
+          npm run build
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
-      - name: Upload demo
+      - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: demo
+          path: site/frontend/dist
 
       - name: Deploy
         id: deployment

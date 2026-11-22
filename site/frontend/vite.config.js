@@ -11,7 +11,7 @@ import vuetify from 'vite-plugin-vuetify';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/',
+  base: process.env.VITE_BASE || '/',
   plugins: [vue(), vuetify({ autoImport: { labs: true } })],
   resolve: {
     alias: {

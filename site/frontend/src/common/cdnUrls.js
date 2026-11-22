@@ -23,11 +23,18 @@ export function rewriteMediaUrl(url) {
   return out;
 }
 
-/** Public-folder paths (/shop/cdn/…) stay as-is; remote URLs go through rewriteMediaUrl. */
+function withPublicBase(path) {
+  const base = import.meta.env.BASE_URL || '/';
+  if (!path.startsWith('/') || base === '/') return path;
+  return `${base.replace(/\/$/, '')}${path}`;
+}
+
+/** Public-folder paths (/shop/cdn/…) stay as-is on the site root; remote URLs go through rewriteMediaUrl. */
 export function resolveAssetUrl(src) {
   if (!src) return '';
   const s = String(src);
-  if (s.startsWith('/') || s.startsWith('data:')) return s;
+  if (s.startsWith('data:')) return s;
+  if (s.startsWith('/')) return withPublicBase(s);
   if (/^https?:/i.test(s)) return rewriteMediaUrl(s);
   return s;
 }

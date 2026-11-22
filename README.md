@@ -75,13 +75,16 @@ Or both: `./scripts/start_dab.sh`.
 
 ## Demo
 
-`demo/` is a static example of one task: find a named product and add it to the cart, in the light theme and the dark theme. It is the page published to GitHub Pages. It does not include the API, the other five sites, or the 152-task suite.
+GitHub Pages serves the real market UI for one task: find Purina ONE cat food and add it to the cart, in the light theme and the dark theme. Search, the product page and the cart stay in the browser; there is no API and no other site.
 
 ```bash
-python -m http.server -d demo 8080
+python scripts/build_pages_demo_data.py
+cd site/frontend
+VITE_PAGES_DEMO=1 npm run build
+npm run preview
 ```
 
-`.github/workflows/pages.yml` publishes `demo/` on pushes to `release`. In the repository settings, set Pages to **GitHub Actions**.
+On Windows PowerShell set `$env:VITE_PAGES_DEMO="1"` before `npm run build`. `.github/workflows/pages.yml` publishes `site/frontend/dist` on pushes to `release`. In the repository settings, set Pages to **GitHub Actions**.
 
 ## Documentation
 

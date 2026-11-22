@@ -15,4 +15,4 @@
 | [lib.md](./lib.md) | Python client `agent_bench` |
 | [site.md](./site.md) | Backend + frontend (event store and mock sites) |
 | [liderboard/docs/description.md](../liderboard/docs/description.md) | Leaderboard: EMS, Completion, export, UI |
-| [../demo/](../demo/) | Static GitHub Pages demo: one cart task, light and dark |
+| [../site/frontend/](../site/frontend/) | GitHub Pages demo: real market UI, one cart task, light and dark |
