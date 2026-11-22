@@ -70,7 +70,6 @@ export default defineComponent({
 });
 </script>
 
-<style src="@/assets/rail.css"></style>
 
 <style scoped>
 .bench-rail .logo-img {

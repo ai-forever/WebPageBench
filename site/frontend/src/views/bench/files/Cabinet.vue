@@ -86,4 +86,3 @@ export default {
 };
 </script>
 
-<style src="@/assets/bench.css"></style>

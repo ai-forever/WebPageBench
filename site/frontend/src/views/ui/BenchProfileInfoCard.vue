@@ -35,4 +35,3 @@ export default defineComponent({
 });
 </script>
 
-<style src="@/assets/bench-profile.css"></style>

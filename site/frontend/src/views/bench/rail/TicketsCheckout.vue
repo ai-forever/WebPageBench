@@ -716,7 +716,6 @@ export default defineComponent({
 });
 </script>
 
-<style src="@/assets/rail.css"></style>
 <style scoped>
 .bench-rail.rail-checkout-page {
   background: var(--bench-surface, #e9eaed);

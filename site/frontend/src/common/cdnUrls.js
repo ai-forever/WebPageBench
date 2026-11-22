@@ -8,6 +8,8 @@ const IMAGE_KEYS = new Set([
   'cover_img_url',
   'thumbnail',
   'image',
+  'imageUrl',
+  'images',
   'src',
   'detail_img_urls',
   'gallery_urls',
@@ -23,10 +25,14 @@ export function rewriteMediaUrl(url) {
   return out;
 }
 
+const PUBLIC_ASSET = /^\/(?:shop|books|grocery|hotels|rail|mocks)(?:\/|$)/;
+
 function withPublicBase(path) {
-  const base = import.meta.env.BASE_URL || '/';
-  if (!path.startsWith('/') || base === '/') return path;
-  return `${base.replace(/\/$/, '')}${path}`;
+  const base = String(import.meta.env.BASE_URL || '/');
+  const normalized = base.endsWith('/') ? base.slice(0, -1) : base;
+  if (!path.startsWith('/') || !normalized) return path;
+  if (path === normalized || path.startsWith(`${normalized}/`)) return path;
+  return `${normalized}${path}`;
 }
 
 /** Public-folder paths (/shop/cdn/…) stay as-is on the site root; remote URLs go through rewriteMediaUrl. */
@@ -51,7 +57,8 @@ export function rewriteMediaTree(value, key) {
     return out;
   }
   if (typeof value !== 'string') return value;
-  if (key && IMAGE_KEYS.has(key)) return rewriteMediaUrl(value);
+  if (PUBLIC_ASSET.test(value)) return withPublicBase(value);
+  if (key && IMAGE_KEYS.has(key)) return resolveAssetUrl(value);
   if (/\/(cover|product_card|pub\/c\/cover|dam-storage)/i.test(value)) return rewriteMediaUrl(value);
   return value;
 }

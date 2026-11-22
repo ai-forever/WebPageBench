@@ -23,6 +23,7 @@ main.v-main.bench-rail-layout {
           <router-view></router-view>
         </v-container>
       </v-main>
+      <PagesDemoEvents v-if="pagesDemo" />
     </v-app>
   </div>
 </template>
@@ -32,13 +33,16 @@ import { mapGetters } from "vuex";
 import { ActivityTracker } from '@/common/tracker';
 import { API_URL } from "@/common/config";
 import BenchTopNav from '@/components/BenchTopNav.vue';
+import PagesDemoEvents from '@/components/PagesDemoEvents.vue';
 import { applyBenchTheme, isBenchAnonymized } from '@/common/benchTheme';
 
 export default {
   name: "App",
-  components: { BenchTopNav },
+  components: { BenchTopNav, PagesDemoEvents },
   mixins: [ActivityTracker],
-  data: () => ({}),
+  data: () => ({
+    pagesDemo: import.meta.env.VITE_PAGES_DEMO === '1',
+  }),
   methods: {
     goHome() {
       this.$router.push({ name: "main" });

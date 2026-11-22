@@ -75,7 +75,7 @@ Or both: `./scripts/start_dab.sh`.
 
 ## Demo
 
-GitHub Pages serves the real market UI for one task: find Purina ONE cat food and add it to the cart, in the light theme and the dark theme. Search, the product page and the cart stay in the browser; there is no API and no other site.
+GitHub Pages serves the real bench UI: the hub and all six sections, in the light theme and the dark theme. Search, carts and the other pages stay in the browser. There is no API. A corner button lists the events as they happen.
 
 ```bash
 python scripts/build_pages_demo_data.py

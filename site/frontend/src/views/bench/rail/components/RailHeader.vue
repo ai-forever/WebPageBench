@@ -72,4 +72,3 @@ export default defineComponent({
 });
 </script>
 
-<style src="@/assets/rail.css"></style>

@@ -311,5 +311,4 @@ export default defineComponent({
 }
 </style>
 
-<style src="@/assets/grocery.css"></style>
 

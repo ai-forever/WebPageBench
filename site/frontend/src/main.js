@@ -27,6 +27,9 @@ import 'vuetify/styles'
 // That drops market and books layout in the production build used by eval.
 import '@/assets/shop.css'
 import '@/assets/books.css'
+import '@/assets/grocery.css'
+import '@/assets/rail.css'
+import '@/assets/bench-profile.css'
 
 loadFonts()
 

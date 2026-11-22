@@ -1,0 +1,110 @@
+{
+  "title": "Цены стали ниже",
+  "tags": [
+    "Овощи и фрукты",
+    "Молоко, яйца и сыр",
+    "Мясо и рыба",
+    "Морозилка",
+    "Вода и напитки",
+    "Сладкое",
+    "Хлеб и выпечка",
+    "Снеки",
+    "Бакалея",
+    "Для детей",
+    "Красота и здоровье",
+    "Для животных",
+    "Всё для дома",
+    "Очень много комбо"
+  ],
+  "sections": [
+    {
+      "caption": "Выгодная полка",
+      "items": [
+        "item_7e50c33f",
+        "item_081ef88e",
+        "item_950705b8",
+        "item_3531c310",
+        "item_2de0c63c",
+        "item_913ddade",
+        "item_ddd7bd00",
+        "item_9d1ebf15",
+        "item_2f742dc9",
+        "item_ecbe86aa",
+        "item_99748604",
+        "item_ed80ab61",
+        "item_3b51864a"
+      ]
+    },
+    {
+      "caption": "Овощи и фрукты",
+      "items": [
+        "item_081ef88e",
+        "item_950705b8",
+        "item_7e50c33f",
+        "item_2de0c63c",
+        "item_3531c310",
+        "item_ecbe86aa",
+        "item_913ddade",
+        "item_9d1ebf15",
+        "item_ddd7bd00",
+        "item_2f742dc9"
+      ]
+    },
+    {
+      "caption": "Молоко, яйца и сыр",
+      "items": [
+        "item_68021466",
+        "item_75b5be1c",
+        "item_3b51864a",
+        "item_04dd559b"
+      ]
+    },
+    {
+      "caption": "Морозилка",
+      "items": [
+        "item_68945d13",
+        "item_2e6b4943",
+        "item_011e8253",
+        "item_25b099dd",
+        "item_4ca994b5"
+      ]
+    },
+    {
+      "caption": "Вода и напитки",
+      "items": [
+        "item_320648dc"
+      ]
+    },
+    {
+      "caption": "Сладкое",
+      "items": [
+        "item_36c04177",
+        "item_3ae02e37"
+      ]
+    },
+    {
+      "caption": "Хлеб и выпечка",
+      "items": [
+        "item_ac1da87d"
+      ]
+    },
+    {
+      "caption": "Снеки",
+      "items": [
+        "item_8c04623d"
+      ]
+    },
+    {
+      "caption": "Для детей",
+      "items": [
+        "item_107877b9"
+      ]
+    },
+    {
+      "caption": "Красота и здоровье",
+      "items": [
+        "item_55b96e89"
+      ]
+    }
+  ]
+}

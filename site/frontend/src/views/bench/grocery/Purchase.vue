@@ -323,7 +323,6 @@ export default defineComponent({
 });
 </script>
 
-<style src="@/assets/grocery.css"></style>
 <style scoped>
 .bench-grocery {
   --shop-max-width: 1600px;

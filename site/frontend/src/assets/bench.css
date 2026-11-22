@@ -527,12 +527,16 @@ html[data-bench-theme="dark"] .field-inner input::placeholder {
   grid-template-columns: 140px minmax(0, 1fr) max-content !important;
   gap: 12px !important;
 }
-.bench-anonymized .bench-books .searchbar .container.no-logo,
-.bench-anonymized .bench-books .searchbar .container.no-logo,
-.bench-anonymized .bench-grocery .searchbar .container.no-logo,
-.bench-anonymized .bench-grocery .searchbar .container.no-logo {
+.bench-anonymized .bench-market .searchbar .container,
+.bench-anonymized .bench-books .searchbar .container,
+.bench-anonymized .bench-grocery .searchbar .container {
   grid-template-columns: minmax(0, 1fr) max-content !important;
   gap: 12px !important;
+}
+.bench-anonymized .bench-market .searchbar .search-row,
+.bench-anonymized .bench-books .searchbar .search-row,
+.bench-anonymized .bench-grocery .searchbar .search-row {
+  min-width: 0;
 }
 .bench-anonymized .bench-market-header .catalog {
   min-width: 140px;
@@ -871,6 +875,15 @@ html[data-bench-theme="dark"] .field-inner input::placeholder {
   letter-spacing: 0.04em;
   margin-right: 16px;
   color: #e8eef5;
+}
+button.bench-top-nav__brand {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 0;
 }
 
 .bench-top-nav__link {

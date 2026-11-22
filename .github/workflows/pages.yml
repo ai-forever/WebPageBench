@@ -5,7 +5,8 @@ on:
     branches: [release, main]
     paths:
       - "site/frontend/**"
-      - "site/backend/static/kv/shop/**"
+      - "site/backend/static/kv/**"
+      - "site/backend/static/data/grocery/categories/**"
       - "tests/bench/config.json"
       - "scripts/build_pages_demo_data.py"
       - ".github/workflows/pages.yml"
@@ -39,7 +40,7 @@ jobs:
           cache: npm
           cache-dependency-path: site/frontend/package-lock.json
 
-      - name: Build market catalog
+      - name: Build demo data
         run: python scripts/build_pages_demo_data.py
 
       - name: Build frontend

@@ -1,0 +1,35 @@
+/* Keep the anonymized header and menu on one row in the static demo. */
+.bench-top-nav__inner {
+  max-width: 1600px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.pages-demo-theme {
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.bench-market .menu-bar .container {
+  flex-wrap: nowrap;
+  gap: 12px;
+}
+
+.bench-market .menu-bar .left {
+  flex-wrap: nowrap !important;
+  min-width: 0;
+  overflow-x: auto;
+}
+
+.bench-market .menu-bar .right {
+  flex-shrink: 0;
+}
+
+.v-application .v-main {
+  padding: 0 !important;
+}
+
+.bench-anonymized p {
+  text-indent: 0;
+  padding-bottom: 0;
+}

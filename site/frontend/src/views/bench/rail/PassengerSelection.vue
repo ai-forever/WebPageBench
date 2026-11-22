@@ -1119,7 +1119,6 @@ export default defineComponent({
 });
 </script>
 
-<style src="@/assets/rail.css"></style>
 <style scoped>
 .bench-rail.rail-booking-page {
   background: #e9eaed;

@@ -1,27 +1,28 @@
 <template>
   <div v-if="pagesDemo" class="pages-home">
-    <p class="brand">WebPageBench</p>
-    <h1>Маркет</h1>
-    <p class="lead">
-      Тот же интерфейс, что в бенче: поиск, карточка товара и корзина.
-      Две темы одного задания. Остальные разделы сюда не входят.
-    </p>
-    <blockquote>
-      В «Маркете» найдите сухой корм Purina ONE для стерилизованных кошек
-      с говядиной и пшеницей и добавьте в корзину.
-    </blockquote>
-    <div class="choices">
-      <router-link class="choice" :to="lightTo">
-        <span class="kicker">Светлая тема</span>
-        <strong>ecommerce_basket_named_product_02</strong>
-        <span class="go">Открыть Маркет</span>
-      </router-link>
-      <router-link class="choice choice-dark" :to="darkTo">
-        <span class="kicker">Тёмная тема</span>
-        <strong>ecommerce_basket_named_product_02__theme_dark</strong>
-        <span class="go">Открыть Маркет</span>
-      </router-link>
-    </div>
+    <header class="pages-home__bar">
+      <span>WebPageBench</span>
+    </header>
+    <main class="pages-home__main">
+      <h1>Главная</h1>
+      <p class="lead">
+        Те же разделы, что в бенче: Маркет, Книги, Продукты, Поезда, Отели и Файлы.
+        Светлая и тёмная тема открываются отдельно. Внутри тему можно сменить кнопкой в шапке.
+      </p>
+      <div class="choices">
+        <router-link class="choice" :to="lightTo">
+          <span class="kicker">Светлая тема</span>
+          <strong>Открыть главную</strong>
+        </router-link>
+        <router-link class="choice choice-dark" :to="darkTo">
+          <span class="kicker">Тёмная тема</span>
+          <strong>Открыть главную</strong>
+        </router-link>
+      </div>
+      <p class="fine">
+        Кнопка «События» в углу показывает действия на странице: переходы, клики и добавление в корзину.
+      </p>
+    </main>
   </div>
   <v-row v-else>
     <v-col cols="12" class="text-h5">Старт</v-col>
@@ -47,9 +48,9 @@
 import { defineComponent } from "vue";
 import { API_URL } from "@/common/config";
 
-const shopRoute = (trackId) => ({
-  name: "bench_catalog_main",
-  params: { track_id: trackId, state_id: "state_shop_main" },
+const hubRoute = (trackId) => ({
+  name: "bench_hub",
+  params: { track_id: trackId, state_id: "state_hub" },
 });
 
 export default defineComponent({
@@ -59,8 +60,8 @@ export default defineComponent({
       API_URL,
       trackId: "",
       pagesDemo: import.meta.env.VITE_PAGES_DEMO === "1",
-      lightTo: shopRoute("demo-light"),
-      darkTo: shopRoute("demo-dark"),
+      lightTo: hubRoute("demo-light"),
+      darkTo: hubRoute("demo-dark"),
     };
   },
   methods: {
@@ -75,36 +76,33 @@ export default defineComponent({
 
 <style scoped>
 .pages-home {
+  min-height: 100vh;
+  background: #f0f3f7;
+  color: #2c3e50;
+}
+.pages-home__bar {
+  padding: 14px 24px;
+  background: #3d5a80;
+  color: #e8eef5;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+.pages-home__main {
   max-width: 880px;
   margin: 0 auto;
   padding: 48px 20px 72px;
-  color: #2c3e50;
-}
-.brand {
-  margin: 0 0 8px;
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #4a6fa5;
 }
 h1 {
   margin: 0 0 12px;
   font-size: 40px;
   line-height: 1.1;
 }
-.lead {
-  margin: 0 0 20px;
-  font-size: 18px;
-  max-width: 62ch;
-}
-blockquote {
+.lead, .fine {
   margin: 0 0 24px;
-  padding: 14px 16px;
-  background: #fff;
-  border-left: 4px solid #4a6fa5;
-  border-radius: 0 12px 12px 0;
+  max-width: 62ch;
+  font-size: 18px;
 }
+.fine { margin-top: 22px; font-size: 15px; color: #5c6e84; }
 .choices {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -113,8 +111,8 @@ blockquote {
 .choice {
   display: flex;
   flex-direction: column;
-  gap: 6px;
-  padding: 18px;
+  gap: 8px;
+  padding: 22px;
   text-decoration: none;
   color: #2c3e50;
   background: #fff;
@@ -128,8 +126,7 @@ blockquote {
 }
 .kicker { font-size: 13px; font-weight: 700; color: #4a6fa5; }
 .choice-dark .kicker { color: #9db7d8; }
-.choice strong { font-size: 15px; overflow-wrap: anywhere; }
-.go { margin-top: 8px; font-weight: 700; }
+.choice strong { font-size: 22px; }
 @media (max-width: 720px) {
   .choices { grid-template-columns: 1fr; }
   h1 { font-size: 32px; }
